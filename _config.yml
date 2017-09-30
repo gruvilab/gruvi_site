@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: GrUVi
+email: haoz@sfu.ca
+description: > # this means to ignore newlines until "baseurl:"
+  GrUVi is an inter-disciplinary team of researchers exploring and developing novel methods in computer graphics, computer vision, and interactive techniques. Current areas of focus include geometric modelling and processing, image-based modelling, 3D reconstruction, 3D content creation, shape analysis, lighting and reflectance models, and 3D vision for robotics.
+baseurl: "/gruvi_website"
+url: ""
+
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
