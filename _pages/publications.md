@@ -97,7 +97,7 @@ Slides</a>
 
 <p style="padding-bottom: 15px">
 
-<em>{{ publi.authors }}.</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }}</em>
+<em>{{ publi.authors }},</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }}.</em>
 <br>
 {% assign icons_printed = 0 %}
 [
