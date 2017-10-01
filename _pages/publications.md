@@ -6,14 +6,20 @@ sitemap: false
 permalink: /publications/
 ---
 
-
 # Publications
 
-{% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
+  {% assign currentdate = publi.year | year: "%Y" %}
+  {% if currentdate != year %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
+
+## {{ currentdate }}
+
+    {% assign year = currentdate %} 
+  {% endif %}
+
+
+    {% if publi.highlight == 1 %}
 
 {% if 0 == 0 %}
 <div class="row">
@@ -27,7 +33,7 @@ permalink: /publications/
 
 <pubtit>{{ publi.title }}</pubtit>
 <em>{{ publi.authors }}</em><br>
-<em>In {{ publi.venue }}</em>
+<em>In {{ publi.venue }} ({{ publi.year }})</em>
 
 <p>{{ publi.description }}</p>
 
@@ -84,6 +90,15 @@ Slides</a>
 {% endif %}
 
 {% endif %}
+
+
+{% endfor %}
+
+
+
+{% for publi in site.data.publist %}
+
+
 {% endfor %}
 
 
@@ -93,11 +108,20 @@ Slides</a>
 
 ## Full List
 
-{% for publi in site.data.publist %} 
+{% for publi in site.data.publist %}
+  {% assign currentdate = publi.year | year: "%Y" %}
+  {% if currentdate != year %}
+
+
+### {{ currentdate }}
+
+    {% assign year = currentdate %} 
+  {% endif %}
+
 
 <p style="padding-bottom: 15px">
 
-<em>{{ publi.authors }},</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }}.</em>
+<em>{{ publi.authors }},</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }} ({{ publi.year }}).</em>
 <br>
 {% assign icons_printed = 0 %}
 [
@@ -139,7 +163,7 @@ Slides</a>
 {% endif %}
 ]
 </p>
-  
 
 {% endfor %}
+
 
