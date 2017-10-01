@@ -95,10 +95,10 @@ Slides</a>
 
 {% for publi in site.data.publist %} 
 
-<p>
+<p style="padding-bottom: 15px">
 
 <em>{{ publi.authors }}.</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }}</em>
-
+<br>
 {% assign icons_printed = 0 %}
 [
 {% if publi.pdf %}
@@ -139,7 +139,6 @@ Slides</a>
 {% endif %}
 ]
 </p>
-<br>
   
 
 {% endfor %}
