@@ -21,15 +21,50 @@ permalink: /publications/
 
 <div class="col-sm-12 clearfix">
  <div class="well clearfix">
-  <pubtit>{{ publi.title }}</pubtit>
+
+
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px;" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+
+<pubtit>{{ publi.title }}</pubtit>
+<em>{{ publi.authors }}</em><br>
+<em>In {{ publi.venue }}</em>
+
+<p>{{ publi.description }}</p>
+
+
+<p style="text-align: right;">
+[
+{% if publi.pdf %}
+<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/pdfs/{{ publi.pdf }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_pdf.gif" style="cursor: default; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
+Paper</a>
+{% endif %}
+
+{% if publi.project_page %}
+&#32;|&nbsp;
+<a target="_blank" href="{{ publi.project_page }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/project_page.png" style="cursor: default; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
+Project&nbsp;Page</a>
+{% endif %}
+
+{% if publi.video %}
+&#32;|&nbsp;
+<a href="{{ publi.video }}" target="_blank">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_youtube.png" style="cursor: default; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
+Video</a>
+{% endif %}
+
+{% if publi.presentation %}
+&#32;|&nbsp;
+<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/presentations/{{ publi.presentation }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_ppt.gif" style="cursor: default; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
+Slides</a>
+{% endif %}
+]</p>
+
  </div>
 </div>
+
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -50,7 +85,7 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 
   {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <em>{{ publi.authors }} </em></a>
 
 {% endfor %}
 
