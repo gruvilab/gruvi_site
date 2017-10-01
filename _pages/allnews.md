@@ -6,7 +6,7 @@ sitemap: false
 permalink: /allnews.html
 ---
 
-# News
+## News
 {% assign number_printed = 0 %}
 
 	{% for article in site.data.news%}

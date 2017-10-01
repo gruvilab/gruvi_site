@@ -6,7 +6,7 @@ sitemap: false
 permalink: /about
 ---
 
-# About GrUVi
+## About GrUVi
 
 <div class="col-sm-12">
 

@@ -6,9 +6,9 @@ sitemap: false
 permalink: /people/
 ---
 
-# Gruviers
+## Gruviers
 
-## Lab Directors
+### Lab Directors
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -67,7 +67,7 @@ permalink: /people/
 {% endif %}
 
 
-## Affiliated Faculty
+### Affiliated Faculty
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -127,7 +127,7 @@ permalink: /people/
 
 
 
-## Graduate Students 
+### Graduate Students 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -186,7 +186,7 @@ permalink: /people/
 {% endif %}
 
 
-## Postdocs and Visitors
+### Postdocs and Visitors
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -245,7 +245,7 @@ permalink: /people/
 {% endif %}
 
 
-## Alumni
+### Alumni
 
 <div class="col-sm-12 clearfix">
  <table style="width:100%">

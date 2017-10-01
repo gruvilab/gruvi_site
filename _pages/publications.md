@@ -6,14 +6,14 @@ sitemap: false
 permalink: /publications/
 ---
 
-# Publications
+## Publications
 
 {% for publi in site.data.publist %}
   {% assign currentdate = publi.year | year: "%Y" %}
   {% if currentdate != year %}
 
 
-## {{ currentdate }}
+### {{ currentdate }}
 
     {% assign year = currentdate %} 
   {% endif %}
