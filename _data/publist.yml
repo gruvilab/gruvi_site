@@ -2,7 +2,8 @@
   image: dummy.png
   description: ""
   authors: MA Sulangi, MP Allan, J Zaanen
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2017
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
@@ -13,7 +14,8 @@
   image: dummy.png
   description: ""
   authors: S Tewari, KM Bastiaans, MP Allan, JM van Ruitenbeek
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2017
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
@@ -26,7 +28,8 @@
     We  propose  an approach to transform a ‘pristine’ material into a better (meta-) superconductor by making use of modern fabrication techniques -- designing and engineering the electronic properties of thin films via periodic patterning on the nanoscale. 
   authors:
     MP Allan, MH Fischer, O Ostojic, A Andringa
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2017
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -38,7 +41,8 @@
     We develop a simple model to interpret STM results on lightly doped Mott insulators, and find that the effective Mott gap measured by STM correspons to the one measured with other techniques when taking into account the poor electronic screeing. 
   authors:
     I Battisti, V Fedoseev, KM Bastiaans, A de la Torre, RS Perry, F Baumberger, MP Allan
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2016
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -50,7 +54,8 @@
     We discover of electronic order, pseudo gap phase separation and an impurity-band Mott transition in an iridate compound, cuprate-style. Along the way, we gained unique knowledge on how a Mott state collapses.
   authors:
     I. Battisti* & K.M. Bastiaans*, V. Fedoseev, A. de la Torre, N. Iliopoulos, A. Tamai, E.C. Hunter, R.S. Perry, J. Zaanen, F. Baumberger, M.P. Allan
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2016
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -63,7 +68,8 @@
     Both the density of states and the QPI dispersion of LiFeAs shows signatures of electron-boson coupling. Comparing these with fingerprints of different boson couplings to conclude that these signatures stem from AF spin fluctuations.
   authors:
     MP Allan* & Kyungmin Lee* & AW Rost*, MH Fischer, F Massee, K Kihou, C-H Lee, A Iyo, H Eisaki, T-M Chuang, AP Mackenzie, JC Davis, DJ Scalapino, E-A Kim
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2016
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -75,7 +81,8 @@
   description: ""
   authors:
     J Van Dyke, F Massee, MP Allan, JC Davis, C Petrovic, and DK Morr
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2016
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
@@ -88,7 +95,8 @@
     The heavy Fermion superconductor CeCoIn5 has a d-wave gap with nodes along the (1,1) direction, as we find using QPI.
   authors:
     MP Allan* & F Massee*, DK Morr, J van Dyke, AW Rost, AP Mackenzie, C Petrovic, JC Davis
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -101,7 +109,8 @@
     Using APRES, we find that the bands in Sr3Ru2O7 look more like in heavy fermion material than in a normal metal. We present a detailed investigation into the formation of this particular electronic  structure.
   authors:
     MP Allan, A Tamai, E Rozbicki, MH Fischer, J Voss, PDC King, W Meevasana, S Thirupathaiah, E Rienks, J Fink, A Tennant, RS Perry, JF Mercure, MA Wang, J Lee, CJ Fennie, E-A Kim, MJ Lawler, KM Shen, AP Mackenzie, Z-X Shen, F Baumberger
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -114,8 +123,9 @@
     We elucidate on the formation of the electronic nematic state in Co-CaFe2As2, finding that the Cobalt dopant atoms play a key role.
   authors:
     MP Allan, T-M Chuang, F Massee, Y Xie, N Ni, SL Bud’ko, GS Boebinger, Q Wang, DS Dessau, PC Canfield, MS Golden, JC Davis
-  venue: Full conference name (Year)
+  venue: Full conference name
   highlight: 1
+  year: 2015
   pdf: test.pdf
   presentation: test.ppt
   project_page: https://www.google.ca/
@@ -127,7 +137,8 @@
     In contrast to earlier photoemission reports, we show that the gaps in iron based superconductors are not isotropic but modulated with angle.
   authors:
     MP Allan⋆ & AW Rost⋆, AP Mackenzie, Y Xie, JC Davis, K Kihou, CH Lee, A Iyo, H Eisaki, T-M Chuang
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 1
   project_page: https://www.google.ca/
   video: https://www.youtube.com/
@@ -136,7 +147,8 @@
   image: dummy.png
   description: ""
   authors: MH Hamidian, AR Schmidt, IA Firmo, MP Allan, P Bradley, JD Garrett, TJ Williams, GM Luke, Y Dubi, AV Balatsky, JC Davis
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
@@ -149,7 +161,8 @@
     We discovered an electronic nematic in the iron based superconductor Co-CaFe2As2! This state is by now confirmed and quite well characterized  by transport, photoemission, and more SI-STM experiments.
   authors:
     T-M Chuang* & MP Allan*, J Lee, Y Xie, N Ni, SL Bud’ko, GS Boebinger PC Canfield, JC Davis
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -161,7 +174,8 @@
   description:
     QPI in Sr327.
   authors: Jinho Lee* & M. P. Allan*, M. A.Wang, J. Farrell, S. A. Grigera, F. Baumberger, J. C. Davis and A. P. Mackenzie
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
@@ -174,7 +188,8 @@
     We determine the Fermi surface of Sr327.
   authors:
     A Tamai, MP Allan, JF Mercure, W Meevasana, R Dunkel, DH Lu, RS Perry, AP Mackenzie, David J Singh, Z-X Shen, F Baumberger
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
@@ -187,7 +202,8 @@
     Hexagonal boron nitride shows fancy superstructures on the Mo(111) surface.
   authors:
     MP Allan, S Berner, M Corso, T Greber, J Osterwalder
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 1
   pdf: test.pdf
   presentation: test.ppt
@@ -199,7 +215,8 @@
   description: ""
   authors:
     J Osterwalder, A Tamai, W AuwÃ¤rter; MP Allan, T Greber
-  venue: Full conference name (Year)
+  venue: Full conference name
+  year: 2015
   highlight: 0
   pdf: test.pdf
   presentation: test.ppt
