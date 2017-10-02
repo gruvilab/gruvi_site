@@ -6,17 +6,18 @@ sitemap: false
 permalink: /allnews
 ---
 
-{% for post in site.data.news[highlight] %}
-{{ post.headline }}
+## News
+{% assign number_printed2 = 0 %}
+
+
+{% for post in site.data.news %}
+   {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
 {% endfor %}
 
-## News
-{% assign number_printed = 0 %}
+{% for article in site.data.news%}
 
-	{% for article in site.data.news%}
+{% assign number_printed = post_count | minus: number_printed2 %}
 
-
-{% assign number_printed = number_printed | plus: 1 %}
 
 
 <div class="row">
@@ -45,6 +46,24 @@ function openNavD{{ number_printed }}() {
 function closeNavD{{ number_printed }}() {
     document.getElementById("myNavD{{ number_printed }}").style.width = "0%";
 }
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+function openNews() {
+   var newsID = getParameterByName('newsID');
+   if((newsID != null) & (newsID != ""))
+	window["openNavD"+newsID]();
+}
+window.onload = openNews;
+
 </script>
   
 
@@ -52,5 +71,5 @@ function closeNavD{{ number_printed }}() {
   <br>{{ article.date }}. <newstit>{{ article.headline }}</newstit>&nbsp;{{ article.text | truncate: 150 }}<br />
 </div>
 
-
+{% assign number_printed2 = number_printed2 | plus: 1 %}
 {% endfor %}
