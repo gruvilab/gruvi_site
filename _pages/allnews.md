@@ -3,8 +3,12 @@ title: "Home"
 layout: textlay
 excerpt: "Allan Lab at Leiden University."
 sitemap: false
-permalink: /allnews.html
+permalink: /allnews
 ---
+
+{% for post in site.data.news[highlight] %}
+{{ post.headline }}
+{% endfor %}
 
 ## News
 {% assign number_printed = 0 %}
@@ -17,10 +21,10 @@ permalink: /allnews.html
 
 <div class="row">
 <div id="myNavD{{ number_printed }}" class="overlay clearfix" align="center">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ number_printed }}()">&times;</a>
   <div class="overlay-content" style="max-width: 600px;">
 
  <div class="well clearfix">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ number_printed }}()">&times;</a>
   <newstit>{{ article.headline }}</newstit>
   <p style="text-align:center">{{ article.date }}</p>
   {% if article.image %}

@@ -19,10 +19,11 @@ permalink: /
 
 
 <div id="myNav{{ number_printed }}" class="overlay clearfix" align="center">
-  <a href="javascript:void(0)" class="closebtn" style="cursor:pointer" onclick="closeNav{{ number_printed }}()">&times;</a>
-  <div class="overlay-content" style="max-width: 600px;">
 
+  <div class="overlay-content" style="max-width: 600px;">
+<a href="javascript:void(0)" class="closebtn" style="cursor:pointer" onclick="closeNav{{ number_printed }}()">&times;</a>
  <div class="well  clearfix">
+
   <newstit>{{ article.headline }}</newstit>
   <p>{{ article.date }}</p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
