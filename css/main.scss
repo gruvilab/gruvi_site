@@ -124,22 +124,22 @@ firstp {
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #f14444;
 }
 
 .overlay .closebtn {
     position: absolute;
-    top: 80px;
+    top: 0px;
     right: 15px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
     font-size: 40px;
-    top: 15px;
-    right: 35px;
+    top: 0px;
+    right: 15px;
   }
 }
 
