@@ -7,7 +7,7 @@ permalink: /allnews
 ---
 
 ## News
-{% assign number_printed2 = 0 %}
+{% assign number_printed = 0 %}
 
 
 {% for post in site.data.news %}
@@ -16,16 +16,16 @@ permalink: /allnews
 
 {% for article in site.data.news%}
 
-{% assign number_printed = post_count | minus: number_printed2 %}
+{% assign newsID = post_count | minus: number_printed %}
 
 
 
 <div class="row">
-<div id="myNavD{{ number_printed }}" class="overlay clearfix" align="center">
+<div id="myNavD{{ newsID }}" class="overlay clearfix" align="center">
   <div class="overlay-content" style="max-width: 600px;">
 
  <div class="well clearfix">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ number_printed }}()">&times;</a>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ newsID }}()">&times;</a>
   <newstit>{{ article.headline }}</newstit>
   <p style="text-align:center">{{ article.date }}</p>
   {% if article.image %}
@@ -39,12 +39,12 @@ permalink: /allnews
 </div>
 
 <script>
-function openNavD{{ number_printed }}() {
-    document.getElementById("myNavD{{ number_printed }}").style.width = "100%";
+function openNavD{{ newsID }}() {
+    document.getElementById("myNavD{{ newsID }}").style.width = "100%";
 }
 
-function closeNavD{{ number_printed }}() {
-    document.getElementById("myNavD{{ number_printed }}").style.width = "0%";
+function closeNavD{{ newsID }}() {
+    document.getElementById("myNavD{{ newsID }}").style.width = "0%";
 }
 
 function getParameterByName(name, url) {
@@ -67,9 +67,9 @@ window.onload = openNews;
 </script>
   
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ newsID }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}</newstit>&nbsp;{{ article.text | truncate: 150 }}<br />
 </div>
 
-{% assign number_printed2 = number_printed2 | plus: 1 %}
+{% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
