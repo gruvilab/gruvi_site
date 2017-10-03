@@ -23,27 +23,6 @@ permalink: /allnews
 <div class="row">
 {% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
-
-<script>
-
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
-function openNews() {
-   var newsID = getParameterByName('newsID');
-   if((newsID != null) & (newsID != ""))
-	window["openNavD"+newsID]();
-}
-window.onload = openNews;
-
-</script>
   
 
 <div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ newsID }}()">
