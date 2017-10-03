@@ -21,7 +21,7 @@ permalink: /allnews
 
 
 <div class="row">
-{% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
+{% include newsdetails.html number_printed=article.number_printed headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
 
 
