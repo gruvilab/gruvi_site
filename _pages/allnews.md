@@ -31,7 +31,7 @@ permalink: /allnews
   {% if article.image %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
   {% endif %}
-  <p style="padding: 0 15px">{{ article.text}}</p>
+  <p style="padding: 0 15px; text-align: justify;">{{ article.text}}</p>
 </div>
 
   </div>
@@ -68,7 +68,7 @@ window.onload = openNews;
   
 
 <div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ newsID }}()">
-  <br>{{ article.date }}. <newstit>{{ article.headline }}</newstit>&nbsp;{{ article.text | truncate: 150 }}<br />
+  <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | truncatewords: 45 | strip_html }}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
