@@ -15,14 +15,10 @@
 <script>
 function openNavD{{ include.number_printed }}() {
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
+	document.getElementById("myImageNavD{{ include.number_printed }}").style.display="block";
 }
 
 function closeNavD{{ include.number_printed }}() {
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "0%";
-}
-
-document.getElementById("myNavD{{ include.number_printed }}").onclick = function() {
- document.getElementById("myImageNavD{{ include.number_printed }}").style.display="block";
- return true;
 }
 </script>
