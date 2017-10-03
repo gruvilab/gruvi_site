@@ -3,43 +3,19 @@
 <h4>More News</h4>
      
 {% assign number_printed = 0 %}
-
-	{% for article in site.data.news%}
-
+{% assign ID = 0 %}
+{% for article in site.data.news%}
+{% assign ID = ID | plus: 1 %}
 {% if article.highlight == 0 and number_printed < 10 %}
 {% assign number_printed = number_printed | plus: 1 %}
 
 
-<div class="row">
-<div id="myNavD{{ number_printed }}" class="overlay clearfix" align="center">
-  <div class="overlay-content" style="max-width: 600px;">
 
- <div class="well">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ number_printed }}()">&times;</a>
-  <newstit>{{ article.headline }}</newstit>
-  <p style="text-align:center">{{ article.date }}</p>
-  {% if article.image %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
-  {% endif %}
-  <p style="padding: 0 15px">{{ article.text}}</p>
-</div>
+{% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 
-  </div>
-</div>
-</div>
 
-<script>
-function openNavD{{ number_printed }}() {
-    document.getElementById("myNavD{{ number_printed }}").style.width = "100%";
-}
 
-function closeNavD{{ number_printed }}() {
-    document.getElementById("myNavD{{ number_printed }}").style.width = "0%";
-}
-</script>
-  
-
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ID }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}</newstit><br />
 </div>
 
