@@ -25,13 +25,6 @@ permalink: /allnews
 </div>
 
 <script>
-function openNavD{{ newsID }}() {
-    document.getElementById("myNavD{{ newsID }}").style.width = "100%";
-}
-
-function closeNavD{{ newsID }}() {
-    document.getElementById("myNavD{{ newsID }}").style.width = "0%";
-}
 
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
