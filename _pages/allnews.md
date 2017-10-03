@@ -23,11 +23,7 @@ permalink: /allnews
 <div class="row">
 {% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
-  
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ newsID }}()">
-  <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | truncatewords: 45 | strip_html }}
-</div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
