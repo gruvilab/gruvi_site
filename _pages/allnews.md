@@ -21,7 +21,7 @@ permalink: /allnews
 </div>
   
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ newsID }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | truncatewords: 45 | strip_html }}
 </div>
 
