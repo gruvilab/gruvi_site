@@ -1,49 +1,60 @@
-- date: 12. August 2017
-  headline: "We got an ERC sta rting grant"
-  text: "s iahkeka kasgj ksad fksdf ksddfk sdjklshdlkslsl dkfskl dfbsd klfslk dfshdlkfjshldks bldk fhskldj fhlskd hflsdkj flsdk fklsd jflksdjf slkdj fhlsdkfhlsdk fhslkd fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh.s iahkeka kasgj ksad fksdf ksddfk sdjklshdlkslsl dkfskl dfbsd klfslk dfshdlkfjshldks bldk fhskldj fhlskd hflsdkj flsdk fklsd jflksdjf slkdj fhlsdkfhlsdk fhslkd fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 9. May 2017
+  headline: Ibraheem speaks at KAUST
+  text: GrUVi alumni Ibraheem Alhashim, who was a PhD student supervised by Richard Zhang between 2011 and 2015, was recently invited to speak at the <a href="https://vcc.kaust.edu.sa/Conference-2017/Pages/default.aspx">KAUST Visual Computing (KAUST RC-VC) “ Modeling and Reconstruction conference</a>. <a href="https://vcc.kaust.edu.sa/Conference-2017/Pages/Speakers.aspx">Speakers at the conference</a> include many of the top experts in the fields of computer graphics and visual computing. Please follow <a href="https://www.kaust.edu.sa/en/news/visualizing-the-future-of-computing?utm_content=buffer0c13e&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">this link</a> for news coverage on Ibraheem's talk and other presentations at the conference.
   highlight: 1
-  image: Contest.jpg
+  image: ibrahimKAUST.jpg
 
-- date: 11. August 2017
-  headline: "We got an ERC sta rting grant4."
-  text: "s iahkeka kasgj ksad fksdf ksddfk sdjklshdlkslsl dkfskl dfbsd klfslk dfshdlkfjshldks bldk fhskldj fhlskd hflsdkj flsdk fklsd jflksdjf slkdj fhlsdkfhlsdk fhslkd fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 1. May 2017
+  headline: New GrUVi faculty Kangkang Yin
+  text: It is official! <a href="http://www.cs.sfu.ca/~kkyin/">Prof. Kangkang Yin</a> will be joining SFU CS as an Associate Professor starting July 2017. As one of the leading experts in computer animation and simulation, she will be a fantastic addition to the GrUVi lab. Most recently, KangKang Yin was an Associate Professor in the Department of Computer Science at the National University of Singapore. She worked as an Associate Researcher at Microsoft Research Asia from 2008 to 2010, after she obtained her PhD degree from the University of British Columbia in 2007.
   highlight: 1
-  image: LCposter.jpg
+  image: KKYIN.jpg
 
 
 - date: 10. August 2017
-  headline: "We got an ERC sta rting grant3."
-  text: " fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+  headline: GrUVi co-authors three SIG'17 papers
+  text: Three papers co-authored by GrUVi members have been accepted to SIGGRAPH 2017&#58; <a href="http://kevinkaixu.net/projects/grass.html">GRASS:Generative Recursive Autoencoders for Shape Structures</a>, <a href="http://gruvi.cs.sfu.ca/project/timeslice/">Time Slice Video Synthesis by Robust Video Alignment</a>, and <a href="http://www.cs.sfu.ca/~haoz/pubs/zhu_sig17_scsr.pdf">Deformation-Driven Shape Correspondence via Shape Recognition</a>.<br /><br />Two of these papers are first-authored by PhD students from GrUVi <a href="http://www.zhpcui.org/"> Zhaopeng Cui</a> and <a href="http://www.sfu.ca/~cza68/">Chenyang Zhu</a>. In addition, one paper accepted to ACM Transaction on Graphics, <a href="http://www.cs.sfu.ca/~haoz/pubs/hu_tog17_style.pdf">Co-Locating Style-Defining Elements on 3D Shapes</a>, will also be presented at SIGGRAPH 2017 in Los Angeles. Collaborators on these papers include researchers from Adobe Research, Tel Aviv University, Stanford University, National University of Defense Technology, Carleton University, IIT Bombay, Shenzhen University, and University of Cyprus.
   highlight: 1
-  image: NewsNP.png
+  image: SIG17.png
 
-- date: 11. August 2017
-  headline: "We got an ERC sta rting grant2"
-  text: "s iahkeka kasgj ksad fksdf ksddfk sdjklshdlkslsl dkfskl dfbsd klfslk dfshdlkfjshldks bldk fhskldj fhlskd hflsdkj flsdk fklsd jflksdjf slkdj fhlsdkfhlsdk fhslkd fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 23. December 2016
+  headline: Jaime's Sucessful Msc Thesis Defense
+  text: Congrats to Jaime for successfully defending his MSC thesis on "Towards Learning of a Joint Geometry-Structure Manifold for Shape Exploration".<br /><br />Here is the abstract of his thesis.<br /><br />We present a first attempt at producing a continuous generative model of 3D objects from a joint representation that incorporates the discrete structural variability as well as the continuous geometric variability that are often present in collections of man-made shapes. Starting from a set of compatibly segmented shapes, our main contribution consists in demonstrating the construction of the joint representation. Then, by using Gaussian Process learning to produce a predictive manifold from the joint representation, we investigate its capabilities and limitations for reproducing and synthesizing new shapes.
   highlight: 1
-  image: order.png
+  image: Jaime.png
 
-- date: 10. August 2017
-  headline: "Our paper is published in SciPost Physics."
-  text: " fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 9. December 2016
+  headline: Warunika's Successful Msc Thesis Defense
+  text: Congrats to Warunika for successfully defending her MSc thesis on "ExquiMo&#58; An Exquisite Corpse Tool for Co-Creative 3D Shape Modeling". The researchers&nbsp;would like to assure you that no person, dog, or any other animals were killed as the result of conducting this thesis research.<br /><br />Here is the abstract of her work:<br /><br />We introduce a shape modeling tool, ExquiMo, which is guided by the idea of improving the creativity of 3D shape designs through collaboration. Inspired by the game of Exquisite Corpse, our tool allocates distinct parts of a shape to multiple players who model the assigned parts in a sequence. Our approach is motivated by the understanding that effective surprise leads to creative outcomes. Hence, to maintain the surprise factor of the output, we conceal the previously modeled parts from the most recent player. Part designs from individual players are fused together to produce an often unexpected, hence creative, end result. We demonstrate the effectiveness of collaborative modeling for both man-made and natural shapes. Our results show that, when compared to models designed by individual users, multi-user collaborative modeling via ExquiMo tends to lead to more creative designs in terms of the most common criteria used to identify creative artifacts.
   highlight: 0
+  image: Warunika.jpg
 
-- date: 17. - 21. July 2017
-  headline: "Koen, Maarten and Milan will be at SCES 2017, Prague. Come check out our posters on Tuesday&Thursday and talk on Thursday!"
-  text: " fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 7. September 2016
+  headline: "New students joining GrUVi"
+  text: <p>Nine new members are joining the&nbsp;GrUVi&nbsp;lab in the fall semester of 2016.&nbsp;We welcome:</p><ul><li>Ali&nbsp;Mahdavi-Amiri, a new postdoc&nbsp;to start in January 2017, who obtained his&nbsp;PhD from&nbsp;University of Calgary, Calgary, Canada,&nbsp;his&nbsp;MSc from&nbsp;Sharif University of Technology,&nbsp;Tehran, Iran, and his BSc from&nbsp;Ferdowsi&nbsp;University of&nbsp;Mashhad,&nbsp;Mashhad, Iran.</li><li>Han Liu, a new postdoc&nbsp;starting in June 2016, who obtained her PhD&nbsp;from&nbsp;King Abdullah University of Science and Technology, Saudi Arabia, her MSc from&nbsp;Xiamen&nbsp;University, China, and her BSc from&nbsp;Huangshang&nbsp;University, China.</li><li>Kiana Mostaghasi, a new MSc student starting in September 2016, who obtained her BSc from&nbsp;Amirkabir University of Technology, Iran.</li><li>Nelson Nuata, a new MSc student starting in September 2016, who obtained B.Eng. from&nbsp;University of Campinas, Brazil.</li><li>Akshay&nbsp;Gadi&nbsp;Patil, a new Ph.D. student starting in September 2016, who obtained his&nbsp;M.Tech&nbsp;from&nbsp; Indian Institute of Technology&nbsp;Gandhinagar, and his B.Eng.&nbsp;from the&nbsp;P.E.S Institute of Technology (now PES University).</li><li>Rakesh&nbsp;Shrestha, a new M.Sc. student starting in September 2016, who obtained his B.Sc. from Bangladash.</li><li>Feitong Tan, a new Ph.D. student starting in September 2016, who obtained his M.Sc. from Chengdu, China.</li><li>Sicong Tang, a new Ph.D. starting in September 2016, who obtained his M.Sc. from&nbsp;Northwestern Polytechnical University in China.</li><li>Zili&nbsp;Yi, a visiting PhD student starting in September 2016, who obtained his&nbsp;M.E. from&nbsp;University&nbsp;of Chinese Academy of Sciences,&nbsp;China and his BSc from&nbsp;Nanjing&nbsp;University,&nbsp;China.</li></ul>
   highlight: 0
+  image: 9new.png
 
-- date: 11. July 2017
-  headline: "We contributed to Miguel and Jan's  new paper.  "
-  text: " fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 5. August 2016
+  headline: Richard keynote talk at CCCG'16
+  text: GrUVi faculty Richard Zhang was invited to give a keynote talk at the 2016 Canadian Conference on Computational Geometry (CCCG). His talk is titled "New Geometry Problems in Computational Design and Fabrication".
   highlight: 0
+  image: Richard.jpeg
 
-- date: 18. June 2017
-  headline: "Paper on poor electronic screening published in  PRB as Editors' selection!"
-  text: " fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 24. July 2016
+  headline: GrUVi co-authors three SIG papers
+  text: The three papers are&#58; <a href="http://vcc.szu.edu.cn/research/2016/Icon2/">Learning How Objects Function via Co-Analysis of Interactions</a>, <a href="http://www.cs.sfu.ca/~haoz/pubs/zhao_sig16_fermat.pdf">Connected Fermat Spirals for Layered Fabrication</a>, and <a href="http://www.cs.sfu.ca/~haoz/pubs/zou_sig16_calli.pdf">Legible Compact Calligrams</a>.&nbsp;The latter paper was led by&nbsp;<a href="http://changqingzou.weebly.com/">Changqing Zou</a>,&nbsp;a postdoc co-supervised by Ping and Richard, who just&nbsp;had his first paper accepted to SIGGRAPH. This work was&nbsp;a collaboration between SFU and UBC. Other collaborators on these papers include those from Carleton University, Shenzhen University, Purdue University, Shandong University, Tel-Aviv University, the Interdisciplinary Center (IDC, Israel),&nbsp;Toyota Technical Institute (TTI, USA), Dalian University of Technology,&nbsp;and University of Southern California.
   highlight: 0
+  image: SIG16.png
 
-- date: 25. May 2017
-  headline: "New paper in collaboration with the group of Jan van Ruitenbeek  "
-  text: " fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh. fhlsdk fslkdj fhslkdjhf lsdkfhs lks fdlk fhslk dflskdjfhsl kd fkls djhflksd hflkjsdhflkjsdh kls dhflksd jhfkljs hldk jflsk dlkfskl jfshldkj fhlskdjfhlskdj flksdj hldsk fhlks hls kjhkls kldsj fhlksjdhsflkjhf slkdj fhlsdkj fhlsdk jfh."
+- date: 19. May 2016
+  headline: Richard wins SFU service award
+  text: Richard Zhang completed his four-year term as the Graduate Program Director at the School of Computing Science on April 30, 2016. With his services and contributions, he was selected as the sole winner of the SFU Dean of Graduate Studies Award of Excellence in Leadership in 2016. Each award consists of a prize of a $1,000 graduate student travel award that will be disbursed in the following academic year to a graduate student of the award recipient™s choice to attend a conference to present a paper.
   highlight: 0
+  image: SFUserviceAward.jpg
+
+- date: 14. March 2016
+  headline: Ibraheem wins Alain Fournier Award
+  text: This award is given to the top computer graphics Ph.D. dissertation defended in a Canadian university in a given year and will be officially announced at Graphics Interface '16. The award recognizes the strength and quality of Ibraheem's contributions in his dissertation titled "Topology Varying Shape Matching and Modelling".
+  highlight: 0
+  image: ibrahimAlain.png
