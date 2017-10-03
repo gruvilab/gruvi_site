@@ -13,14 +13,18 @@
 
 <script>
 function openNavD{{ include.number_printed }}() {
-    document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
+	document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
 	
-	var val = document.getElementById("myNavD{{ include.number_printed }}").value,
-                src = '{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}',
-                img = document.createElement('img');
+	src = '{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}';
+    img = document.createElement('img');
+	img.class="img-responsive";
+	img.width="33%";
+	img.hspace="10";
+	img.style.float="left";
+	
 
-            img.src = src;
-            document.body.appendChild(img);
+	img.src = src;
+	document.body.appendChild(img);
 }
 
 function closeNavD{{ include.number_printed }}() {
