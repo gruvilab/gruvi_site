@@ -5,7 +5,7 @@
 <newstit>{{ include.headline }}</newstit>
 <p style="text-align:center">{{ include.date }}</p>
 {% if include.image %}
-<img id="myImageNavD{{ include.number_printed }}" src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
+<img id="myImageNavD{{ include.number_printed }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
 {% endif %}
 <p style="padding: 0 15px; text-align: justify;">{{ include.text}}</p>
 </div>
@@ -15,7 +15,14 @@
 <script>
 function openNavD{{ include.number_printed }}() {
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
-	document.getElementById("myImageNavD{{ include.number_printed }}").style.display="block";
+	
+	
+	var val = document.getElementById('imagename').value,
+                src = '{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}',
+                img = document.createElement('myImageNavD{{ include.number_printed }}');
+
+            img.src = src;
+            document.body.appendChild(img);
 }
 
 function closeNavD{{ include.number_printed }}() {
