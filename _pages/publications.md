@@ -40,44 +40,8 @@ permalink: /publications/
 
 {% assign icons_printed = 0 %}
 <p style="text-align: right;">
-[
-{% if publi.pdf %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/pdfs/{{ publi.pdf }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_pdf.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Paper</a>
-{% endif %}
-
-{% if publi.project_page %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ publi.project_page }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/project_page.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Project&nbsp;Page</a>
-{% endif %}
-
-{% if publi.video %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a href="{{ publi.video }}" target="_blank">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_youtube.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Video</a>
-{% endif %}
-
-{% if publi.presentation %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/presentations/{{ publi.presentation }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_ppt.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
-Slides</a>
-{% endif %}
-]</p>
+{% include pubdetails.html pdf=publi.pdf presentation=publi.presentation project_page=publi.project_page video=publi.video bibtex=publi.bibtex %}
+</p>
 
  </div>
 </div>
@@ -124,44 +88,7 @@ Slides</a>
 <em>{{ publi.authors }},</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }} ({{ publi.year }}).</em>
 <br>
 {% assign icons_printed = 0 %}
-[
-{% if publi.pdf %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/pdfs/{{ publi.pdf }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_pdf.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Paper</a>
-{% endif %}
-
-{% if publi.project_page %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ publi.project_page }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/project_page.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Project&nbsp;Page</a>
-{% endif %}
-
-{% if publi.video %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a href="{{ publi.video }}" target="_blank">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_youtube.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Video</a>
-{% endif %}
-
-{% if publi.presentation %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/presentations/{{ publi.presentation }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_ppt.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
-Slides</a>
-{% endif %}
-]
+{% include pubdetails.html pdf=publi.pdf presentation=publi.presentation project_page=publi.project_page video=publi.video bibtex=publi.bibtex %}
 </p>
 
 {% endfor %}
