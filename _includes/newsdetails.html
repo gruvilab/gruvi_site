@@ -28,7 +28,7 @@ function openNavD{{ include.number_printed }}() {
 	
 	var div = document.getElementById('myImageNavD{{ include.number_printed }}');
 	
-	div.appendChild(img);
+	div.innerHTML = img;
 }
 
 function closeNavD{{ include.number_printed }}() {
