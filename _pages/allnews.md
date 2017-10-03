@@ -21,21 +21,7 @@ permalink: /allnews
 
 
 <div class="row">
-<div id="myNavD{{ newsID }}" class="overlay clearfix" align="center">
-  <div class="overlay-content" style="max-width: 600px;">
-
- <div class="well clearfix">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ newsID }}()">&times;</a>
-  <newstit>{{ article.headline }}</newstit>
-  <p style="text-align:center">{{ article.date }}</p>
-  {% if article.image %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
-  {% endif %}
-  <p style="padding: 0 15px; text-align: justify;">{{ article.text}}</p>
-</div>
-
-  </div>
-</div>
+{% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
 
 <script>
