@@ -1,7 +1,7 @@
 ---
-title: "Home"
+title: "GrUVi - All News"
 layout: textlay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "GrUVi Lab at Simon Fraser University."
 sitemap: false
 permalink: /allnews
 ---
