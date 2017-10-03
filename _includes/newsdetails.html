@@ -23,10 +23,9 @@ function openNavD{{ include.number_printed }}() {
 	img.style.float="left";
 	img.src = src;
 	
+	console.log(img);
 	
-	var div = document.getElementById('myImageNavD{{ include.number_printed }}');
-	
-	div.innerHTML = img;
+	document.getElementById('myImageNavD{{ include.number_printed }}').div.innerHTML = img;
 }
 
 function closeNavD{{ include.number_printed }}() {
