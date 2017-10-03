@@ -7,6 +7,16 @@
 Paper</a>
 {% endif %}
 
+{% if include.bibtex %}
+{% assign icons_printed = icons_printed | plus: 1 %}
+{% if icons_printed >= 2 %}
+&#32;|&nbsp;
+{% endif %}
+<a target="_blank" href="{{ include.bibtex }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/bibtex.jpg" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
+Bibtex</a>
+{% endif %}
+
 {% if include.project_page %}
 {% assign icons_printed = icons_printed | plus: 1 %}
 {% if icons_printed >= 2 %}
@@ -35,15 +45,5 @@ Video</a>
 <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/presentations/{{ include.presentation }}">
    <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_ppt.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
 Slides</a>
-{% endif %}
-
-{% if include.bibtex %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ include.bibtex }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/bibtex.jpg" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
-Bibtex</a>
 {% endif %}
 ]
