@@ -16,12 +16,8 @@ permalink: /allnews
 
 {% for article in site.data.news%}
 
-{% assign newsID = post_count | minus: number_printed %}
-
-
-
 <div class="row">
-{% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
+{% include newsdetails.html number_printed=number_printed headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
   
 
