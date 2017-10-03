@@ -4,8 +4,9 @@
 <a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ include.number_printed }}()">&times;</a>
 <newstit>{{ include.headline }}</newstit>
 <p style="text-align:center">{{ include.date }}</p>
-<div id="myImageNavD{{ include.number_printed }}">
-</div>
+{% if include.image %}
+<img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}" class="img-responsive" width="33%" hspace="10" style="float: left" />
+{% endif %}
 <p style="padding: 0 15px; text-align: justify;">{{ include.text}}</p>
 </div>
 </div>
@@ -13,19 +14,7 @@
 
 <script>
 function openNavD{{ include.number_printed }}() {
-	document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
-	
-	src = '{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}';
-    img = document.createElement('img');
-	img.class="img-responsive";
-	img.width="33%";
-	img.hspace="10";
-	img.style.float="left";
-	img.src = src;
-	
-	console.log(img);
-	
-	document.getElementById('myImageNavD{{ include.number_printed }}').div.innerHTML = img;
+    document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
 }
 
 function closeNavD{{ include.number_printed }}() {
