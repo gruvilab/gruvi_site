@@ -1,0 +1,49 @@
+{% assign icons_printed = 0 %}
+[
+{% if include.pdf %}
+{% assign icons_printed = icons_printed | plus: 1 %}
+<a target="_blank" href="{{ include.pdf }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_pdf.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
+Paper</a>
+{% endif %}
+
+{% if include.project_page %}
+{% assign icons_printed = icons_printed | plus: 1 %}
+{% if icons_printed >= 2 %}
+&#32;|&nbsp;
+{% endif %}
+<a target="_blank" href="{{ include.project_page }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/project_page.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
+Project&nbsp;Page</a>
+{% endif %}
+
+{% if include.video %}
+{% assign icons_printed = icons_printed | plus: 1 %}
+{% if icons_printed >= 2 %}
+&#32;|&nbsp;
+{% endif %}
+<a href="{{ include.video }}" target="_blank">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_youtube.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
+Video</a>
+{% endif %}
+
+{% if include.presentation %}
+{% assign icons_printed = icons_printed | plus: 1 %}
+{% if icons_printed >= 2 %}
+&#32;|&nbsp;
+{% endif %}
+<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/presentations/{{ include.presentation }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_ppt.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
+Slides</a>
+{% endif %}
+
+{% if include.bibtex %}
+{% assign icons_printed = icons_printed | plus: 1 %}
+{% if icons_printed >= 2 %}
+&#32;|&nbsp;
+{% endif %}
+<a target="_blank" href="{{ include.bibtex }}">
+   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/bibtex.jpg" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
+Bibtex</a>
+{% endif %}
+]
