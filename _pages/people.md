@@ -44,10 +44,6 @@ permalink: /people/
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 3 %}
-</div>
-{% endif %}
 
 
 ### Affiliated Faculty
@@ -87,11 +83,6 @@ permalink: /people/
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 3 %}
-</div>
-{% endif %}
-
 
 
 ### Graduate Students 
@@ -130,11 +121,6 @@ permalink: /people/
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 3 %}
-</div>
-{% endif %}
-
 
 ### Postdocs and Visitors
 {% assign number_printed = 0 %}
@@ -172,11 +158,6 @@ permalink: /people/
 {% endif %}
 
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 3 %}
-</div>
-{% endif %}
 
 
 ### Alumni
