@@ -152,7 +152,7 @@ permalink: /people/
 <td><a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a></td>
 </tr>
 <tr>
-<td><h4><a href="{{ member.website }}">{{ member.name }}</a></h4></td>
+<h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
 </tr>
 </center>
 </table>
