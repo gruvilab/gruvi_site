@@ -73,6 +73,13 @@
   number_educ: 0
   
 
+- name: Yasutaka Furukawa
+  photo: furukawa4.png
+  role: Affiliated Faculty
+  email: 
+  website: http://www.cs.sfu.ca/~furukawa/
+  number_educ: 0
+
 ################################# PhD Students  #################################
   
 - name: Mohsen Kamalzadeh
