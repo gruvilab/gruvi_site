@@ -23,7 +23,7 @@
     > a > img {
       @include img-responsive;
       width: 100%;
-      height: 38vmin;
+      height: 100%;
     }
 
     // WebKit CSS3 transforms for supported devices
