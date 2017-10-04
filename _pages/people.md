@@ -187,11 +187,6 @@ permalink: /people/
 </div>
 {% endif %}
 
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 
 ### Postdocs and Visitors
 {% assign number_printed = 0 %}
