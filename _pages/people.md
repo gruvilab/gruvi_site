@@ -44,7 +44,9 @@ permalink: /people/
 
 {% endfor %}
 
+{% if even_odd != 3 %}
 </div>
+{% endif %}
 
 ### Affiliated Faculty
 {% assign number_printed = 0 %}
@@ -83,7 +85,9 @@ permalink: /people/
 
 {% endfor %}
 
+{% if even_odd != 3 %}
 </div>
+{% endif %}
 
 ### Graduate Students 
 {% assign number_printed = 0 %}
@@ -121,7 +125,10 @@ permalink: /people/
 
 {% endfor %}
 
+{% if even_odd != 3 %}
 </div>
+{% endif %}
+
 ### Postdocs and Visitors
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -158,7 +165,9 @@ permalink: /people/
 {% endif %}
 
 {% endfor %}
+{% if even_odd != 3 %}
 </div>
+{% endif %}
 
 ### Alumni
 
