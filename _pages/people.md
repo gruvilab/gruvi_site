@@ -141,7 +141,7 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-3 clearfix">
+<div class="col-sm-4 clearfix">
 
 <table border="0">
 <center>
