@@ -1,5 +1,5 @@
 #- name: Name of the Researcher
-#  photo: FirstNameLastName.jpg
+#  photo: FirstNameLastName.{jpg, png}
 #  role: {Lab Director, Affiliated Faculty, Graduate Studant, Visitor, Postdoc}
 #  email: researcher's email 
 #  website: researcher's website
@@ -7,11 +7,12 @@
 #  education1: Ph.D. (year), University (program)
 #  education2: M.Sc. (year), University (program)
 #  education3: B.Sc. (year), University (program)
+#  education4: Other? (year), University (program)
 
 - name: Richard (Hao) Zhang
   photo: RichardZhang.jpeg
   role: Lab Director
-  email: haoz@cs.sfu.ca 
+  email: haoz@.sfu.ca 
   website: http://www.cs.sfu.ca/~haoz/
   number_educ: 3
   education1: Ph.D. (2003), University of Toronto (Dynamic Graphics Project)
@@ -25,14 +26,34 @@
   website: http://www.cs.sfu.ca/~pingtan/
   number_educ: 3
   education1: Ph.D. (2007), Hong Kong University of Science and Technology
-  education2: Master (2003), Shanghai Jiao Tong University
-  education3: Bachelor (2000), Shanghai Jiao Tong University
+  education2: MSc (2003), Shanghai Jiao Tong University
+  education3: BEng & BSc (2000), Shanghai Jiao Tong University
 
 
+- name: KangKang Yin
+  photo: kkyin.jpg
+  role: Lab Director
+  email: kkyin@sfu.ca
+  website: https://www.cs.sfu.ca/~kkyin/
+  number_educ: 3
+  education1: Ph.D. (2007), University of British Columbia
+  education2: MSc (2003), Zhejiang University
+  education3: BSc (2000), Zhejiang University
+  
+  
 - name: Wallace Lira
   photo: WallaceLira.jpeg
   role: Graduate Studant
-  email: wpintoli@sfu.ca
+  email: wpintoli (at) sfu.ca
+  website: http://www.sfu.ca/~wpintoli/
+  number_educ: 2
+  education1: M.Sc. (2013), Federal University of Para (Computer Science)
+  education2: B.Sc. (2009), Federal University of Para (Computer Science)
+  
+- name: Kangxue Yin
+  photo: KangxueYin.jpeg
+  role: Graduate Studant
+  email: wpintoli (at) sfu.ca
   website: http://www.sfu.ca/~wpintoli/
   number_educ: 2
   education1: M.Sc. (2013), Federal University of Para (Computer Science)
