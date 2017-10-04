@@ -23,7 +23,7 @@ permalink: /people/
 <div class="col-sm-6 clearfix">
   <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
-  
+  asdasd
   {% assign plain_link = 'mailto:' | append: member.email %}
   {% assign obfuscated_link = plain_link | url_encode | split: '' | reverse | join: '' %}
   <a class="email" href="{{ obfuscated_link }}">Contact</a>
