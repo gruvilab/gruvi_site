@@ -157,7 +157,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign even_odd = number_printed | modulo: 4 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
