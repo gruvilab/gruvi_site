@@ -136,7 +136,7 @@ permalink: /people/
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% if member.role == "Graduate Studant" %}
+{% if member.role == "Graduate Student" %}
 
 {% assign even_odd = number_printed | modulo: 4 %}
 
@@ -149,7 +149,7 @@ permalink: /people/
 <table border="0">
 <center>
 <tr>
-<td><a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a></td>
+<a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a>
 </tr>
 <tr>
 <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
