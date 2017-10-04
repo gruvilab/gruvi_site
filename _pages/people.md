@@ -142,9 +142,7 @@ permalink: /people/
 {% endif %}
 
 <div class="col-sm-3 clearfix">
-  <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
-  <newstitle><a href="{{ member.website }}">{{ member.name }}</a></newstitle>  
-  </ul>
+  <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /><newstitle>{{ member.name }}</newstitle></a>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
