@@ -89,7 +89,7 @@ permalink: /people/
 </div>
 {% endif %}
 
-### Postdocs and Visitors
+### Postdoc
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
