@@ -66,7 +66,7 @@
 
 - title: Connected Fermat Spirals for Layered Fabrication
   image: zhao_sig16_fermat.png
-  description:We develop a new kind of "space-filling" curves, connected Fermat spirals, and show their compelling properties as a tool path fill pattern for layered fabrication. Unlike classical space-filling curves such as the Peano or Hilbert curves, which constantly wind and bind to preserve locality, connected Fermat spirals are formed mostly by long, low-curvature paths. This geometric property, along with continuity, influences the quality and efficiency of layered fabrication.
+  description: We develop a new kind of "space-filling" curves, connected Fermat spirals, and show their compelling properties as a tool path fill pattern for layered fabrication. Unlike classical space-filling curves such as the Peano or Hilbert curves, which constantly wind and bind to preserve locality, connected Fermat spirals are formed mostly by long, low-curvature paths. This geometric property, along with continuity, influences the quality and efficiency of layered fabrication.
   authors: Haisen Zhao, Fanglin Gu, Qi-Xing Huang, Jorge Garcia, Yong Chen, Changhe Tu, Bedrich Benes, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
   venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 35, No. 4, Article 100
   year: 2016
@@ -189,7 +189,7 @@
 
 - title: Organizing Heterogeneous Scene Collections through Contextual Focal Points
   image: xu_sig14_long.png
-  description: We introduce focal points for characterizing, comparing, and organizing collections of complex and heterogeneous data and apply the concepts and algorithms developed to collections of 3D indoor scenes. We represent each scene by a graph of its constituent objects and define focal points as representative substructures in a scene collection. To organize a heterogenous scene collection, we cluster the scenes based on a set of extracted focal points: scenes in a cluster are closely connected when viewed from the perspective of the representative focal points of that cluster ... The problem of focal point extraction is intermixed with the problem of clustering groups of scenes based on their representative focal points. We present a co-analysis algorithm ...
+  description: We introduce focal points for characterizing, comparing, and organizing collections of complex and heterogeneous data and apply the concepts and algorithms developed to collections of 3D indoor scenes. We represent each scene by a graph of its constituent objects and define focal points as representative substructures in a scene collection. To organize a heterogenous scene collection, we cluster the scenes based on a set of extracted focal points&#58; scenes in a cluster are closely connected when viewed from the perspective of the representative focal points of that cluster ... The problem of focal point extraction is intermixed with the problem of clustering groups of scenes based on their representative focal points. We present a co-analysis algorithm ...
   authors: Kai Xu, Rui Ma, Hao Zhang, Chenyang Zhu, Ariel Shamir, Daniel Cohen-Or, and Hui Huang
   venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 33, No. 4, Article 35
   year: 2014
@@ -290,7 +290,7 @@
   
 - title: Stackabilization
   image: li_siga12.png  
-  description: We introduce the geometric problem of stackabilization: how to geometrically modify a 3D object so that it is more amenable to stacking. Given a 3D object and a stacking direction, we define a measure of stackability, which is derived from the gap between the lower and upper envelopes of the object in a stacking configuration along the stacking direction. The main challenge in stackabilization lies in the desire to modify the object's geometry only subtly so that the intended functionality and aesthetic appearance of the original object are not significantly affected ...
+  description: We introduce the geometric problem of stackabilization&#58; how to geometrically modify a 3D object so that it is more amenable to stacking. Given a 3D object and a stacking direction, we define a measure of stackability, which is derived from the gap between the lower and upper envelopes of the object in a stacking configuration along the stacking direction. The main challenge in stackabilization lies in the desire to modify the object's geometry only subtly so that the intended functionality and aesthetic appearance of the original object are not significantly affected ...
   authors: Honghua Li, Ibraheem Alhashim, Hao Zhang, Ariel Shamir, and Daniel Cohen-Or
   venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 31, No. 6, Article 158
   year: 2012
@@ -333,7 +333,7 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~haoz/pubs/tag_sgp12.pdf
  
-- title: Fit and Diverse: Set Evolution for Inspiring 3D Shape Galleries
+- title: Fit and Diverse&#58; Set Evolution for Inspiring 3D Shape Galleries
   image: sig12_civil.png  
   description: We introduce set evolution as a means for creative 3D shape modeling, where an initial population of 3D models is evolved to produce generations of novel shapes. Part of the evolving set is presented to a user as a shape gallery to offer modeling suggestions. User preferences define the fitness for the evolution so that over time, the shape population will mainly consist of individuals with good fitness. However, to inspire the user's creativity, we must also keep the evolving set diverse. Hence the evolution is ``fit and diverse'' ...
   authors: Kai Xu, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
@@ -426,7 +426,7 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv12_intrinsic.pdf
   
-- title: Elevation Angle from Reflectance Monotonicity: Photometric Stereo for General Isotropic Reectances 
+- title: Elevation Angle from Reflectance Monotonicity&#58; Photometric Stereo for General Isotropic Reectances 
   image: boxinshi_12_eccv.PNG
   description: This paper exploits the monotonicity of general isotropic re-flectances for estimating elevation angles of surface normal given the azimuth angles. With an assumption that the reflectance includes at least one lobe that is a monotonic function of the angle between the surface normal and half-vector (bisector of lighting and viewing directions), we prove that elevation angles can be uniquely 
   authors: Boxin Shi, Ping Tan, Yasuyuki Matsushita, Katsushi Ikeuchi
@@ -446,7 +446,7 @@
   project_page: http://www.cs.sfu.ca/~pingtan/Projects/SLAM/index.htm
   video: https://youtu.be/WRRAtbl_YlI
 
-- title: Seeing Double Without Confusion: Structure-from-Motion in Highly Ambiguous Scenes
+- title: Seeing Double Without Confusion&#58; Structure-from-Motion in Highly Ambiguous Scenes
   image: jiang_12_cvpr.PNG
   description: We propose a novel optimization criteria based on the idea of ‘missing correspondences’. The global minimum of our optimization objective function is associated with the correct solution. We then design an ef- ficient algorithm for minimization, whose convergence to a local minimum is guaranteed. 
   authors: Nianjuan Jiang, Ping Tan, Loong-Fah Cheong
@@ -627,7 +627,7 @@
   
 - title: Single Image Tree Modeling 
   image: tan_08_tog.PNG
-  description: In this paper, we introduce a simple sketching method to generate a realistic 3D tree model from a single image. The user draws at least two strokes in the tree image: the first crown stroke around the tree crown to mark up the leaf region, the second branch stroke from the tree root to mark up the main trunk, and possibly few other branch strokes for refinement. The method automatically generates a 3D tree model including branches and leaves. Branches are synthesized by a growth engine from a small library of elementary subtrees that are pre-defined or built on the fly from the recovered visible branches. 
+  description: In this paper, we introduce a simple sketching method to generate a realistic 3D tree model from a single image. The user draws at least two strokes in the tree image&#58; the first crown stroke around the tree crown to mark up the leaf region, the second branch stroke from the tree root to mark up the main trunk, and possibly few other branch strokes for refinement. The method automatically generates a 3D tree model including branches and leaves. Branches are synthesized by a growth engine from a small library of elementary subtrees that are pre-defined or built on the fly from the recovered visible branches. 
   authors: Ping Tan, Tian Fang, Jianxiong Xiao, Peng Zhao, Long Quan
   venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH Asia
   year: 2008
