@@ -44,7 +44,7 @@ permalink: /people/
 
 {% endfor %}
 
-
+</div>
 
 ### Affiliated Faculty
 {% assign number_printed = 0 %}
@@ -83,7 +83,7 @@ permalink: /people/
 
 {% endfor %}
 
-
+</div>
 
 ### Graduate Students 
 {% assign number_printed = 0 %}
@@ -121,7 +121,7 @@ permalink: /people/
 
 {% endfor %}
 
-
+</div>
 ### Postdocs and Visitors
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -158,7 +158,7 @@ permalink: /people/
 {% endif %}
 
 {% endfor %}
-
+</div>
 
 ### Alumni
 
