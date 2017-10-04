@@ -1,6 +1,21 @@
 #- name: 
 #- graduation:
-#- text: 
+#- text:
+- name: Rui Ma
+  graduation: 2017
+  text: GrUVi Alumni
+- name: Rui Huang
+  graduation: 2017
+  text: GrUVi Alumni
+- name: Shuhua Li
+  graduation: 2017
+  text: GrUVi Alumni
+- name: Changqing Zou
+  graduation: 2017
+  text: Assistant Research Scientist at University of Maryland Institute for Advanced Computer Studies
+- name: Zhaopeng Cui
+  graduation: 2017
+  text: PostDoc Researcher at ETH Zurich
 - name: Jaime Vargas-Trujillo
   graduation: 2016
   text: GrUVi Alumni
