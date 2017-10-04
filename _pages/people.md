@@ -144,12 +144,12 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-3 clearfix">
+<div class="col-sm-2 clearfix">
 
 <table border="0">
 <center>
 <tr>
-<td><a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="50%" style="float: left" /></a></td>
+<td><a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a></td>
 </tr>
 <tr>
 <td><h4><a href="{{ member.website }}">{{ member.name }}</a></h4></td>
