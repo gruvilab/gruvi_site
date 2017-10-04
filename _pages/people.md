@@ -135,40 +135,15 @@ permalink: /people/
 
 {% if member.role == "Graduate Studant" %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign even_odd = number_printed | modulo: 4 %}
 
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-3 clearfix">
   <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
-  <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
-  <{{ member.email }}>
-  <ul style="overflow: hidden; padding-left: 20px;">
-  
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-  
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-  
+  <newstitle><a href="{{ member.website }}">{{ member.name }}</a></newstitle>  
   </ul>
 </div>
 
