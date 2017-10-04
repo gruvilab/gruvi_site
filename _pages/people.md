@@ -26,7 +26,8 @@ permalink: /people/
   
   {% assign plain_link = 'mailto:' | append: member.email %}
   {% assign obfuscated_link = plain_link | url_encode | split: '' | reverse | join: '' %}
-  <{{ obfuscated_link }}>
+  <a class="email" href="{{ obfuscated_link }}">Contact</a>
+  
   <ul style="overflow: hidden; padding-left: 20px;">
   
   {% if member.number_educ == 1 %}
