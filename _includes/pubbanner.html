@@ -13,12 +13,12 @@
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist limit:5%}
 {% if number_printed == 0 %}
-        <div class="item active">
+        <div class="item active" style="width: auto; height: 225px; max-height: 225px;">
 {% endif %}
 {% if number_printed != 0 %}
-	<div class="item">
+	<div class="item" style="width: auto; height: 225px; max-height: 225px;">
 {% endif %}
-            <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" alt="Slide {{ number_printed }}" width="75%" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" alt="Slide {{ number_printed }}" />
         </div>
 {% assign number_printed = number_printed | plus: 1 %}
 {% endfor %}
