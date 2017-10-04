@@ -22,7 +22,7 @@ permalink: /allnews
   
 
 <div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed }}()">
-  <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | truncatewords: 45 | strip_html }}
+  <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | strip_html | truncatewords: 45}}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
