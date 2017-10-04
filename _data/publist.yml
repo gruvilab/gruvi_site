@@ -86,15 +86,15 @@
 
 - title: From inspired modeling to creative modeling
   image: zhang_tvc16_creative.png
-  description: An intriguing and reoccurring question in many branches of computer science is whether machines can be creative, like humans. In this exploratory paper, we examine the problem from a computer graphics, and more specifically, geometric modeling, perspective. We focus our discussions on the weaker but still intriguing question: "Can machines assist or inspire humans in a creative endeavor for the generation of geometric forms?"
-  authors:Daniel Cohen-Or and Hao Zhang
+  description: An intriguing and reoccurring question in many branches of computer science is whether machines can be creative, like humans. In this exploratory paper, we examine the problem from a computer graphics, and more specifically, geometric modeling, perspective. We focus our discussions on the weaker but still intriguing question&#58; "Can machines assist or inspire humans in a creative endeavor for the generation of geometric forms?"
+  authors: Daniel Cohen-Or and Hao Zhang
   venue: Visual Computer (invited paper), Vol. 32, No. 1
   year: 2016
   highlight: 1
   pdf: http://www.cs.sfu.ca/~haoz/pubs/zhang_tvc16_creative.pdf
   
 
-- title: MeshFlow: Minimum Latency Online Video Stabilization
+- title: MeshFlow&#58; Minimum Latency Online Video Stabilization
   image: liu_16_eccv.PNG
   description: Many existing video stabilization methods often stabilize videos off-line, i.e. as a postprocessing tool of pre-recorded videos. Some methods can stabilize videos online, but either require additional hardware sensors (e.g., gyroscope) or adopt a single parametric motion model (e.g., affine, homography) which is problematic to represent spatiallyvariant motions. In this paper, we propose a technique for online video stabilization with only one frame latency using a novel MeshFlow motion model. The MeshFlow is a spatial smooth sparse motion field with motion vectors only at the mesh vertexes.
   authors: Shuaicheng Liu, Ping Tan, Lu Yuan, Jian Sun, Bing Zeng
@@ -104,10 +104,10 @@
   pdf: http://www.liushuaicheng.org/eccv2016/meshflow.pdf
   
 
-- title: RepMatch: Robust Feature Matching and Pose for Reconstructing Modern Cities
+- title: RepMatch&#58; Robust Feature Matching and Pose for Reconstructing Modern Cities
   image: lin_16_eccv.PNG
   description: A perennial problem in recovering 3-D models from images is repeated structures common in modern cities. The problem can be traced to the feature matcher which needs to match less distinctive features (permitting wide-baselines and avoiding broken sequences), while simultaneously avoiding incorrect matching of ambiguous repeated features. To meet this need, we develop RepMatch.
-  authors:Wen-Yan Lin, Siying Liu, Nianjuan Jiang, Minh. N. Do, Ping Tan, Jianbo Lu
+  authors: Wen-Yan Lin, Siying Liu, Nianjuan Jiang, Minh. N. Do, Ping Tan, Jianbo Lu
   venue: European Conference on Computer Vision (ECCV)
   year: 2016
   highlight: 1
@@ -128,7 +128,7 @@
 - title: An example-based approach to 3D man-made object reconstruction from line drawings
   image: zou_16_prletters.PNG
   description: We propose an example-based approach for 3D man-made object reconstruction from single line drawings. Our approach can handle a wide range of 3D man-made objects including curved components.Comprehensive experiments show that the proposed approach outperforms previous work, especially for line drawings containing large degree of sketch errors.
-  authors:Changqing Zou, Tianfan Xue, Xiaojiang Peng, Honghua Li, Baochang Zhang, Ping Tan, Jianzhuang Liu
+  authors: Changqing Zou, Tianfan Xue, Xiaojiang Peng, Honghua Li, Baochang Zhang, Ping Tan, Jianzhuang Liu
   venue: Pattern Recognition,Vol. 60, pp. 543--553
   year: 2016
   highlight: 1
@@ -137,8 +137,8 @@
 
 - title: A Benchmark Dataset and Evaluation for Non-Lambertian and Uncalibrated Photometric Stereo
   image: boxinshi_16_cvpr.PNG
-  description:In this paper, we first survey and categorize existing methods using a photometric stereo taxonomy emphasizing on non-Lambertian and uncalibrated methods. We then introduce the ‘DiLiGenT’ photometric stereo image dataset with calibrated Directional Lightings, objects of General reflectance, and ‘ground Truth’ shapes (normals).
-  authors:Boxin Shi, Zhe Wu, Zhipeng Mo, Dinglong Duan, Sai-Kit Yeung, Ping Tan
+  description: In this paper, we first survey and categorize existing methods using a photometric stereo taxonomy emphasizing on non-Lambertian and uncalibrated methods. We then introduce the ‘DiLiGenT’ photometric stereo image dataset with calibrated Directional Lightings, objects of General reflectance, and ‘ground Truth’ shapes (normals).
+  authors: Boxin Shi, Zhe Wu, Zhipeng Mo, Dinglong Duan, Sai-Kit Yeung, Ping Tan
   venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
   year: 2016
   highlight: 1
@@ -165,7 +165,7 @@
   pdf: http://www.cs.sfu.ca/~haoz/pubs/hu_siga14_pym.pdf
   
  
-- title: Morfit: Interactive Surface Reconstruction from Incomplete Point Clouds with Curve-Driven Topology and Geometry Control
+- title: Morfit&#58; Interactive Surface Reconstruction from Incomplete Point Clouds with Curve-Driven Topology and Geometry Control
   image: yin_siga14_morfit.png  
   description: We present an interactive technique for surface reconstruction from incomplete and sparse scans of 3D objects possessing sharp features ... We factor 3D editing by the user into two "orthogonal" interactions acting on skeletal and profile curves of the underlying shape, controlling its topology and geometric features, respectively. For surface completion, we introduce a novel skeleton-driven morph-to-fit, or morfit, scheme which reconstructs the shape as an ensemble of generalized cylinders. Morfit is a hybrid operator which optimally interpolates between adjacent curve profiles (the "morph") and snaps the surface to input points (the "fit") ...
   authors: Kangxue Yin, Hui Huang, Hao Zhang, Minglun Gong, Daniel Cohen-Or, and Baoquan Chen
@@ -220,7 +220,7 @@
   
 - title: Photometric Stereo using Internet Images
   image: boxinshi_14_3dv.PNG
-  description:Photometric stereo using unorganized Internet images is very challenging, because the input images are captured under unknown general illuminations, with uncontrolled cameras. We propose to solve this difficult problem by a simple yet effective approach that makes use of a coarse shape prior. The shape prior...
+  description: Photometric stereo using unorganized Internet images is very challenging, because the input images are captured under unknown general illuminations, with uncontrolled cameras. We propose to solve this difficult problem by a simple yet effective approach that makes use of a coarse shape prior. The shape prior...
   authors: Boxin Shi, Kenji Inose, Yasuyuki Matsushita, Ping Tan, Sai-Kit Yeung, Katsushi Ikeuchi
   venue: International Conference on 3D Vision (3DV)
   year: 2014
@@ -229,9 +229,9 @@
   project_page: http://alumni.media.mit.edu/~shiboxin/project_pages/Shi_3DV14_Web.htm
   video: https://youtu.be/5TMJ26BZGqI
     
-- title: TrackCam: 3D-aware Tracking Shots from Consumer Video
+- title: TrackCam&#58; 3D-aware Tracking Shots from Consumer Video
   image: liu_14_siga.PNG
-  description:In this work we propose a system to generate realistic, 3D-aware tracking shots from consumer videos. We show how computer vision techniques such as segmentation and structure-from-motion can be used to lower the barrier and help novice users create high quality tracking shots that are physically plausible
+  description: In this work we propose a system to generate realistic, 3D-aware tracking shots from consumer videos. We show how computer vision techniques such as segmentation and structure-from-motion can be used to lower the barrier and help novice users create high quality tracking shots that are physically plausible
   authors: Shuaicheng Liu, Jue Wang, Sunghyun Cho, Ping Tan
   venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH Asia
   year: 2014
@@ -240,16 +240,16 @@
  
 - title: Video Tonal Stabilization via Color States Smoothing
   image: wang_14_tip.PNG
-  description:We address the problem of removing video color tone jitter that is common in amateur videos recorded with handheld devices. To achieve this, we introduce color state to represent the exposure and white balance state of a frame
+  description: We address the problem of removing video color tone jitter that is common in amateur videos recorded with handheld devices. To achieve this, we introduce color state to represent the exposure and white balance state of a frame
   authors: Yinting Wang, Dacheng Tao, Xiang Li, Mingli Song, Jiajun Bu, Ping Tan
   venue: IEEE Transaction on Image Processing (TIP), Vol 23, No. 11, pp. 4838--4849
   year: 2014
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/tip14.pdf
      
-- title: PanoContext: A Whole-room 3D Context Model for Panoramic Scene Understanding
+- title: PanoContext&#58; A Whole-room 3D Context Model for Panoramic Scene Understanding
   image: zhang_14_eccv.PNG
-  description:We address the problem of removing video color tone jitter that is common in amateur videos recorded with handheld devices. To achieve this, we introduce color state to represent the exposure and white balance state of a frame
+  description: We address the problem of removing video color tone jitter that is common in amateur videos recorded with handheld devices. To achieve this, we introduce color state to represent the exposure and white balance state of a frame
   authors: Yinda Zhang, Shuran Song, Ping Tan, Jianxiong Xiao
   venue: European Conference on Computer Vision (ECCV)
   year: 2014
@@ -267,7 +267,7 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/imav14.pdf
    
-- title: SteadyFlow: Spatially Smooth Optical Flow for Video Stabilization
+- title: SteadyFlow&#58; Spatially Smooth Optical Flow for Video Stabilization
   image: liu_14_cvpr.PNG
   description: We propose a novel motion model, SteadyFlow, to represent the motion between neighboring video frames for stabilization. A SteadyFlow is a specific optical flow by enforcing strong spatial coherence, such that smoothing feature trajectories can be replaced by smoothing pixel profiles....
   authors: Shuaicheng Liu, Lu Yuan, Ping Tan, Jian Sun
@@ -315,7 +315,7 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~haoz/pubs/wang_siga12_ssl.pdf
 
-- title: 5-6-7 Meshes: Remeshing and Analysis
+- title: 5-6-7 Meshes&#58; Remeshing and Analysis
   image: aghdaii_cag12.png  
   description: We introduce a new type of meshes called 5-6-7 meshes, analyze their properties, and present a 5-6-7 remeshing algorithm. A 5-6-7 mesh is a closed triangle mesh where each vertex has valence 5, 6, or 7. We prove that it is always possible to convert an arbitrary mesh into a 5-6-7 mesh. We present a remeshing algorithm which converts a closed triangle mesh with arbitrary genus into a 5-6-7 mesh which a) closely approximates the original mesh geometrically, e.g., in terms of feature preservation, and b) has a comparable vertex count as the original mesh.
   authors: Nima Aghdaii, Hamid Younesy, and Hao Zhang
@@ -399,7 +399,7 @@
   highlight: 1
   pdf: http://www.sciencedirect.com/science/article/pii/0734189X8590163X
   
-- title: PoseShop: Human Image Database Construction and Personalized Content Synthesis
+- title: PoseShop&#58; Human Image Database Construction and Personalized Content Synthesis
   image: chen_12_tvcg.PNG
   description: We present PoseShop – a pipeline to construct segmented human image database with minimal manual intervention. By downloading, analyzing, and filtering massive amounts of human images....
   authors: Tao Chen, Ping Tan, Li-Qian Ma, Ming-Ming Cheng, Ariel Shamir, Shi-Min Hu
@@ -411,7 +411,7 @@
 - title: 3D Reconstruction of Dynamic Scenes with Multiple Handheld Cameras
   image: Jiang_12_eccv.PNG
   description: We propose a novel dense depth estimation method which can automatically recover accurate and consistent depth maps from the synchronized video sequences taken by a few handheld cameras. Unlike fixed camera arrays...
-  authors:Hanqing Jiang, Haomin Liu, Ping Tan, Guofeng Zhang, Hujun Bao
+  authors: Hanqing Jiang, Haomin Liu, Ping Tan, Guofeng Zhang, Hujun Bao
   venue: European Conference on Computer Vision (ECCV)
   year: 2012
   highlight: 1
@@ -435,7 +435,7 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv12_ps.pdf
  
-- title: CoSLAM: Collaborative Visual SLAM in Dynamic Environments
+- title: CoSLAM&#58; Collaborative Visual SLAM in Dynamic Environments
   image: zou_12_tpami.PNG
   description: This paper studies the problem of vision-based simultaneous localization and mapping (SLAM) in dynamic environments with multiple cameras. We introduce inter-camera pose estimation and inter-camera mapping to deal with dynamic objects in the localization and mapping process.
   authors: Danping Zou, Ping Tan
@@ -590,7 +590,7 @@
   
 - title: Self-calibrating Photometric Stereo
   image: zhou_10_eccv.PNG
-  description:We present a self-calibrating photometric stereo method. From a set of images taken from a fixed viewpoint under different and unknown lighting conditions, our method automatically determines a radiometric response function and resolves the generalized bas-relief ambiguity for estimating accurate surface normals and albedos. We show that color and intensity profiles, which are obtained from registered pixels across images, serve as effective cues for addressing these two calibration problems. 
+  description: We present a self-calibrating photometric stereo method. From a set of images taken from a fixed viewpoint under different and unknown lighting conditions, our method automatically determines a radiometric response function and resolves the generalized bas-relief ambiguity for estimating accurate surface normals and albedos. We show that color and intensity profiles, which are obtained from registered pixels across images, serve as effective cues for addressing these two calibration problems. 
   authors: Boxin Shi, Yasuyuki Matsushita, Yichen Wei, Chao Xu, Ping Tan
   venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
   year: 2010
@@ -649,7 +649,7 @@
   
 - title: Subpixel Photometric Stereo 
   image: tan_08_pami.PNG
-  description:In this paper, we propose a method to recover subpixel surface geometry by studying the relationship between the subpixel geometry and the reflectance properties of a surface. We first describe a generalized physically-based reflectance model that relates the distribution of surface normals inside each pixel area to its reflectance function. The distribution of surface normals can be computed from the reflectance functions recorded in photometric stereo images. A convexity measure of subpixel geometry structure is also recovered at each pixel, through an analysis of brightness attenuation due to shadowing. Then, we use the recovered distribution of surface normals and the surface convexity to infer subpixel geometric structures on a surface of homogeneous material by spatially arranging the normals among pixels at a higher resolution than that of the input image 
+  description: In this paper, we propose a method to recover subpixel surface geometry by studying the relationship between the subpixel geometry and the reflectance properties of a surface. We first describe a generalized physically-based reflectance model that relates the distribution of surface normals inside each pixel area to its reflectance function. The distribution of surface normals can be computed from the reflectance functions recorded in photometric stereo images. A convexity measure of subpixel geometry structure is also recovered at each pixel, through an analysis of brightness attenuation due to shadowing. Then, we use the recovered distribution of surface normals and the surface convexity to infer subpixel geometric structures on a surface of homogeneous material by spatially arranging the normals among pixels at a higher resolution than that of the input image 
   authors: Ping Tan, Stephen Lin, Long Quan
   venue: IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
   year: 2008
@@ -658,7 +658,7 @@
 
 - title: Filtering and Rendering of Resolution Dependent Reflectance Models 
   image: tan_08_tvcg.PNG
-  description:In this work, we propose to represent this resolution-dependent reflectance as a mixture of multiple conventional reflectance models, and present a framework for efficiently rendering the reflectance effects of such mixture models over different resolutions. To rapidly determine reflectance at runtime with respect to resolution, we record the mixture model parameters at multiple resolution levels in mipmaps, and propose a technique to minimize aliasing in the filtering of these mipmaps. This framework can be applied to several widely used parametric reflectance models and can be implemented in graphics hardware for real-time processing, using a presented hardware-accelerated technique for non-linear filtering of mixture model parameters. 
+  description: In this work, we propose to represent this resolution-dependent reflectance as a mixture of multiple conventional reflectance models, and present a framework for efficiently rendering the reflectance effects of such mixture models over different resolutions. To rapidly determine reflectance at runtime with respect to resolution, we record the mixture model parameters at multiple resolution levels in mipmaps, and propose a technique to minimize aliasing in the filtering of these mipmaps. This framework can be applied to several widely used parametric reflectance models and can be implemented in graphics hardware for real-time processing, using a presented hardware-accelerated technique for non-linear filtering of mixture model parameters. 
   authors: Ping Tan, Stephen Lin, Long Quan, Baining Guo, Heung-Yeung Shum
   venue: IEEE Transaction on Visualization and Computer Graphics (TVCG)
   year: 2008
@@ -667,7 +667,7 @@
 
 - title: Intrinsic Image Decomposition with Non-Local Texture Cues 
   image: shen_08_cvpr.PNG
-  description:We present a method for decomposing an image into its intrinsic reflectance and shading components. Different from previous work, our method examines texture information to obtain constraints on reflectance among pixels that may be distant from one another in the image. We observe that distinct points with the same intensity-normalized texture configuration generally have the same reflectance value. The separation of shading and reflectance components should thus be performed in a manner that guarantees these non-local constraints 
+  description: We present a method for decomposing an image into its intrinsic reflectance and shading components. Different from previous work, our method examines texture information to obtain constraints on reflectance among pixels that may be distant from one another in the image. We observe that distinct points with the same intensity-normalized texture configuration generally have the same reflectance value. The separation of shading and reflectance components should thus be performed in a manner that guarantees these non-local constraints 
   authors: Li Shen, Ping Tan, Stephen Lin
   venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
   year: 2008
@@ -748,7 +748,7 @@
   
 - title: Image-based Plant Modeling 
   image: quan_06_tog.PNG
-  description:In this paper, we propose a semi-automatic technique for modeling plants directly from images. Our image-based approach has the distinct advantage that the resulting model inherits the realistic shape and complexity of a real plant. We designed our modeling system to be interactive, automating the process of shape recovery while relying on the user to provide simple hints on segmentation. Segmentation is performed in both image and 3D spaces, allowing the user to easily visualize its effect immediately 
+  description: In this paper, we propose a semi-automatic technique for modeling plants directly from images. Our image-based approach has the distinct advantage that the resulting model inherits the realistic shape and complexity of a real plant. We designed our modeling system to be interactive, automating the process of shape recovery while relying on the user to provide simple hints on segmentation. Segmentation is performed in both image and 3D spaces, allowing the user to easily visualize its effect immediately 
   authors: Long Quan, Ping Tan, Gang Zeng, Lu Yuan, Jingdong Wang, Sing Bing Kang
   venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH
   year: 2006
@@ -757,7 +757,7 @@
 
 - title: Separation of Highlight Reflections from Textured Surfaces
   image: tan_06_cvpr.PNG
-  description:We present a method for separating highlight reflections on textured surfaces. In contrast to previous techniques that use diffuse color information from outside the highlight area to constrain the solution, the proposed method further capitalizes on the spatial distributions of colors to resolve ambiguities in separation that often arise in real images. For highlight pixels in which a clear-cut separation cannot be determined from color space analysis, we evaluate possible separation solutions based on their consistency with diffuse texture characteristics outside the highlight 
+  description: We present a method for separating highlight reflections on textured surfaces. In contrast to previous techniques that use diffuse color information from outside the highlight area to constrain the solution, the proposed method further capitalizes on the spatial distributions of colors to resolve ambiguities in separation that often arise in real images. For highlight pixels in which a clear-cut separation cannot be determined from color space analysis, we evaluate possible separation solutions based on their consistency with diffuse texture characteristics outside the highlight 
   authors: Ping Tan, Stephen Lin, Long Quan
   venue: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
   year: 2006
