@@ -1,0 +1,31 @@
+
+<a href="{{ site.url }}{{ site.baseurl }}/publications/">
+<div class="well">
+
+<h4>Publications</h4>
+
+
+
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+{% assign number_printed = 0 %}
+{% for publi in site.data.publist limit:5%}
+{% if number_printed == 0 %}
+        <div class="item active">
+{% endif %}
+{% if number_printed != 0 %}
+	<div class="item">
+{% endif %}
+            <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" alt="Slide {{ number_printed }}" width="75%" />
+        </div>
+{% assign number_printed = number_printed | plus: 1 %}
+{% endfor %}
+    </div> 
+
+
+</div>
+</a>
+
+
