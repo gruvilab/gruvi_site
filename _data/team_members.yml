@@ -9,8 +9,9 @@
 #  education3: B.Sc. (year), University (program)
 #  education4: Other? (year), University (program)
 
+################################# Lab Directors  #################################
 - name: Richard (Hao) Zhang
-  photo: RichardZhang.jpeg
+  photo: haoz.jpg
   role: Lab Director
   email: haoz@.sfu.ca 
   website: http://www.cs.sfu.ca/~haoz/
@@ -20,14 +21,14 @@
   education3: BMath (1995), University of Waterloo (Faculty of Math)
   
 - name: Ping Tan
-  photo: PingTan.png
+  photo: ping.png
   role: Lab Director
   email: pingtan@cs.sfu.ca
   website: http://www.cs.sfu.ca/~pingtan/
   number_educ: 3
   education1: Ph.D. (2007), Hong Kong University of Science and Technology
   education2: MSc (2003), Shanghai Jiao Tong University
-  education3: BEng & BSc (2000), Shanghai Jiao Tong University
+  education3: B.Sc & B.Eng (2000), Shanghai Jiao Tong University
 
 
 - name: KangKang Yin
@@ -37,24 +38,167 @@
   website: https://www.cs.sfu.ca/~kkyin/
   number_educ: 3
   education1: Ph.D. (2007), University of British Columbia
-  education2: MSc (2003), Zhejiang University
-  education3: BSc (2000), Zhejiang University
+  education2: M.Sc (2003), Zhejiang University
+  education3: B.Sc (2000), Zhejiang University
+  
+#################################   Affiliated Faculty  #################################
+- name: Parmit Chilana
+  photo: parmitTall.jpg
+  role: Affiliated Faculty
+  email: 
+  website: http://hci.cs.sfu.ca/
+  number_educ: 0
+  
+- name: Daniel Cohen-Or
+  photo: daniel_cohen_or.png
+  role: Affiliated Faculty
+  email: 
+  website: http://www.math.tau.ac.il/~dcor/
+  number_educ: 0
+  
+  
+- name: Hui Huang
+  photo: hui_huang.png
+  role: Affiliated Faculty
+  email: 
+  website: http://vcc.szu.edu.cn/~huihuang/
+  number_educ: 0
+  
+  
+- name: Wolfgang Stuerzlinger
+  photo: wolfgang.jpg
+  role: Affiliated Faculty
+  email: 
+  website: http://ws.iat.sfu.ca/
+  number_educ: 0
+  
+
+################################# PhD Students  #################################
+  
+- name: Mohsen Kamalzadeh
+  photo: mohsen.jpg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+  
+  
+- name: Chenyang Zhu
+  photo: chenyang.png
+  role: Graduate Student
+  email: chenyang.chandler.zhu@gmail.com
+  website: http://www.sfu.ca/~cza68/
+  number_educ: 0
+  
+- name: Renjiao Yi
+  photo: renjiao.png
+  role: Graduate Student
+  email: 
+  website:  http://www.sfu.ca/~renjiaoy/
+  number_educ: 0
+  
+    
+- name: Chengzhou Tang
+  photo: chengzhou.png
+  role: Graduate Student
+  email: 
+  website: https://sites.google.com/site/chengzhout/
+  number_educ: 0
   
   
 - name: Wallace Lira
-  photo: WallaceLira.jpeg
-  role: Graduate Studant
-  email: wpintoli (at) sfu.ca
+  photo: WallaceLira.jpg
+  role: Graduate Student
+  email: wpintoli@sfu.ca
   website: http://www.sfu.ca/~wpintoli/
-  number_educ: 2
-  education1: M.Sc. (2013), Federal University of Para (Computer Science)
-  education2: B.Sc. (2009), Federal University of Para (Computer Science)
+  number_educ: 0
   
 - name: Kangxue Yin
-  photo: KangxueYin.jpeg
-  role: Graduate Studant
-  email: wpintoli (at) sfu.ca
-  website: http://www.sfu.ca/~wpintoli/
-  number_educ: 2
-  education1: M.Sc. (2013), Federal University of Para (Computer Science)
-  education2: B.Sc. (2009), Federal University of Para (Computer Science)
+  photo: kangxue.jpg
+  role: Graduate Student
+  email: kangxuey@sfu.ca
+  website: http://kangxue.org/
+  number_educ: 0
+  
+- name: Akshay Gadi Patil
+  photo: akshay.png
+  role: Graduate Student
+  email: agadipat@sfu.ca
+  website: http://www.sfu.ca/~agadipat/
+  number_educ: 0
+  
+- name: Sicong Tang
+  photo: sicong.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+  
+
+################################# Master Students  #################################
+  
+- name: Luwei Yang
+  photo: luwei.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+  
+  
+- name: Kiana Mostaghasi
+  photo: kiana.jpg
+  role: Graduate Student
+  email: kiana_mostaghasi@sfu.ca
+  website: 
+  number_educ: 0
+  
+- name: Rakesh Shrestha
+  photo: rakesh.jpg
+  role: Graduate Student
+  email:
+  website:  http://www.sfu.ca/~rakeshs/
+  number_educ: 0
+ 
+- name: Feitong Tan
+  photo: FeitongTan.jpg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+  
+
+- name: Zhiqin Chen
+  photo: zhiqin.jpg
+  role: Graduate Student
+  email: agadipat@sfu.ca
+  website: http://www.sfu.ca/~zhiqinc/
+  number_educ: 0
+  
+  
+################################# Visiting Students  #################################
+
+
+- name: Zili Yi
+  photo: zili.jpg
+  role: Visitor
+  email: 
+  website: http://www.cs.mun.ca/~yz7241/
+  number_educ: 0
+  
+
+- name: Manyi Li
+  photo: manyi.jpg
+  role: Visitor
+  email: 
+  website: 
+  number_educ: 0
+  
+################################# Postdocs  #################################
+
+
+- name: Ali Mahdavi-Amiri
+  photo: ali.png
+  role: Postdoc
+  email: 
+  website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
+  number_educ: 0
