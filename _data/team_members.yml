@@ -107,12 +107,14 @@
   
   
 - name: Wallace Lira
-  photo: WallaceLira.jpg
-  role: Graduate Student
-  email: wpintoli@sfu.ca
+  photo: WallaceLira.jpeg
+  role: Graduate Studant
+  email: wpintoli (at) sfu.ca
   website: http://www.sfu.ca/~wpintoli/
-  number_educ: 0
-  
+  number_educ: 2
+  education1: M.Sc. (2013), Federal University of Para (Computer Science)
+  education2: B.Sc. (2009), Federal University of Para (Computer Science)
+
 - name: Kangxue Yin
   photo: kangxue.jpg
   role: Graduate Student
