@@ -20,7 +20,7 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-2 clearfix">
+<div class="col-sm-3 clearfix">
   <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a>
 </div>
 
@@ -144,7 +144,7 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-2 clearfix">
+<div class="col-sm-3 clearfix">
 
 <table border="0">
 <center>
