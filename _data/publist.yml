@@ -1,225 +1,774 @@
-- title: "Revisiting quasiparticle scattering interference in high-temperature superconductors: the problem of narrow peaks"
-  image: dummy.png
-  description: ""
-  authors: MA Sulangi, MP Allan, J Zaanen
-  venue: Full conference name
-  year: 2017
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
-  bibtex: https://www.youtube.com/asdasd
-
-- title: Robust procedure for creating and characterizing the atomic structure of scanning tunneling microscope tips
-  image: dummy.png
-  description: ""
-  authors: S Tewari, KM Bastiaans, MP Allan, JM van Ruitenbeek
-  venue: Full conference name
-  year: 2017
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
-
-- title: Creating better superconductors by periodic nanopatterning
-  image: SCAUweb.jpg
-  description:
-    We  propose  an approach to transform a ‘pristine’ material into a better (meta-) superconductor by making use of modern fabrication techniques -- designing and engineering the electronic properties of thin films via periodic patterning on the nanoscale. 
-  authors:
-    MP Allan, MH Fischer, O Ostojic, A Andringa
-  venue: Full conference name
-  year: 2017
-  highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  video: https://www.youtube.com/
+#- title: "Full title name"
+#  image: publication_photo_name.{png,jpg}
+#  description: "Full description text"
+#  authors: A First, B Second, C Third
+#  venue: Full conference name
+#  year: yyyy
+#  highlight: 0 or 1
+#  pdf: pdf_file_name.pdf
+#  presentation: ppt_file_name.ppt
+#  project_page: https://www.google.ca/link_to_project_page
+#  video: https://www.youtube.com/link_to_youtube_video
+#  bibtex: tex_file_name.bib
+#  if some variable above does not exist, remove the line
   
-- title: Poor electronic screening in lightly doped Mott insulators observed with scanning tunneling microscopy
-  image: TIBB.png
-  description:
-    We develop a simple model to interpret STM results on lightly doped Mott insulators, and find that the effective Mott gap measured by STM correspons to the one measured with other techniques when taking into account the poor electronic screeing. 
-  authors:
-    I Battisti, V Fedoseev, KM Bastiaans, A de la Torre, RS Perry, F Baumberger, MP Allan
-  venue: Full conference name
+- title:  Action-Driven 3D Indoor Scene Evolution
+  image: ma_siga16_action.png
+  description: We introduce a framework for action-driven evolution of 3D indoor scenes, where the goal is to simulate how scenes are altered by human actions, and specifically, by object placements necessitated by the actions. To this end, we develop an action model with each type of action combining information about one or more human poses, one or more object categories, and spatial configurations of object-object and object-human relations for the action. Importantly, all these pieces of information are learned from annotated photos.
+  authors: Rui Ma, Honghua Li, Changqing Zou, Zicheng Liao, Xin Tong, and Hao Zhang
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 35, No. 6, Article 1736
   year: 2016
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/ma_siga16_action.pdf
+  project_page: https://maruitx.github.io/project/adise/
+  video: https://youtu.be/ebLSRby6c_4
 
-- title: Universality of pseudo gap and emergent order in lightly doped Mott insulators
-  image: Mott_phase_sep.jpg
-  description:
-    We discover of electronic order, pseudo gap phase separation and an impurity-band Mott transition in an iridate compound, cuprate-style. Along the way, we gained unique knowledge on how a Mott state collapses.
-  authors:
-    I. Battisti* & K.M. Bastiaans*, V. Fedoseev, A. de la Torre, N. Iliopoulos, A. Tamai, E.C. Hunter, R.S. Perry, J. Zaanen, F. Baumberger, M.P. Allan
-  venue: Full conference name
+- title: Model-driven Sketch Reconstruction with Structure-oriented Retrieval
+  image: li_siga16tb.png
+  description: We propose an interactive system that aims at lifting a 2D sketch into a 3D sketch with the help of existing models in shape collections. The key idea is to exploit part structure for shape retrieval and sketch reconstruction. We adopt sketch-based shape retrieval and develop a novel matching algorithm which considers structure in addition to traditional shape features.
+  authors: Lei Li, Zhe Huang, Changqing Zou, Chiew-Lan Tai, Rynson W.H. Lau, Hao Zhang, Ping Tan, and Hongbo Fu
+  venue: SIGGRAPH Asia Technical Brief
   year: 2016
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/li_siga16tb_sketch.pdf
+  
 
-- title: Identifying the fingerprint of antiferromagnetic spin fluctuations in iron pnictide superconductors
-  image: Pub_FP.png
-  description:
-    Both the density of states and the QPI dispersion of LiFeAs shows signatures of electron-boson coupling. Comparing these with fingerprints of different boson couplings to conclude that these signatures stem from AF spin fluctuations.
-  authors:
-    MP Allan* & Kyungmin Lee* & AW Rost*, MH Fischer, F Massee, K Kihou, C-H Lee, A Iyo, H Eisaki, T-M Chuang, AP Mackenzie, JC Davis, DJ Scalapino, E-A Kim
-  venue: Full conference name
+- title: Learning 3D Scene Synthesis from Annotated RGB-D Images
+  image: zeinab_sgp16_scene.png
+  description: We present a data-driven method for synthesizing 3D indoor scenes by inserting objects progressively into an initial, possibly, empty scene. Instead of relying on few hundreds of hand-crafted 3D scenes, we take advantage of existing large-scale annotated RGB-D datasets, in particular, the SUN RGB-D database consisting of 10,000+ depth images of real scenes, to form the prior knowledge for our synthesis task. Our object insertion scheme follows a co-occurrence model and an arrangement model, both learned from the SUN dataset.
+  authors: Zeinab Sadeghipour, Zicheng Liao, Ping Tan, and Hao Zhang
+  venue: Computer Graphics Forum (Special Issue of SGP), Vol. 35, No. 5, pp. 197-206
   year: 2016
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zeinab_sgp16_scene.pdf
+  
 
-- title: Direct evidence for a magnetic f-electron mediated Cooper pairing mechanism of heavy fermion superconductivity in CeCoIn5
-  image: dummy.png
-  description: ""
-  authors:
-    J Van Dyke, F Massee, MP Allan, JC Davis, C Petrovic, and DK Morr
-  venue: Full conference name
+- title: Learning How Objects Function via Co-Analysis of Interactions
+  image: hu_sig16_icon2.png
+  description: We introduce a co-analysis method which learns a functionality model for an object category, e.g., strollers or backpacks. Like previous works on functionality, we analyze object-to-object interactions and intra-object properties and relations. Differently from previous works, our model goes beyond providing a functionalityoriented descriptor for a single object; it prototypes the functionality of a category of 3D objects by co-analyzing typical interactions involving objects from the category.
+  authors: Ruizhen Hu, Oliver van Kaick, Bojian Wu, Hui Huang, Ariel Shamir, and Hao Zhang
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 35, No. 4, Article 47
   year: 2016
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
-
-- title: Imaging Cooper pairing of heavy fermions in CeCoIn5
-  image: Pub_CeCoIn5.png
-  description:
-    The heavy Fermion superconductor CeCoIn5 has a d-wave gap with nodes along the (1,1) direction, as we find using QPI.
-  authors:
-    MP Allan* & F Massee*, DK Morr, J van Dyke, AW Rost, AP Mackenzie, C Petrovic, JC Davis
-  venue: Full conference name
-  year: 2015
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/hu_sig16_icon2.pdf
+  project_page: http://vcc.szu.edu.cn/research/2016/Icon2/
+  
 
-- title: Formation of heavy d-electron quasiparticles in Sr3Ru2O7
-  image: Pub_327.png
-  description:
-    Using APRES, we find that the bands in Sr3Ru2O7 look more like in heavy fermion material than in a normal metal. We present a detailed investigation into the formation of this particular electronic  structure.
-  authors:
-    MP Allan, A Tamai, E Rozbicki, MH Fischer, J Voss, PDC King, W Meevasana, S Thirupathaiah, E Rienks, J Fink, A Tennant, RS Perry, JF Mercure, MA Wang, J Lee, CJ Fennie, E-A Kim, MJ Lawler, KM Shen, AP Mackenzie, Z-X Shen, F Baumberger
-  venue: Full conference name
-  year: 2015
+- title: Legible Compact Calligrams
+  image: zou_sig16_calli.png
+  description: A calligram is an arrangement of words or letters that creates a visual image, and a compact calligram fits one word into a 2D shape. We introduce a fully automatic method for the generation of legible compact calligrams which provides a balance between conveying the input shape, legibility, and aesthetics.
+  authors: Changqing Zou, Junjie Cao, Warunika Ranaweera, Ibraheem Alhashim, Ping Tan, Alla Sheffer, and Hao Zhang
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 35, No. 4, Article 122
+  year: 2016
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zou_sig16_calli.pdf
+ 
 
-- title: Anisotropic impurity states, quasiparticle scattering and nematic transport in underdoped Ca(Fe1−xCox)2As2
-  image: Pub_nemat2b.png
-  description:
-    We elucidate on the formation of the electronic nematic state in Co-CaFe2As2, finding that the Cobalt dopant atoms play a key role.
-  authors:
-    MP Allan, T-M Chuang, F Massee, Y Xie, N Ni, SL Bud’ko, GS Boebinger, Q Wang, DS Dessau, PC Canfield, MS Golden, JC Davis
-  venue: Full conference name
+- title: Connected Fermat Spirals for Layered Fabrication
+  image: zhao_sig16_fermat.png
+  description:We develop a new kind of "space-filling" curves, connected Fermat spirals, and show their compelling properties as a tool path fill pattern for layered fabrication. Unlike classical space-filling curves such as the Peano or Hilbert curves, which constantly wind and bind to preserve locality, connected Fermat spirals are formed mostly by long, low-curvature paths. This geometric property, along with continuity, influences the quality and efficiency of layered fabrication.
+  authors: Haisen Zhao, Fanglin Gu, Qi-Xing Huang, Jorge Garcia, Yong Chen, Changhe Tu, Bedrich Benes, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 35, No. 4, Article 100
+  year: 2016
   highlight: 1
-  year: 2015
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zhao_sig16_fermat.pdf
+  
 
-- title: Anisotropic energy gaps of iron-based superconductivity from intraband quasiparticle interference in LiFeAs
-  image: Pub_LiFeAs.png
-  description:
-    In contrast to earlier photoemission reports, we show that the gaps in iron based superconductors are not isotropic but modulated with angle.
-  authors:
-    MP Allan⋆ & AW Rost⋆, AP Mackenzie, Y Xie, JC Davis, K Kihou, CH Lee, A Iyo, H Eisaki, T-M Chuang
-  venue: Full conference name
-  year: 2015
+- title: Full and Partial Shape Similarity through Sparse Descriptor Reconstruction
+  image: wan_tvc16_sparse.png
+  description: We introduce a novel approach to measure similarity between two 3D shapes based on sparse reconstruction of shape descriptors. The main feature of our approach is its applicability to handle incomplete shapes. We characterize the shapes by learning a sparse dictionary from their local descriptors. The similarity between two shapes A and B is defined by the error incurred when reconstructing B's descriptor set using the basis signals from Aâ€™s dictionary.
+  authors:  Lili Wan, Changqing Zou, and Hao Zhang
+  venue: The Visual Computer
   highlight: 1
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  year: 2016
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/wan_tvc16_sparse.pdf
+ 
 
-- title: How Kondo-holes create intense nanoscale heavy-fermion hybridization disorder
-  image: dummy.png
-  description: ""
-  authors: MH Hamidian, AR Schmidt, IA Firmo, MP Allan, P Bradley, JD Garrett, TJ Williams, GM Luke, Y Dubi, AV Balatsky, JC Davis
-  venue: Full conference name
-  year: 2015
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
-
-- title: Nematic electronic structure in the “parent” state of the iron-based superconductor Ca(Fe1−xCox)2As2
-  image: Pub_nemat1.png
-  description:
-    We discovered an electronic nematic in the iron based superconductor Co-CaFe2As2! This state is by now confirmed and quite well characterized  by transport, photoemission, and more SI-STM experiments.
-  authors:
-    T-M Chuang* & MP Allan*, J Lee, Y Xie, N Ni, SL Bud’ko, GS Boebinger PC Canfield, JC Davis
-  venue: Full conference name
-  year: 2015
+- title: From inspired modeling to creative modeling
+  image: zhang_tvc16_creative.png
+  description: An intriguing and reoccurring question in many branches of computer science is whether machines can be creative, like humans. In this exploratory paper, we examine the problem from a computer graphics, and more specifically, geometric modeling, perspective. We focus our discussions on the weaker but still intriguing question: "Can machines assist or inspire humans in a creative endeavor for the generation of geometric forms?"
+  authors:Daniel Cohen-Or and Hao Zhang
+  venue: Visual Computer (invited paper), Vol. 32, No. 1
+  year: 2016
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zhang_tvc16_creative.pdf
+  
 
-- title: Heavy d-electron quasiparticle interference and real-space electronic structure of Sr3Ru2O7
-  image: Pub_hBN.png
-  description:
-    QPI in Sr327.
-  authors: Jinho Lee* & M. P. Allan*, M. A.Wang, J. Farrell, S. A. Grigera, F. Baumberger, J. C. Davis and A. P. Mackenzie
-  venue: Full conference name
-  year: 2015
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
-
-- title: Fermi surface and van Hove singularities in the itinerant metamagnet Sr3Ru2O7
-  image: Pub_hBN.png
-  description:
-    We determine the Fermi surface of Sr327.
-  authors:
-    A Tamai, MP Allan, JF Mercure, W Meevasana, R Dunkel, DH Lu, RS Perry, AP Mackenzie, David J Singh, Z-X Shen, F Baumberger
-  venue: Full conference name
-  year: 2015
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
-
-- title: Tunable  self-assembly of one-dimensional nanostructures with orthogonal directions
-  image: Pub_hBN.png
-  description:
-    Hexagonal boron nitride shows fancy superstructures on the Mo(111) surface.
-  authors:
-    MP Allan, S Berner, M Corso, T Greber, J Osterwalder
-  venue: Full conference name
-  year: 2015
+- title: MeshFlow: Minimum Latency Online Video Stabilization
+  image: liu_16_eccv.PNG
+  description: Many existing video stabilization methods often stabilize videos off-line, i.e. as a postprocessing tool of pre-recorded videos. Some methods can stabilize videos online, but either require additional hardware sensors (e.g., gyroscope) or adopt a single parametric motion model (e.g., affine, homography) which is problematic to represent spatiallyvariant motions. In this paper, we propose a technique for online video stabilization with only one frame latency using a novel MeshFlow motion model. The MeshFlow is a spatial smooth sparse motion field with motion vectors only at the mesh vertexes.
+  authors: Shuaicheng Liu, Ping Tan, Lu Yuan, Jian Sun, Bing Zeng
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2016
   highlight: 1
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+  pdf: http://www.liushuaicheng.org/eccv2016/meshflow.pdf
+  
 
-- title: Photoelectron Diffraction for a Look inside Nanostructures
-  image: dummy.png
-  description: ""
-  authors:
-    J Osterwalder, A Tamai, W AuwÃ¤rter; MP Allan, T Greber
-  venue: Full conference name
-  year: 2015
-  highlight: 0
-  pdf: test.pdf
-  presentation: test.ppt
-  project_page: https://www.google.ca/
-  video: https://www.youtube.com/
+- title: RepMatch: Robust Feature Matching and Pose for Reconstructing Modern Cities
+  image: lin_16_eccv.PNG
+  description: A perennial problem in recovering 3-D models from images is repeated structures common in modern cities. The problem can be traced to the feature matcher which needs to match less distinctive features (permitting wide-baselines and avoiding broken sequences), while simultaneously avoiding incorrect matching of ambiguous repeated features. To meet this need, we develop RepMatch.
+  authors:Wen-Yan Lin, Siying Liu, Nianjuan Jiang, Minh. N. Do, Ping Tan, Jianbo Lu
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2016
+  highlight: 1
+  pdf: http://www.kind-of-works.com/papers/eccv_2016_repmatch.pdf
+  presentation: repmatch.pdf
+  
+
+- title: Attribute Recognition from Adaptive Parts
+  image: luwei_16_bmvc.PNG
+  description: Previous part-based attribute recognition approaches perform part detection and attribute recognition in separate steps. The parts are not optimized for attribute recognitionand therefore could be sub-optimal. We present an end-to-end deep learning approach to overcome the limitation.
+  authors: Luwei Yang, Ligeng Zhu, Yichen Wei, Shuang Liang, Ping Tan
+  venue: British Machine Vision Conference (BMVC)
+  year: 2016
+  highlight: 1
+  pdf: http://www.bmva.org/bmvc/2016/papers/paper081/paper081.pdf
+  
+
+- title: An example-based approach to 3D man-made object reconstruction from line drawings
+  image: zou_16_prletters.PNG
+  description: We propose an example-based approach for 3D man-made object reconstruction from single line drawings. Our approach can handle a wide range of 3D man-made objects including curved components.Comprehensive experiments show that the proposed approach outperforms previous work, especially for line drawings containing large degree of sketch errors.
+  authors:Changqing Zou, Tianfan Xue, Xiaojiang Peng, Honghua Li, Baochang Zhang, Ping Tan, Jianzhuang Liu
+  venue: Pattern Recognition,Vol. 60, pp. 543--553
+  year: 2016
+  highlight: 1
+  pdf: http://www.sciencedirect.com/science/article/pii/S0031320316301170
+  
+
+- title: A Benchmark Dataset and Evaluation for Non-Lambertian and Uncalibrated Photometric Stereo
+  image: boxinshi_16_cvpr.PNG
+  description:In this paper, we first survey and categorize existing methods using a photometric stereo taxonomy emphasizing on non-Lambertian and uncalibrated methods. We then introduce the ‘DiLiGenT’ photometric stereo image dataset with calibrated Directional Lightings, objects of General reflectance, and ‘ground Truth’ shapes (normals).
+  authors:Boxin Shi, Zhe Wu, Zhipeng Mo, Dinglong Duan, Sai-Kit Yeung, Ping Tan
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2016
+  highlight: 1
+  pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_A_Benchmark_Dataset_CVPR_2016_paper.pdf
+  
+
+- title: Automatic Fence Segmentation in Videos of Dynamic Scenes
+  image: joyce_16_cvpr.PNG
+  description: We present a fully automatic approach to detect and segment fence-like occluders from a video clip. Unlike previous approaches that usually assume either static scenes or cameras, our method is capable of handling both dynamic scenes and moving cameras. Under a bottom-up framework, it first clusters pixels into coherent groups using color and motion features. These pixel groups are then analyzed in a fully connected graph, and labeled as either fence or non-fence using graph-cut optimization. Finally, we solve a dense Conditional Random Filed (CRF) constructed from multiple frames to enhance both spatial accuracy and temporal coherence of the segmentation
+  authors: Renjiao Yi, Jue Wang, Ping Tan
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2016
+  highlight: 1
+  pdf: http://www.juew.org/publication/CVPR16-FenceSeg.pdf 
+  
+
+- title: Approximate Pyramidal Shape Decomposition
+  image: hu_siga14_pym_long.png
+  description: A shape is pyramidal if it has a flat base with the remaining boundary forming a height function over the base. Pyramidal shapes are optimal for molding, casting, and layered 3D printing. We introduce an algorithm for approximate pyramidal shape decomposition. The general exact pyramidal decomposition problem is NP-hard. We turn this problem into an NP-complete Exact Cover Problem which admits a practical solution ... Our solution is equally applicable to 2D or 3D shapes, to shapes with polygonal or smooth boundaries, with or without holes ...
+  authors: Ruizhen Hu, Honghua Li, Hao Zhang, and Daniel Cohen-Or
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 33, No. 6, Article 213
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/hu_siga14_pym.pdf
+  
+ 
+- title: Morfit: Interactive Surface Reconstruction from Incomplete Point Clouds with Curve-Driven Topology and Geometry Control
+  image: yin_siga14_morfit.png  
+  description: We present an interactive technique for surface reconstruction from incomplete and sparse scans of 3D objects possessing sharp features ... We factor 3D editing by the user into two "orthogonal" interactions acting on skeletal and profile curves of the underlying shape, controlling its topology and geometric features, respectively. For surface completion, we introduce a novel skeleton-driven morph-to-fit, or morfit, scheme which reconstructs the shape as an ensemble of generalized cylinders. Morfit is a hybrid operator which optimally interpolates between adjacent curve profiles (the "morph") and snaps the surface to input points (the "fit") ...
+  authors: Kangxue Yin, Hui Huang, Hao Zhang, Minglun Gong, Daniel Cohen-Or, and Baoquan Chen
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 33, No. 6, Article 202
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/yin_siga14_morfit.pdf
+  project_page: http://vcc.szu.edu.cn/research/2014/Morfit/
+  
+
+- title: Topology-Varying 3D Shape Creation via Structural Blending
+  image: alhashim_sig14_long.png
+  description: We introduce an algorithm for generating novel 3D models via topology-varying shape blending. Given a source and a target shape, our method blends them topologically and geometrically, producing continuous series of in-betweens as new shape creations. The blending operations are defined on a spatio-structural graph composed of medial curves and sheets. Such a shape abstraction is structure-oriented, part-aware, and facilitates topology manipulations. Fundamental topological operations including split and merge are realized by allowing one-to-many correspondences between the source and the target ..
+  authors: Ibraheem Alhashim, Honghua Li, Kai Xu, Junjie Cao, Rui Ma, and Hao Zhang
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 33, No. 4, Article 158
+  year: 2014
+  highlight: 1
+  presentation: topo_SIG2014_slides.pptx
+  project_page: http://gruvi.cs.sfu.ca/project/topo/
+  video: https://youtu.be/Xc4qf7v6a-w
+
+- title: Organizing Heterogeneous Scene Collections through Contextual Focal Points
+  image: xu_sig14_long.png
+  description: We introduce focal points for characterizing, comparing, and organizing collections of complex and heterogeneous data and apply the concepts and algorithms developed to collections of 3D indoor scenes. We represent each scene by a graph of its constituent objects and define focal points as representative substructures in a scene collection. To organize a heterogenous scene collection, we cluster the scenes based on a set of extracted focal points: scenes in a cluster are closely connected when viewed from the perspective of the representative focal points of that cluster ... The problem of focal point extraction is intermixed with the problem of clustering groups of scenes based on their representative focal points. We present a co-analysis algorithm ...
+  authors: Kai Xu, Rui Ma, Hao Zhang, Chenyang Zhu, Ariel Shamir, Daniel Cohen-Or, and Hui Huang
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 33, No. 4, Article 35
+  year: 2014
+  highlight: 1
+  pdf: http://kevinkaixu.net/papers/xu_sig14_focal.pdf
+  presentation: xu_sig14_focal.pptx
+  project_page: http://kevinkaixu.net/projects/focal.html
+    
+- title: Sparse Dictionary Learning for Edit Propagation of High-resolution Images
+  image: zou_cvpr14.jpg
+  description: We introduce the use of sparse representation for edit propagation of high-resolution images or video. Previous approaches for edit propagation typically employ a global optimization over the whole set of image pixels, incurring a prohibitively high memory and time consumption for high-resolution images. Rather than propagating an edit pixel by pixel, we follow the principle of sparse representation to obtain a compact set of representative samples (or features) and perform edit propagation on the samples instead ...
+  authors: Xiaowu Chen, Dongqing Zou, Jianwei Li, Xiaochun Cao, Qinping Zhao, and Hao Zhang
+  venue: Proceedings of IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zou_cvpr14_sparse.pdf
+
+- title: Spectral Global Intrinsic Symmetry Invariant Functions
+  image: wang_gi14.png
+  description: We introduce spectral Global Intrinsic Symmetry Invariant Functions (GISIFs), a class of GISIFs obtained via eigendecomposition of the Laplace-Beltrami operator on compact Riemannian manifolds. We discretize the spectral GISIFs for 2D manifolds approximated either by triangle meshes or point clouds. In contrast to GISIFs obtained from geodesic distances, our spectral GISIFs are robust to local topological changes. Additionally, for symmetry analysis our spectral GISIFs can be viewed as generalizations of the classical Heat (HKSs) and Wave Kernel Signatures (WKSs), and, as such, represent a more expressive and versatile class of functions ...
+  authors: Hui Wang, Patricio Simari, Zhixun Su, and Hao Zhang
+  venue: Proc. of Graphics Interface
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/wang_gi14.pdf
+  presentation: gi_2014_spectral_gisifs.pptx
+  project_page: https://huiw.weebly.com/spectralgisif.html
+  
+- title: Photometric Stereo using Internet Images
+  image: boxinshi_14_3dv.PNG
+  description:Photometric stereo using unorganized Internet images is very challenging, because the input images are captured under unknown general illuminations, with uncontrolled cameras. We propose to solve this difficult problem by a simple yet effective approach that makes use of a coarse shape prior. The shape prior...
+  authors: Boxin Shi, Kenji Inose, Yasuyuki Matsushita, Ping Tan, Sai-Kit Yeung, Katsushi Ikeuchi
+  venue: International Conference on 3D Vision (3DV)
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/3DV14.pdf
+  project_page: http://alumni.media.mit.edu/~shiboxin/project_pages/Shi_3DV14_Web.htm
+  video: https://youtu.be/5TMJ26BZGqI
+    
+- title: TrackCam: 3D-aware Tracking Shots from Consumer Video
+  image: liu_14_siga.PNG
+  description:In this work we propose a system to generate realistic, 3D-aware tracking shots from consumer videos. We show how computer vision techniques such as segmentation and structure-from-motion can be used to lower the barrier and help novice users create high quality tracking shots that are physically plausible
+  authors: Shuaicheng Liu, Jue Wang, Sunghyun Cho, Ping Tan
+  venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH Asia
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/3DV14.pdf
+ 
+- title: Video Tonal Stabilization via Color States Smoothing
+  image: wang_14_tip.PNG
+  description:We address the problem of removing video color tone jitter that is common in amateur videos recorded with handheld devices. To achieve this, we introduce color state to represent the exposure and white balance state of a frame
+  authors: Yinting Wang, Dacheng Tao, Xiang Li, Mingli Song, Jiajun Bu, Ping Tan
+  venue: IEEE Transaction on Image Processing (TIP), Vol 23, No. 11, pp. 4838--4849
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/tip14.pdf
+     
+- title: PanoContext: A Whole-room 3D Context Model for Panoramic Scene Understanding
+  image: zhang_14_eccv.PNG
+  description:We address the problem of removing video color tone jitter that is common in amateur videos recorded with handheld devices. To achieve this, we introduce color state to represent the exposure and white balance state of a frame
+  authors: Yinda Zhang, Shuran Song, Ping Tan, Jianxiong Xiao
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv14.pdf
+  project_page: http://panocontext.cs.princeton.edu/  
+  video: https://youtu.be/8I-v6gQXfD8
+   
+- title: Off-board Visual Odometry and Control of an Ultralight Quadrotor MAV
+  image: kunli_14_microairvehicle.PNG
+  description: We propose an approach to autonomously control a quadrotor micro aerial vehicle (MAV). With take-off weight of 50 g and 8-min flight endurance, the MAV platform codenamed ‘KayLion’ developed by the National University of Singapore (NUS) is able to perform autonomous flight with pre-planned path tracking 
+  authors: Kun Li, Rui Huang, Swee King Phang, Shupeng Lai, Fei Wang, Ping Tan, Ben M. Chen, Tong Heng Lee
+  venue: International Micro Air Vehicle Conference and Competition
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/imav14.pdf
+   
+- title: SteadyFlow: Spatially Smooth Optical Flow for Video Stabilization
+  image: liu_14_cvpr.PNG
+  description: We propose a novel motion model, SteadyFlow, to represent the motion between neighboring video frames for stabilization. A SteadyFlow is a specific optical flow by enforcing strong spatial coherence, such that smoothing feature trajectories can be replaced by smoothing pixel profiles....
+  authors: Shuaicheng Liu, Lu Yuan, Ping Tan, Jian Sun
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2014
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr14_stabilization.pdf
+  project_page: http://www.liushuaicheng.org/CVPR2014/index.html
+  video: https://vimeo.com/156073058
+
+- title:  Multi-Scale Partial Intrinsic Symmetry Detection
+  image: xu_siga12.png
+  description: We present an algorithm for multi-scale partial intrinsic symmetry detection over 2D and 3D shapes, where the scale of a symmetric region is defined by intrinsic distances between symmetric points over the region. To identify prominent symmetric regions which overlap and vary in form and scale, we decouple scale extraction and symmetry extraction by performing two levels of clustering. First, significant symmetry scales are identified by clustering sample point pairs from an input shape ...  
+  authors: Kai Xu, Hao Zhang, Wei Jiang, Ramsay Dyer, Zhiquan Cheng, Ligang Liu, and Baoquan Chen
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 31, No. 6, Article 181
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/xu_siga12_msym.pdf
+  project_page: http://kevinkaixu.net/projects/msym.html
+  
+- title: Stackabilization
+  image: li_siga12.png  
+  description: We introduce the geometric problem of stackabilization: how to geometrically modify a 3D object so that it is more amenable to stacking. Given a 3D object and a stacking direction, we define a measure of stackability, which is derived from the gap between the lower and upper envelopes of the object in a stacking configuration along the stacking direction. The main challenge in stackabilization lies in the desire to modify the object's geometry only subtly so that the intended functionality and aesthetic appearance of the original object are not significantly affected ...
+  authors: Honghua Li, Ibraheem Alhashim, Hao Zhang, Ariel Shamir, and Daniel Cohen-Or
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 31, No. 6, Article 158
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/li_siga12_stack.pdf
+
+- title: Field-Guided Registration for Feature-Conforming Shape Composition
+  image: huang_siga12.png  
+  description: We present an automatic shape composition method to fuse two shape parts which may not overlap and possibly contain sharp features, a scenario often encountered when modeling man-made objects. At the core of our method is a novel field-guided approach to automatically align two input parts in a feature-conforming manner. The key to our field-guided shape registration is a natural continuation of one part into the ambient field as a means to introduce an overlap with the distant part, which then allows a surface-to-field registration ...
+  authors: Hui Huang, Minglun Gong, Daniel Cohen-Or, Yaobin Ouyang, Fuwen Tao, and Hao Zhang
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 31, No. 6, Article 179
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/huang_siga12_stitch.pdf
+ 
+- title: Active Co-Analysis of a Set of Shapes
+  image: wang_siga12.png  
+  description: We consider the use of a semi-supervised learning method where the user actively assists in the co-analysis by iteratively providing input that progressively constrains the system. We introduce a novel constrained clustering method based on a spring system which embeds elements to better respect their inter-distances in feature space together with the user given set of constraints. We also present an active learning method that suggests to the user where his input is likely to be the most effective in refining the results.
+  authors: Yunhai Wang, Shmulik Asafi, Oliver van Kaick, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia), Vol. 31, No. 6, Article 165
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/wang_siga12_ssl.pdf
+
+- title: 5-6-7 Meshes: Remeshing and Analysis
+  image: aghdaii_cag12.png  
+  description: We introduce a new type of meshes called 5-6-7 meshes, analyze their properties, and present a 5-6-7 remeshing algorithm. A 5-6-7 mesh is a closed triangle mesh where each vertex has valence 5, 6, or 7. We prove that it is always possible to convert an arbitrary mesh into a 5-6-7 mesh. We present a remeshing algorithm which converts a closed triangle mesh with arbitrary genus into a 5-6-7 mesh which a) closely approximates the original mesh geometrically, e.g., in terms of feature preservation, and b) has a comparable vertex count as the original mesh.
+  authors: Nima Aghdaii, Hamid Younesy, and Hao Zhang
+  venue: Computer & Graphics, extended version of GI'12 paper, Vol. 36, No. 8, pp. 1072-1083
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/aghdaii_cag12_567.pdf
+
+- title: Mean Curvature Skeletons
+  image: tag_sgp12.png  
+  description: We formulate the skeletonization problem via mean curvature flow (MCF). While the classical application of MCF is surface fairing, we take advantage of its area-minimizing characteristic to drive the curvature flow towards the extreme so as to collapse the input mesh geometry and obtain a skeletal structure. By analyzing the differential characteristics of the flow, we reveal that MCF locally increases shape anisotropy. This justifies the use of curvature motion for skeleton computation, and leads to the generation of what we call "mean curvature skeletons" ...
+  authors: Andrea Tagliassachi, Ibraheem Alhashim, Matt Olson, and Hao Zhang
+  venue: Computer Graphics Forum (Special Issue of SGP), Volume 31, Number 5, pp. 1735-1744
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/tag_sgp12.pdf
+ 
+- title: Fit and Diverse: Set Evolution for Inspiring 3D Shape Galleries
+  image: sig12_civil.png  
+  description: We introduce set evolution as a means for creative 3D shape modeling, where an initial population of 3D models is evolved to produce generations of novel shapes. Part of the evolving set is presented to a user as a shape gallery to offer modeling suggestions. User preferences define the fitness for the evolution so that over time, the shape population will mainly consist of individuals with good fitness. However, to inspire the user's creativity, we must also keep the evolving set diverse. Hence the evolution is ``fit and diverse'' ...
+  authors: Kai Xu, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH), Vol. 31, No. 4, pp. 57:1-57:10
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/xu_sig12_civil.pdf
+ 
+- title: 5-6-7 Meshes
+  image: aghdaii_gi12.png  
+  description: A 5-6-7 mesh is a closed triangle mesh where each vertex has valence 5, 6, or 7. An intriguing question is whether it is always possible to convert an arbitrary mesh into a 5-6-7 mesh. In this paper, we answer the question in the positive. We present a 5-6-7 remeshing algorithm which converts any closed triangle mesh with arbitrary genus into a 5-6-7 mesh which a) closely approximates the original mesh geometrically, e.g., in terms of feature preservation, and b) has a comparable vertex count as the original mesh.
+  authors: Nima Aghdaii, Hamid Younesy, and Hao Zhang
+  venue: Proc. of Graphics Interface, pp. 27-34
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/aghdaii_gi12_567.pdf
+
+- title: Empirical Mode Decomposition on Surfaces
+  image: wang_gmp12.png  
+  description: Empirical Mode Decomposition (EMD) is a powerful tool for the analysis of non-stationary and nonlinear signals, and has drawn a great deal of attention in various areas. In this paper, we generalize the classical EMD from Euclidean space to surfaces represented as triangular meshes. Inspired by the EMD, we also make a first step in using the extremal envelope method for feature-preserving smoothing.
+  authors: Hui Wang, Zhixun Su, Jinjie Cao, Ye Wang, and Hao Zhang
+  venue: Graphical Models (Special Issue of GMP), Vol. 74, No. 4, pp. 173-183
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/wang_gmp12.pdf
+
+- title: Detail-Replicating Shape Stretching
+  image: alhashim_tvc_detail.png  
+  description: We propose a simple and efficient method that helps create model variations by applying non-uniform stretching on 3D models with organic geometric details. The method replicates the geometric details and synthesizes extensions by adopting texture synthesis techniques on surface details.
+  authors: Ibraheem Alhashim, Hao Zhang, and Ligang Liu
+  venue: the Visual Computer, Vol. 28, No. 12, pp. 1153-1166
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/alhashim_tvc_detail_reduced.pdf
+  video: https://www.youtube.com/watch?v=VAXm7Wm-R7c  
+    
+- title: Image-based Clothes Animation for Virtual Fitting
+  image: zhou_12_siga.PNG
+  description: We propose an image-based approach for virtual clothes fitting, in which a user moves freely in front of a virtual mirror (i.e., video screen) that displays the user wearing a superimposed virtual garment.
+  authors: Zhenglong Zhou, Bo Shu, Shaojie Zhuo, Xiaoming Deng, Ping Tan, Stephen Lin
+  venue: SIGGRAPH Asia Technique Briefs
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/sigasia12_briefs.pdf
+  project_page: http://www.cs.sfu.ca/~pingtan/Projects/Clothes/index.htm
+  video: https://youtu.be/5MNKQ9Gt1AU
+  
+- title: Manifold Preserving Edit Propagation
+  image: chen_12_TOG.PNG
+  description: We propose a novel edit propagation algorithm for interactive image and video manipulations. Our approach uses the locally linear embedding (LLE) to represent each pixel as a linear combination of its neighbors in a feature space
+  authors: Xiaowu Chen, Dongqing Zou, Qinping Zhao, Ping Tan
+  venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH Asia
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/sigasia12.pdf
+  
+- title: Detecting Discontinuities for Surface Reconstruction
+  image: wang_12_icpr.PNG
+  description: A method is described for discontinuity detection in pictorial data. It computes at each point a planar approximation of the data and uses the statistics of the differences between the actual values and the approximations for detection of both steps and creases. The use of local statistical properties in the residuals provides.....
+  authors: Yinting Wang, Jiajun Bu, Na Li, Mingli Song, Ping Tan
+  venue: International Conference on Pattern Recognition (ICPR)
+  year: 2012
+  highlight: 1
+  pdf: http://www.sciencedirect.com/science/article/pii/0734189X8590163X
+  
+- title: PoseShop: Human Image Database Construction and Personalized Content Synthesis
+  image: chen_12_tvcg.PNG
+  description: We present PoseShop – a pipeline to construct segmented human image database with minimal manual intervention. By downloading, analyzing, and filtering massive amounts of human images....
+  authors: Tao Chen, Ping Tan, Li-Qian Ma, Ming-Ming Cheng, Ariel Shamir, Shi-Min Hu
+  venue: IEEE Transaction on Visualization and Computer Graphics (TVCG)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/tvcg12.pdf
+   
+- title: 3D Reconstruction of Dynamic Scenes with Multiple Handheld Cameras
+  image: Jiang_12_eccv.PNG
+  description: We propose a novel dense depth estimation method which can automatically recover accurate and consistent depth maps from the synchronized video sequences taken by a few handheld cameras. Unlike fixed camera arrays...
+  authors:Hanqing Jiang, Haomin Liu, Ping Tan, Guofeng Zhang, Hujun Bao
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv12_stereo.pdf
+  
+- title: Estimation of Intrinsic Image Sequences from Image+Depth Video
+  image: joonlee_12_eccv.PNG
+  description: We present a technique for estimating intrinsic images from image+depth video, such as that acquired from a Kinect camera. Intrinsic image decomposition in this context has importance in applications like object modeling, in which surface colors need to be recovered without illumination effects. The proposed method is based on two new types of decomposition constraints
+  authors: Kyong Joon Lee, Qi Zhao, Xin Tong, Minmin Gong, Shahram Izadi, Sang Uk Lee, Ping Tan, Stephen Lin
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv12_intrinsic.pdf
+  
+- title: Elevation Angle from Reflectance Monotonicity: Photometric Stereo for General Isotropic Reectances 
+  image: boxinshi_12_eccv.PNG
+  description: This paper exploits the monotonicity of general isotropic re-flectances for estimating elevation angles of surface normal given the azimuth angles. With an assumption that the reflectance includes at least one lobe that is a monotonic function of the angle between the surface normal and half-vector (bisector of lighting and viewing directions), we prove that elevation angles can be uniquely 
+  authors: Boxin Shi, Ping Tan, Yasuyuki Matsushita, Katsushi Ikeuchi
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv12_ps.pdf
+ 
+- title: CoSLAM: Collaborative Visual SLAM in Dynamic Environments
+  image: zou_12_tpami.PNG
+  description: This paper studies the problem of vision-based simultaneous localization and mapping (SLAM) in dynamic environments with multiple cameras. We introduce inter-camera pose estimation and inter-camera mapping to deal with dynamic objects in the localization and mapping process.
+  authors: Danping Zou, Ping Tan
+  venue: IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/pami12_slam.pdf
+  project_page: http://www.cs.sfu.ca/~pingtan/Projects/SLAM/index.htm
+  video: https://youtu.be/WRRAtbl_YlI
+
+- title: Seeing Double Without Confusion: Structure-from-Motion in Highly Ambiguous Scenes
+  image: jiang_12_cvpr.PNG
+  description: We propose a novel optimization criteria based on the idea of ‘missing correspondences’. The global minimum of our optimization objective function is associated with the correct solution. We then design an ef- ficient algorithm for minimization, whose convergence to a local minimum is guaranteed. 
+  authors: Nianjuan Jiang, Ping Tan, Loong-Fah Cheong
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr12_sfm.pdf
+
+- title: A Biquadratic Reflectance Model for Radiometric Image Analysis
+  image: boxinshi_12_cvpr.PNG
+  description:  We propose a compact biquadratic reflectance model to represent the reflectance of a broad class of materials precisely in the low-frequency domain. We validate our model by fitting to both existing parametric models and non-parametric measured data, and show that our model outperforms existing parametric diffuse models. We show applications of reflectometry using general diffuse surfaces and photometric stereo for general isotropic materials
+  authors: Boxin Shi, Ping Tan, Yasuyuki Matsushita, Katsushi Ikeuchi.
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr12_biquadratic.pdf
+
+- title: Video Stabilization with a Depth Camera
+  image: liu_12_cvpr.PNG
+  description: We propose to solve video stabilization with an additional depth sensor such as the Kinect camera. Though the depth image is noisy, incomplete and low resolution, it facilitates both camera motion estimation and frame warping, which makes the video stabilization a much well posed problem. The experiments demonstrate the effectiveness of our algorithm.
+  authors: Shuaicheng Liu, YintingWang, Lu Yuan, Jiajun Bu, Ping Tan, Jian Sun
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr12_stabilization.pdf
+  project_page: http://www.liushuaicheng.org/CVPR2012/index.html
+  video: https://youtu.be/H97LTmDCOrQ
+ 
+- title: A Closed-form Solution to Retinex with Non-local Texture Constraints
+  image: zhao_12_tpami.PNG
+  description: We propose a method for intrinsic image decomposition based on Retinex theory and texture analysis. While most previous methods approach this problem by analyzing local gradient properties, our technique additionally identifies distant pixels with the same reflectance through texture analysis, and uses these non-local reflectance constraints to significantly reduce ambiguity in decomposition
+  authors: Qi Zhao, Ping Tan, Qiang Dai, Li Shen, Enhua Wu, Stephen Lin
+  venue: IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  year: 2012
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/pami12_intrinsic.pdf
+
+- title: Style-Content Separation by Anisotropic Part Scales
+  image: xu_siga10.png
+  description: We perform co-analysis of a set of man-made 3D objects to allow the creation of novel instances derived from the set. We analyze the objects at the part level and treat the anisotropic part scales as a shape style. The co-analysis then allows style transfer to synthesize new objects. The key to co-analysis is part correspondence, where a major challenge is the handling of large style variations and diverse geometric content in the shape set. We propose style-content separation as a means to address this challenge ...
+  authors: Kai Xu, Honghua Li, Hao Zhang, Daniel Cohen-Or, Yueshan Xiong, and Zhiquan Cheng
+  venue: ACM Trans. on Graphics (Proceeding of SIGGRAPH Asia 2010), Volume 29, Number 6, pp. 184:1-184:10
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/xu_siga10_style.pdf
+  project_page: https://sites.google.com/site/kevinkaixu/publications/style
+
+
+- title: Cone Carving for Surface Reconstruction
+  image: shalom_siga10_small.png
+  description: We present cone carving, a novel space carving technique towards topologically correct surface reconstruction from an incomplete scanned point cloud. The technique utilizes the point samples not only for local surface position estimation but also to obtain global visibility information under the assumption that each acquired point is visible from a point laying outside the shape. This enables associating each point with a generalized cone, called the visibility cone, that carves a portion of the outside ambient space of the shape from the inside out.
+  authors: Shy Shalom, Ariel Shamir, Hao Zhang, and Daniel Cohen-Or
+  venue: ACM Trans. on Graphics (Proceeding of SIGGRAPH Asia 2010), Volume 29, Number 6, Article 150
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/shalom_siga10_cone.pdf
+
+- title: Automatic Reconstruction of Tree Skeletal Structures from Point Clouds
+  image: livny_siga10.jpg
+  description: In this paper, we perform active laser scanning of real world vegetation and present an automatic approach that robustly reconstructs skeletal structures of trees, from which full geometry can be generated. The core of our method is a series of {\it global optimizations} that fit skeletal structures to the often sparse, incomplete, and noisy point data. A significant benefit of our approach is its ability to reconstruct multiple overlapping trees simultaneously without segmentation.
+  authors: Yotam Livny, Feilong Yan, Matt Olson, Baoquan Chen, Hao Zhang, and Jihad El-Sana
+  venue: ACM Trans. on Graphics (Proceeding of SIGGRAPH Asia 2010), Volume 29, Number 6, Article 151
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/livny_siga10_tree.pdf
+  project_page: http://web.siat.ac.cn/~vcc/publications/2010/tree_reconstruction/
+
+- title: SmartBoxes for Interactive Urban Reconstruction
+  image: nan_sig10.png
+  description: We introduce an interactive tool which enables a user to quickly assemble an architectural model directly over a 3D point cloud acquired from large-scale scanning of an urban scene. The user loosely defines and manipulates simple building blocks, which we call SmartBoxes, over the point samples. These boxes quickly snap to their proper locations to conform to common architectural structures. The key idea is that the building blocks are smart ...
+  authors: Liangliang Nan, Andrei Sharf, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
+  venue: ACM Trans. on Graphics (Proceeding of SIGGRAPH 2010), Volume 29, Number 4, Article 93
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/nan_sig10_highres.pdf
+  project_page: http://web.siat.ac.cn/~vcc/publications/2010/smartboxes/
+
+- title: Contextual Part Analogies in 3D Objects
+  image: part_analogy_2.png
+  description: We address the problem of finding analogies between parts of 3D objects. By partitioning an object into meaningful parts and finding analogous parts in other objects, not necessarily of the same type, based on a contextual signature, many analysis and modeling tasks could be enhanced ...
+  authors: Lior Shapira, Shy Shalom, Ariel Shamir, Daniel Cohen-Or, and Hao Zhang
+  venue: International Journal of Computer Vision, Vol. 89, No. 1-2, pp. 309-326
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/ijcv10_analogy.pdf
+
+- title: Point Cloud Skeletons via Laplacian-Based Contraction
+  image: cao_smi10.png
+  description: We present an algorithm for curve skeleton extraction via Laplacian-based contraction. Our algorithm can be applied to surfaces with boundaries, polygon soups, and point clouds. We develop a contraction operation that is designed to work on generalized discrete geometry data, particularly point clouds, via local Delaunay triangulation and topological thinning ...
+  authors: Junjie Cao, Andrea Tagliasacchi, Matt Olson, Hao Zhang, and Zhixun Su
+  venue: Proc. of IEEE SMI, pp. 187-197
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/cao_smi10.pdf
+  project_page: https://github.com/ataiya/cloudcontr
+
+- title: Spectral Mesh Processing
+  image: zhang_cgf10.png
+  description: We provide the first comprehensive survey on spectral mesh processing. Spectral methods for mesh processing and analysis rely on eigenvalues, eigenvectors, or eigenspace projections derived from appropriately defined mesh operators to carry out desired tasks ...
+  authors: Hao Zhang, Oliver van Kaick, and Ramsay Dyer
+  venue: Computer Graphics Forum, Volume 29, Number 6, pp. 1865-1894
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zhang_cgf10_spect_survey.pdf
+
+- title: Learning Fourier Descriptors for Computer-Aided Diagnosis of the Supraspinatus
+  image: vanKaick_ar10.png
+  description: Supraspinatus muscle disorders are frequent and debilitating, resulting in pain and a limited range of shoulder motion. The gold standard for diagnosis involves an invasive surgical procedure ... we present a method to classify 3D shapes of the muscle into the relevant pathology groups, based on MRIs. The method learns the Fourier coefficients that best distinguish the different classes ...
+  authors: Oliver van Kaick, Aaron Ward, Ghassan Hamarneh, Mark Schweitzer, and Hao Zhang
+  venue: Academic Radiology, Vol. 17, No. 8, pp. 1040-1049
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/vanKaick_ar10.pdf
+
+- title: A Survey on Shape Correspondence
+  image: vanKaick_star10.png
+  description: We present a review of the correspondence problem targeted towards the computer graphics audience. This survey is motivated by recent developments such as advances in the correspondence of non-rigid or isometric shapes and methods that extract semantic information from the shapes ...
+  authors: Oliver van Kaick, Hao Zhang, Ghassan Hamarneh, Daniel Cohen-Or
+  venue: Eurographics 2010 State-of-the-Art Report, TBA
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/vanKaick_egstar10.pdf
+
+- title: Consensus Skeleton for Non-Rigid Space-Time Registration
+  image: zheng_eg10.png
+  description: We introduce the notion of consensus skeletons for non-rigid space-time registration of a deforming shape. Instead of basing the registration on point features, which are local and sensitive to noise, we adopt the curve skeleton of the shape as a global and descriptive feature for the task. Our method uses no template and only assumes that the skeletal structure of the captured shape remains largely consistent over time ...
+  authors: Qian Zheng, Andrei Sharf, Andrea Tagliasacchi, Baoquan Chen, Hao Zhang, Alla Sheffer, Daniel Cohen-Or
+  venue: Computer Graphics Forum (Proceeding of Eurographics 2010), Volume 29, Number 2, pp. 635-644
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zheng_eg10.pdf
+  
+- title: Ring-Light Photometric Stereo
+  image: zhou_10_eccv.PNG
+  description: We propose a novel algorithm for uncalibrated photometric stereo. While most of previous methods rely on various assumptions on scene properties, we exploit constraints in lighting configurations. We first derive an ambiguous reconstruction by requiring lights to lie on a view centered cone. This reconstruction is upgraded to Euclidean by constraints derived from lights of equal intensity and multiple view geometry.
+  authors: Zhenglong Zhou, Ping Tan
+  venue: European Conference on Computer Vision (ECCV)
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv10.pdf 
+  
+- title: Self-calibrating Photometric Stereo
+  image: zhou_10_eccv.PNG
+  description:We present a self-calibrating photometric stereo method. From a set of images taken from a fixed viewpoint under different and unknown lighting conditions, our method automatically determines a radiometric response function and resolves the generalized bas-relief ambiguity for estimating accurate surface normals and albedos. We show that color and intensity profiles, which are obtained from registered pixels across images, serve as effective cues for addressing these two calibration problems. 
+  authors: Boxin Shi, Yasuyuki Matsushita, Yichen Wei, Chao Xu, Ping Tan
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2010
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv10.pdf 
+
+- title: Surface sampling and the intrinsic Voronoi diagram (Won the Best Paper Award)
+  image: dyer_sgp08.png
+  description: We develop adaptive sampling criteria which guarantee a topologically faithful mesh and demonstrate an improvement and simplification over earlier results, albeit restricted to 2D surfaces. These sampling criteria are based on the strong convexity radius and the injectivity radius ...
+  authors: Ramsay Dyer, Hao Zhang, and Torsten Moeller
+  venue: Computer Graphics Forum (Special Issue of SGP), Volume 27, Number 5, pp. 1431-1439
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/dyer_sgp08.pdf
+
+- title: Deformation-Driven Shape Correspondence
+  image: sgp08_ddsc_2.png
+  description: We present an automatic feature correspondence algorithm capable of handling large, non-rigid shape variations, as well as partial matching ... The search is deformation-driven, prioritized by a self-distortion energy measured on meshes deformed according to a given correspondence ...
+  authors: Hao Zhang, Alla Sheffer, Daniel Cohen-Or, Qingnan Zhou, Oliver van Kaick, and Andrea Tagliasacchi
+  venue: Computer Graphics Forum (Special Issue of SGP), Volume 27, Number 5, pp. 1393-1402
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zhang_sgp08.pdf
+  project_page: http://www.cs.ubc.ca/labs/imager/tr/2008/DeformationDriveShapeCorrespondence/
+
+- title: Convex Hull Covering of Polygonal Scenes for Accurate Collision Detection in Games
+  image: liu_gi08.jpg
+  description: We look at a particular instance of the convex decomposition problem which arises from real-world game development. Given a collection of polyhedral surfaces (possibly with boundaries, holes, and complex interior structures) that model the scene geometry in a game environment, we wish to find a small set of convex hulls ...
+  authors: Rong Liu, Hao Zhang, and James Busby
+  venue: Proc. of Graphics Interface 2008, pp. 203-210
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/liu_zhang_gi08.pdf
+  
+- title: Single Image Tree Modeling 
+  image: tan_08_tog.PNG
+  description: In this paper, we introduce a simple sketching method to generate a realistic 3D tree model from a single image. The user draws at least two strokes in the tree image: the first crown stroke around the tree crown to mark up the leaf region, the second branch stroke from the tree root to mark up the main trunk, and possibly few other branch strokes for refinement. The method automatically generates a 3D tree model including branches and leaves. Branches are synthesized by a growth engine from a small library of elementary subtrees that are pre-defined or built on the fly from the recovered visible branches. 
+  authors: Ping Tan, Tian Fang, Jianxiong Xiao, Peng Zhao, Long Quan
+  venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH Asia
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/sigasia08_tree.pdf  
+  project_page: http://www.cs.sfu.ca/~pingtan/Projects/ImageBasedModeling/index.htm
+  video: https://youtu.be/amD6_i3MVZM  
+  
+- title: Image-based Facade Modeling  
+  image: xiao_08_tog.PNG
+  description: We propose in this paper a semi-automatic image-based approach to fac¸ade modeling that uses images captured along streets and relies on structure from motion to recover camera positions and point clouds automatically as the initial stage for modeling. We start by considering a building fac¸ade as a flat rectangular plane or a developable surface with an associated texture image composited from the multiple visible images
+  authors: Jianxiong Xiao, Tian Fang, Ping Tan, Peng Zhao, Eyal Ofek, Long Quan
+  venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH Asia
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/sigasia08_street.pdf  
+  project_page: http://www.cs.sfu.ca/~pingtan/Projects/ImageBasedModeling/index.htm
+  video: https://youtu.be/amD6_i3MVZM 
+  
+- title: Subpixel Photometric Stereo 
+  image: tan_08_pami.PNG
+  description:In this paper, we propose a method to recover subpixel surface geometry by studying the relationship between the subpixel geometry and the reflectance properties of a surface. We first describe a generalized physically-based reflectance model that relates the distribution of surface normals inside each pixel area to its reflectance function. The distribution of surface normals can be computed from the reflectance functions recorded in photometric stereo images. A convexity measure of subpixel geometry structure is also recovered at each pixel, through an analysis of brightness attenuation due to shadowing. Then, we use the recovered distribution of surface normals and the surface convexity to infer subpixel geometric structures on a surface of homogeneous material by spatially arranging the normals among pixels at a higher resolution than that of the input image 
+  authors: Ping Tan, Stephen Lin, Long Quan
+  venue: IEEE Transaction on Pattern Analysis and Machine Intelligence (TPAMI)
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/pami07.pdf 
+
+- title: Filtering and Rendering of Resolution Dependent Reflectance Models 
+  image: tan_08_tvcg.PNG
+  description:In this work, we propose to represent this resolution-dependent reflectance as a mixture of multiple conventional reflectance models, and present a framework for efficiently rendering the reflectance effects of such mixture models over different resolutions. To rapidly determine reflectance at runtime with respect to resolution, we record the mixture model parameters at multiple resolution levels in mipmaps, and propose a technique to minimize aliasing in the filtering of these mipmaps. This framework can be applied to several widely used parametric reflectance models and can be implemented in graphics hardware for real-time processing, using a presented hardware-accelerated technique for non-linear filtering of mixture model parameters. 
+  authors: Ping Tan, Stephen Lin, Long Quan, Baining Guo, Heung-Yeung Shum
+  venue: IEEE Transaction on Visualization and Computer Graphics (TVCG)
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/tvcg07.pdf
+
+- title: Intrinsic Image Decomposition with Non-Local Texture Cues 
+  image: shen_08_cvpr.PNG
+  description:We present a method for decomposing an image into its intrinsic reflectance and shading components. Different from previous work, our method examines texture information to obtain constraints on reflectance among pixels that may be distant from one another in the image. We observe that distinct points with the same intensity-normalized texture configuration generally have the same reflectance value. The separation of shading and reflectance components should thus be performed in a manner that guarantees these non-local constraints 
+  authors: Li Shen, Ping Tan, Stephen Lin
+  venue: IEEE Conference on Computer Vision and Patten Recognition (CVPR)
+  year: 2008
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr08.pdf
+
+- title: Nonobtuse Remeshing and Decimation
+  image: li_zhang_sgp06.jpg
+  description: We propose an algorithm for guaranteed nonobtuse remeshing and nonobtuse mesh decimation. Our strategy for the remeshing problem is to first convert an input mesh, using a modified Marching Cubes algorithm, into a rough approximate mesh that is guaranteed to be nonobtuse. We then apply iterative "deform-to-fit" ...
+  authors: John Li and Hao Zhang
+  venue: in Proc. of Symposium on Geometry Processing (SGP) 2006 (short paper), pp.235-238
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/li_zhang_sgp06.pdf
+
+- title: Silhouette Extraction in Hough Space
+  image: olson_zhang_eg06.jpg
+  description: We present an efficient silhouette extractor for triangle meshes under perspective projection in the Hough space. The more favorable point distribution in Hough space allows us to obtain significant performance gains over the traditional dual-space based techniques ...
+  authors: Matt Olson and Hao Zhang
+  venue: Computer Graphics Forum (Special Issue on Eurographics 2006), Volume 25, Number 3, pp. 273-282
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/olson_zhang_eg06.pdf
+
+- title: Shape-Based Retrieval of Articulated 3D Models Using Spectral Embedding
+  image: jain_zhang_gmp06.jpg
+  description: We present a spectral approach for robust shape retrieval from databases containing articulated 3D shapes. We show absolute improvement in retrieval performance when conventional shape descriptors are used in the spectral domain on the McGill database of articulated 3D shapes. We also propose a simple eigenvalue-based descriptor ...
+  authors: Varun Jain and Hao Zhang
+  venue: in Proceeding of Geometric Modeling and Processing 2006, pp. 295-308
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/jain_zhang_gmp06.pdf
+
+- title: Spectral Sequencing based on Graph Distance
+  image: liu_zhang_gmp06.jpg
+  description: In this paper, we treat optimal mesh layout generation as a problem of preserving graph distances and propose to use the subdominant eigenvector of a kernel (affinity) matrix for sequencing ...
+  authors: Rong Liu, Hao Zhang, and Oliver van Kaick
+  venue: in Proceeding of Geometric Modeling and Processing 2006 (poster paper), pp. 632-638
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/liu_zhang_gmp06.pdf
+
+- title: Subsampling for Efficient Spectral Mesh Processing
+  image: liu_et_al_cgi06.jpg
+  description: We apply Nystrom method, a sub-sampling and reconstruction technique, to speed up spectral mesh processing. We first relate this method to Kernel Principal Component Analysis (KPCA). This enables us to derive a novel measure in the form of a matrix trace, based soly on sampled data, to quantify the quality of Nystrom approximation ...
+  authors: Rong Liu, Varun Jain, and Hao Zhang
+  venue: in Proceeding of Computer Graphics International 2006, Lecture Notes in Computer Science 4035, H.-P. Seidel, T. Nishita, and Q. Peng, Eds., pp. 172-184
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/liu_cgi06.pdf
+
+- title: Robust 3D Shape Correspondence in the Spectral Domain
+  image: jain_zhang_smi06.jpg
+  description: We present an algorithm for finding a meaningful correspondence between two 3D shapes given as triangle meshes. Our algorithm operates on embeddings of the two shapes in the spectral domain so as to normalize them with respect to uniform scaling, rigid-body transformation and shape bending ...
+  authors: Varun Jain and Hao Zhang
+  venue: in Proceeding of International Conference on Shape Modeling and Applications (SMI) 2006, pp. 118-129
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/jain_zhang_smi06.pdf
+
+- title: Minimum Ratio Contours on Surface Meshes
+  image: clements_zhang_smi06.jpg
+  description: We present a novel approach for discretely optimizing contours on the surface of a triangle mesh. This is achieved through the use of a minimum ratio cycle (MRC) algorithm, where we compute a contour having the minimal ratio between a novel contour energy term and the length of the contour ...
+  authors: Andrew Clements and Hao Zhang
+  venue: in Proceeding of International Conference on Shape Modeling and Applications (SMI) 2006, pp. 26-37
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/clements_zhang_smi06.pdf
+
+- title: Expression-Invariant Face Recognition with Expression Classification
+  image: li_zhang_crv06.jpg
+  description: Facial expression, which changes face geometry, usually has an adverse effect on the performance of a face recognition system. On the other hand, face geometry is a useful cue for recognition. Taking these into account, we utilize the idea of separating geometry and texture information in a face image ...
+  authors: Xiaoxing Li, Greg Mori, and Hao Zhang
+  venue: in Proceeding of Canadian Conference on Computer and Robot Vision (CRV) 2006, pp. 77-83
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/li_crv06.pdf
+  
+- title: Image-based Plant Modeling 
+  image: quan_06_tog.PNG
+  description:In this paper, we propose a semi-automatic technique for modeling plants directly from images. Our image-based approach has the distinct advantage that the resulting model inherits the realistic shape and complexity of a real plant. We designed our modeling system to be interactive, automating the process of shape recovery while relying on the user to provide simple hints on segmentation. Segmentation is performed in both image and 3D spaces, allowing the user to easily visualize its effect immediately 
+  authors: Long Quan, Ping Tan, Gang Zeng, Lu Yuan, Jingdong Wang, Sing Bing Kang
+  venue: ACM Transaction on Graphics(TOG) and Proc. of SIGGRAPH
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/siggraph06.pdf
+
+- title: Separation of Highlight Reflections from Textured Surfaces
+  image: tan_06_cvpr.PNG
+  description:We present a method for separating highlight reflections on textured surfaces. In contrast to previous techniques that use diffuse color information from outside the highlight area to constrain the solution, the proposed method further capitalizes on the spatial distributions of colors to resolve ambiguities in separation that often arise in real images. For highlight pixels in which a clear-cut separation cannot be determined from color space analysis, we evaluate possible separation solutions based on their consistency with diffuse texture characteristics outside the highlight 
+  authors: Ping Tan, Stephen Lin, Long Quan
+  venue: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr06.pdf
+
+- title: Resolution-Enhanced Photometric Stereo
+  image: tan_06_eccv.PNG
+  description: In this work, we propose a technique for resolution-enhanced photometric stereo, in which surface geometry is computed at a resolution higher than that of the input images. To achieve this goal, our method first utilizes a generalized reflectance model to recover the distribution of surface normals inside each pixel. This normal distribution is then used to infer sub-pixel structures on a surface of uniform material by spatially arranging the normals among pixels at a higher resolution according to a minimum description length criterion on 3D textons over the surface 
+  authors: Ping Tan, Stephen Lin, Long Quan
+  venue: European Conference on Computer Vision(ECCV)
+  year: 2006
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv06.pdf    
