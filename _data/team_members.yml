@@ -174,21 +174,16 @@
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
   
-  
-################################# Visiting Students  #################################
-
-
 - name: Zili Yi
   photo: zili.jpg
-  role: Visitor
+  role: Graduate Student
   email: 
   website: http://www.cs.mun.ca/~yz7241/
   number_educ: 0
-  
 
 - name: Manyi Li
   photo: manyi.jpg
-  role: Visitor
+  role: Graduate Student
   email: 
   website: 
   number_educ: 0
