@@ -23,7 +23,10 @@ permalink: /people/
 <div class="col-sm-6 clearfix">
   <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
   <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
-  <{{ member.email }}>
+  
+  {% assign plain_link = 'mailto:' | append: member.email %}
+  {% assign obfuscated_link = plain_link | url_encode | split: '' | reverse | join: '' %}
+  <{{ obfuscated_link }}>
   <ul style="overflow: hidden; padding-left: 20px;">
   
   {% if member.number_educ == 1 %}
