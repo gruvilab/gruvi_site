@@ -20,8 +20,11 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+<div class="col-sm-3 clearfix">
+  <a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a>
+</div>
+
+<div class="col-sm-4 clearfix">
   <h4><a href="{{ member.website }}">{{ member.name }}</a></h4>
   
   <{{ member.email }}>
@@ -142,10 +145,11 @@ permalink: /people/
 {% endif %}
 
 <div class="col-sm-3 clearfix">
+
 <table border="0">
 <center>
 <tr>
-<td><a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left max-width=300px" /></a></td>
+<td><a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left" /></a></td>
 </tr>
 <tr>
 <td><h4><a href="{{ member.website }}">{{ member.name }}</a></h4></td>
