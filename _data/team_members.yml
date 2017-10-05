@@ -72,6 +72,12 @@
   website: http://ws.iat.sfu.ca/
   number_educ: 0
   
+- name: Eugene Fiume
+  photo: eugene.png
+  role: Affiliated Faculty
+  email: 
+  website: https://www.sfu.ca/computing/people/faculty/eugenefiume.html
+  number_educ: 0
 
 - name: Yasutaka Furukawa
   photo: furukawa4.png
