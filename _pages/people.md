@@ -8,11 +8,11 @@ permalink: /people/
 
 ## Gruviers
 
-### Lab Directors
+### Faculty
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
-{% if member.role == "Lab Director" %}
+{% if member.role == "Faculty" %}
 
 {% assign even_odd = number_printed | modulo: 4 %}
 
