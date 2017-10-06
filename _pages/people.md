@@ -23,10 +23,10 @@ permalink: /people/
 <div class="col-sm-2 clearfix">
 
 <div class="row" style="padding-left: 25%;">
-<a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;" /></a>
+<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
 </div>
 
-<h4 style="text-align: center;"><a href="{{ member.website }}">{{ member.name }}</a></h4>
+<h4 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h4>
 
 
 </div>
@@ -61,10 +61,10 @@ permalink: /people/
 <div class="col-sm-2 clearfix">
 
 <div class="row" style="padding-left: 25%;">
-<a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;" /></a>
+<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
 </div>
 
-<h4 style="text-align: center;"><a href="{{ member.website }}">{{ member.name }}</a></h4>
+<h4 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h4>
 
 
 </div>
@@ -98,11 +98,10 @@ permalink: /people/
 <div class="col-sm-2 clearfix">
 
 <div class="row" style="padding-left: 25%;">
-<a  href="{{ member.website }}"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;" /></a>
+<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
 </div>
 
-
-<h4 style="text-align: center;"><a href="{{ member.website }}">{{ member.name }}</a></h4>
+<h4 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h4>
 
 
 </div>

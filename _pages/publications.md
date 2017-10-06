@@ -29,7 +29,7 @@ permalink: /publications/
  <div class="well clearfix">
 
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;" />
 
 <pubtit>{{ publi.title }}</pubtit>
 <em>{{ publi.authors }}</em><br>
@@ -70,9 +70,10 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 
-## Full List
+## Older publications
 
 {% for publi in site.data.publist %}
+{% if publi.highlight == 0 %}
   {% assign currentdate = publi.year | year: "%Y" %}
   {% if currentdate != year %}
 
@@ -90,7 +91,7 @@ permalink: /publications/
 {% assign icons_printed = 0 %}
 {% include pubdetails.html pdf=publi.pdf presentation=publi.presentation project_page=publi.project_page video=publi.video bibtex=publi.bibtex %}
 </p>
-
+{% endif %}
 {% endfor %}
 
 
