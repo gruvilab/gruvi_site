@@ -196,7 +196,7 @@
   margin-right: $navbar-padding-horizontal;
   padding: 9px 10px;
   @include navbar-vertical-align(34px);
-  background-color: transparent;
+  background-color: #78B9E3;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid transparent;
   border-radius: $border-radius-base;
@@ -441,6 +441,8 @@ vertical-align : middle;
   }
 
   .navbar-toggle {
+  margin-top: 149px;
+  margin-bottom: 5px;
     border-color: $navbar-default-toggle-border-color;
     &:hover,
     &:focus {
@@ -453,6 +455,7 @@ vertical-align : middle;
 
   .navbar-collapse,
   .navbar-form {
+margin-top: 89px;
     border-color: $navbar-default-border;
   }
 
