@@ -358,7 +358,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    190px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -384,9 +384,9 @@ $navbar-default-brand-hover-color:         $navbar-default-link-hover-color !def
 $navbar-default-brand-hover-bg:            transparent !default;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           #fff !default;
-$navbar-default-toggle-icon-bar-bg:        $gray-light !default;
-$navbar-default-toggle-border-color:       $gray-lighter !default;
+$navbar-default-toggle-hover-bg:           #344F62 !default;
+$navbar-default-toggle-icon-bar-bg:        #FFFFFF !default;
+$navbar-default-toggle-border-color:       #FFFFFF !default;
 
 
 //=== Inverted navbar
