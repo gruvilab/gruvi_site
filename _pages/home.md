@@ -6,6 +6,9 @@ sitemap: false
 permalink: /
 ---
 
+## Welcome to GrUVi!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elementum odio ex, ac aliquet quam blandit eget. Maecenas vel vestibulum metus. Sed ornare justo risus, sit amet porta nunc porttitor nec. Integer cursus dignissim lacus. Nam pellentesque enim eget consectetur lobortis. Nunc suscipit ex at mauris convallis, sit amet hendrerit enim bibendum.
 
 {% assign number_printed = 0 %}
 {% assign ID = 0 %}
