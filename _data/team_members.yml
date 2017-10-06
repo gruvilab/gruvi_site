@@ -79,6 +79,16 @@
   website: http://ws.iat.sfu.ca/
   number_educ: 0
 
+################################# Postdocs  #################################
+
+
+- name: Ali Mahdavi-Amiri
+  photo: ali.png
+  role: Postdoc
+  email: 
+  website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
+  number_educ: 0
+
 ################################# PhD Students  #################################
   
 - name: Mohsen Kamalzadeh
@@ -193,13 +203,4 @@
   email: 
   website: 
   number_educ: 0
-  
-################################# Postdocs  #################################
-
-
-- name: Ali Mahdavi-Amiri
-  photo: ali.png
-  role: Postdoc
-  email: 
-  website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
-  number_educ: 0
+ 
