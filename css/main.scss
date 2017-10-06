@@ -1,5 +1,12 @@
 ---
 ---
+
+.backg{
+  width: 100%;
+  background-size: auto 500px;
+  background-image: url({{ site.url }}{{ site.baseurl }}/images/SFU_quadrangle.png);
+  background-position: 70% 0%; 
+}
     
 @import "bootstrap";
 
@@ -10,7 +17,7 @@ img { margin-bottom: 24px;
 
 
 body {
-	padding-top: 100px;
+	padding-top: 180px;
 }
 
 figcaption {
