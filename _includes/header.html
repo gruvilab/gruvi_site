@@ -1,4 +1,48 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 100;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    console.log($(window).width() );
+    if((Math.abs(lastScrollTop - st) <= delta) || ($(window).width()>500))
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('#main-nav').fadeOut();
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('#main-nav').fadeIn();
+        }
+    }
+    
+    lastScrollTop = st;
+}
+</script>
+
+<header class="nav-down">
+<div id="main-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
 
   <div class="container-fluid backg">
 	<div class="navbar-header">
@@ -27,3 +71,4 @@
 
 </div> 
 </div>
+</header>
