@@ -107,58 +107,6 @@ firstp {
     border-radius: 3px 3px 3px 3px;
 }
 
-/* Overlay */
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f14444;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 0px;
-    right: 15px;
-    font-size: 40px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 0px;
-    right: 15px;
-  }
-}
-
-.block {
-    height:100px;
-    width:200px;
-    text-align:left;
-}
-.center {
-    margin:auto;
-    background-color:green;
-}
 
 
 
