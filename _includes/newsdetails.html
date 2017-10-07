@@ -14,11 +14,15 @@
 
 <script>
 function openNavD{{ include.number_printed }}() {
+    if ($(window).width()<900)
+	$('#main-nav').fadeOut();
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
 	document.getElementById('myImageNavD{{ include.number_printed }}').src = "{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}";
 }
 
 function closeNavD{{ include.number_printed }}() {
+    if ($(window).width()<900)
+	$('#main-nav').fadeIn();
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "0%";
 }
 
