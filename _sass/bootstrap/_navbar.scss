@@ -212,6 +212,11 @@
   .overlay-content {
     top: 0px;
 }
+.img_logo{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+    }
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -255,7 +260,7 @@
 @media (max-width: 900px) {
   .navbar-collapse,
   .navbar-form {
-	margin-top: 89px;
+	margin-top: 189px;
   }
 }
 
