@@ -11,6 +11,44 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: tex_file_name.bib
 #  if some variable above does not exist, remove the line
+- title: Learning to Predict Part Mobility from a Single Static Snapshot
+  image: hu_siga17_icon3.jpg
+  description: We introduce a method for learning a model for the mobility of parts in 3D objects. Our method allows not only to understand the dynamic function- alities of one or more parts in a 3D object, but also to apply the mobility functions to static 3D models. Specifically, the learned part mobility model can predict mobilities for parts of a 3D object given in the form of a single static snapshot reflecting the spatial configuration of the object parts in 3D space, and transfer the mobility from relevant units in the training data ... 
+  authors:  Ruizhen Hu, Wenchao Li, Oliver van Kaick, Ariel Shamir, Hao Zhang, and Hui Huang
+  venue:  ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia)
+  year: 2017 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf
+  project_page: http://vcc.szu.edu.cn/research/2017/ICON3/
+
+- title: Learning to Group Discrete Graphical Patterns
+  image: zou_siga17_group.png
+  description: We introduce a deep learning approach for grouping discrete patterns common in graphical designs. Our approach is based on a convolutional neural network architecture that learns a grouping measure defined over a pair of pattern elements. Motivated by perceptual grouping principles, the key feature of our network is the encoding of element shape, context, symmetries, and structural arrangements. These element properties are all jointly considered and appropriately weighted in our grouping measure ... 
+  authors:  Zhaoliang Lun, Changqing Zou (joint first author), Haibin Huang, Evangelos Kalogerakis, Ping Tan, Marie-Paule Cani, and Hao Zhang
+  venue:  ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia)
+  year: 2017 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf
+  project_page: http://people.cs.umass.edu/~zlun/papers/PatternGrouping/
+
+- title: DualGAN:&#58; Unsupervised Dual Learning for Image-to-Image Translation
+  image: yi_arx17_dualgan.png
+  description: Conditional Generative Adversarial Networks (GANs) for cross-domain image-to-image translation have made much progress recently. Depending on the task complexity, thousands to millions of labeled image pairs are needed to train a conditional GAN. However, human labeling is expensive, even impractical, and large quantities of data may not always be available. Inspired by dual learning from natural language translation, we develop a novel dual-GAN mechanism, which enables image translators to be trained from two sets of unlabeled images from two domains. In our architecture, the primal GAN learns to translate images from domain U to those in domain V, while the dual GAN learns to invert the task. The closed loop made by the primal and dual tasks allows images from either domain to be translated and then reconstructed. Hence a loss function that accounts for the reconstruction error of images can be used to train the translators. 
+  authors: Zili Yi, Hao Zhang, Ping Tan, and Minglun Gong
+  venue:  Proc. of ICCV
+  year: 2017 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/yi_iccv17_dualGAN.pdf
+
+- title: ExquiMo:&#58; An Exquisite Corpse Tool for Co-creative 3D Shape Modeling
+  image: wr_cadg17_exq.png
+  description: We introduce a shape modeling tool, ExquiMo, which is guided by the idea of improving the creativity of 3D shape designs through collaboration. Inspired by the game of Exquisite Corpse, our tool allocates distinct parts of a shape to multiple players who model the assigned parts in a sequence. Our approach is motivated by the understanding that effective surprise leads to creative outcomes. Hence, to maintain the surprise factor of the output, we conceal the previously modeled parts from the most recent player. Part designs from individual players are fused together to produce an often unexpected, hence creative, end result ... 
+  authors: Warunika Ranaweera, Parmit Chilana, Daniel Cohen-Or, and Hao Zhang
+  venue: International Conference on Computer-Aided Design and Computer Graphics (CAD/Graphics) 
+  year: 2017 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/rana_cg17_exquimo.pdf
+
 - title: Time Slice Video Synthesis by Robust Video Alignment
   image: time slice.png
   description: We propose an easy-to-use and robust system for creating time slice videos from a wide variety of consumer videos. The main technical challenge we address is how to align videos taken at different times with substantially different appearances, in the presence of moving objects and moving cameras with slightly different trajectories. 
@@ -760,7 +798,6 @@
   venue: IEEE transactions on visualization and computer graphics 
   year: 2011 
   highlight: 1
-  pdf: http://ieeexplore.ieee.org/document/6064952/
  
 - title: Unsupervised Co-Segmentation of a Set of Shapes via Descriptor-Space Spectral Clustering
   image: unsupervisedcosegmentation.png
