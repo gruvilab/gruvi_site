@@ -9,7 +9,7 @@ permalink: /
 <script type="text/javascript" language="javascript">
 			$(function() {
 				$('.news').trunk8({
-				  lines: 12
+				  lines: 11
 				});
 			});
 </script>
