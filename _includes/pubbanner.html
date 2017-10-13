@@ -1,6 +1,6 @@
 
 <a href="{{ site.url }}{{ site.baseurl }}/publications/">
-<div class="well">
+
 
 <h4>Publications</h4>
 
@@ -13,10 +13,10 @@
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist limit:10%}
 {% if number_printed == 0 %}
-        <div class="item active" style="width: auto; height: 225px; max-height: 225px;">
+        <div class="item active" style="width: auto; height: 245px; max-height: 245px;">
 {% endif %}
 {% if number_printed != 0 %}
-	<div class="item" style="width: auto; height: 225px; max-height: 225px;">
+	<div class="item" style="width: auto; height: 245px; max-height: 245px;">
 {% endif %}
             <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" alt="Slide {{ number_printed }}" />
         </div>
@@ -26,6 +26,5 @@
 
 
 </div>
-</a>
 
 

@@ -1,5 +1,6 @@
 
-<div class="well">
+
+
 <h4>More News</h4>
      
 {% assign number_printed = 0 %}
@@ -16,7 +17,7 @@
 
 
 <div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ID }}()">
-  <br>{{ article.date }}. <newstit>{{ article.headline }}</newstit><br />
+  {{ article.date }}<br /> <newstit>{{ article.headline }}</newstit><br /> <br />
 </div>
 
  
@@ -26,4 +27,4 @@
 <br><newstit><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #5684A3; font-size: 22px;">... see all News</a></newstit></br>
 
 
-    </div>
+
