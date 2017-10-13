@@ -15,9 +15,9 @@
 {% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 
 
-
+{{ article.date }}<br /> 
 <div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ID }}()">
-  {{ article.date }}<br /> <newstit>{{ article.headline }}</newstit><br /> <br />
+<newstit>{{ article.headline }}</newstit><br /> <br />
 </div>
 
  
