@@ -7,7 +7,7 @@
 {% assign ID = 0 %}
 {% for article in site.data.news%}
 {% assign ID = ID | plus: 1 %}
-{% if article.highlight == 0 and number_printed < 10 %}
+{% if article.highlight == 0 and number_printed < 9 %}
 {% assign number_printed = number_printed | plus: 1 %}
 
 
@@ -23,8 +23,9 @@
  
 {% endif %}
 {% endfor %}
-
-<br><newstit><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #5684A3; font-size: 22px;">... see all News</a></newstit></br>
+<p>
+<newstit><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #5684A3; font-size: 19px;">... see all News</a></newstit>
+</p>
 
 
 
