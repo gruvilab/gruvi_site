@@ -37,7 +37,7 @@ We are an inter-disciplinary team of researchers working in visual computing, in
  <div class="well">
   <newstit class="subhover pointer" onclick="openNavD{{ ID }}()" style="cursor:pointer;">{{ article.headline }}</newstit>
   <p>{{ article.date }}</p>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive subhover pointer" onclick="openNavD{{ ID }}()" width="33%" hspace="10" style="float: left;" />
   <p class="news" style="padding: 0 15px; text-align=justify; text-justify: inter-word;">{{ article.text | strip_html }}</p>
  </div>
 </div>
