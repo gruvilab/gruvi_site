@@ -4,11 +4,24 @@
   highlight: 1
   image: news_1.PNG
 
+- date: October 13, 2017
+  headline: Gruvi welcomes Jon Liu!
+  text: Jon Liu as Gruvi's new MSc student. Jon obtained his Bachelor's degree from National Tsinghua University in computer graphics and since then, he has worked in the industry for many years. He recently immigrated to Canada and started his grad studies at SFU in the summer this year. Jon is interested in robotic 3D vision problems. Welcome Jon!
+  highlight: 0
+  image: jonliu.jpg
+
 - date: October 1, 2017
   headline: Conference co-chairs
   text: GrUVi faculty Yasu Furukawa will be a program co-chair for 3DV 2017, which will held in Qingdao, China between October 10 and 12. Richard Zhang will also be a program co-chair for Computer Graphics International (CGI) 2018, which will be hosted at Bintan Island, Indonesia, June 11-14, 2018.
   highlight: 1
   image: news_3.PNG
+
+
+- date: September 19, 2017
+  headline: Rui Ma's thesis "pass as is"
+  text: Rui has successfully defended his PhD thesis on "Sub-Scene Level Analysis and Synthesis of 3D Indoor Scenes". The thesis and defence has been designated with a "pass as is" distinction by the defence committee members Oliver Deussen (external examiner), Yasu (internal examiner), Ze-Nian (thesis committee members), and Kangkang (chair). Rui Ma also landed a position at Research Scientist at Altumview Systems Inc. Congratulations Rui!
+  highlight: 0
+  image: ruima.png
 
 - date: August 27, 2017
   headline: Warunika wins best paper award
@@ -16,11 +29,33 @@
   highlight: 1
   image: news_2.PNG
 
-- date: July 25, 2017
+- date: August 26, 2017
   headline: SIG Asia and ICCV 2017 papers
   text: The paper "Generative Recursive Autoencoder for Shape Structures (GRASS)" co-authored by Prof. Richard Zhang and former GrUVi member Kai Xu, was selected as one of the six technical papers from SIGGRAPH 2017 for press release. See the press release article <a href="https://www.eurekalert.org/pub_releases/2017-07/afcm-md3071817.php">here</a> and an <a href="https://www.sfu.ca/fas/news-and-outreach/years/2017/grass-a-new-algorithm-for-3d-content-creation-to-be-featured-at-siggraph.html">invited article</a> by Richard Zhang on SFU's official website.
   highlight: 1
   image: news_4.PNG
+
+- date: August 25, 2017
+  headline: Richard keynote talk at CAD/Graphics
+  text: Richard Zhang gave a keynote talk on "Can Machines Learn to Generate 3D Shapes" at the Biannual International Conference on Computer Aided Design and Graphics (CAD/Graphics) in Zhangjiajie, China.
+  highlight: 0
+  image: Richard.jpeg
+
+- date: July 29, 2017
+  headline: Zhaopeng goes to ETH
+  text: Zhaopeng, who successfully defended his PhD thesis earlier this month, will start his postdoc position at ETH. His thesis also received the rare distinction of "pass as is". Previous GrUViers who received such a distinction include Ibraheem Alhashim (2015), Andrea Tagliasacchi (2013), and Oliver van Kaick (2011). Congratulations Zhaopeng!
+  highlight: 0
+  image: zhaopeng.png
+
+- date: July 25, 2017
+  headline: Zhiqhin and Manyi are new Gruviers!
+  text: Gruvi welcomes two new members, Zhiqin Chen and Manyi Li, who will join our group during Fall 2017. Zhiqin is a new master student who obtained his bachelor's degree from Shanghai Jiaotong University, while Manyi is a visiting Ph.D. from Shandong University, China. Welcome!
+  highlight: 0
+
+- date: July 22, 2017
+  headline: Changqing Zou goes to UMIACS
+  text: Postdoc Changqing Zou will take up an Assistant Research Scientist position at the University of Maryland Institute for Advanced Computer Studies (UMIACS). Congratulations Changqing!
+  highlight: 0
 
 - date: May 9, 2017
   headline: Ibraheem speaks at KAUST
