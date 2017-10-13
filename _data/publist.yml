@@ -11,7 +11,52 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: tex_file_name.bib
 #  if some variable above does not exist, remove the line
-  
+- title: Time Slice Video Synthesis by Robust Video Alignment
+  image: time slice.png
+  description: We propose an easy-to-use and robust system for creating time slice videos from a wide variety of consumer videos. The main technical challenge we address is how to align videos taken at different times with substantially different appearances, in the presence of moving objects and moving cameras with slightly different trajectories. 
+  authors: Cui Z, Wang O, Tan P, Wang J.  
+  venue: ACM Transactions on Graphics (SIGGRAPH 2017) 
+  year: 2017 
+  highlight: 1 
+  pdf: http://gruvi.cs.sfu.ca/project/timeslice/files/timeslice-authorversion-small.pdf
+
+- title: Deformation-Driven Shape Correspondence via Shape Recognition
+  image: deformation driven correspondence.png
+  description: Many approaches to shape comparison and recognition start by establishing a shape correspondence. We “turn the table” and show that quality shape correspondences can be obtained by performing many shape recognition tasks.
+  authors: Zhu C, Yi R, Lira W, Alhashim I, Xu K, Zhang H.  
+  venue: ACM Transactions on Graphics (SIGGRAPH 2017) 
+  year: 2017 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zhu_sig17_scsr_small.pdf
+ 
+- title: Co-Locating Style-Defining Elements on 3D Shapes
+  image: colocating style.png
+  description: We introduce a method for co-locating style-defining elements over a set of 3D shapes. Our goal is to translate high-level style descriptions, such as “Ming” or “European” for furniture models, into explicit and localized regions over the geometric models that characterize each style. For each style, the set of style-defining elements is defined as the union of all the elements that are able to discriminate the style. Another property of the style-defining elements is that they are frequently-occurring, reflecting shape characteristics that appear across multiple shapes of the same style.
+  authors: Hu R, Li W, van Kaick O, Huang H, Averkiou M, Cohen-Or D, Zhang H.  
+  venue: ACM Transactions on Graphics 
+  year: 2017 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/style_r.pdf
+ 
+- title: GRASS&#58; Generative Recursive Autoencoders for Shape Structures
+  image: grass.png
+  description: We introduce a novel neural network architecture for encoding and synthesis of 3D shapes, particularly their structures. Our key insight is that 3D shapes are effectively characterized by their hierarchical organization of parts, which reflects fundamental intra-shape relationships such as adjacency and symmetry. We develop a recursive neural net (RvNN) based autoencoder to map a flat, unlabeled, arbitrary part layout to a compact code. 
+  authors: Li J, Xu K, Chaudhuri S, Yumer E, Zhang H, Guibas L.  
+  venue: ACM Transactions on Graphics (SIGGRAPH 2017) 
+  year: 2017 
+  highlight: 1 
+  project_page: http://kevinkaixu.net/projects/grass.html
+  pdf: http://kevinkaixu.net/papers/li_sig17_grass.pdf
+ 
+- title: Polarimetric Multi-View Stereo
+  image: polarimetric.png
+  description: We propose polarimetric multi-view stereo, which combines per-pixel photometric information from polarization with epipolar constraints from multiple views for 3D reconstruction. Polarization reveals surface normal information, and is thus helpful to propagate depth to featureless regions. Polarimetric multi-view stereo is completely passive and can be applied outdoors in uncontrolled illumination, since the data capture can be done simply with either a polarizer or a polarization camera. 
+  authors: Cui Z, Gu J, Shi B, Tan P, Kautz J.  
+  venue: IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 
+  year: 2017 
+  highlight: 1 
+  pdf: http://www.gujinwei.org/pdfs/pmvs.pdf
+
 - title:  Action-Driven 3D Indoor Scene Evolution
   image: ma_siga16_action.png
   description: We introduce a framework for action-driven evolution of 3D indoor scenes, where the goal is to simulate how scenes are altered by human actions, and specifically, by object placements necessitated by the actions. To this end, we develop an action model with each type of action combining information about one or more human poses, one or more object categories, and spatial configurations of object-object and object-human relations for the action. Importantly, all these pieces of information are learned from annotated photos.
@@ -143,7 +188,6 @@
   year: 2016
   highlight: 1
   pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shi_A_Benchmark_Dataset_CVPR_2016_paper.pdf
-  
 
 - title: Automatic Fence Segmentation in Videos of Dynamic Scenes
   image: joyce_16_cvpr.PNG
@@ -153,7 +197,131 @@
   year: 2016
   highlight: 1
   pdf: http://www.juew.org/publication/CVPR16-FenceSeg.pdf 
-  
+
+- title: Deformation-Driven Topology-Varying 3D Shape Correspondence
+  image: dd3dcorrespondence.png
+  description: We present a deformation-driven approach to topology-varying 3D shape correspondence. In this paradigm, the best correspondence between two shapes is the one that results in a minimal-energy, possibly topology-varying, deformation that transforms one shape to conform to the other while respecting the correspondence. Our deformation model, called GeoTopo transform, allows both geometric and topological operations such as part split, duplication, and merging, leading to fine-grained and piecewise continuous correspondence results. The key ingredient of our correspondence scheme is a deformation energy that penalizes geometric distortion, encourages structure preservation, and simultaneously allows topology changes. This is accomplished by connecting shape parts using structural rods, which behave similarly to virtual springs but simultaneously allow the encoding of energies arising from geometric, structural, and topological shape variations. Driven by the combined deformation energy, an optimal shape correspondence is obtained via a pruned beam search. We demonstrate our deformation-driven correspondence scheme on extensive sets of man-made models with rich geometric and topological variation and compare the results to state-of-the-art approaches.
+  authors: Alhashim I, Xu K, Zhuang Y, Cao J, Simari P, Zhang H.  
+  venue: ACM Transactions on Graphics (Proc. of SIGGRAPH Asia) 
+  year: 2015 
+  highlight: 1 
+  project_page: http://gruvi.cs.sfu.ca/project/geotopo/
+  pdf: http://gruvi.cs.sfu.ca/project/geotopo/files/geotopo_SIGA2015_preprint_small.pdf
+  video: https://youtu.be/VqW2tWT5jEA
+ 
+- title: Garment Modeling with a Depth Camera
+  image: garment.png
+  description: We study the modeling of real garments and develop a system that is intuitive to use even for novice users. Our system includes garment component detectors and design attribute classifiers learned from a manually labeled garment image database. In the modeling time, we scan the garment with a Kinect and build a rough shape by KinectFusion from the raw RGBD sequence. The detectors and classifiers will identify garment components (e.g. collar, sleeve, pockets, belt, and buttons) and their design attributes (e.g. falbala collar or lapel collar, hubble-bubble sleeve or straight sleeve) from the RGB images. Our system also contains a 3D deformable template database for garment components. Once the components and their designs are determined, we choose appropriate templates, stitch them together, and fit them to the initial garment mesh generated by KinectFusion. Experiments on various different garment styles consistently generate high quality results.
+  authors: Chen X, Zhou B, Lu F, Wang L, Bi L, Tan P.  
+  venue: ACM Transactions on Graphics (Proc. of SIGGRAPH Asia) 
+  year: 2015 
+  highlight: 1 
+  pdf: http://arts.buaa.edu.cn/papers/SA15-GarmentModeling-AuthorCopy.pdf
+ 
+- title: Dapper&#58; Decompose-and-Pack for 3D Printing
+  image: dapper.png
+  description: We pose the decompose-and-pack or DAP problem, which tightly combines shape decomposition and packing. While in general, DAP seeks to decompose an input shape into a small number of parts which can be efficiently packed, our focus is geared towards 3D printing. The goal is to optimally decompose-and-pack a 3D object into a printing volume to minimize support material, build time, and assembly cost. We present Dapper, a global optimization algorithm for the DAP problem which can be applied to both powder and FDM-based 3D printing. The solution search is top-down and iterative. Starting with a coarse decomposition of the input shape into few initial parts, we progressively pack a pile in the printing volume, by iteratively docking parts, possibly while introducing cuts, onto the pile. Exploration of the search space is via a prioritized and bounded beam search, with breadth and depth pruning guided by local and global DAP objectives. 
+  authors: Chen X, Zhang H, Lin J, Hu R, Lu L, Huang Q, Benes B, Cohen-Or D, Chen B.  
+  venue: ACM Transactions on Graphics (Proc. of SIGGRAPH Asia) 
+  year: 2015 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/chen_siga15_dap.pdf
+ 
+- title: Generalized Cylinder Decomposition
+  image: cylinder.png
+  description: Decomposing a complex shape into geometrically simple primitives is a fundamental problem in geometry processing. We are interested in a shape decomposition problem where the simple primitives sought are generalized cylinders, which are ubiquitous in both organic forms and man-made artifacts. We introduce a quantitative measure of cylindricity for a shape part and develop a cylindricity-driven optimization algorithm, with a global objective function, for generalized cylinder decomposition. As a measure of geometric simplicity and following the minimum description length principle, cylindricity is defined as the cost of representing a cylinder through skeletal and cross-section profile curves. Our decomposition algorithm progressively builds local to non-local cylinders, which form over-complete covers of the input shape. The over-completeness of the cylinder covers ensures a conservative buildup of the cylindrical parts, leaving the final decision on decomposition to global optimization. We solve the global optimization by finding an exact cover, which optimizes the global objective function.
+  authors: Zhou Y, Yin K, Huang H, Zhang H, Gong M, Cohen-Or D.  
+  venue: ACM Transactions on Graphics (Proc. of SIGGRAPH Asia) 
+  year: 2015 
+  highlight: 1 
+  pdf: http://www.math.tau.ac.il/~dcor/articles/2015/generalized.cylinder.pdf
+  video: https://www.youtube.com/watch?v=eqvJeJ0ujMM
+ 
+- title: Foldabilizing Furniture
+  image: foldabilizing.jpg
+  description: We introduce the foldabilization problem for space-saving furniture design. Namely, given a 3D object representing a piece of furniture, our goal is to apply a minimum amount of modification to the object so that it can be folded to save space --- the object is thus foldabilized. We focus on one instance of the problem where folding is with respect to a prescribed folding direction and allowed object modifications include hinge insertion and part shrinking. 
+  authors: Li H, Hu R, Alhashim I, Zhang H.  
+  venue: ACM Transactions on Graphics (Special Issue of SIGGRAPH) 
+  year: 2015 
+  highlight: 1 
+  project_page: http://honghuali.github.io/projects/foldem/
+  pdf: http://honghuali.github.io/projects/foldem/foldem_small.pdf
+  video: https://youtu.be/95dtci3g08s
+ 
+- title: "Interaction Context (ICON)&#58; Towards a Geometric Functionality Descriptor"
+  image: icon.png
+  description: We introduce a contextual descriptor which aims to provide a geometric description of the functionality of a 3D object in the context of a given scene. Differently from previous works, we do not regard functionality as an abstract label or represent it implicitly through an agent. Our descriptor, called interaction context or ICON for short, explicitly represents the geometry of object-to-object interactions. Our approach to object functionality analysis is based on the key premise that functionality should mainly be derived from interactions between objects and not objects in isolation. Specifically, ICON collects geometric and structural features to encode interactions between a central object in a 3D scene and its surrounding objects. These interactions are then grouped based on feature similarity, leading to a hierarchical structure. 
+  authors: Hu R, Zhu C, van Kaick O, Liu L, Shamir A, Zhang H.  
+  venue: ACM Transactions on Graphics (Special Issue of SIGGRAPH) 
+  year: 2015 
+  highlight: 1 
+  project_page: http://gigl.scs.carleton.ca/node/864
+  pdf: http://gigl.scs.carleton.ca/sites/default/files/oliver_van_kaick/icon.pdf
+  video: https://vimeo.com/148262152
+ 
+- title: Simultaneous Video Defogging and Stereo Reconstruction (oral presentation)
+  image: defogging.jpeg
+  description: In our formulation, the depth cues from stereo matching and fog information reinforce each other, and produce superior results than conventional stereo or defogging algorithms. We first improve the photo-consistency term to explicitly model the appearance change due to the scattering effects. The prior matting Laplacian constraint on fog transmission imposes a detail preserving smoothness constraint on the scene depth. We further enforce the ordering consistency between scene depth and fog transmission at neighboring points. 
+  authors: Li Z, Tan P, Tan RT, Zou D, Zhou SZhiying, Cheong L-F.  
+  venue: IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 
+  year: 2015 
+  highlight: 1 
+  pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Li_Simultaneous_Video_Defogging_2015_CVPR_paper.pdf
+  video: https://www.youtube.com/watch?v=uI_E8M86zS4
+ 
+- title: Shape Compaction. New Perspectives in Shape 
+  image: compaction.png
+  description: We cover techniques designed for compaction of shape representations or shape configurations. The goal of compaction is to reduce storage space, a fundamental problem in many application domains.
+  authors: Li H, Zhang H. editors:&#58; M. Breu, A. Bruckstein, P. Maragos, and S. Wuhrer,  
+  year: 2015 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/papers.html
+ 
+- title: Distilled Collections from Textual Image Queries
+  image: distilled.png
+  description: We present a distillation algorithm which operates on a large, unstructured, and noisy collection of internet images returned from an online object query. We introduce the notion of a distilled set, which is a clean, coherent, and structured subset of inlier images. In addition, the object of interest is properly segmented out throughout the distilled set. Our approach is unsupervised, built on a novel clustering scheme, and solves the distillation and object segmentation problems simultaneously.
+  authors: Averbuch-Elor H, Wang Y, Qian Y, Gong M, Kopf J, Zhang H, Cohen-Or D.  
+  venue: Computer Graphics Forum (Special Issue of Eurographics 2015) 
+  year: 2015 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/elor_eg15_distill.pdf
+ 
+- title: Skeleton-Intrinsic Symmetrization of Shapes
+  image: skeletonin.png
+  description: Enhancing the self-symmetry of a shape is of fundamental aesthetic virtue. In this paper, we are interested in recov- ering the aesthetics of intrinsic reflection symmetries, where an asymmetric shape is symmetrized while keeping its general pose and perceived dynamics. The key challenge to intrinsic symmetrization is that the input shape has only approximate reflection symmetries, possibly far from perfect. The main premise of our work is that curve skeletons provide a concise and effective shape abstraction for analyzing approximate intrinsic symmetries as well as symmetrization.
+  authors: Zheng Q, Hao Z, Huang H, Xu K, Zhang H, Cohen-Or D, Chen B.  
+  venue: Computer Graphics Forum (Special Issue of Eurographics 2015) 
+  year: 2015 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zheng_eg15_intsym.pdf
+ 
+- title: Indirect Shape Analysis for 3D Shape Retrieval
+  image: indirect.png
+  description: We introduce indirect shape analysis, or ISA, where a given shape is analyzed not based on geometric or topological features computed directly from the shape itself, but by studying how external agents interact with the shape. The potential benefits of ISA are two-fold. First, agent-object interactions often reveal an objectâ€™s function, which plays a key role in shape understanding. Second, compared to direct shape analysis, ISA, which utilizes pre-selected agents, is less affected by imperfections of, or inconsistencies between, the geometry or topology of the analyzed shapes.
+  authors: Liu Z., Xie C., Bu S., Wang X., Zhang H..  
+  venue: Computer & Graphics (Special Issue of SMI 2014) 
+  year: 2015 
+  highlight: 1 
+ 
+- title: Linear Global Translation Estimation with Feature Tracks 
+  image: linearglobal.png
+  description: This paper derives a novel linear position constraint for cameras seeing a common scene point, which leads to a direct linear method for global camera translation estimation. Unlike previous solutions, this method deals with collinear camera motion and weak image association at the same time. The final linear formulation does not involve the coordinates of scene points, which makes it efficient even for large scale data. We solve the linear equation based on $L_1$ norm, which makes our system more robust to outliers in essential matrices and feature correspondences. We experiment this method on both sequentially captured images and unordered Internet images. The experiments demonstrate its strength in robustness, accuracy, and efficiency. 
+  authors: Cui Z, Jiang N, Tang C, Tan P.  
+  venue: British Machine Vision Conference (BMVC) 
+  year: 2015 
+  highlight: 1 
+  project_page: http://www.bmva.org/bmvc/2015/papers/paper046/index.html
+  pdf: http://www.bmva.org/bmvc/2015/papers/paper046/paper046.pdf
+ 
+- title: Global Structure-from-Motion by Similarity Averaging
+  image: globalmotion.png
+  description: Global structure-from-motion (SfM) methods solve all cameras simultaneously from all available relative motions. It has better potential in both reconstruction accuracy and computation efficiency than incremental methods. However, global SfM is challenging, mainly because of two reasons. Firstly, translation averaging is difficult, since an essential matrix only tells the direction of relative translation. Secondly, it is also hard to filter out bad essential matrices due to feature matching failures. We propose to compute a sparse depth image at each camera to solve both problems. Depth images help to upgrade an essential matrix to a similarity transformation, which can determine the scale of relative translation. Thus, camera registration is formulated as a well-posed similarity averaging problem. Depth images also make the filtering of essential matrices simple and effective. In this way, translation averaging can be solved robustly in two convex L1 optimization problems, which reach the global optimum rapidly. We demonstrate this method in various examples including sequential data, Internet data, and ambiguous data with repetitive scene structures.
+  authors: Cui Z, Tan P.  
+  venue: IEEE International Conference on Computer Vision (ICCV) 
+  year: 2015 
+  highlight: 1 
+  project_page: 
+  video: https://www.youtube.com/watch?v=UzXX9kbSrqg  
 
 - title: Approximate Pyramidal Shape Decomposition
   image: hu_siga14_pym_long.png
@@ -277,6 +445,107 @@
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr14_stabilization.pdf
   project_page: http://www.liushuaicheng.org/CVPR2014/index.html
   video: https://vimeo.com/156073058
+
+- title: Projective Analysis for 3D Shape Segmentation
+  image: projectiveanalysis.png
+  description: We introduce projective analysis for semantic segmentation and labeling of 3D shapes. The analysis treats an input 3D shape as a collection of 2D projections, labels each projection by transferring knowledge from existing labeled images, and back-projects and fuses the labelings on the 3D shape. The image-space analysis involves matching projected binary images of 3D objects based on a novel bi-class Hausdorff distance. 
+  authors: Wang Y, Gong M, Wang T, Cohen-Or D, Zhang H, Chen B.  
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH Asia) 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/wang_siga13_psa.pdf
+
+- title: Layered Analysis of Irregular Facades via Symmetry Maximization
+  image: facadessymmetry.png
+  description: We present an algorithm for hierarchical and layered analysis of irregular facades, seeking a high-level understanding of facade structures. By introducing layering into the analysis, we no longer view a facade as a flat structure, but allow it to be structurally separated into depth layers, enabling more compact and natural interpretations of building facades. 
+  authors: Zhang H, Xu K, Jiang W, Lin J, Cohen-Or D, Chen B.  
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH) 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/zhang_sig13_symax.pdf
+ 
+- title: Co-Hierarchical Analysis of Shape Structures
+  image: cohierarchical.png
+  description: We introduce an unsupervised co-hierarchical analysis of a set of shapes, aimed at discovering their hierarchical part structures and revealing relations between geometrically dissimilar yet functionally equivalent shape parts across the set. The core problem is that of representative co-selection. For each shape in the set, one representative hierarchy (tree) is selected from among many possible interpretations of the hierarchical structure of the shape. Collectively, the selected tree representatives maximize the within-cluster structural similarity among them. We develop an iterative algorithm for representative co-selection. At each step, a novel cluster-and-select scheme is applied to a set of candidate trees for all the shapes. The tree-to-tree distance for clustering caters to structural shape analysis by focusing on spatial arrangement of shape parts, rather than their geometric details. The final set of representative trees are unified to form a structural co-hierarchy. We demonstrate co-hierarchical analysis on families of man-made shapes exhibiting high degrees of geometric and finer-scale structural variabilities.
+  authors: van Kaick O, Xu K, Zhang H, Wang Y, Sun S, Shamir A, Cohen-Or D.  
+  venue: ACM Trans. on Graphics (Proc. SIGGRAPH) 
+  year: 2013 
+  highlight: 1 
+  project_page: http://people.scs.carleton.ca/~olivervankaick/conshier/
+  pdf: http://people.scs.carleton.ca/~olivervankaick/pubs/conshier.pdf
+ 
+- title: L1-Medial Skeleton of Point Cloud
+  image: l1medial.png
+  description: We introduce L1-medial skeleton as a curve skeleton representation for 3D point cloud data. The L1-median is well-known as a robust global center of an arbitrary set of points. We make the key observation that adapting L1-medians locally to a point set representing a 3D shape gives rise to a one-dimensional structure, which can be seen as a localized center of the shape. 
+  authors: Huang H, Wu S, Cohen-Or D, Gong M, Zhang H, Li G, Chen B.  
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH) 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/huang_sig13_l1skel.pdf
+
+- title: Qualitative Organization of Collections of Shapes via Quartet Analysis
+  image: quartet.png
+  description: We present a method for organizing a heterogeneous collection of 3D shapes for overview and exploration. Instead of relying on quantitative distances, which may become unreliable between dissimilar shapes, we introduce a qualitative analysis which utilizes multiple distance measures but only in cases where the measures can be reliably compared. Our analysis is based on the notion of quartets , each defined by two pairs of shapes, where the shapes in each pair are close to each other, but far apart from the shapes in the other pair. Combining the information from many quartets computed across a shape collection using several distance measures, we create a hierarchical structure we call categorization tree of the shape collection. This tree satisfies the topological (qualitative) constraints imposed by the quartets creating an effective organi- zation of the shapes. 
+  authors: Huang S-S, Shamir A, Shen C-H, Zhang H, Sheffer A, Hu S-M, Cohen-Or D.  
+  venue: ACM Trans. on Graphics (Special Issue of SIGGRAPH) 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.tau.ac.il/~dcor/articles/2013/Qualitative-Organization.pdf 
+  video: https://www.youtube.com/watch?v=ABQEAcZGe-I
+ 
+- title: Bilateral Maps for Partial Matching
+  image: bilateral.png
+  description: We introduce the bilateral map, a local shape descriptor whose region of interest is defined by two feature points. Compared to the classical descriptor definition using a single point, the bilateral approach exploits the use of a second point to place more constraints on the selection of the spatial context for feature analysis. This leads to a descriptor where the shape of the region of interest adapts to the context of the two points, making it more refined for shape matching. In particular, we show that our new descriptor is more effective for partial matching, since potentially extraneous regions of the models are selectively ignored owing to the adaptive nature of the bilateral map.
+  authors: van Kaick O, Zhang H, Hamarneh G.  
+  venue: Computer Graphics Forum. to appear 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/vanKaick_cgf13_bimap.pdf
+ 
+- title: New Evaluation Metrics for Mesh Segmentation
+  image: evaluationseg.png
+  description: We propose two novel metrics to support comparison with multiple ground-truth segmentations, which are named Similarity Hamming Distance (SHD) and Adaptive Entropy Increment (AEI). SHD is based on partial similarity correspondences between automatic segmentation and ground-truth segmentations, and AEI measures entropy change when an automatic segmentation is added to a set of different ground-truth segmentations. A group of experiments demonstrates that the metrics are able to provide relatively higher discriminative power and stability when evaluating different hierarchical segmentations, and also provide an effective evaluation more consistent with human perception.
+  authors: Liu Z, Tang S, Bu S, Zhang H.  
+  venue: Computer & Graphics (Special issue of SMI) 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/liu_smi13_metric.pdf
+ 
+- title: Structure-Aware Shape Processing
+  image: structaware.png
+  description: We organize, summarize, and present the key concepts and methodological approaches towards efficient structure-aware shape processing. We discuss common models of structure, their implementation in terms of mathematical formalism and algorithms, and explain the key principles in the context of a number of state-of-the-art approaches. Further, we attempt to list the key open problems and challenges, both at the technical and at the conceptual level, to make it easier for new researchers to better explore and contribute to this topic. Our goal is to both give the practitioner an overview of available structure-aware shape processing techniques, as well as identify future research questions in this important, emerging, and fascinating research area.
+  authors: Mitra N, Wand M, Zhang H, Cohen-Or D, Bokeloh M.  
+  venue: Eurographics State-of-the-art Report (STAR) 
+  year: 2013 
+  highlight: 1 
+  pdf: http://vovakim.com/data//papers/13_SIGACourse_StructAware.pdf
+ 
+- title: Curve Style Analysis in a Set of Shapes
+  image: curvestyleanalysis.png
+  description: The word “style” can be interpreted in so many different ways in so many different contexts. To provide a general analysis and understanding of styles is a highly challenging problem. We pose the open question “how to extract styles from geometric shapes?” and address one instance of the problem. Specifically, we present an unsupervised algorithm for identifying curve styles in a set of shapes. In our setting, a curve style is explicitly represented by a mode of curve features appearing along the 2D silhouettes of the shapes in the set. Unlike previous attempts, we do not rely on any preconceived conceptual characterizations, e.g., via specific shape descriptors, to define what is or is not a style. Our definition of styles is data-dependent ; it depends on the input set but we do not require computing a shape correspondence across the set. We provide an operational definition of curve styles which focuses on separating curve features that represent styles from curve features that are content-revealing. To this end, we develop a novel formulation and associated algorithm for style-content separation. The analysis is based on a feature-shape association matrix (FSM) whose rows correspond to modes of curve features, columns to shapes in the set, and each entry expresses the extent a feature mode is present in a shape. 
+  authors: Li H, Zhang H, Wang Y, Cao J, Shamir A, Cohen-Or D.  
+  venue: Computer Graphics Forum. :toappear 
+  year: 2013 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/li_cgf13_style.pdf
+ 
+- title: Edge-Aware Point Set Resampling
+  image: edgeawareresampling.png
+  description: Points acquired by laser scanners are not intrinsically equipped with normals, which are essential to surface reconstruction and point set rendering using surfels. Normal estimation is notoriously sensitive to noise. Near sharp features, the computation of noise-free normals becomes even more challenging due to the inherent undersampling problem at edge singularities. As a result, common edge-aware consolidation techniques such as bilateral smoothing may still produce erroneous normals near the edges. We propose a resampling approach to process a noisy and possibly outlier-ridden point set in an edge-aware manner. Our key idea is to first resample away from the edges so that reliable normals can be computed at the samples, and then based on reliable data, we progressively resample the point set while approaching the edge singularities. We demonstrate that our Edge-Aware Resampling (EAR) algorithm is capable of producing consolidated point sets with noise-free normals and clean preservation of sharp features. We also show that EAR leads to improved performance of edge-aware reconstruction methods and point set rendering techniques.
+  authors: Huang H, Wu S, Gong M, Cohen-Or D, Ascher U, Zhang H.  
+  venue: ACM Trans. on Graphics 
+  year: 2013 
+  highlight: 1 
+  pdf: http://www.cs.ubc.ca/~ascher/papers/hwgcaz.pdf
+ 
+- title: A Global Linear Method for Camera Pose Registration
+  image: globalregistration.png
+  description: We present a linear method for global camera pose registration from pair wise relative poses encoded in essential matrices. Our method minimizes an approximate geometric error to enforce the triangular relationship in camera triplets. This formulation does not suffer from the typical `unbalanced scale' problem in linear methods relying on pair wise translation direction constraints, i.e. an algebraic error, nor the system degeneracy from collinear motion. In the case of three cameras, our method provides a good linear approximation of the trifocal tensor. It can be directly scaled up to register multiple cameras. The results obtained are accurate for point triangulation and can serve as a good initialization for final bundle adjustment. We evaluate the algorithm performance with different types of data and demonstrate its effectiveness. Our system produces good accuracy, robustness, and outperforms some well-known systems on efficiency.
+  authors: Jiang N, Cui Z, Tan P.  
+  venue: IEEE International Conference on Computer Vision (ICCV) 
+  year: 2013 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~pingtan/Papers/iccv13_sfm.pdf
 
 - title:  Multi-Scale Partial Intrinsic Symmetry Detection
   image: xu_siga12.png
@@ -484,6 +753,116 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/pami12_intrinsic.pdf
 
+- title: Tuner&#58; Principled Parameter Finding for Image Segmentation Algorithms Using Visual Response Surface Exploration
+  image: tuner.png
+  description: In this paper we address the difficult problem of parameter-finding in image segmentation. We replace a tedious manual process that is often based on guess-work and luck by a principled approach that systematically explores the parameter space. Our core idea is the following two-stage technique&#58; We start with a sparse sampling of the parameter space and apply a statistical model to estimate the response of the segmentation algorithm. The statistical model incorporates a model of uncertainty of the estimation which we use in conjunction with the actual estimate in (visually) guiding the user towards areas that need refinement by placing additional sample points. In the second stage the user navigates through the parameter space in order to determine areas where the response value (goodness of segmentation) is high. In our exploration we rely on existing ground-truth images in order to evaluate the "goodness" of an image segmentation technique. We evaluate its usefulness by demonstrating this technique on two image segmentation algorithms&#58; a three parameter model to detect microtubules in electron tomograms and an eight parameter model to identify functional regions in dynamic Positron Emission Tomography scans.
+  authors: Torsney-Weir T, Saad A, Moeller T, Hege H-C, Weber B, Verbavatz J-M.  
+  venue: IEEE transactions on visualization and computer graphics 
+  year: 2011 
+  highlight: 1
+ 
+- title: Unsupervised Co-Segmentation of a Set of Shapes via Descriptor-Space Spectral Clustering
+  image: unsupervisedcosegmentation.png
+  description: We introduce an algorithm for unsupervised co-segmentation of a set of shapes so as to reveal the semantic shape parts and establish their correspondence across the set. The input set may exhibit significant shape variability where the shapes do not admit proper spatial alignment and the corresponding parts in any pair of shapes may be geometrically dissimilar. Our algorithm can handle such challenging input sets since, first, we perform co-analysis in a descriptor space, where a combination of shape descriptors relates the parts independently of their pose, location, and cardinality. Secondly, we exploit a key enabling feature of the input set, namely, dissimilar parts may be "linked" through third-parties present in the set. The links are derived from the pairwise similarities between the parts' descriptors. To reveal such linkages, which may manifest themselves as anisotropic and non-linear structures in the descriptor space, we perform spectral clustering with the aid of diffusion maps. We show that with our approach, we are able to co-segment sets of shapes that possess significant variability, achieving results that are close to those of a supervised approach.
+  authors: Sidi O, van Kaick O, Kleinman Y, Zhang H, Cohen-Or D.  
+  venue: ACM Trans. on Graphics (Proc. of SIGGRAPH Asia) 
+  year: 2011 
+  highlight: 1 
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.444.1075&rep=rep1&type=pdf
+ 
+- title: A Survey on Shape Correspondence
+  image: surveycorrespondence.png
+  description: We review methods designed to compute correspondences between geometric shapes represented by triangle meshes, contours or point sets. This survey is motivated in part by recent developments in space–time registration, where one seeks a correspondence between non-rigid and time-varying surfaces, and semantic shape analysis, which underlines a recent trend to incorporate shape understanding into the analysis pipeline. Establishing a meaningful correspondence between shapes is often difficult because it generally requires an understanding of the structure of the shapes at both the local and global levels, and sometimes the functionality of the shape parts as well. Despite its inherent complexity, shape correspondence is a recurrent problem and an essential component of numerous geometry processing applications. In this survey, we discuss the different forms of the correspondence problem and review the main solution methods, aided by several classification criteria arising from the problem definition. The main categories of classification are defined in terms of the input and output representation, objective function and solution approach. We conclude the survey by discussing open problems and future perspectives 
+  authors: van Kaick O, Zhang H, Hamarneh G, Cohen-Or D.  
+  venue: Computer Graphics Forum 
+  year: 2011 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/vanKaick_cgf11_survey.pdf
+ 
+- title: Photo-Inspired Model-Driven 3D Object Modeling
+  image: photoinspiredmodeling.png
+  description: We introduce an algorithm for 3D object modeling where the user draws creative inspiration from an object captured in a single photograph. Our method leverages the rich source of photographs for creative 3D modeling. However, with only a photo as a guide, creating a 3D model from scratch is a daunting task. We support the modeling process by utilizing an available set of 3D candidate models. Specifically, the user creates a digital 3D model as a geometric variation from a 3D candidate. Our modeling technique consists of two major steps. The first step is a user-guided image-space object segmentation to reveal the structure of the photographed object. The core step is the second one, in which a 3D candidate is automatically deformed to fit the photographed target under the guidance of silhouette correspondence. The set of candidate models have been pre-analyzed to possess useful high-level structural information, which is heavily utilized in both steps to compensate for the ill-posedness of the analysis and modeling problems based only on content in a single image. Equally important, the structural information is preserved by the geometric variation so that the final product is coherent with its inherited structural information readily usable for subsequent model refinement or processing.
+  authors: Xu K, Zheng H, Zhang H, Cohen-Or D, Liu L, Xiong Y.  
+  venue: ACM Transactions on Graphics (SIGGRAPH 2011) 
+  year: 2011 
+  highlight: 1 
+  project_page: http://kevinkaixu.net/projects/photo-inspired.html
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.1880&rep=rep1&type=pdf
+  video: http://kevinkaixu.net/videos/photo-inspired.mov
+ 
+- title: VASE&#58; Volume-Aware Surface Evolution for Surface Reconstruction from Incomplete Point Clouds
+  image: vase.png
+  description: Objects with many concavities are difficult to acquire using laser scanners. The highly concave areas are hard to access by a scanner due to occlusions by other components of the object. The resulting point scan typically suffers from large amounts of missing data. Methods that use surface-based priors rely on local surface estimates and perform well only when filling small holes. When the holes become large, the reconstruction problem becomes severely under-constrained, which necessitates the use of additional reconstruction priors. In this paper, we introduce weak volumetric priors which assume that the volume of a shape varies smoothly and that each point cloud sample is visible from outside the shape. Specifically, the union of view-rays given by the scanner implicitly carves the exterior volume, while volumetric smoothness regularizes the internal volume. We incorporate these priors into a surface evolution framework where a new energy term defined by volumetric smoothness is introduced to handle large amount of missing data. We demonstrate the effectiveness of our method on objects exhibiting deep concavities, and show its general applicability over a broader spectrum of geometric scenario.
+  authors: Tagliasacchi A, Olson M, Zhang H, Hamarneh G, Cohen-Or D.  
+  venue: Computer Graphics Forum (Proceedings of Symposium on Geometry Processing) 
+  year: 2011 
+  highlight: 1 
+  pdf: http://ai2-s2-pdfs.s3.amazonaws.com/9c5a/7f0354f38fb3fe07d3877dd94f031e9e24f0.pdf
+ 
+- title: Point Set Silhouettes via Local Reconstruction
+  image: pointsetsilhouettes.png
+  description: We present an algorithm to compute the silhouette set of a point cloud. Previous methods extract point set silhouettes by thresholding point normals, which can lead to simultaneous over- and under-detection of silhouettes. We argue that additional information such as surface curvature is necessary to resolve these issues.
+  authors: Olson M, Dyer R, Zhang H, Sheffer A.  
+  venue: Shape Modeling International 
+  year: 2011 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/olson_smi11_psil.pdf
+ 
+- title: Symmetry Hierarchy of Man-Made Objects
+  image: symmetryhierarchy.png
+  description: We introduce symmetry hierarchy of man-made objects, a high-level structural representation of a 3D model providing a symmetry-induced, hierarchical organization of the model's constituent parts. We show that symmetry hierarchy naturally implies a hierarchical segmentation that is more meaningful than those produced by local geometric considerations. We also develop an application of symmetry hierarchies for structural shape editing. 
+  authors: Wang Y, Xu K, Li J, Zhang H, Shamir A, Liu L, Cheng Z, Xiong Y.  
+  venue: Computer Graphics Forum (Special Issue of Eurographics 2011) 
+  year: 2011 
+  highlight: 1 
+  project_page: http://www.computer-graphics.cn/~eric/symh.html
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/wang_eg11_symh.pdf
+ 
+- title: Width-Bounded Geodesic Strips for Surface Tiling
+  image: widthbounded.png
+  description: We present an algorithm for computing families of geodesic curves over an open mesh patch to partition the patch into strip-like segments. Specifically, the segments can be well approximated using strips obtained by trimming long, rectangular pieces of material possessing a prescribed width. We call this width-bounded geodesic strip tiling of a curved surface, a problem with practical applications such as the surfacing of curved roofs. 
+  authors: Kahlert J, Olson M, Zhang H.  
+  venue: The Visual Computer 
+  year: 2011 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/kahlert_tvc10.pdf
+ 
+- title: Prior Knowledge for Part Correspondence
+  image: priorknowledge.png
+  description: We stipulate that in these cases, shape correspondence by humans involves recognition of the shape parts where prior knowledge on the parts would play a more dominant role than geometric similarity. We introduce an approach to part correspondence which incorporates prior knowledge imparted by a training set of pre-segmented, labeled models and combines the knowledge with content driven analysis based on geometric similarity between the matched shapes. First, the prior knowledge is learned from the training set in the form of per-label classifiers. Next, given two query shapes to be matched, we apply the classifiers to assign a probabilistic label to each shape face. Finally,by means of a joint labeling scheme, the probabilistic labels are used synergistically with pairwise assignments derived from geometric similarity to provide the resulting part correspondence.
+  authors: van Kaick O., Tagliasacchi A., Sidi O., Zhang H., Cohen-Or D., Wolf L., Hamarneh G..  
+  venue: Computer Graphics Forum (Proc. Eurographics) 
+  year: 2011 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/vanKaick_eg11_knowledge.pdf
+ 
+- title: Sort First Parallel Volume Rendering
+  image: sortfirstrendering.png
+  description: We demonstrate that sort first distributions are not only a viable method of performing data scalable parallel volume rendering, but more importan tly they allow for a range of rendering algorithms and techniques that are not efficient with sort last distributions. Several of these algorithms are discussed and two of them are implemented in a parallel environment&#58; a new improved variant of early ray termination to speed up rendering when volumetric occlusion occurs and a volumetric shadowing technique that produces more realistic and infor mative images based on half angle slicing. Improved methods of distributing the computation of the load balancing and loading portions o f a subdivided data set are also presented. Our detailed test r esults for a typical GPU cluster with distributed memory show that our sort first rendering algorithm outperforms sort last rendering in many scenarios.
+  authors: Molomey B., Ament M., Weiskopf D., Möller T. 
+  venue: IEEE Transactions on Visualization and Computer Graphics 
+  year: 2011 
+  highlight: 1 
+  pdf: http://www.vis.uni-stuttgart.de/~amentmo/docs/tvcg11_dvr.pdf
+ 
+- title: Visual Comparability of 3D Regular Sampling and Reconstruction
+  image: visualcomparability.png
+  description: The Body-Centered Cubic (BCC) and Face-Centered Cubic (FCC) lattices have been analytically shown to be more efficient sampling lattices than the traditional Cartesian Cubic (CC) lattice, but there has been no estimate of their visual comparability. Two perceptual studies (each with N = 12 participants) compared the visual quality of images rendered from BCC and FCC lattices to images rendered from the CC lattice. Images were generated from two signals&#58; the commonly used Marschner-Lobb synthetic function and a computed tomography scan of a fish tail. Observers found that BCC and FCC could produce images of comparable visual quality to CC, using 30-35 percent fewer samples. For the images used in our studies, the L(2) error metric shows high correlation with the judgement of human observers. Using the L(2) metric as a proxy, the results of the experiments appear to extend across a wide range of images and parameter choices.
+  authors: Meng T., Entezari A., Smith B., Weiskopf D., Möller T.
+  venue: IEEE Transactions on Visualization and Computer Graphics 
+  year: 2011 
+  highlight: 1 
+  pdf: http://eprints.cs.univie.ac.at/4201/1/tvcg11_bccvisual.pdf
+ 
+- title: Toward High-Quality Gradient Estimation on Regular Lattices
+  image: highqualitygradient.gif
+  description: We present two methods for accurate gradient estimation from scalar field data sampled on regular lattices. The first method is based on the multidimensional Taylor series expansion of the convolution sum and allows us to specify design criteria such as compactness and approximation power. The second method is based on a Hilbert space framework and provides a minimum error solution in the form of an orthogonal projection operating between two approximation spaces. Both methods lead to discrete filters, which can be combined with continuous reconstruction kernels to yield highly accurate estimators as compared to the current state of the art. We demonstrate the advantages of our methods in the context of volume rendering of data sampled on Cartesian and Body-Centered Cubic lattices. Our results show significant qualitative and quantitative improvements for both synthetic and real data, while incurring a moderate preprocessing and storage overhead.
+  authors: Hossain Z., Alim U.R., Möller T.
+  venue: IEEE Transactions on Visualization and Computer Graphics 
+  year: 2011 
+  highlight: 1 
+  pdf: https://pdfs.semanticscholar.org/0d0b/e75479261a6c30a2a725f22ea2cff106d087.pdf
+
 - title: Style-Content Separation by Anisotropic Part Scales
   image: xu_siga10.png
   description: We perform co-analysis of a set of man-made 3D objects to allow the creation of novel instances derived from the set. We analyze the objects at the part level and treat the anisotropic part scales as a shape style. The co-analysis then allows style transfer to synthesize new objects. The key to co-analysis is part correspondence, where a major challenge is the handling of large style variations and diverse geometric content in the shape set. We propose style-content separation as a means to address this challenge ...
@@ -597,6 +976,151 @@
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv10.pdf 
 
+- title: Tangential Distance Field for Mesh Silhouette Analysis
+  image: tangental.png
+  description: We consider a tangent-space representation of surfaces that maps each point on a surface to the tangent plane of the surface at that point. Such representations are known to facilitate the solution of several visibility problems, in particular, those involving silhouette analysis. In this paper, we introduce a novel class of distance fields for a given surface defined by its tangent planes. At each point in space, we assign a scalar value which is a weighted sum of distances to these tangent planes. We call the resulting scalar field a ‘tangential distance field’ (TDF). When applied to triangle mesh models, the tangent planes become supporting planes of the mesh triangles. The weighting scheme used to construct a TDF for a given mesh and the way the TDF is utilized can be closely tailored to a specific application. At the same time, the TDFs are continuous, lending themselves to standard optimization techniques such as greedy local search, thus leading to efficient algorithms.
+  authors: Olson M, Zhang H.  
+  venue: Computer Graphics Forum 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/olson_zhang_cgf08.pdf
+ 
+- title: Partial Intrinsic Reflectional Symmetry of 3D Shapes
+  image: partialintrinsicsym.png
+  description: While many 3D objects exhibit various forms of global symmetries, prominent intrinsic symmetries which exist only on parts of an object are also well recognized. Such partial symmetries are often seen as more natural compared to a global one, especially on a composite shape. We introduce algorithms to extract partial intrinsic reflectional symmetries (PIRS) of a 3D shape. Given a closed 2-manifold mesh, we develop a voting scheme to obtain an intrinsic reflectional symmetry axis (IRSA) transform, which computes a scalar field over the mesh so as to accentuate prominent IRSAs of the shape. We then extract a set of explicit IRSA curves on the shape based on a refined measure of local reflectional symmetry support along a curve. The iterative refinement procedure combines IRSA-induced region growing and region-constrained symmetry support refinement to improve accuracy and address potential issues due to rotational symmetries in the shape. We show how the extracted IRSA curves can be incorporated into a conventional mesh segmentation scheme so that the implied symmetry cues can be utilized to obtain more meaningful results. We also demonstrate the use of IRSA curves for symmetry-driven part repair.
+  authors: Xu K, Zhang H, Tagliasacchi A, Liu L, Li G, Meng M, Xiong Y.  
+  venue: ACM Trans. on Graphics, (Proceedings of SIGGRAPH Asia 2009) 
+  year: 2009 
+  highlight: 1 
+  project_page: http://kevinkaixu.net/projects/pirs.html
+  video: http://kevinkaixu.net/videos/pirs.mov
+  pdf: http://kevinkaixu.net/papers/xu_siga09_pirs.pdf
+ 
+- title: Segmentation-Based Regularization of Dynamic SPECT Reconstruction
+  image: segbasedreg.png
+  description: Dynamic SPECT reconstruction using a single slow camera rotation is a highly underdetermined problem, which requires the use of regularization techniques to obtain useful results. The dSPECT algorithm (Farncombe et al. 1999) provides temporal but not spatial regularization, resulting in poor contrast and low activity levels in organs of interest, due mostly to blurring. In this paper we incorporate a user-assisted segmentation algorithm (Saad et al. 2008) into the reconstruction process to improve the results. Following an initial reconstruction using the existing dSPECT technique, a user places seeds in the image to indicate regions of interest (ROIs). A random-walk based automatic segmentation algorithm then assigns every voxel in the image to one of the ROIs, based on its proximity to the seeds as well as the similarity between time activity curves (TACs). The user is then able to visualize the segmentation and improve it if necessary. Average TACs are extracted from each ROI and assigned to every voxel in the ROI, giving an image with a spatially uniform TAC in each ROI. This image is then used as initial input to a second run of dSPECT, in order to adjust the dynamic image to better fit the projection data. We test this approach with a digital phantom simulating the kinetics of Tc99m-DTPA in the renal system, including healthy and unhealthy behaviour. Summed TACs for each kidney and the bladder were calculated for the spatially regularized and non-regularized reconstructions, and compared to the true values. The TACs for the two kidneys were noticeably improved in every case, while TACs for the smaller bladder region were unchanged. Furthermore, in two cases where the segmentation was intentionally done incorrectly, the spatially regularized reconstructions were still as good as the non-regularized ones. In general, the segmentation-based regularization improves TAC quality within ROIs, as well as image contrast.
+  authors: Humphries T, Saad A, Celler A, Hamarneh G, Möller T, Trummer M.  
+  venue: Proceedings of 2009 IEEE Nuclear Science Symposium and Medical Imaging Conference 
+  year: 2009 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~hamarneh/ecopy/mic2009.pdf
+ 
+- title: Curve Skeleton Extraction from Incomplete Point Cloud
+  image: curveskeleton.png
+  description: We present an algorithm for curve skeleton extraction from imperfect point clouds where large portions of the data may be missing. Our construction is primarily based on a novel notion of generalized rotational symmetry axis (ROSA) of an oriented point set. Specifically, given a subset S of oriented points, we introduce a variational definition for an oriented point that is most rotationally symmetric with respect to S. Our formulation effectively utilizes normal information to compensate for the missing data and leads to robust curve skeleton computation over regions of a shape that are generally cylindrical. We present an iterative algorithm via planar cuts to compute the ROSA of a point cloud. This is complemented by special handling of non-cylindrical joint regions to obtain a centered, topologically clean, and complete 1D skeleton. We demonstrate that quality curve skeletons can be extracted from a variety of shapes captured by incomplete point clouds. Finally, we show how our algorithm assists in shape completion under these challenges by developing a skeleton-driven point cloud completion scheme.
+  authors: Tagliasacchi A, Zhang H, Cohen-Or D.  
+  venue: ACM Transactions on Graphics, (Proceedings SIGGRAPH 2009) 
+  year: 2009 
+  highlight: 1 
+  pdf: http://www-evasion.imag.fr/people/Franck.Hetroy/Teaching/ProjetsImage/2010/Bib/tagliasacchi_zhang_cohen-or-siggraph2009.pdf
+ 
+- title: Expression-Insensitive 3D Face Recognition using Sparse Representation
+  image: expressioninsensitive.png
+  description: We present a face recognition method based on sparse representation for recognizing 3D face meshes under expressions using low-level geometric features. First, to enable the application of the sparse representation framework, we develop a uniform remeshing scheme to establish a consistent sampling pattern across 3D faces. 
+  authors: Li X, Jia T, Zhang H.  
+  venue: Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR) 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/li_zhang_cvpr09.pdf
+ 
+- title: On Visualization and Reconstruction from Non-Uniform Point Sets using B-splines
+  image: nonuniformbsplines.jpeg
+  description: We present a novel framework for the visualization and reconstruction from non-uniform point sets. We adopt a variational method for the reconstruction of 3D non-uniform data to a uniform grid of chosen resolution. We will extend this reconstruction to an efficient multi-resolution uniform representation of the underlying data. Our multi-resolution representation includes a traditional bottom-up approach and a novel top-down hierarchy for adaptive hierarchical reconstruction. Using a hybrid regularization functional we can improve the reconstruction results. Finally, we discuss further application scenarios and show rendering results to emphasize the effectiveness and quality of our proposed framework. By means of qualitative results and error comparisons we demonstrate superiority of our method compared to competing methods.
+  authors: Vuçini E, Möller T, Gröller E.  
+  venue: Computer Graphics Forum (Proceedings of Eurographics/IEEE-VGTC Symposium on Visualization 2009 (EuroVis 2009)) 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~torsten/Publications/Thesis/vucini.pdf
+ 
+- title: Hue-Preserving Color Blending
+  image: huepreserving.gif
+  description: We propose a new perception-guided compositing operator for color blending. The operator maintains the same rules for achromatic compositing as standard operators (such as the over operator), but it modifies the computation of the chromatic channels. Chromatic compositing aims at preserving the hue of the input colors; color continuity is achieved by reducing the saturation of colors that are to change their hue value. The main benefit of hue preservation is that color can be used for proper visual labeling, even under the constraint of transparency rendering or image overlays. Therefore, the visualization of nominal data is improved. Hue-preserving blending can be used in any existing compositing algorithm, and it is particularly useful for volume rendering. The usefulness of hue-preserving blending and its visual characteristics are shown for several examples of volume visualization.
+  authors: Chuang J, Weiskopf D, Möller T.  
+  venue: EEE Transactions on Visualization and Computer Graphics (Proceedings Visualization / Information Visualization 2009) 
+  year: 2009 
+  highlight: 1
+ 
+- title: High-Quality Volumetric Reconstruction on Optimal Lattices for Computed Tomography
+  image: highqualityreconstruction.png
+  description: Within the context of emission tomography, we study volumetric reconstruction methods based on the Expectation Maximization (EM) algorithm. We show, for the first time, the equivalence of the standard implementation of the EM-based reconstruction with an implementation based on hardware-accelerated volume rendering for nearest-neighbor (NN) interpolation. This equivalence suggests that higher-order kernels should be used with caution and do not necessarily lead to better performance. We also show that the EM algorithm can easily be adapted for different lattices, the body-centered cubic (BCC) one in particular. For validation purposes, we use the 3D version of the Shepp-Logan synthetic phantom, for which we derive closed-form analytical expressions of the projection data.
+  authors: Finkbeiner B, Alim UR, Van De Ville D, Möller T.  
+  venue: Computer Graphics Forum (Proceedings of Eurographics/IEEE-VGTC Symposium on Visualization (EuroVis 2009)) 
+  year: 2009 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~torsten/Publications/Papers/ev09-1.pdf
+ 
+- title: Gabriel meshes and Delaunay edge flips
+  image: gabrielmeshes.png
+  description: We undertake a study of the local properties of 2-Gabriel meshes&#58; manifold triangle meshes each of whose faces has an open Euclidean diametric ball that contains no mesh vertices. We show that, under mild constraints on the dihedral angles, such meshes are Delaunay meshes&#58; the open geodesic circumdisk of each face contains no mesh vertex. The analysis is done by means of the Delaunay edge flipping algorithm and it reveals the details of the distinction between these two mesh structures. In particular we observe that the obstructions which prohibit the existence of Gabriel meshes as homeomorphic representatives of smooth surfaces do not hinder the construction of Delaunay meshes.
+  authors: Dyer R, Zhang H, Möller T.  
+  venue: Proceedings of SIAM/ACM Conference on Geometric and Physical Modeling 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/dyer_gpm09_delgab.pdf
+ 
+- title: Feature-Aligned Shape Texturing
+  image: featurealigned.png
+  description: The essence of a 3D shape can often be well captured by its salient feature curves. In this paper, we explore the use of salient curves in synthesizing intuitive, shape-revealing textures on surfaces. Our texture synthesis is guided by two principles&#58; matching the direction of the texture patterns to those of the salient curves, and aligning the prominent feature lines in the texture to the salient curves exactly. We have observed that textures synthesized by these principles not only fit naturally to the surface geometry, but also visually reveal, even reinforce, the shape's essential characteristics. We call these feature-aligned shape texturing. Our technique is fully automatic, and introduces two novel technical components in vector-field-guided texture synthesis&#58; an algorithm that orients the salient curves on a surface for constrained vector field generation, and a feature-to-feature texture optimization.
+  authors: Xu K, Cohne-Or D, Ju T, Liu L, Zhang H, Zhou S, Xiong Y.  
+  venue: ACM Transactions on Graphics, (Proceedings SIGGRAPH Asia 2009) 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/siga09_fast.pdf
+ 
+- title: Consolidation of Unorganized Point Clouds for Surface Reconstruction
+  image: consolidation.png
+  description: We consolidate an unorganized point cloud with noise, outliers, non-uniformities, and in particular interference between close-by surface sheets as a preprocess to surface generation, focusing on reliable normal estimation. Our algorithm includes two new developments. First, a weighted locally optimal projection operator produces a set of denoised, outlier-free and evenly distributed particles over the original dense point cloud, so as to improve the reliability of local PCA for initial estimate of normals. Next, an iterative framework for robust normal estimation is introduced, where a priority-driven normal propagation scheme based on a new priority measure and an orientation-aware PCA work complementarily and iteratively to consolidate particle normals. The priority setting is reinforced with front stopping at thin surface features and normal flipping to enable robust handling of the close-by surface sheet problem. We demonstrate how a point cloud that is well-consolidated by our method steers conventional surface generation schemes towards a proper interpretation of the input data.
+  authors: Huang H, Li D, Zhang H, Ascher U, Cohen-Or D.  
+  venue: ACM Transactions on Graphics, (Proceedings SIGGRAPH Asia 2009) 
+  year: 2009 
+  highlight: 1 
+  pdf: http://www.cs.ubc.ca/~ascher/papers/hlzac.pdf
+ 
+- title: On sampling lattices with similarity scaling relationships
+  image: onsampling.png
+  description: We provide a method for constructing regular sampling lattices in arbitrary dimensions together with an integer dilation matrix. Subsampling using this dilation matrix leads to a similarity-transformed version of the lattice with a chosen density reduction. These lattices are interesting candidates for multidimensional wavelet constructions with a limited number of subbands.
+  authors: Bergner S., Van De Ville D., Blu T., Möller T..  
+  venue: Proc. of SAMPTA 2009 
+  year: 2009 
+  highlight: 1 
+  pdf: https://hal.archives-ouvertes.fr/hal-00453440/document
+ 
+- title: A Part-Aware Surface Metric for Shape Analysis
+  image: partawaremetric.png
+  description: The main contribution of our work is to bring together these two fundamental concepts&#58; shape parts and surface metric. Specifically, we develop a surface metric that is part-aware. To encode part information at a point on a shape, we model its volumetric context – called the volumetric shape image (VSI) – inside the shape's enclosed volume, to capture relevant visibility information. We then define the part-aware metric by combining an appropriate VSI distance with geodesic distance and normal variation. We show how the volumetric view on part separation addresses certain limitations of the surface view, which relies on concavity measures over a surface as implied by the well-known minima rule. We demonstrate how the new metric can be effectively utilized in various applications including mesh segmentation, shape registration, part-aware sampling and shape retrieval.
+  authors: Liu R, Zhang H, Shamir A, Cohen-Or D.  
+  venue: Computer Graphics Forum (Special Issue of Eurographics 2009) 
+  year: 2009 
+  highlight: 1 
+  pdf: http://www.math.tau.ac.il/~dcor/articles/2009/A-Part-aware-Surface.pdf
+ 
+- title: Tangential Distance Field for Mesh Silhouette Analysis
+  image: tangentialdis.png
+  description: We consider a tangent-space representation of surfaces that maps each point on a surface to the tangent plane of the surface at that point. Such representations are known to facilitate the solution of several visibility problems, in particular, those involving silhouette analysis. In this paper, we introduce a novel class of distance fields for a given surface defined by its tangent planes. At each point in space, we assign a scalar value which is a weighted sum of distances to these tangent planes. We call the resulting scalar field a ‘tangential distance field’ (TDF). When applied to triangle mesh models, the tangent planes become supporting planes of the mesh triangles. The weighting scheme used to construct a TDF for a given mesh and the way the TDF is utilized can be closely tailored to a specific application. At the same time, the TDFs are continuous, lending themselves to standard optimization techniques such as greedy local search, thus leading to efficient algorithms. In this paper, we use four applications to illustrate the benefit of using TDFs&#58; multi-origin silhouette extraction in Hough space, silhouette-based view point selection, camera path planning and light source placement.
+  authors: Olson M, Zhang H.  
+  venue: Computer Graphics Forum 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/olson_zhang_cgf08.pdf
+ 
+- title: The Lattice-Boltzmann Method on Optimal Sampling Lattices
+  image: latticeboltzman.png
+  description: We extend the single relaxation time lattice-Boltzmann method (LBM) to the 3D body-centered cubic (BCC) lattice. We show that the D3bQ15 lattice defined by a 15 neighborhood connectivity of the BCC lattice is not only capable of more accurately discretizing the velocity space of the continuous Boltzmann equation as compared to the D3Q15 Cartesian lattice, it also achieves a comparable spatial discretization with 30 percent less samples. We validate the accuracy of our proposed lattice by investigating its performance on the 3D lid-driven cavity flow problem and show that the D3bQ15 lattice offers significant cost savings while maintaining a comparable accuracy. We demonstrate the efficiency of our method and the impact on graphics and visualization techniques via the application of line-integral convolution on 2D slices as well as the extraction of streamlines of the 3D flow. We further study the benefits of our proposed lattice by applying it to the problem of simulating smoke and show that the D3bQ15 lattice yields more detail and turbulence at a reduced computational cost.
+  authors: Alim UR, Entezari A, Möller T.  
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG) 
+  year: 2009 
+  highlight: 1 
+  pdf: http://www.cs.sfu.ca/~torsten/Publications/Papers/tvcg09_lbm.pdf
+ 
+- title: A tool to create illuminant and reflectance spectra for light-driven graphics and visualization
+  image: illuminantspectra.png
+  description: Full spectra allow the generation of a physically correct rendering of a scene under different lighting conditions. In this article we devise a tool to augment a palette of given lights and material reflectances with constructed spectra, yielding specified colors or spectral properties such as metamerism or objective color constancy. We utilize this to emphasize or hide parts of a scene by matching or differentiating colors under different illuminations. These color criteria are expressed as a quadratic programming problem, which may be solved with positivity constraints. Further, we characterize full spectra of lights, surfaces, and transmissive materials in an efficient linear subspace model by forming eigenvectors of sets of spectra and transform them to an intermediate space in which spectral interactions reduce to simple component-wise multiplications during rendering. The proposed method enhances the user's freedom in designing photo-realistic scenes and helps in creating expressive visualizations. A key application of our technique is to use specific spectral lighting to scale the visual complexity of a scene by controlling visibility of texture details in surface graphics or material details in volume rendering.
+  authors: Bergner S., Drew M.S, Möller T.
+  venue: ACM Trans. Graph 
+  year: 2009 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~mark/ftp/Tog09/tog09.pdf
+
 - title: Surface sampling and the intrinsic Voronoi diagram (Won the Best Paper Award)
   image: dyer_sgp08.png
   description: We develop adaptive sampling criteria which guarantee a topologically faithful mesh and demonstrate an improvement and simplification over earlier results, albeit restricted to 2D surfaces. These sampling criteria are based on the strong convexity radius and the injectivity radius ...
@@ -673,6 +1197,104 @@
   year: 2008
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/cvpr08.pdf
+
+- title: A Mixing Board Interface for Graphics and Visualization Applications
+  image: A Mixing Board Interface for Graphics and Visualization Applications.1.png
+  description: We use a haptically enhanced mixing board with a video projector as an interface to various data visualization tasks. We report results of an expert review with four participants, qualitatively evaluating the board for three different applications&#58; dynamic queries (abstract task), parallel coordinates interface (multi-dimensional combinatorial search), and ExoVis (3D spatial navigation). Our investigation sought to determine the strengths of this physical input given its capability to facilitate bimanual interaction, constraint maintenance, tight coupling of input and output, and other features. 
+  authors: Crider M, Bergner S, Smyth TN, Möller T, Tory MK, Kirkpatrick E., Weiskopf D.  
+  venue: Graphics Interface 2007 
+  year: 2007 
+  highlight: 1 
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.512.5194&rep=rep1&type=pdf
+ 
+- title: Non-Rigid Spectral Correspondence of Triangle Meshes
+  image: 
+  description:  We present an algorithm for finding a meaningful vertex-to-vertex correspondence between two triangle meshes, which is designed to handle general non-rigid transformations. Our algorithm operates on embeddings of the two shapes in the spectral domain so as to normalize them with respect to uniform scaling and rigid-body transformation. Invariance to shape bending is achieved by relying on approximate geodesic point proximities on a mesh to capture its shape. To deal with moderate stretching, we first raise the issue of “eigenmode switching” and discuss heuristics to bring the eigenmodes to alignment. For additional non-rigid discrepancies in the spectral embeddings, we propose to use non-rigid alignment via thin-plate splines. This is combined with a refinement step based on geodesic proximities to improve dense correspondence. We show empirically that our algorithm outperforms previous spectral methods, as well as schemes that compute correspondence in the spatial domain via non-rigid iterative closest points or the use of local shape descriptors, e.g., 3D shape context. Finally, to speed up our algorithm, we examine the effect of using subsampling and Nystrom method.
+  authors: Jain V, Zhang H, van Kaick O.  
+  venue: International Journal on Shape Modeling 
+  year: 2007 
+  highlight: 1
+ 
+- title: Adapting Geometric Attributes for Expression-Invariant 3{D} Face Recognition
+  image: Adapting Geometric Attributes for Expression-Invariant 3{D} Face Recognition..png
+  description: We investigate the use of multiple intrinsic geometric attributes, including angles, geodesic distances, and curvatures, for 3D face recognition, where each face is represented by a triangle mesh, preprocessed to possess a uni- form connectivity. As invariance to facial expressions holds the key to improving recognition performance, we propose to train for the component-wise weights to be applied to each individual attribute, as well as the weights used to combine the attributes, in order to adapt to expression variations. Using the eigenface approach based on the training results and a nearest neighbor classifier, we report recognition results on the expression-rich GavabDB face database and the well-known Notre Dame FRGC 3D database. We also perform a cross validation between the two databases.
+  authors: Li X, Zhang H.  
+  venue: Shape Modeling International 
+  year: 2007 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/li_zhang_smi07.pdf
+ 
+- title: Design as traversal and consequences&#58; An exploration tool for experimental designs
+  image: designastraversal.png
+  description: We present a design space explorer for the space of experimental designs. For many design problems, design decisions are determined by the consequences of the design rather than its elemental parts. To support this need, the explorer is constructed to make the designer aware of design-level options, provide a structured context for design, and provide feedback on the consequences of design decisions. We argue that this approach encourages the designer to consider a wider variety of designs, which will lead to more effective designs overall. In a qualitative study, experiment designers using the explorer were found to consider a wider variety of designs and more designs overall than they reported considering in their normal practice.
+  authors: Jennings C.G, Kirkpatrick A.E.  
+  venue: In Proceedings of Graphics Interface 2007 
+  year: 2007 
+  highlight: 1 
+  pdf: http://cgjennings.ca/papers/jennings_kirkpatrick_gi07.pdf
+ 
+- title: A Spectral Approach to Shape-Based Retrieval of Articulated 3D Models
+  image: spectralshapebasedret.jpg
+  description: We present an approach for robust shape retrieval from databases containing articulated 3D models. Each shape is represented by the eigenvectors of an appropriately defined affinity matrix, forming a spectral embedding which achieves normalization against rigid-body transformations, uniform scaling, and shape articulation (i.e., bending). 
+  authors: Jain V, Zhang H.  
+  venue: Computer Aided Design 
+  year: 2007 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/jain_zhang_cad07.pdf
+ 
+- title: Evaluating user interfaces for stack mode viewing
+  image: evaluatingUIstack.png
+  description: Three interaction techniques were evaluated for scrolling stack mode displays of volumetric data. Two used a scroll-wheel mouse&#58; one used only the wheel, while another used a “click and drag” technique for fast scrolling, leaving the wheel for fine adjustments. The third technique used a Shuttle Xpress jog wheel. In a within-subjects design, nine radiologists searched stacked images for simulated hyper-intense regions on brain, knee, and thigh MR studies. Dependent measures were speed, accuracy, navigation path, and user preference.
+  authors: M. Atkins S, Kirkpatrick AE, Knight A.  
+  venue: In Proceedings of the SPIEMedical Imaging 2007. 
+  year: 2007 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~stella/papers/2007/spie.pdf
+
+- title: Mesh Segmentation via Spectral Embedding and Contour Analysis
+  image: spectralembedcont.png
+  description: We propose a mesh segmentation algorithm via recursive bisection where at each step, a sub-mesh embedded in 3D is first spectrally projected into the plane and then a contour is extracted from the planar embedding. We rely on two operators to compute the projection&#58; the well-known graph Laplacian and a geometric operator designed to emphasize concavity.
+  authors: Liu R, Zhang H.  
+  venue: Computer Graphics Forum (Special Issue of Eurographics 2007) 
+  year: 2007 
+  highlight: 1 
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.150.6311&rep=rep1&type=pdf
+ 
+- title: Delaunay Mesh Construction
+  image: delaunayconst.jpeg
+  description: We present algorithms to produce Delaunay meshes from arbitrary triangle meshes by edge flipping and geometrypreserving refinement and prove their correctness. In particular we show that edge flipping serves to reduce mesh surface area, and that a poorly sampled input mesh may yield unflippable edges necessitating refinement to ensure a Delaunay mesh output. Multiresolution Delaunay meshes can be obtained via constrained mesh decimation. We further examine the usefulness of trading off the geometry-preserving feature of our algorithm with the ability to create fewer triangles. We demonstrate the performance of our algorithms through several experiments.
+  authors: Dyer R, Zhang H, Möller T..  
+  venue: Proc. of Eurographics Symposium on Geometry Processing 
+  year: 2007 
+  highlight: 1 
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.641.6759&rep=rep1&type=pdf
+ 
+- title: Contour Correspondence via Ant Colony Optimization
+  image: contourcorrespondence.png
+  description: We formulate contour correspondence as a Quadratic Assignment Problem (QAP), incorporating proximity information. By maintaining the neighborhood relation between points this way, we show that better matching results are obtained in practice. We propose the first Ant Colony Optimization (ACO) algorithm specifically aimed at solving the QAP-based shape correspondence problem. 
+  authors: van Kaick O, Hamarneh G, Zhang H, Wighton P.  
+  venue: Proc. Pacific Graphics 
+  year: 2007 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/vanKaick_aco.pdf
+ 
+- title: Non-Rigid Spectral Correspondence of Triangle Meshes
+  image: nonrigidcorres.jpg
+  description: We present an algorithm for finding a meaningful vertex-to-vertex correspondence between two triangle meshes, which is designed to handle general non-rigid transformations. Our algorithm operates on embeddings of the two shapes in the spectral domain so as to normalize them with respect to uniform scaling and rigid-body transformation. Invari-ance to shape bending is achieved by relying on approximate geodesic point proximities on a mesh to capture its shape.
+  authors: Jain V, Zhang H, van Kaick O.  
+  venue: International Journal on Shape Modeling 
+  year: 2007 
+  highlight: 1 
+  pdf: https://pdfs.semanticscholar.org/9368/a86aa592e3e0d481b4cc7bb37a1c5cca24cf.pdf
+ 
+- title: Voronoi-Delaunay Duality and Delaunay Meshes
+  image: voronal.png
+  description: We define a Delaunay mesh to be a manifold triangle mesh whose edges form an intrinsic Delaunay triangulation or iDT of its vertices, where the triangulated domain is the piecewise flat mesh surface. We show that meshes constructed from a smooth surface by taking an iDT or a restricted Delaunay triangulation, do not in general yield a Delaunay mesh.
+  authors: Dyer R, Zhang H, Möller T..  
+  venue: ACM Symposium on Solid and Physical Modeling 
+  year: 2007 
+  highlight: 1 
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.2492&rep=rep1&type=pdf
 
 - title: Nonobtuse Remeshing and Decimation
   image: li_zhang_sgp06.jpg
@@ -772,3 +1394,75 @@
   year: 2006
   highlight: 1
   pdf: http://www.cs.sfu.ca/~pingtan/Papers/eccv06.pdf    
+
+- title: A practical approach to Spectral Volume Rendering
+  image: practitionalrendering.png
+  description: To make a spectral representation of color practicable for volume rendering, a new low-dimensional subspace method is used to act as the carrier of spectral information. With that model, spectral light material interaction can be integrated into existing volume rendering methods at almost no penalty. In addition, slow rendering methods can profit from the new technique of postillumination-generating spectral images in real-time for arbitrary light spectra under a fixed viewpoint. Thus, the capability of spectral rendering to create distinct impressions of a scene under different lighting conditions is established as a method of real-time interaction.
+  authors: Bergner S, Möller T, Tory M, Drew MS.  
+  venue: IEEE Trans. on Vis. and Comp. Graphics 
+  year: 2005 
+  highlight: 1 
+  pdf: https://www.cs.sfu.ca/~mark/ftp/Tvcg05/tvcg05.pdf
+ 
+- title: Robust 2{D} Shape Correspondence using Geodesic Shape Context
+  image: robust2d.png
+  description: We present a robust shape descriptor for points along a 2D contour, based on the curvature distribution collected over bins arranged geodesically along the contour. Convolution, binning and hysteresis thresholding of curvatures are applied to render the descriptor more robust against noise and non-rigid shape deformation. Once the shape descriptor is computed for every point or feature vertex of the two shapes to be matched, a one-to-one correspondence can be quickly established through best matching of the descriptors, aided by a proximity heuristic.
+  authors: Jain V, Zhang H.  
+  venue: Proc. of Pacific Graphics 
+  year: 2005 
+  highlight: 1 
+  pdf: https://pdfs.semanticscholar.org/0ad8/2b222a7af60c6defee815294d90d96697065.pdf
+ 
+- title: Using the Physics-Based Rendering Toolkit (pbrt) for Medical Reconstruction
+  image: usingphysicbased.png
+  description: In this paper we cast the problem of tomography in the realm of computer graphics. By using PBRT (physically based rendering toolkit) we create a scripting environment that simplifies the programming of tomography algorithms such as Maximum-Likelihood Expectation Maximization (ML-EM) or Simultaneous Algebraic Reconstruction Technique (SART, a deviant of ART).
+  authors: Bergner S, Dagenais E, Möller T, Celler A.  
+  venue: IEEE Nuclear Science Symposium and Medical Imaging Conference Record 
+  year: 2005 
+  highlight: 1 
+  pdf: http://eprints.cs.univie.ac.at/4977/1/2005_-_using_the_physical-based.pdf
+ 
+- title: A generic software framework for the gpu volume rendering pipeline
+  image: genericframework.png
+  description: We use volume graphics for realistic image synthesis taking into account aspects of visual perception by means of real-time high dynamic range tone mapping. We propose a software architecture that embeds the volume rendering pipeline by using object-oriented design patterns, layers, and the concept of a shared application state.
+  authors: Vollrath JE, Weiskopf D, Ertl T.  
+  venue: In Proc. Vision, Modeling, and Visualization 
+  year: 2005 
+  highlight: 1 
+  pdf: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.70.9935&rep=rep1&type=pdf
+ 
+- title: Particle and Texture Based Spatiotemporal Visualization of Time-Dependent Vector Fields
+  image: particleandtexture.png
+  description: We propose a hybrid particle and texture based approach for the visualization of time-dependent vector fields. The underlying space-time framework builds a dense vector field representation in a two-step process&#58; 1) particle-based forward integration of trajectories in spacetime for temporal coherence, and 2) texture-based convolution along another set of paths through the spacetime for spatially correlated patterns.
+  authors: Weiskopf D, al et.  
+  venue: 
+  year: 2005 
+  highlight: 1 
+  pdf: https://pdfs.semanticscholar.org/b011/e267632ead118dc9ae10c0d62d16e417fa24.pdf
+ 
+- title: Spatiotemporal-Chromatic Structure of Natural Scenes
+  image: spatiotemporal.png
+  description: We investigate the implications of a unified spatiotemporal-chromatic basis for compression and reconstruction of image sequences. Different adaptive methods (PCA and ICA) are applied to generate basis functions. While typically such bases with spatial and temporal extent are investigated in terms of their correspondence to human visual perception, here we are interested in their applicability to multimedia encoding. The performance of the extracted spatiotemporal-chromatic patch bases is evaluated in terms of quality of reconstruction with respect to their potential for data compression. The results discussed here are intended to provide another path towards perceptually-based encoding of visual data by examining the interplay of chromatic features with spatiotemporal ones in data reduction.
+  authors: Bergner S, Drew MS.  
+  venue: Proc. of IEEE Int. Conf. on Img. Proc 
+  year: 2005 
+  highlight: 1 
+  pdf: https://pdfs.semanticscholar.org/67d2/7161d19c442eddf0e4a7b4c904ffbee11f7a.pdf
+ 
+- title: Visualization in the Einstein Year 2005&#58; A Case Study on Explanatory and Illustrative Visualization of Relativity and Astrophysics
+  image: einstein.gif
+  description: In this application paper, we report on over fifteen years of experience with relativistic and astrophysical visualization, which has been culminating in a substantial engagement for visualization in the Einstein Year 2005 - the 100/sup th/ anniversary of Einstein's publications on special relativity, the photoelectric effect, and Brownian motion. This paper focuses on explanatory and illustrative visualizations used to communicate aspects of the difficult theories of special and general relativity, their geometric structure, and of the related fields of cosmology and astrophysics. We discuss visualization strategies, motivated by physics education and didactics of mathematics, and describe what kind of visualization methods have proven to be useful for different types of media, such as still images in popular-science magazines, film contributions to TV shows, oral presentations, or interactive museum installations. 
+  authors: Weiskopf D, Borchers M, Ertl T, Falk M, Fechtig O, Frank R, Grave F, King A, Kraus U, Muller T et al..  
+  venue: Visualization Conference, IEEE 
+  year: 2005 
+  highlight: 1 
+  pdf: http://www.vis.uni-stuttgart.de/uploads/tx_vispublications/vis05-weiskopf-relativity.pdf
+ 
+- title: Texture-Based Visualization of Uncertainty in Flow Fields
+  image: texturebasedvis.png
+  description: We present two novel texture-based techniques to visualize uncertainty in time-dependent 2D flow fields. Both methods use semi-Lagrangian texture advection to show flow direction by streaklines and convey uncertainty by blurring these streaklines. The first approach applies a cross advection perpendicular to the flow direction. The second method employs isotropic diffusion that can be implemented by Gaussian filtering. Both methods are derived from a generic filtering process that is incorporated into the traditional texture advection pipeline. Our visualization methods allow for a continuous change of the density of flow representation by adapting the density of particle injection. All methods can be mapped to efficient GPU implementations. Therefore, the user can interactively control all important characteristics of the system like particle density, error influence, or dye injection to create meaningful illustrations of the underlying uncertainty. Even though there are many sources of uncertainties, we focus on uncertainty that occurs during data acquisition. We demonstrate the usefulness of our methods for the example of real-world fluid flow data measured with the particle image velocimetry (PIV) technique. Furthermore, we compare these techniques with an adapted multi-frequency noise approach.
+  authors: Daniel RBotchen, Ertl T.  
+  venue: In Proceedings of IEEE Visualization 2005 
+  year: 2005 
+  highlight: 1 
+  pdf: http://www.vis.uni-stuttgart.de/~weiskopf/publications/vis05_uncertainty.pdf
