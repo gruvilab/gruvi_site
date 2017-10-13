@@ -6,9 +6,17 @@ sitemap: false
 permalink: /
 ---
 
+<script type="text/javascript" language="javascript">
+			$(function() {
+				$('.news').trunk8({
+				  lines: 12
+				});
+			});
+</script>
+
 ## Welcome to GrUVi!
 <p align="justify">
-We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, machine learning, natural phenomenon, and shape analysis. Our research works frequently appear in top venues such as SIGGRAPH (more than 80 papers by our five faculty), CVPR, and ICCV (we rank <a href="http://csrankings.org/#/index?vision&graph">#19 in the world in terms of top publications in computer graphics and computer vision</a>, as of 10/2017) and we collaborate widely with the industry and academia (e.g., Adobe Research, Google, MSRA, Princeton, Stanford, and Washington). Our faculty and students have won numerous honours and awards, including <a href="https://rsc-src.ca/en/fellows">FRSC</a>, <a href="http://graphicsinterface.org/awards/alain-fournier/">Alain Fournier Best Thesis Award</a>, Google Faculty Award, TR35@Singapore, <a href="http://graphicsinterface.org/awards/alain-fournier/">NSERC Discover Accelerator</a>, and six best paper awards from ECCV, SCA, SGP, etc. Some GrUVi graduates went on to take up faculty positions in Canada, the US, and Asia, while others now work at companies including Apple, EA, Facebook, Google, IBM, and Microsoft.
+We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, machine learning, natural phenomenon, and shape analysis. Our research works frequently appear in top venues such as SIGGRAPH, CVPR, and ICCV (we rank <a href="http://csrankings.org/#/index?vision&graph">#19 in the world in terms of top publications in computer graphics and computer vision</a>, as of 10/2017) and we collaborate widely with the industry and academia (e.g., Adobe Research, Google, MSRA, Princeton, Stanford, and Washington). Our faculty and students have won numerous honours and awards, including <a href="https://rsc-src.ca/en/fellows">FRSC</a>, <a href="http://graphicsinterface.org/awards/alain-fournier/">Alain Fournier Best Thesis Award</a>, Google Faculty Award, TR35@Singapore, <a href="http://graphicsinterface.org/awards/alain-fournier/">NSERC Discover Accelerator</a>, and six best paper awards from ECCV, SCA, SGP, etc. Gruvi alumni went on to take up faculty positions in Canada, the US, and Asia, while others now work at companies including Apple, EA, Facebook, Google, IBM, and Microsoft.
 </p>
 
 {% assign number_printed = 0 %}
@@ -30,7 +38,7 @@ We are an inter-disciplinary team of researchers working in visual computing, in
   <newstit>{{ article.headline }}</newstit>
   <p>{{ article.date }}</p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left;" />
-  <p style="padding: 0 15px; text-align=justify; text-justify: inter-word;">{{ article.text | truncatewords: 35 | strip_html }}</p>
+  <p class="news" style="padding: 0 15px; text-align=justify; text-justify: inter-word;">{{ article.text | strip_html }}</p>
  </div>
 </div>
 
