@@ -34,8 +34,8 @@ We are an inter-disciplinary team of researchers working in visual computing, in
 {% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 
 <div class="col-sm-6 clearfix">
- <div class="well subhover pointer" onclick="openNavD{{ ID }}()" style="cursor:pointer;">
-  <newstit>{{ article.headline }}</newstit>
+ <div class="well">
+  <newstit class="subhover pointer" onclick="openNavD{{ ID }}()" style="cursor:pointer;">{{ article.headline }}</newstit>
   <p>{{ article.date }}</p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive" width="33%" hspace="10" style="float: left;" />
   <p class="news" style="padding: 0 15px; text-align=justify; text-justify: inter-word;">{{ article.text | strip_html }}</p>
