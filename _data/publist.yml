@@ -760,7 +760,7 @@
   venue: IEEE transactions on visualization and computer graphics 
   year: 2011 
   highlight: 1
-  paper: http://ieeexplore.ieee.org/document/6064952/
+  pdf: http://ieeexplore.ieee.org/document/6064952/
  
 - title: Unsupervised Co-Segmentation of a Set of Shapes via Descriptor-Space Spectral Clustering
   image: unsupervisedcosegmentation.png
