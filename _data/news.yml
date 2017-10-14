@@ -12,7 +12,7 @@
 
 - date: October 1, 2017
   headline: Conference co-chairs
-  text: GrUVi faculty Yasu Furukawa will be a program co-chair for 3DV 2017, which will held in Qingdao, China between October 10 and 12. Richard Zhang will also be a program co-chair for Computer Graphics International (CGI) 2018, which will be hosted at Bintan Island, Indonesia, June 11-14, 2018.
+  text: GrUVi faculty Yasu Furukawa will be a program co-chair for 3DV 2017, which will be held in Qingdao, China between October 10 and 12. Richard Zhang will also be a program co-chair for Computer Graphics International (CGI) 2018, which will be hosted at Bintan Island, Indonesia, June 11-14, 2018.
   highlight: 1
   image: news_3.PNG
 
@@ -25,12 +25,12 @@
 
 - date: August 27, 2017
   headline: Warunika wins best paper award
-  text: An Exquisite Corpse Tool for Collaborative 3D Shape Design", co-authored by Warunika, Parmit Chilana, Daniel Cohen-Or, and Richard Zhang won a best paper award at the recent CAD/Graphics conference. This work was part of Warunika's MSc thesis; she graduated in Dec 2016 and is now at IBM.
+  text: "An Exquisite Corpse Tool for Collaborative 3D Shape Design", co-authored by Warunika, Parmit Chilana, Daniel Cohen-Or, and Richard Zhang won a best paper award at the recent CAD/Graphics conference. This work was part of Warunika's MSc thesis; she graduated in Dec 2016 and is now at IBM.
   highlight: 1
   image: news_2.PNG
 
 - date: August 26, 2017
-  headline: SIG Asia and ICCV 2017 papers
+  headline: GRASS featured at SIG'17
   text: The paper "Generative Recursive Autoencoder for Shape Structures (GRASS)" co-authored by Prof. Richard Zhang and former GrUVi member Kai Xu, was selected as one of the six technical papers from SIGGRAPH 2017 for press release. See the press release article <a href="https://www.eurekalert.org/pub_releases/2017-07/afcm-md3071817.php">here</a> and an <a href="https://www.sfu.ca/fas/news-and-outreach/years/2017/grass-a-new-algorithm-for-3d-content-creation-to-be-featured-at-siggraph.html">invited article</a> by Richard Zhang on SFU's official website.
   highlight: 1
   image: news_4.PNG
