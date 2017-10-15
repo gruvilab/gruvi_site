@@ -1,31 +1,47 @@
-#- title: "Full title name"
+# To insert a new publication, please:
+# copy the form below;
+# paste it below;
+# remove # characters, which marks the start of a comment;
+# change contents accordingly
+#  if some variable (pdf,presentation,project_page,video,bibtex) does not exist, remove the corresponding line
+#  Please make sure to preserve the identation, as it is used to parse the file correctly. Also please notice that the characters >- are important to help us escape : and - characters, which are otherwise control characters for the parser.
+#
+#- title: >-
+#    Full title name
 #  image: publication_photo_name.{png,jpg}
-#  description: "Full description text"
+#  description: >-
+#    Full description text
 #  authors: A First, B Second, C Third
-#  venue: Full conference name
+#  venue: >-
+#    Full conference name
 #  year: yyyy
 #  highlight: 0 or 1
-#  pdf: pdf_file_name.pdf
-#  presentation: ppt_file_name.ppt
+#  pdf: https://www.google.ca/full_link_to_pdf_file
+#  presentation: ppt_file_name.ppt {the presentation should be uploaded directly to the presentations folder}
 #  project_page: https://www.google.ca/link_to_project_page
 #  video: https://www.youtube.com/link_to_youtube_video
-#  bibtex: tex_file_name.bib
-#  if some variable above does not exist, remove the line
-- title: Learning to Predict Part Mobility from a Single Static Snapshot
+#  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
+- title: >-
+    Learning to Predict Part Mobility from a Single Static Snapshot
   image: hu_siga17_icon3.jpg
-  description: We introduce a method for learning a model for the mobility of parts in 3D objects. Our method allows not only to understand the dynamic function- alities of one or more parts in a 3D object, but also to apply the mobility functions to static 3D models. Specifically, the learned part mobility model can predict mobilities for parts of a 3D object given in the form of a single static snapshot reflecting the spatial configuration of the object parts in 3D space, and transfer the mobility from relevant units in the training data ... 
+  description: >-
+    We introduce a method for learning a model for the mobility of parts in 3D objects. Our method allows not only to understand the dynamic function- alities of one or more parts in a 3D object, but also to apply the mobility functions to static 3D models. Specifically, the learned part mobility model can predict mobilities for parts of a 3D object given in the form of a single static snapshot reflecting the spatial configuration of the object parts in 3D space, and transfer the mobility from relevant units in the training data ... 
   authors:  Ruizhen Hu, Wenchao Li, Oliver van Kaick, Ariel Shamir, Hao Zhang, and Hui Huang
-  venue:  ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia)
+  venue: >-
+    ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia)
   year: 2017 
   highlight: 1 
   pdf: http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf
   project_page: http://vcc.szu.edu.cn/research/2017/ICON3/
 
-- title: Learning to Group Discrete Graphical Patterns
+- title: >-
+    Learning to Group Discrete Graphical Patterns
   image: zou_siga17_group.png
-  description: We introduce a deep learning approach for grouping discrete patterns common in graphical designs. Our approach is based on a convolutional neural network architecture that learns a grouping measure defined over a pair of pattern elements. Motivated by perceptual grouping principles, the key feature of our network is the encoding of element shape, context, symmetries, and structural arrangements. These element properties are all jointly considered and appropriately weighted in our grouping measure ... 
+  description: >-
+    We introduce a deep learning approach for grouping discrete patterns common in graphical designs. Our approach is based on a convolutional neural network architecture that learns a grouping measure defined over a pair of pattern elements. Motivated by perceptual grouping principles, the key feature of our network is the encoding of element shape, context, symmetries, and structural arrangements. These element properties are all jointly considered and appropriately weighted in our grouping measure ... 
   authors:  Zhaoliang Lun, Changqing Zou (joint first author), Haibin Huang, Evangelos Kalogerakis, Ping Tan, Marie-Paule Cani, and Hao Zhang
-  venue:  ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia)
+  venue: >-
+    ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia)
   year: 2017 
   highlight: 1 
   pdf: http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf
