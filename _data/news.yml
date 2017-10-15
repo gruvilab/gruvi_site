@@ -1,12 +1,29 @@
+#To add a new news item, please copy the form below, remove # characters and change the contents accordingly.
+#It is important to preserve the exact same syntax and identation.
+#The characters >- transform everything on the next line on a string, allowing us to escape : and - characters normaly, which otherwise are control characters on yml files.
+#
+#
+#- date: October 13, 2017
+#  headline: >-
+#    SIG Asia and ICCV 2017 papers
+#  text: >-
+#    Op dit plein stond het hoofdkantoor van de NIROM: Nederlands Indische Radio Omroep
+#  highlight: 1
+#  image: news_1.PNG
+
 - date: October 13, 2017
-  headline: SIG Asia and ICCV 2017 papers
-  text: GrUVi members co-author two technical papers:&nbsp;<a href="http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf">"Learning to Predict Part Mobility from a Single Static Snapshot"</a> and <a href="http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf">"Learning to Group Discrete Graphical Patterns"</a>; and <a href="https://3dworldsblog.wordpress.com/">one course at SIGGRAPH Asia 2017</a>, to be held in Bangkok, Thailand, November 27-30. At ICCV 2017, three papers co-authored by GrUVi members have been presented.
+  headline: >-
+    SIG Asia and ICCV 2017 papers
+  text: >-
+    GrUVi members co-author two technical papers:&nbsp;<a href="http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf">"Learning to Predict Part Mobility from a Single Static Snapshot"</a> and <a href="http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf">"Learning to Group Discrete Graphical Patterns"</a>; and <a href="https://3dworldsblog.wordpress.com/">one course at SIGGRAPH Asia 2017</a>, to be held in Bangkok, Thailand, November 27-30. At ICCV 2017, three papers co-authored by GrUVi members have been presented.
   highlight: 1
   image: news_1.PNG
 
 - date: October 13, 2017
-  headline: Gruvi welcomes Jon Liu!
-  text: Jon Liu as Gruvi's new MSc student. Jon obtained his Bachelor's degree from National Tsinghua University in computer graphics and since then, he has worked in the industry for many years. He recently immigrated to Canada and started his grad studies at SFU in the summer this year. Jon is interested in robotic 3D vision problems. Welcome Jon!
+  headline: >-
+    Gruvi welcomes Jon Liu!
+  text: >-
+    Jon Liu as Gruvi's new MSc student. Jon obtained his Bachelor's degree from National Tsinghua University in computer graphics and since then, he has worked in the industry for many years. He recently immigrated to Canada and started his grad studies at SFU in the summer this year. Jon is interested in robotic 3D vision problems. Welcome Jon!
   highlight: 0
   image: jonliu.jpg
 
