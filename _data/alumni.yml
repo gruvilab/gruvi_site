@@ -75,7 +75,7 @@
   text: Assistant professor at School of Computer Science, Carleton University, Canada.
 - name: Matt Olson
   graduation: 2011
-  text: Now at Safe Software
+  text: Safe Software
 - name: Ramsay Dyer
   graduation: 2010
   text: PostDoc with Jean-Daniel Boissonnat at INRIA, Sophia-Antipolis
@@ -87,7 +87,7 @@
   text: Self-employed
 - name: Rong Liu
   graduation: 2009
-  text: Now at Microsoft, Redmond
+  text: Microsoft, Redmond
 - name: Alireza Entezari
   graduation: 2007
   text: Assistant Professor at University of Florida
@@ -102,7 +102,7 @@
   text: Technical Project Manager at Koolhaus Games
 - name: Andrew Clements
   graduation: 2006
-  text: Now at Action Pants Inc., Vancouver, Canada
+  text: Action Pants Inc., Vancouver, Canada
 - name: Xiaoxing (Ginger) Li
   graduation: 2006
   text: Image Algorithm Engineer, Apple Inc., USA
@@ -124,4 +124,3 @@
 - name: Steven Kilthau
   graduation: 2003
   text: Software Engineer at Electronic Arts
-
