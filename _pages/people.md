@@ -138,27 +138,20 @@ permalink: /people/
 {% endif %}
 
 
-
+{% assign year = 999 %} 
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Alumni
 </div>
-
-<div class="col-sm-12 clearfix">
- <table style="width:100%">
-
-{% assign number_printed = 0 %}
-
+<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 {% for member in site.data.alumni%}
 
-{% assign number_printed = number_printed | plus: 1 %}  
+  {% assign currentdate = member.graduation | year: "%Y" %}
+  {% if currentdate != year %}
+#### {{ currentdate }}
+    {% assign year = currentdate %} 
+  {% endif %}
 
-  <tr>
-    <th>{{ member.name }}</th>
-    <th><newstit>{{ member.graduation }}</newstit></th>
-    <th>{{ member.text }}</th>
-  </tr>
 
+<p>  <newstit>{{ member.name }}</newstit>, <pubtit>{{ member.text }}</pubtit></p>
 {% endfor %}
-
-</table> 
 </div>
