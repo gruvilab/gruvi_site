@@ -58,6 +58,12 @@
   highlight: 0
   image: Richard.jpeg
 
+- date: August 10, 2017
+  headline: GrUVi co-authors three SIG'17 papers
+  text: Three papers co-authored by GrUVi members have been accepted to SIGGRAPH 2017&#58; <a href="http://kevinkaixu.net/projects/grass.html">GRASS:Generative Recursive Autoencoders for Shape Structures</a>, <a href="http://gruvi.cs.sfu.ca/project/timeslice/">Time Slice Video Synthesis by Robust Video Alignment</a>, and <a href="http://www.cs.sfu.ca/~haoz/pubs/zhu_sig17_scsr.pdf">Deformation-Driven Shape Correspondence via Shape Recognition</a>.<br /><br />Two of these papers are first-authored by PhD students from GrUVi <a href="http://www.zhpcui.org/"> Zhaopeng Cui</a> and <a href="http://www.sfu.ca/~cza68/">Chenyang Zhu</a>. In addition, one paper accepted to ACM Transaction on Graphics, <a href="http://www.cs.sfu.ca/~haoz/pubs/hu_tog17_style.pdf">Co-Locating Style-Defining Elements on 3D Shapes</a>, will also be presented at SIGGRAPH 2017 in Los Angeles. Collaborators on these papers include researchers from Adobe Research, Tel Aviv University, Stanford University, National University of Defense Technology, Carleton University, IIT Bombay, Shenzhen University, and University of Cyprus.
+  highlight: 0
+  image: SIG17.png
+
 - date: July 29, 2017
   headline: Zhaopeng goes to ETH
   text: Zhaopeng, who successfully defended his PhD thesis earlier this month, will start his postdoc position at ETH. His thesis also received the rare distinction of "pass as is". Previous GrUViers who received such a distinction include Ibraheem Alhashim (2015), Andrea Tagliasacchi (2013), and Oliver van Kaick (2011). Congratulations Zhaopeng!
@@ -85,13 +91,6 @@
   text: It is official! <a href="http://www.cs.sfu.ca/~kkyin/">Prof. Kangkang Yin</a> will be joining SFU CS as an Associate Professor starting July 2017. As one of the leading experts in computer animation and simulation, she will be a fantastic addition to the GrUVi lab. Most recently, KangKang Yin was an Associate Professor in the Department of Computer Science at the National University of Singapore. She worked as an Associate Researcher at Microsoft Research Asia from 2008 to 2010, after she obtained her PhD degree from the University of British Columbia in 2007.
   highlight: 0
   image: KKYIN.jpg
-
-
-- date: August 10, 2017
-  headline: GrUVi co-authors three SIG'17 papers
-  text: Three papers co-authored by GrUVi members have been accepted to SIGGRAPH 2017&#58; <a href="http://kevinkaixu.net/projects/grass.html">GRASS:Generative Recursive Autoencoders for Shape Structures</a>, <a href="http://gruvi.cs.sfu.ca/project/timeslice/">Time Slice Video Synthesis by Robust Video Alignment</a>, and <a href="http://www.cs.sfu.ca/~haoz/pubs/zhu_sig17_scsr.pdf">Deformation-Driven Shape Correspondence via Shape Recognition</a>.<br /><br />Two of these papers are first-authored by PhD students from GrUVi <a href="http://www.zhpcui.org/"> Zhaopeng Cui</a> and <a href="http://www.sfu.ca/~cza68/">Chenyang Zhu</a>. In addition, one paper accepted to ACM Transaction on Graphics, <a href="http://www.cs.sfu.ca/~haoz/pubs/hu_tog17_style.pdf">Co-Locating Style-Defining Elements on 3D Shapes</a>, will also be presented at SIGGRAPH 2017 in Los Angeles. Collaborators on these papers include researchers from Adobe Research, Tel Aviv University, Stanford University, National University of Defense Technology, Carleton University, IIT Bombay, Shenzhen University, and University of Cyprus.
-  highlight: 0
-  image: SIG17.png
 
 - date: December 23, 2016
   headline: Jaime's Sucessful Msc Thesis Defense
