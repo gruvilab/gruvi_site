@@ -89,6 +89,22 @@
   website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
   number_educ: 0
 
+################################# Visitors  #################################
+- name: Zili Yi
+  photo: zili.jpg
+  role: Visitor
+  email: 
+  website: http://www.cs.mun.ca/~yz7241/
+  number_educ: 0
+
+- name: Manyi Li
+  photo: manyi.jpg
+  role: Visitor
+  email: 
+  website: https://manyili12345.github.io/
+  number_educ: 0
+
+
 ################################# PhD Students  #################################
   
 - name: Mohsen Kamalzadeh
@@ -103,7 +119,7 @@
   role: Graduate Student
   email: hyounesy@sfu.ca
   website: http://www.personal_pagegate.net/profile/Hamid_Younesy
-  number_educ: 0
+  number_educ: 0  
   
 - name: Chenyang Zhu
   photo: chenyang.png
@@ -195,20 +211,6 @@
   email: agadipat@sfu.ca
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
-  
-- name: Zili Yi
-  photo: zili.jpg
-  role: Graduate Student
-  email: 
-  website: http://www.cs.mun.ca/~yz7241/
-  number_educ: 0
-
-- name: Manyi Li
-  photo: manyi.jpg
-  role: Graduate Student
-  email: 
-  website: https://manyili12345.github.io/
-  number_educ: 0
 
 - name: Jon Liu
   photo: jonliu.jpg
@@ -216,3 +218,4 @@
   email: 
   website: 
   number_educ: 0
+ 
