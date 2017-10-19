@@ -45,7 +45,7 @@ permalink: /about
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/sfu_logo.png" style="height: 50px">
 </figure>
 
-We are an inter-disciplinary team of researchers exploring and developing novel methods in computer graphics, computer vision, and interactive techniques, based in the <a href=www.cs.sfu.ca>School of Computing Science</a> at <a href www.sfu.ca>Simon Fraser University<a/>. Current areas of focus include geometric modelling and processing, image-based modelling, 3D reconstruction, 3D content creation, shape analysis, lighting and reflectance models, and 3D vision for robotics.
+We are an inter-disciplinary team of researchers exploring and developing novel methods in computer graphics, computer vision, and interactive techniques, based in the <a href="www.cs.sfu.ca">School of Computing Science</a> at <a href="www.sfu.ca">Simon Fraser University<a/>. Current areas of focus include geometric modelling and processing, image-based modelling, 3D reconstruction, 3D content creation, shape analysis, lighting and reflectance models, and 3D vision for robotics.
 
 The lab was first founded in 1992 by Professor Tom Calvert whose work in human animation led to the now famous LifeForms software and the startup firm Credo Inc. Today, we have a modern infrastructure, supported through two Canadian Foundation for Innovation (CFI) grants and two NSERC Research Tools and Instruments grants. Student support is provided by NSERC Discovery Grants, several NSERC Strategic Project Grants, along with funding from GRAND NCE, MITACS, and Precarn. Three GrUVi faculty have won the prestigious NSERC Discovery Accelerator grants.
 
