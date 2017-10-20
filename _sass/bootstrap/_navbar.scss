@@ -208,7 +208,7 @@
     margin-top: 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 720px) {
   .overlay-content {
     top: 0px;
 }
@@ -257,7 +257,7 @@
 // JavaScript plugin.
 
 //make sure that the navbar adapts to small screens
-@media (max-width: 900px) {
+@media (max-width: 720px) {
   .navbar-collapse,
   .navbar-form {
 	margin-top: 189px;
