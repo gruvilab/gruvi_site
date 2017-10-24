@@ -13,6 +13,11 @@ permalink: /
 			lines: 11
 			});
 		}  , 150 );
+	setTimeout( function(){ 
+		    $('.news').trunk8({
+			lines: 11
+			});
+		}  , 500 );
 	$('.news').trunk8({
 		lines: 11
 		});
