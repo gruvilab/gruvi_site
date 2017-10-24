@@ -7,11 +7,18 @@ permalink: /
 ---
 
 <script type="text/javascript" language="javascript">
-			$(function() {
-				$('.news').trunk8({
-				  lines: 11
-				});
+	$(function() {
+		setTimeout( function(){ 
+		    $('.news').trunk8({
+			lines: 11
 			});
+		}  , 100 );
+	$('.news').trunk8({
+		lines: 11
+		});
+	});
+
+
 </script>
 
 
