@@ -12,11 +12,19 @@ permalink: /
 		    $('.news').trunk8({
 			lines: 11
 			});
-		}  , 100 );
+		}  , 150 );
 	$('.news').trunk8({
 		lines: 11
 		});
 	});
+
+$(window).resize(function() {
+
+$('.news').trunk8({
+	lines: 11
+	});
+
+});
 
 
 </script>
