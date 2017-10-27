@@ -12,9 +12,19 @@ permalink: /publications/
   {% assign currentdate = publi.year | year: "%Y" %}
   {% if currentdate != year %}
 
+<a href="#C{{currentdate}}">{{currentdate}}</a>,&nbspc;
 
+  {% endif %}
+{% endfor %}
+
+
+{% for publi in site.data.publist %}
+  {% assign currentdate = publi.year | year: "%Y" %}
+  {% if currentdate != year %}
+
+<a id="C{{currentdate}}">
 ### {{ currentdate }}
-
+</a>
     {% assign year = currentdate %} 
   {% endif %}
 
