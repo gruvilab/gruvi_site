@@ -189,7 +189,7 @@ permalink: /people/
 <div class="col-sm-12">
 ### Alumni
 </div>
-<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-12">
 {% for member in site.data.alumni%}
 
   {% assign currentdate = member.graduation | year: "%Y" %}
