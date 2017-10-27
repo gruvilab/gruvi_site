@@ -12,8 +12,8 @@ permalink: /publications/
   {% assign currentdate = publi.year | year: "%Y" %}
   {% if currentdate != year %}
 
-<a href="#C{{currentdate}}">{{currentdate}}</a>,&nbspc;
-
+<a href="#C{{currentdate}}">{{currentdate}}</a>,&nbsp;
+{% assign year = currentdate %} 
   {% endif %}
 {% endfor %}
 
