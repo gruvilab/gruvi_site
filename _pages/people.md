@@ -6,10 +6,10 @@ sitemap: false
 permalink: /people/
 ---
 
-## Gruviers
-
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
+## Gruviers
+
 ### Faculty
 </div>
 {% assign number_printed = 0 %}
