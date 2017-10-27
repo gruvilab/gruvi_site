@@ -8,6 +8,7 @@ permalink: /people/
 
 ## Gruviers
 
+<div class="row">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Faculty
 </div>
@@ -49,8 +50,9 @@ permalink: /people/
 </div>
 </div>
 {% endif %}
+</div>
 
-
+<div class="row">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Affiliated Faculty
 </div>
@@ -92,8 +94,9 @@ permalink: /people/
 </div>
 </div>
 {% endif %}
+</div>
 
-
+<div class="row">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Postdocs and Visitors
 </div>
@@ -135,8 +138,9 @@ permalink: /people/
 </div>
 </div>
 {% endif %}
+</div>
 
-
+<div class="row">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Graduate Students
 </div>
@@ -178,8 +182,9 @@ permalink: /people/
 </div>
 </div>
 {% endif %}
+</div>
 
-
+<div class="row">
 {% assign year = 999 %} 
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Alumni
@@ -196,4 +201,5 @@ permalink: /people/
 
 <p>  <newstit>{{ member.name }}</newstit>, <pubtit>{{ member.text }}</pubtit></p>
 {% endfor %}
+</div>
 </div>
