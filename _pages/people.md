@@ -8,7 +8,7 @@ permalink: /people/
 
 ## Gruviers
 
-<div class="row">
+<div class="row nopadding">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Faculty
 </div>
@@ -52,7 +52,7 @@ permalink: /people/
 {% endif %}
 </div>
 
-<div class="row">
+<div class="row nopadding">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Affiliated Faculty
 </div>
@@ -140,7 +140,7 @@ permalink: /people/
 {% endif %}
 </div>
 
-<div class="row">
+<div class="row nopadding">
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Graduate Students
 </div>
@@ -184,7 +184,7 @@ permalink: /people/
 {% endif %}
 </div>
 
-<div class="row">
+<div class="row nopadding">
 {% assign year = 999 %} 
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ### Alumni
