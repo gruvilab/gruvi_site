@@ -6,10 +6,10 @@ sitemap: false
 permalink: /people/
 ---
 
-<div class="row" style="margin-top: 0px; margin-bottom: 0px;">
-<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
 ## Gruviers
 
+<div class="row" style="margin-top: 0px; margin-bottom: 0px;">
+<div class="col-sm-12">
 ### Faculty
 </div>
 {% assign number_printed = 0 %}
@@ -53,7 +53,7 @@ permalink: /people/
 </div>
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
-<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-12">
 ### Affiliated Faculty
 </div>
 {% assign number_printed = 0 %}
@@ -97,7 +97,7 @@ permalink: /people/
 </div>
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
-<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-12">
 ### Postdocs and Visitors
 </div>
 {% assign number_printed = 0 %}
@@ -141,7 +141,7 @@ permalink: /people/
 </div>
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
-<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-12">
 ### Graduate Students
 </div>
 {% assign number_printed = 0 %}
@@ -186,7 +186,7 @@ permalink: /people/
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 {% assign year = 999 %} 
-<div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-12">
 ### Alumni
 </div>
 <div class="col-sm-12" style="padding-right: 0px; padding-left: 0px">
