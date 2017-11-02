@@ -71,8 +71,9 @@
   authors: Cui Z, Wang O, Tan P, Wang J.  
   venue: ACM Transactions on Graphics (SIGGRAPH 2017) 
   year: 2017 
-  highlight: 1 
-  pdf: http://gruvi.cs.sfu.ca/project/timeslice/files/timeslice-authorversion-small.pdf
+  highlight: 1
+  project_page: http://gruvi.cs.sfu.ca/project/timeslice/
+  pdf: https://zhpcui.github.io/projects/timeslice/timeslice-authorversion.pdf
 
 - title: Deformation-Driven Shape Correspondence via Shape Recognition
   image: deformation driven correspondence.png
