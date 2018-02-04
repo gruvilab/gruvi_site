@@ -29,7 +29,7 @@
    We present a semi-supervised co-analysis method for learning 3D shape styles from projected feature lines, achieving style patch localization with only weak supervision. Given a collection of 3D shapes spanning multiple object categories and styles, we perform style co-analysis over projected feature lines of each 3D shape and then backproject the learned style features onto the 3D shapes.
   authors:  Fenggen Yu, Yan Zhang, Kai Xu, Ali Mahdavi-Amiri, and Hao Zhang
   venue: >-
-    ACM Transactions on Graphics (TOG)
+    ACM Transactions on Graphics
   year: 2018
   highlight: 1 
   pdf: http://www.cs.sfu.ca/~haoz/pubs/yu_tog18_style.pdf
