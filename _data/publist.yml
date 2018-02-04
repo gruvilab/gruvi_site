@@ -21,6 +21,7 @@
 #  project_page: https://www.google.ca/link_to_project_page
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
+
 - title: >-
     Semi-Supervised Co-Analysis of 3D Shape Styles from Projected Lines
   image: Yu_TOG18_style.jpg
