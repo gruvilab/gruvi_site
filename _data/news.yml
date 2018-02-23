@@ -11,6 +11,15 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: February 23, 2018
+  headline: >-
+    Yasu received a Google Research Award!
+  text: >-
+    GrUVi congratulates Yasu Furukawa, who received a Google Research Award in the current cycle! Yasu's project is titled "Automatic Floorplan Generation from Tango", and is valued at $43,000 (USD).<br /><br />Well done Yasu!
+  highlight: 1
+  image: news_1.PNG
+
+
 - date: October 13, 2017
   headline: >-
     SIG Asia and ICCV 2017 papers
@@ -30,7 +39,7 @@
 - date: October 1, 2017
   headline: Conference co-chairs
   text: GrUVi faculty Yasu Furukawa will be a program co-chair for 3DV 2017, which will be held in Qingdao, China between October 10 and 12. Richard Zhang will also be a program co-chair for Computer Graphics International (CGI) 2018, which will be hosted at Bintan Island, Indonesia, June 11-14, 2018.
-  highlight: 1
+  highlight: 0
   image: news_3.PNG
 
 
