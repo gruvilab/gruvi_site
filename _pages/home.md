@@ -19,14 +19,14 @@ permalink: /
 			});
 		}  , 500 );
 	$('.news').trunk8({
-		lines: 11
+		lines: 10
 		});
 	});
 
 $(window).resize(function() {
 
 $('.news').trunk8({
-	lines: 11
+	lines: 10
 	});
 
 });
