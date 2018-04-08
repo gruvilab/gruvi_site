@@ -10,23 +10,23 @@ permalink: /
 	$(function() {
 		setTimeout( function(){ 
 		    $('.news').trunk8({
-			lines: 10
+			lines: 11
 			});
 		}  , 150 );
 	setTimeout( function(){ 
 		    $('.news').trunk8({
-			lines: 10
+			lines: 11
 			});
 		}  , 500 );
 	$('.news').trunk8({
-		lines: 10
+		lines: 11
 		});
 	});
 
 $(window).resize(function() {
 
 $('.news').trunk8({
-	lines: 10
+	lines: 11
 	});
 
 });
