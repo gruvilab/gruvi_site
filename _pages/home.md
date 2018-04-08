@@ -10,12 +10,12 @@ permalink: /
 	$(function() {
 		setTimeout( function(){ 
 		    $('.news').trunk8({
-			lines: 11
+			lines: 10
 			});
 		}  , 150 );
 	setTimeout( function(){ 
 		    $('.news').trunk8({
-			lines: 11
+			lines: 10
 			});
 		}  , 500 );
 	$('.news').trunk8({
