@@ -21,7 +21,7 @@
 
 - date: April 10, 2018
   headline: >-
-    Yasu receives a CS-Can/Info-Can Award
+    Yasu's CS-Can/Info-Can Award
   text: >-
     Congrats to Yasu who has received an Outstanding Young CS Researcher Award for 2017.  <br /><br />These prizes recognize excellence in research, and are made to top young faculty members in Canadian Computer Science Departments/Schools/Faculties who are within the first 10 years of their career beyond the completion of their PhD.<br /><br />Well done Yasu!
   highlight: 1
@@ -40,7 +40,7 @@
     Yasu's 2018 Google Research Award
   text: >-
     GrUVi congratulates Yasu Furukawa, who received a Google Research Award in the current cycle! Yasu's project is titled "Automatic Floorplan Generation from Tango", and is valued at $43,000 (USD).  The works funded through Google Research Awards tend to have a high impact, since research results are often published at top conferences and in top publications in Computer Science.  <br /><br />Well done Yasu!
-  highlight: 1
+  highlight: 0
   image: news_3.PNG
 
 
@@ -49,7 +49,7 @@
     SIG Asia and ICCV 2017 papers
   text: >-
     GrUVi members co-author two technical papers:&nbsp;<a href="http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf">"Learning to Predict Part Mobility from a Single Static Snapshot"</a> and <a href="http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf">"Learning to Group Discrete Graphical Patterns"</a>; and <a href="https://3dworldsblog.wordpress.com/">one course at SIGGRAPH Asia 2017</a>, to be held in Bangkok, Thailand, November 27-30. At ICCV 2017, three papers co-authored by GrUVi members have been presented.
-  highlight: 0
+  highlight: 1
   image: news_1.PNG
 
 - date: October 13, 2017
