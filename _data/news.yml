@@ -19,6 +19,14 @@
   highlight: 1
   image: KKYIN.jpg
 
+- date: April 10, 2018
+  headline: >-
+    Yasu receives a CS-Can/Info-Can Award
+  text: >-
+    Congrats to Yasu who has received an Outstanding Young CS Researcher Award for 2017.  <br /><br />These prizes recognize excellence in research, and are made to top young faculty members in Canadian Computer Science Departments/Schools/Faculties who are within the first 10 years of their career beyond the completion of their PhD.<br /><br />Well done Yasu!
+  highlight: 1
+  image: furukawa4.jpg
+
 - date: April 8, 2018
   headline: >-
     GI'18 to feature two GrUVi alumni
@@ -41,7 +49,7 @@
     SIG Asia and ICCV 2017 papers
   text: >-
     GrUVi members co-author two technical papers:&nbsp;<a href="http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf">"Learning to Predict Part Mobility from a Single Static Snapshot"</a> and <a href="http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf">"Learning to Group Discrete Graphical Patterns"</a>; and <a href="https://3dworldsblog.wordpress.com/">one course at SIGGRAPH Asia 2017</a>, to be held in Bangkok, Thailand, November 27-30. At ICCV 2017, three papers co-authored by GrUVi members have been presented.
-  highlight: 1
+  highlight: 0
   image: news_1.PNG
 
 - date: October 13, 2017
