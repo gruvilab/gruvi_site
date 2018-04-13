@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: April 12, 2018
+  headline: >-
+    Kangkang receives NSERC DAS Award
+  text: >-
+    Congrats to Kangkang who has received an NSERC Discovery Accelerator Supplement (DAS) for 2018. Each year 125 applicants to NSERC Discovery grants receive this award, which comes with $40K per year for three years on top of one’s Discovery grant! <br /><br /> The DAS Program provides substantial and timely resources to researchers who have a superior research program that is highly rated in terms of originality and innovation, and who show strong potential to become international leaders within their field. <br /><br />Well done, Kangkang!
+  highlight: 1
+  image: KKYIN.jpg
+
 - date: April 8, 2018
   headline: >-
     GI'18 to feature two GrUVi alumni
@@ -60,7 +68,7 @@
 - date: August 27, 2017
   headline: Warunika wins best paper award
   text: The paper "An Exquisite Corpse Tool for Collaborative 3D Shape Design", co-authored by Warunika, Parmit Chilana, Daniel Cohen-Or, and Richard Zhang won a best paper award at the recent CAD/Graphics conference. This work was part of Warunika's MSc thesis; she graduated in Dec 2016 and is now at IBM.
-  highlight: 1
+  highlight: 0
   image: news_2.PNG
 
 - date: August 26, 2017
