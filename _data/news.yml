@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: May 16, 2018
+  headline: >-
+    Richard and Ping's talk at SFU-ZJU Symposium
+  text: >-
+    Richard and Ping give talks at Third SFU-ZJU Joint Symposium on Big Data and Visual Computing.
+  highlight: 1
+  image: richard_ping.jpg
+
 - date: April 12, 2018
   headline: >-
     Kangkang's NSERC DAS Award
