@@ -57,7 +57,7 @@
     SIG Asia and ICCV 2017 papers
   text: >-
     GrUVi members co-author two technical papers:&nbsp;<a href="http://www.cs.sfu.ca/~haoz/pubs/hu_siga17_icon3.pdf">"Learning to Predict Part Mobility from a Single Static Snapshot"</a> and <a href="http://www.cs.sfu.ca/~haoz/pubs/zou_siga17_group.pdf">"Learning to Group Discrete Graphical Patterns"</a>; and <a href="https://3dworldsblog.wordpress.com/">one course at SIGGRAPH Asia 2017</a>, to be held in Bangkok, Thailand, November 27-30. At ICCV 2017, three papers co-authored by GrUVi members have been presented.
-  highlight: 1
+  highlight: 0
   image: news_1.PNG
 
 - date: October 13, 2017
