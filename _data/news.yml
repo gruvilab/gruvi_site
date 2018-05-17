@@ -15,7 +15,7 @@
   headline: >-
     GrUVi co-authors three SIG'18 papers
   text: >-
-    Three papers co-authored by GrUVi members have been accepted at SIGGRAPH 2018: P2P-NET: Bidirectional Point Displacement Net for Shape Transform, Predictive and Generative Neural Networks for Object Functionality, and DSCarver: Decompose-and-Spiral-Carve for Subtractive Manufacturing. P2P-NET was first-authored by PhD GrUVi student Kangxue Yin. For more details, please visit the <a href="http://gruvi.cs.sfu.ca/publications/">publications page</a>.
+    Three papers co-authored by GrUVi members have been accepted at SIGGRAPH 2018: P2P-NET: Bidirectional Point Displacement Net for Shape Transform, Predictive and Generative Neural Networks for Object Functionality, and DSCarver: Decompose-and-Spiral-Carve for Subtractive Manufacturing. P2P-NET was first-authored by GrUVi's PhD student Kangxue Yin. For more details, please visit the <a href="http://gruvi.cs.sfu.ca/publications/">publications page</a>.
   highlight: 1
   image: P2P-NET.PNG
 
