@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: May 17, 2018
+  headline: >-
+    GrUVi co-authors three SIG'18 papers
+  text: >-
+    Three papers co-authored by GrUVi members have been accepted at SIGGRAPH 2018: P2P-NET: Bidirectional Point Displacement Net for Shape Transform, Predictive and Generative Neural Networks for Object Functionality, and DSCarver: Decompose-and-Spiral-Carve for Subtractive Manufacturing. P2P-NET was first-authored by PhD GrUVi student Kangxue Yin. For more details, please visit the <a href="http://gruvi.cs.sfu.ca/publications/">publications page<\a>.
+  highlight: 1
+  image: P2P-NET.PNG
+
 - date: May 16, 2018
   headline: >-
     Two talks at SFU-ZJU Symposium
@@ -40,7 +48,7 @@
     GI'18 to feature two GrUVi alumni
   text: >-
     Graphics Interface 2018 (GI'18) will be held in York University, May 8-11. Two of our GrUVi alumni, Oliver van Kaick and Andrea Tagliasacchi, are invited speakers on the program!  <br /><br />Graphics Interface is an annual international conference devoted to computer graphics and human-computer interaction (HCI). GI is the longest running conference in the field (the first conference was held in 1969), consistently attracting high-quality submissions from graphics, HCI, as well as visualization.
-  highlight: 1
+  highlight: 0
   image: oliver_andrea.jpg
 
 - date: February 23, 2018
