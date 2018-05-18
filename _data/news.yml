@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: May 18, 2018
+  headline: >-
+    Three new visiting Gruviers!
+  text: >-
+    GrUVi welcomes three new visiting students this summer: <a href="https://www.cse.iitb.ac.in/~manas/">Manas Bhargave</a>, IIT Bombay undergrad and visiting under MITACS-IIT; Ruiqi Ni, an undergrad student from University of Science and Technology (USTC) China and Chen Song, SFU-ZJU DDP student under USRA. <br /><br /> Welcome to GrUVi!
+  highlight: 1
+  image: threenew.png
+
 - date: May 17, 2018
   headline: >-
     GrUVi co-authors three SIG'18 papers
@@ -115,8 +123,7 @@
 
 - date: July 29, 2017
   headline: Zhaopeng goes to ETH
-  text: Zhaopeng, who successfully defended his PhD thesis earlier this month, will start his postdoc position at ETH. His thesis also received the rare distinction of "pass as is". Previous 
-  rs who received such a distinction include Ibraheem Alhashim (2015), Andrea Tagliasacchi (2013), and Oliver van Kaick (2011). Congratulations Zhaopeng!
+  text: Zhaopeng, who successfully defended his PhD thesis earlier this month, will start his postdoc position at ETH. His thesis also received the rare distinction of "pass as is". Previous gruviers who received such a distinction include Ibraheem Alhashim (2015), Andrea Tagliasacchi (2013), and Oliver van Kaick (2011). Congratulations Zhaopeng!
   highlight: 0
   image: zhaopeng.png
 
