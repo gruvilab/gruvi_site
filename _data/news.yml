@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: May 18, 2018
+  headline: >-
+    Three new visiting Gruviers!
+  text: >-
+    Gruvi welcomes three new visiting students this summer: Manas Bhargave, IIT Bombay undergrad and visiting under MITACS-IIT; Ruiqi Ni, an undergrad student from University of Science and Technology (USTC) China and Chen Song, SFU-ZJU DDP student under an USRA. <br /><br /> Welcome to GrUVi!
+  highlight: 1
+  image: furukawa4.png
+
 - date: May 17, 2018
   headline: >-
     GrUVi co-authors three SIG'18 papers
@@ -40,7 +48,7 @@
     Yasu's CS-Can/Info-Can Award
   text: >-
     Congrats to Yasu who has received an Outstanding Young CS Researcher Award for 2017.  <br /><br />These prizes recognize excellence in research, and are made to top young faculty members in Canadian Computer Science Departments/Schools/Faculties who are within the first 10 years of their career beyond the completion of their PhD.<br /><br />Well done Yasu!
-  highlight: 1
+  highlight: 0
   image: furukawa4.png
 
 - date: April 8, 2018
@@ -115,7 +123,8 @@
 
 - date: July 29, 2017
   headline: Zhaopeng goes to ETH
-  text: Zhaopeng, who successfully defended his PhD thesis earlier this month, will start his postdoc position at ETH. His thesis also received the rare distinction of "pass as is". Previous GrUViers who received such a distinction include Ibraheem Alhashim (2015), Andrea Tagliasacchi (2013), and Oliver van Kaick (2011). Congratulations Zhaopeng!
+  text: Zhaopeng, who successfully defended his PhD thesis earlier this month, will start his postdoc position at ETH. His thesis also received the rare distinction of "pass as is". Previous 
+  rs who received such a distinction include Ibraheem Alhashim (2015), Andrea Tagliasacchi (2013), and Oliver van Kaick (2011). Congratulations Zhaopeng!
   highlight: 0
   image: zhaopeng.png
 
