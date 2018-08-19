@@ -63,14 +63,12 @@
   website: http://www.math.tau.ac.il/~dcor/
   number_educ: 0
   
-  
 - name: Hui Huang
   photo: hui_huang.png
   role: Affiliated Faculty
   email: 
   website: http://vcc.szu.edu.cn/~huihuang/
   number_educ: 0
-  
   
 - name: Wolfgang Stuerzlinger
   photo: wolfgang.jpg
@@ -79,7 +77,7 @@
   website: http://ws.iat.sfu.ca/
   number_educ: 0
 
-################################# Postdocs  #################################
+################################# Postdocs and visitors  #################################
 
 
 - name: Ali Mahdavi-Amiri
@@ -89,19 +87,18 @@
   website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
   number_educ: 0
 
-################################# Visitors  #################################
-- name: Zili Yi
-  photo: zili.jpg
-  role: Visitor
-  email: 
-  website: http://www.cs.mun.ca/~yz7241/
-  number_educ: 0
-
 - name: Manyi Li
   photo: manyi.jpg
   role: Visitor
   email: 
   website: https://manyili12345.github.io/
+  number_educ: 0
+
+- name: Zili Yi
+  photo: zili.jpg
+  role: Visitor
+  email: 
+  website: http://www.cs.mun.ca/~yz7241/
   number_educ: 0
 
 
