@@ -105,13 +105,97 @@
   number_educ: 0
 
 
-################################# PhD Students  #################################
-  
+################################# Graduate Students  #################################
+
+- name: Zhiqin Chen
+  photo: zhiqin.jpg
+  role: Graduate Student
+  email: agadipat@sfu.ca
+  website: http://www.sfu.ca/~zhiqinc/
+  number_educ: 0
+
 - name: Mohsen Kamalzadeh
   photo: mohsen.jpg
   role: Graduate Student
   email: 
   website:
+  number_educ: 0
+
+- name: Wallace Lira
+  photo: WallaceLira.jpeg
+  role: Graduate Student
+  email: wpintoli@sfu.ca
+  website: http://www.sfu.ca/~wpintoli/
+  number_educ: 0
+
+- name: Jon Liu
+  photo: jonliu.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+
+- name: Akshay Gadi Patil
+  photo: akshay.png
+  role: Graduate Student
+  email: agadipat@sfu.ca
+  website: http://www.sfu.ca/~agadipat/
+  number_educ: 0
+
+- name: Feitong Tan
+  photo: FeitongTan.jpg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+
+- name: Rakesh Shrestha
+  photo: rakesh.jpg
+  role: Graduate Student
+  email:
+  website:  http://www.sfu.ca/~rakeshs/
+  number_educ: 0
+
+- name: Chengzhou Tang
+  photo: chengzhou.png
+  role: Graduate Student
+  email: 
+  website: https://sites.google.com/site/chengzhout/
+  number_educ: 0
+
+- name: Sicong Tang
+  photo: sicong.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+
+- name: Lin Yang
+  photo: LinYang.png
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+
+- name: Luwei Yang
+  photo: luwei.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+
+- name: Renjiao Yi
+  photo: renjiao.png
+  role: Graduate Student
+  email: 
+  website:  http://www.sfu.ca/~renjiaoy/
+  number_educ: 0
+
+- name: Kangxue Yin
+  photo: kangxue.jpg
+  role: Graduate Student
+  email: kangxuey@sfu.ca
+  website: http://kangxue.org/
   number_educ: 0
 
 - name: Hamid Younesy
@@ -126,102 +210,4 @@
   role: Graduate Student
   email: chenyang.chandler.zhu@gmail.com
   website: http://www.sfu.ca/~cza68/
-  number_educ: 0
-  
-- name: Renjiao Yi
-  photo: renjiao.png
-  role: Graduate Student
-  email: 
-  website:  http://www.sfu.ca/~renjiaoy/
-  number_educ: 0
-  
-    
-- name: Chengzhou Tang
-  photo: chengzhou.png
-  role: Graduate Student
-  email: 
-  website: https://sites.google.com/site/chengzhout/
-  number_educ: 0
-  
-  
-- name: Wallace Lira
-  photo: WallaceLira.jpeg
-  role: Graduate Student
-  email: wpintoli@sfu.ca
-  website: http://www.sfu.ca/~wpintoli/
-  number_educ: 0
-
-- name: Kangxue Yin
-  photo: kangxue.jpg
-  role: Graduate Student
-  email: kangxuey@sfu.ca
-  website: http://kangxue.org/
-  number_educ: 0
-  
-- name: Akshay Gadi Patil
-  photo: akshay.png
-  role: Graduate Student
-  email: agadipat@sfu.ca
-  website: http://www.sfu.ca/~agadipat/
-  number_educ: 0
-  
-- name: Sicong Tang
-  photo: sicong.jpg
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
-  
-
-################################# Master Students  #################################
-  
-- name: Luwei Yang
-  photo: luwei.jpg
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
-  
-  
-- name: Kiana Mostaghasi
-  photo: kiana.jpg
-  role: Graduate Student
-  email: kiana_mostaghasi@sfu.ca
-  website: 
-  number_educ: 0
-  
-- name: Rakesh Shrestha
-  photo: rakesh.jpg
-  role: Graduate Student
-  email:
-  website:  http://www.sfu.ca/~rakeshs/
-  number_educ: 0
- 
-- name: Feitong Tan
-  photo: FeitongTan.jpg
-  role: Graduate Student
-  email: 
-  website:
-  number_educ: 0
-  
-
-- name: Zhiqin Chen
-  photo: zhiqin.jpg
-  role: Graduate Student
-  email: agadipat@sfu.ca
-  website: http://www.sfu.ca/~zhiqinc/
-  number_educ: 0
-
-- name: Jon Liu
-  photo: jonliu.jpg
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
- 
-- name: Lin Yang
-  photo: LinYang.png
-  role: Graduate Student
-  email: 
-  website: 
   number_educ: 0
