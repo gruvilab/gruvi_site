@@ -13,6 +13,14 @@
 
 - date: August 21, 2018
   headline: >-
+    GrUVi @ SIG'2018 Vancouver
+  text: >-
+    SIGGRAPH 2018 was held in Vancouver from August 12 to 16, at the Vancouver Convention Centre. The majority of GrUVi members attended the conference, some as paper presenters and some as student volunteers. This year, the lab contributed four papers that were presented in the Technical Papers program (see [link to my pub page]). Ali presented his paper on semi-supervised analysis of 3D shape styles and Kangxue presented his paper on P2P-NET, both on Thursday, in the paper session on Shape Analysis. Also notably, long-term collaborator with GrUVi and adjunct professor with the SFU School of Computing Science, Prof. Daniel Cohen-Or, is featured as the annual SIGGRAPH Achievement Award winner. Danny has been collaborating with Richard Zhang and students in the lab since 2008!
+  highlight: 1
+  image: Kangxue_Ali.PNG
+
+- date: August 21, 2018
+  headline: >-
     Eugene@60 Celebrated!
   text: >-
     A special event honouring Professor Eugene Fiume, on the occasion of his 60-th birthday, was held at the SFU Harbour Center on August 17, right after SIGGRAPH 2018. Many of Eugene's first-generation PhDs from the University of Toronto attended the celebratory workshop and gave their account of fun and inspiring stories about what it was like to be his graduate students. Eugene's computer graphics instructor during his undergraduate years at the University of Waterloo provided hint of how Eugene was already "ahead of the class" then. The event featured Prof. Pat Hanrahan from Stanford University, as the keynote speaker. Pat spoke of "theory vs. practice" to highlight how over the years, Eugene has been among the rare group of people in computer graphics, who have emphasized the importance of theory in the field.
