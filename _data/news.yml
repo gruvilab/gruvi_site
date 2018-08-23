@@ -15,15 +15,7 @@
   headline: >-
     Gruviers Volunteered at SIGGRAPH 2018
   text: >-
-    Two gruviers (Akshay and Zhiqin) were student volunteers (SV) at the SIGGRAPH 2018 conference. While the attendees were certainly thankful for all the work that all the volunteers put in the event, our gruvi volunteers also got something of value while doing this work.
-Ziqhin described teh impact that witnessing pushing the grounds VR experience had on him:
-<blockquote cite="Zhiqin">
-"I'm honored to be a student volunteer of such a great conference. VR was definitely a highlight of SIGGRAPH 2018. There were many attempts to haptic technilogy to VR or utilize VR in designing and creating content. The immersive pavilion was awesome and provided all kinds of VR experiences. I am looking forward to next SIGGRAPH!"
-</blockquote>
-Akshay, on the other hand, emphasized the connections we was able to forge during his time as a volunteer:
-<blockquote cite="Akshay">
-"This was my first SIGGRAPH and my first time as a SIG-SV. The kind of atmosphere, the exuberance of energy and experience that I felt was surreal and I was left wanting more when it ended. Memories of a lifetime with awesome fellow SV's, coordinating various programs and above all, the latest technology!! Definitely want to relive this again at SIG'19." 
-</blockquote>
+    Two gruviers (Akshay and Zhiqin) were student volunteers (SV) at the SIGGRAPH 2018 conference. While the attendees were certainly thankful for all the work that all the volunteers put in the event, our gruvi volunteers also got something of value while doing this work. Ziqhin described the impact that witnessing pushing the boundaries of VR experience had on him:<br /><br /><blockquote cite="Zhiqin">"I'm honored to be a student volunteer of such a great conference. VR was definitely a highlight of SIGGRAPH 2018. There were many attempts to haptic technilogy to VR or utilize VR in designing and creating content. The immersive pavilion was awesome and provided all kinds of VR experiences. I am looking forward to next SIGGRAPH!"</blockquote><br /><br />Akshay, on the other hand, emphasized the connections we was able to forge during his time as a volunteer:<br /><br /><blockquote cite="Akshay">"This was my first SIGGRAPH and my first time as a SIG-SV. The kind of atmosphere, the exuberance of energy and experience that I felt was surreal and I was left wanting more when it ended. Memories of a lifetime with awesome fellow SV's, coordinating various programs and above all, the latest technology!! Definitely want to relive this again at SIG'19." </blockquote>
   highlight: 1
   image: Kangxue_Ali.PNG
 
@@ -38,7 +30,8 @@ Akshay, on the other hand, emphasized the connections we was able to forge durin
 
 - date: August 21, 2018
   headline: >-
-    Eugene 60th Aniversary Celebrated
+    Eugene 60th Aniversary Cele
+    ated
   text: >-
     A special event honouring Professor Eugene Fiume, on the occasion of his 60-th birthday, was held at the SFU Harbour Center on August 17, right after SIGGRAPH 2018. Many of Eugene's first-generation PhDs from the University of Toronto attended the celebratory workshop and gave their account of fun and inspiring stories about what it was like to be his graduate students. Eugene's computer graphics instructor during his undergraduate years at the University of Waterloo provided hint of how Eugene was already "ahead of the class" then. The event featured Prof. Pat Hanrahan from Stanford University, as the keynote speaker. Pat spoke of "theory vs. practice" to highlight how over the years, Eugene has been among the rare group of people in computer graphics, who have emphasized the importance of theory in the field.
   highlight: 1
