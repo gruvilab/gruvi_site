@@ -1,0 +1,72 @@
+---
+title: "Fabricable Eulerian Wires for 3D Shape Abstraction"
+excerpt: "Fabricable Eulerian Wires for 3D Shape Abstraction"
+sitemap: false
+permalink: /project/eulerianwires/
+---
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title> Fabricable Eulerian Wires for 3D Shape Abstraction </title>
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ site.url }}{{ site.baseurl }}/_pages/project/timeslice/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="{{ site.url }}{{ site.baseurl }}/_pages/project/timeslice/iconize.css" />	
+</head>
+
+
+<body>
+
+<div id="paper-title"> <h1> Fabricable Eulerian Wires for 3D Shape Abstraction </h1> </div>
+
+<div id="venue">
+	SIGGRAPH Asia  2018
+</div>
+
+<div id="author-list">  
+	<a href="http://www.zhpcui.org/"> Wallace Lira </a>
+	<a href="https://www.cse.cuhk.edu.hk/~cwfu/"> Chi-Wing Fu </a>
+	<a href="http://www.cs.sfu.ca/~haoz/"> Richard (Hao) Zhang</a>
+</div>
+
+<div id="author-affiliation">
+	<span class="affiliation"> <a href="https://www.sfu.ca/"> Simon Fraser University </a> </span>
+	<span class="affiliation"> <a href="http://www.cuhk.edu.hk/english/index.html"> The Chinese University of Hong Kong </a> </span>
+</div>
+
+
+<div id="teaser-part">
+	<a class="imageLink" href="{{ site.url }}{{ site.baseurl }}/_pages/project/timeslice/images/teaser.jpg"><img id="teaser" src="{{ site.url }}{{ site.baseurl }}/_pages/project/timeslice/images/teaser.jpg" alt="Teaser"></a>
+</div>
+
+<div id="abstract">
+	<h2 class="caption"> Abstract </h2>
+	<p class="paragraph">  
+		We present a fully automatic method that finds a small number of machine fabricable wires with minimal overlap to reproduce a wire sculpture design as a 3D shape abstraction. Importantly, we consider non-planar wires, which can be fabricated by a wire bending machine, to enable efficient construction of complex 3D sculptures that cannot be achieved by previous works. We call our wires Eulerian wires, since they are as Eulerian as possible with small overlap to form the target design together. Finding such Eulerian wires is highly challenging, due to an enormous search space. After exploring a variety of optimization strategies, we formulate a population-based hybrid metaheuristic model, and design the join, bridge and split operators to refine the solution wire sets in the population. We start the exploration of each solution wire set in a bottom-up manner, and adopt an adaptive simulated annealing model to regulate the exploration. By further formulating a meta model on top to optimize the cooling schedule, and precomputing fabricable subwires, our method can efficiently find promising solutions with low wire count and overlap in one to two minutes. We demonstrate the efficiency ofour method on a rich variety of wire sculptures, and physically fabricate several of them. Our results show clear improvements over other optimization alternatives in terms of solution quality, versatility, and scalability.
+	</p>
+</div>
+
+<div id="package">
+	<a id="paper-item" href="{{ site.url }}{{ site.baseurl }}/_pages/project/eulerianwires/files/eulerian_wires.pdf"> paper (13.3 MB) </a>
+	<a id="paper-item" href="{{ site.url }}{{ site.baseurl }}/_pages/project/eulerianwires/files/eulerian_wires_compressed.pdf"> small (3.1 MB) </a>  
+</div>
+
+<div id="video">
+	<h2 class="caption"> Main Supplemental Video </h2>
+	<br>
+	<iframe width="560" height="315" src="https://youtu.be/5gzlnWHuAJI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div id="acknowledgement">
+	<h2 class="caption"> Acknowledgements </h2>
+	<p class="paragraph"> 
+	We would like to thank the anonymous reviewers for their insightful comments. We also thank Matthew Cao for his help assembling the wire bending machine and Yang Tian for his help on the user study. This work is supported in part by grants from NSERC Canada (611370) and Adobe gift funds for Hao Zhang, the Research Grants Council of the Hong Kong Special Administrative Region (Project no. CUHK 14203416 and 14201717) for Chi-Wing Fu. Wallace Lira is supported by SFU’s C.D. Nelson Entrance Scholarship.
+	</p>
+</div>
+
+<div id="footer">
+	<a href="{{ site.url }}{{ site.baseurl }}"> <img id="gruvi-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/gruvi_logo.png" style="height: 70px; width: auto;"/> </a>
+</div>
+
+</body>
+</html>
