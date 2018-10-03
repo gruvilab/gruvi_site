@@ -23,6 +23,164 @@
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 
 - title: >-
+   GRAINS: Generative Recursive Autoencoders for INdoor Scenes
+  image: li_tog18_grains.png
+  description: >-
+    We present a generative neural network which enables us to generate plausible 3D indoor scenes in large quantities and varieties, easily and highly efficiently. Our key observation is that indoor scene structures are inherently hierarchical. Hence, our network is not convolutional; it is a recursive neural network or RvNN. Using a dataset of annotated scene hierarchies, we train a variational recursive autoencoder, or RvNN-VAE, which performs scene object grouping during its encoding phase and scene generation during decoding.
+  authors: Manyi Li, Akshay Gadi Patil, Kai Xu, Siddhartha Chaudhuri, Owais Khan, Ariel Shamir, Changhe Tu, Baoquan Chen, Daniel Cohen-Or, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics, accepted with Minor Revision
+  year: 2018
+  highlight: 1
+  pdf: https://arxiv.org/abs/1807.09193
+
+- title: >-
+   SCORES: Shape Composition with Recursive Substructure Priors
+  image: zhu_siga18_scores.png
+  description: >-
+    We introduce SCORES, a recursive neural network for shape composition. Our network takes as input sets of parts from two or more source 3D shapes and a rough initial placement of the parts. It outputs an optimized part structure for the composed shape, leading to high-quality geometry construction. A unique feature of our composition network is that it is not merely learning how to connect parts. Our goal is to produce a coherent and plausible 3D shape, despite large incompatibilities among the input parts. The network may significantly alter the geometry and structure of the input parts and synthesize a novel shape structure based on the inputs, while adding or removing parts to minimize a structure plausibility loss.
+  authors: Chenyang Zhu, Kai Xu, Siddhartha Chaudhuri, Renjiao Yi, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 37, No. 6
+  year: 2018
+  highlight: 1
+  pdf: https://arxiv.org/abs/1809.05398
+  project_page: https://kevinkaixu.net/projects/scores.html
+
+- title: >-
+   Construction and Fabrication of Reversible Shape Transforms
+  image: lira_siga18_wire.png
+  description: >-
+    We present a fully automatic method that finds a small number of machine fabricable wires with minimal overlap to reproduce a wire sculpture design as a 3D shape abstraction. Importantly, we consider non-planar wires, which can be fabricated by a wire bending machine, to enable efficient construction of complex 3D sculptures that cannot be achieved by previous works. We call our wires Eulerian wires, since they are as Eulerian as possible with small overlap to form the target design together.
+  authors: Wallace Lira, Chi-Wing Fu, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 37, No. 6
+  year: 2018
+  highlight: 1
+  project_page: http://gruvi.cs.sfu.ca/project/eulerianwires/
+
+- title: >-
+   Construction and Fabrication of Reversible Shape Transforms
+  image: li_siga18_riot.png
+  description: >-
+    We study a new and elegant instance of geometric dissection of 2D shapes: reversible hinged dissection, which corresponds to a dual transform between two shapes where one of them can be dissected in its interior and then inverted inside-out, with hinges on the shape boundary, to reproduce the other shape, and vice versa. We call such a transform reversible inside-out transform or RIOT. Since it is rare for two shapes to possess even a rough RIOT, let alone an exact one, we develop both a RIOT construction algorithm and a quick filtering mechanism to pick, from a shape collection, potential shape pairs that are likely to possess the transform. Our construction algorithm is fully automatic. It computes an approximate RIOT between two given input 2D shapes, whose boundaries can undergo slight deformations, while the filtering scheme picks good inputs for the construction.
+  authors: Shuhua Li, Ali Mahdavi-Amiri, Ruizhen Hu, Han Liu, Changqing Zou, Oliver van Kaick, Xiuping Liu, Hui Huang, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 37, No. 6
+  year: 2018
+  highlight: 1
+  project_page: https://sites.google.com/site/alimahdaviamiri/projects/reversible-shapes
+
+- title: >-
+   Language-Driven Synthesis of 3D Scenes Using Scene Databases
+  image: ma_siga18_t2s.png
+  description: >-
+    We introduce a novel framework for using natural language to generate and edit 3D indoor scenes, harnessing scene semantics and text-scene grounding knowledge learned from large annotated 3D scene databases. The advantage of natural language editing interfaces is strongest when performing semantic operations at the sub-scene level, acting on groups of objects. We learn how to manipulate these sub-scenes by analyzing existing 3D scenes. We perform edits by first parsing a natural language command from the user and trans- forming it into a semantic scene graph that is used to retrieve corresponding sub-scenes from the databases that match the command. We then augment this retrieved sub-scene by incorporating other objects that may be implied by the scene context. Finally, a new 3D scene is synthesized by aligning the augmented sub-scene with the userâ€™s current scene, where new objects are spliced into the environment, possibly triggering appropriate adjustments to the existing scene arrangement.
+  authors: Rui Ma, Akshay Gadi Patil (co-first author), Matt Fisher, Manyi Li, Soren Pirk, Binh-Son Hua, Sai-Kit Yeung, Xin Tong, Leonidas J. Guibas, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 37, No. 6
+  year: 2018
+  highlight: 1
+  project_page: http://www.sfu.ca/~agadipat/publications/2018/T2S/project_page.html
+
+- title: >-
+   SketchyScene: 3D Fabrication with Universal Building Blocks and Pyramidal Shells
+  image: chen_siga18_pym.png
+  description: >-
+    We introduce a computational solution for cost-efficient 3D fabrication using universal building blocks. Our key idea is to employ a set of universal blocks, which can be massively prefabricated at a low cost, to quickly assemble and constitute a significant internal core of the target object, so that only the residual volume need to be 3D printed online. We further improve the fabrication efficiency by decomposing the residual volume into a small number of printing-friendly pyramidal pieces.
+  authors: Xuelin Chen, Honghua Li, Chi-Wing Fu, Hao Zhang, Daniel Cohen-Or, and Baoquan Chen
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 37, No. 6
+  year: 2018
+  highlight: 1
+  project_page: http://irc.cs.sdu.edu.cn/~xuelin/prefab/index.html
+
+- title: >-
+   SketchyScene: Richly-Annotated Scene Sketches
+  image: zou_eccv18_sketch.png
+  description: >-
+    We contribute the first large-scale dataset of scene sketches, SketchyScene, with the goal of advancing research on sketch understanding at both the object and scene level. The dataset is created through a novel and carefully designed crowdsourcing pipeline, enabling users to efficiently generate large quantities realistic and diverse scene sketches. SketchyScene contains more than 29,000 scene-level sketches, 7,000+ pairs of scene templates and photos, and 11,000+ object sketches. All objects in the scene sketches have ground-truth semantic and instance masks. The dataset is also highly scalable and extensible, easily allowing augmenting and/or changing scene composition. We demonstrate the potential impact of SketchyScene by training new computational models for semantic segmentation of scene sketches and showing how the new dataset enables several applications including image retrieval, sketch colorization, editing, and captioning, etc. We will release the complete crowdsourced dataset to the community.
+  authors: Changqing Zou, Qian Yu, Ruofei Du, Haoran Mo, Yi-Zhe Song, Tao Xiang, Chengyi Gao, Baoquan Chen, and Hao Zhang
+  venue: >-
+     ECCV
+  year: 2018
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zou_eccv18_sketch.pdf
+
+- title: >-
+   P2P-NET: Bidirectional Point Displacement Net for Shape Transform
+  image: yin_sig18_p2p.png
+  description: >-
+    We introduce P2P-NET, a general-purpose deep neural network which learns geometric transformations between point-based shape representations from two domains, e.g., meso-skeletons and surfaces, partial and complete scans, etc. The architecture of the P2P-NET is that of a bi-directional point dis- placement network, which transforms a source point set to a prediction of the target point set with the same cardinality, and vice versa, by applying point-wise displacement vectors learned from data. P2P-NET is trained on paired shapes from the source and target domains, but without relying on point-to-point correspondences between the source and target point sets. The training loss combines two uni-directional geometric losses, each enforc- ing a shape-wise similarity between the predicted and the target point sets, and a cross-regularization term to encourage consistency between displace- ment vectors going in opposite directions.
+  authors: Kangxue Yin, Hui Huang, Daniel Cohen-Or, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH), Vol. 37, No. 4, Article 152
+  year: 2018
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/yin_sig18_p2p.pdf
+
+- title: >-
+   Predictive and Generative Neural Networks for Object Functionality
+  image: hu_sig18_icon4.png
+  description: >-
+    Humans can predict the functionality of an object even without any surroundings, since their knowledge and experience would allow them to "hallucinate" the interaction or usage scenarios involving the object. We develop predictive and generative deep convolutional neural networks to replicate this feat. Our networks are trained on a database of scene contexts, called interaction contexts, each consisting of a central object and one or more surrounding objects, that represent object functionalities. Given a 3D object in isolation, our functional similarity network (fSIM-NET), a variation of the triplet network, is trained to predict the functionality of the object by inferring functionality-revealing interaction contexts involving the object. fSIM-NET is complemented by a generative network (iGEN-NET) and a segmentation network (iSEG-NET). iGEN-NET takes a single voxelized 3D object and synthesizes a voxelized surround, i.e., the interaction context which visually demonstrates the object's functionalities. iSEG-NET separates the interacting objects into different groups according to their interaction types.
+  authors: Ruizhen Hu, Zhihao Yan, Jingwen Zhang, Oliver van Kaick, Ariel Shamir, Hao Zhang, and Hui Huang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH), Vol. 37, No. 4, Article 151
+  year: 2018
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/hu_sig18_icon4.pdf
+  project_page: http://vcc.szu.edu.cn/research/2018/ICON4/
+
+- title: >-
+   DSCarver: Decompose-and-Spiral-Carve for Subtractive Manufacturing
+  image: zhao_sig18_cnc.png
+  description: >-
+    We present an automatic algorithm for subtractive manufacturing of freeform 3D objects using high-speed CNC machining. Our method decomposes the input object's surface into a small number of patches each of which is fully accessible and machinable by the CNC machine, in continuous fashion, under a fixed drill-object setup configuration. This is achieved by covering the input surface using a minimum number of accessible regions and then extracting a set of machinable patches from each accessible region. For each patch obtained, we compute a continuous, space-filling, and iso-scallop tool path, in the form of connected Fermat spirals, which conforms to the patch boundary. Furthermore, we develop a novel method to control the spacing of Fermat spirals based on directional surface curvature and adapt the heat method to obtain iso-scallop carving.
+  authors: Haisen Zhao, Hao Zhang, Shiqing Xin, Yuanmin Deng, Changhe Tu, Wenping Wang, Daniel Cohen-Or, and Baoquan Chen
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH), Vol. 37, No. 4, Article 137
+  year: 2018
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/zhao_sig18_cnc.pdf
+
+- title: >-
+   A Sampling Approach to Generating Closely Interacting 3D Pose-pairs from 2D Annotations
+  image: yin_tvcg18_intpair_small.png
+  description: >-
+    We introduce a data-driven method to generate a large number of plausible, closely interacting 3D human pose-pairs, for a given motion category, e.g., wrestling or salsa dance. With much difficulty in acquiring close interactions using 3D sensors, our approach utilizes abundant existing video data which cover many human activities. Instead of treating the data generation problem as one of reconstruction, we present a solution based on Markov Chain Monte Carlo (MCMC) sampling. Given a motion category and a set of video frames depicting the motion with the 2D pose-pair in each frame annotated, we start the sampling with one or few seed 3D pose-pairs which are manually created based on the target motion category. The initial set is then augmented by MCMC sampling around the seeds, via the Metropolis-Hastings algorithm and guided by a probability density function (PDF) that is defined by two terms to bias the sampling towards 3D pose-pairs that are physically valid and plausible for the motion category.
+  authors: Kangxue Yin, Hui Huang, Edmond S. L. Ho, Hao Wang, Taku Komura, Daniel Cohen-Or, and Hao Zhang
+  venue: >-
+     IEEE Trans. on Visualization and Computer Graphics (TVCG), minor revision
+  year: 2018
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/papers.html
+
+- title: >-
+   Class-Sensitive Shape Dissimilarity Metric
+  image: li_gm18_csmetric.png
+  description: >-
+    Shape dissimilarity is a fundamental problem with many applications such as shape exploration, retrieval, and classification. Given a collection of shapes, all existing methods develop a consistent global metric to compareand organize shapes. The global nature of the involved shape descriptors implies that overall shape appearanceis compared. These methods work well to distinguishshapes from different categories, but often fail for fine-grained classes within the same category. In this paper, we develop a dissimilarity metric for fine-grained classes by fusing together multiple distinctive metrics for different classes. The fused metric measures the dissimilarities among inter-class shapes by observing their unique traits.
+  authors: Manyi Li, Noa Fish, Lili Cheng, Changhe Tu, Daniel Cohen-Or, Hao Zhang, and Baoquan Chen
+  venue: >-
+     Graphical Models
+  year: 2018
+  highlight: 1
+  pdf: http://www.cs.sfu.ca/~haoz/pubs/li_gm18_csmetric.pdf
+
+- title: >-
+   Branched Generative Adversarial Networks for Multi-Scale Image Manifold Learning
+  image: yi_arx18_bgan.png
+  description: >-
+    Conditional Generative Adversarial Networks (GANs) for cross-domain image-to-image translation have made much progress recently. Depending on the task complexity, thousands to millions of labeled image pairs are needed to train a conditional GAN. However, human labeling is expensive, even impractical, and large quantities of data may not always be available. Inspired by dual learning from natural language translation, we develop a novel dual-GAN mechanism, which enables image translators to be trained from two sets of unlabeled images from two domains. In our architecture, the primal GAN learns to translate images from domain U to those in domain V, while the dual GAN learns to invert the task. The closed loop made by the primal and dual tasks allows images from either domain to be translated and then reconstructed. Hence a loss function that accounts for the reconstruction error of images can be used to train the translators.
+  authors: Zili Yi, Zhiqin Chen, Hao Zhang, Xin Huang, and Minglun Gong
+  venue: >-
+    arXiv:1803.08467
+  year: 2018
+  highlight: 1
+  pdf: https://arxiv.org/pdf/1803.08467.pdf
+
+- title: >-
     Semi-Supervised Co-Analysis of 3D Shape Styles from Projected Lines
   image: yu_tog18_style.png
   description: >-
