@@ -67,28 +67,3 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 
-## Older publications
-
-{% for publi in site.data.publist %}
-{% if publi.highlight == 0 %}
-  {% assign currentdate = publi.year | year: "%Y" %}
-  {% if currentdate != year %}
-
-
-### {{ currentdate }}
-
-    {% assign year = currentdate %} 
-  {% endif %}
-
-
-<p style="padding-bottom: 15px">
-
-<em>{{ publi.authors }},</em> <pubtit>&quot;{{ publi.title }}&quot;.</pubtit> <em>In {{ publi.venue }} ({{ publi.year }}).</em>
-<br>
-{% assign icons_printed = 0 %}
-{% include pubdetails.html pdf=publi.pdf presentation=publi.presentation project_page=publi.project_page video=publi.video bibtex=publi.bibtex %}
-</p>
-{% endif %}
-{% endfor %}
-
-
