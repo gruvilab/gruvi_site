@@ -15,9 +15,6 @@ permalink: /publications/
     {% assign year = currentdate %} 
   {% endif %}
 
-
-    {% if publi.highlight == 1 %}
-
 {% if 0 == 0 %}
 <div class="row">
 {% endif %}
@@ -48,8 +45,6 @@ permalink: /publications/
 
 {% if 1 == 1 %}
 </div>
-{% endif %}
-
 {% endif %}
 
 
