@@ -11,6 +11,12 @@
 
 ################################# Lab Directors  #################################
 
+- name: Angel Chang
+  photo: angel.png
+  role: Faculty
+  email: 
+  website: https://angelxuanchang.github.io/
+  number_educ: 0
   
 - name: Eugene Fiume
   photo: eugene.png
@@ -24,6 +30,13 @@
   role: Faculty
   email: 
   website: http://www.cs.sfu.ca/~furukawa/
+  number_educ: 0
+
+- name: Manolis Savva	
+  photo: manolis.png
+  role: Faculty
+  email: 
+  website: http://msavva.github.io/
   number_educ: 0
 
 - name: Ping Tan
