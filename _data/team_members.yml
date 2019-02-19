@@ -100,12 +100,12 @@
   website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
   number_educ: 0
 
-- name: Manyi Li
-  photo: manyi.jpg
-  role: Visitor
-  email: 
-  website: https://manyili12345.github.io/
-  number_educ: 0
+#- name: Manyi Li
+#  photo: manyi.jpg
+#  role: Visitor
+#  email: 
+#  website: https://manyili12345.github.io/
+#  number_educ: 0
 
 - name: Jie Tang
   photo: jietang.jpg
