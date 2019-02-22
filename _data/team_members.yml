@@ -11,6 +11,8 @@
 
 ################################# Lab Directors  #################################
 
+
+
 - name: Angel Chang
   photo: angel.png
   role: Faculty
@@ -30,6 +32,13 @@
   role: Faculty
   email: 
   website: http://www.cs.sfu.ca/~furukawa/
+  number_educ: 0
+  
+- name: Ali Mahdavi-Amiri
+  photo: ali.png
+  role: Faculty
+  email: 
+  website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
   number_educ: 0
 
 - name: Manolis Savva	
@@ -93,12 +102,7 @@
 ################################# Postdocs and visitors  #################################
 
 
-- name: Ali Mahdavi-Amiri
-  photo: ali.png
-  role: Postdoc
-  email: 
-  website: http://pages.cpsc.ucalgary.ca/~amahdavi/pmwiki-2.2.8/
-  number_educ: 0
+
 
 #- name: Manyi Li
 #  photo: manyi.jpg
