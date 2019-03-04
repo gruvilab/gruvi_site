@@ -212,12 +212,12 @@
   website: 
   number_educ: 0
 
-- name: Renjiao Yi
-  photo: renjiao.png
-  role: Graduate Student
-  email: 
-  website:  http://www.sfu.ca/~renjiaoy/
-  number_educ: 0
+#- name: Renjiao Yi
+#  photo: renjiao.png
+#  role: Graduate Student
+#  email: 
+#  website:  http://www.sfu.ca/~renjiaoy/
+#  number_educ: 0
 
 - name: Kangxue Yin
   photo: kangxue.jpg
@@ -233,9 +233,9 @@
   website: http://www.personal_pagegate.net/profile/Hamid_Younesy
   number_educ: 0  
   
-- name: Chenyang Zhu
-  photo: chenyang.png
-  role: Graduate Student
-  email: chenyang.chandler.zhu@gmail.com
-  website: http://www.sfu.ca/~cza68/
-  number_educ: 0
+#- name: Chenyang Zhu
+#  photo: chenyang.png
+#  role: Graduate Student
+#  email: chenyang.chandler.zhu@gmail.com
+#  website: http://www.sfu.ca/~cza68/
+#  number_educ: 0
