@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: April 14, 2019
+  headline: >-
+    5 SIG Asia 2018 papers
+  text: >-
+    <p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-size: small;">The GrUVi team would like to welcome three SFU undergrad students who are joining the lab for summer/visiting research:</span></p> <ul> <li style="line-height: 100%;"><span style="font-size: small;">Leo Li - to start in the summer as a VPA USRA working on representation learning;</span></li> <li style="line-height: 100%;"><span style="font-size: small;">Atticus Shi - he has already started and is sitting at Chenyang's desk; he is working on a geometric optimization problem related to fixture design for CNC machining;</span></li> <li style="line-height: 100%;"><span style="font-size: small;">Azmarie Wang - to start in the summer as a special project student working on creative design problems.</span></li> </ul> <p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-size: small;">In addition, Xiaogang Wang is joining us as a visiting PhD from Beihang University, the same university as Jiongchao. He comes with an already impressive research record (one SIG Asia and one CVPR), working with Kevin, a GrUVi alumni himself.&nbsp;</span></p> <p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-size: small;">Fenggen (Fogg) Yu, will be a new PhD starting this fall. Fenggen is from Nanjing University and he had already collaborated with GrUVi members on a ACM TOG paper. He also has a CVPR paper this year.</span></p> <p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-size: small;">Finally, two current members of the lab, Zhiqin and Jon, will continue as PhD students this fall.</span></p> <p style="margin-bottom: 0cm; line-height: 100%;"><span style="font-size: small;">Finally, Akshay is back from Israel, as well as Manyi, a newly minted PhD, who will be back as a postdoc in a month or so.</span></p> <p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+  highlight: 1
+  image: ma_siga18_t2s.png
+
 - date: October 2, 2018
   headline: >-
     5 SIG Asia 2018 papers
@@ -41,7 +49,7 @@
     Eugene's 60th Aniversary Celebrated
   text: >-
     A special event honouring Professor Eugene Fiume, on the occasion of his 60-th birthday, was held at the SFU Harbour Center on August 17, right after SIGGRAPH 2018. Many of Eugene's first-generation PhDs from the University of Toronto attended the celebratory workshop and gave their account of fun and inspiring stories about what it was like to be his graduate students. Eugene's computer graphics instructor during his undergraduate years at the University of Waterloo provided hint of how Eugene was already "ahead of the class" then. The event featured Prof. Pat Hanrahan from Stanford University, as the keynote speaker. Pat spoke of "theory vs. practice" to highlight how over the years, Eugene has been among the rare group of people in computer graphics, who have emphasized the importance of theory in the field.
-  highlight: 1
+  highlight: 0
   image: eugene_event1.jpg
 
 - date: July 22, 2018
