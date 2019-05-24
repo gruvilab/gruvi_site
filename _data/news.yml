@@ -13,6 +13,14 @@
 
 - date: April 14, 2019
   headline: >-
+    Kangxue Yin wins an Award!
+  text: >-
+    Congratulations to Kangxue Yin, who received the prestigious Chinese Government Award for Outstanding Self-financed Students Abroad!</p><p>Thisi award was established in 2003 by the&nbsp;<a title="China Scholarship Council" href="https://en.wikipedia.org/wiki/China_Scholarship_Council">China Scholarship Council</a>. The worldwide recipients are chosen annually based on a record of outstanding accomplishments in any discipline.</p><p>This award is considered the highest award given by Chinese government for Chinese graduate students studying abroad who do not receive regular financial support from Chinese government.</p><p>Currently, this award is granted only to 500 students. Since there are around half a million Chinese students to study abroad each year, this a highly competitive award. For the academic year 2018, only 6 students based in British Columbia, Canada were awarded. Among them, Kangxue was the only student majoring in computer science.
+  highlight: 1
+  image: kangxue_award.png
+
+- date: April 14, 2019
+  headline: >-
     New and Returning GRuVIers!
   text: >-
     The GrUVi team would like to welcome three SFU undergrad students who are joining the lab for summer/visiting research:</p> <ul> <li style="line-height: 100%; text-align: justify;">Leo Li - to start in the summer as a VPA USRA working on representation learning;</li> <li style="line-height: 100%; text-align: justify;">Atticus Shi - who is working on a geometric optimization problem related to fixture design for CNC machining;</li> <li style="line-height: 100%; text-align: justify;">Azmarie Wang - to start in the summer as a special project student working on creative design problems.</li> </ul> <p align="justify">In addition, Xiaogang Wang is joining us as a visiting PhD from Beihang University, the same university as Jiongchao. He comes with an already impressive research record (one SIG Asia and one CVPR), working with Kevin, a GrUVi alumni himself.</p> <p align="justify">Fenggen (Fogg) Yu, will be a new PhD starting this fall. Fenggen is from Nanjing University and he had already collaborated with GrUVi members on a ACM TOG paper. He also has a CVPR paper this year.</p> <p align="justify">We are also pleased to announce that two current members of the lab, Zhiqin and Jon, will continue as PhD students this fall.</p> <p align="justify">Finally, Akshay is returning from his internship at Amazon (Israel) and Manyi, as a newly minted PhD, will be back as a postdoc this Summer.
