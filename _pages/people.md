@@ -52,6 +52,7 @@ permalink: /people/
 {% endif %}
 </div>
 
+
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 <div class="col-sm-12">
 ### Affiliated Faculty
@@ -68,7 +69,7 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-2 col-sm-2 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 
 <div class="row" style="padding-left: 25%;  margin-bottom: 0px;">
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
@@ -95,6 +96,8 @@ permalink: /people/
 </div>
 {% endif %}
 </div>
+
+
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 <div class="col-sm-12">
@@ -112,7 +115,7 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-2 col-sm-2 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 
 <div class="row" style="padding-left: 25%;  margin-bottom: 0px;">
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
@@ -139,6 +142,7 @@ permalink: /people/
 </div>
 {% endif %}
 </div>
+
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 <div class="col-sm-12">
@@ -156,7 +160,7 @@ permalink: /people/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
+<div class="col-sm-2 col-sm-2 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 
 <div class="row" style="padding-left: 25%;  margin-bottom: 0px;">
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
@@ -183,6 +187,7 @@ permalink: /people/
 </div>
 {% endif %}
 </div>
+
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 {% assign year = 999 %} 
