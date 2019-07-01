@@ -64,7 +64,7 @@ permalink: /people/
 {% assign even_odd = number_printed | modulo: 5 %}
 
 {% if even_odd == 0 %}
-<div class="col-sm-5 col-xs-12 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
+<div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
 <div class="row">
 {% endif %}
 
@@ -108,7 +108,7 @@ permalink: /people/
 {% assign even_odd = number_printed | modulo: 5 %}
 
 {% if even_odd == 0 %}
-<div class="col-sm-5 col-xs-12 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
+<div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
 <div class="row">
 {% endif %}
 
@@ -152,7 +152,7 @@ permalink: /people/
 {% assign even_odd = number_printed | modulo: 5 %}
 
 {% if even_odd == 0 %}
-<div class="col-sm-5 col-xs-12 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
+<div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
 <div class="row">
 {% endif %}
 
