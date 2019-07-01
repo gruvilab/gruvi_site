@@ -13,47 +13,11 @@ permalink: /people/
 ### Faculty
 </div>
 {% assign number_printed = 0 %}
-<div class="col-12">  
 {% for member in site.data.team_members %}
 
 {% if member.role == "Faculty" %}
-{% assign even_odd = number_printed | modulo: 5 %}
-  
-{% if even_odd == 0 %}
-<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
-{% endif %}
 
-{% if even_odd != 0 %}
-<div class="col-sm-2 col-md-2 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
-{% endif %}
-
-<div class="row" style="padding-left: 25%;  margin-bottom: 0px;">
-<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
-</div>
-
-<h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
-
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% endif %}
-
-{% endfor %}
-</div>  
-</div>
-
-
-<div class="row" style="margin-top: 0px; margin-bottom: 0px;">
-<div class="col-sm-12">
-### Affiliated Faculty
-</div>
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% if member.role == "Affiliated Faculty" %}
-
-{% assign even_odd = number_printed | modulo: 5 %}
+{% assign even_odd = number_printed | modulo: 6 %}
 
 {% if even_odd == 0 %}
 <div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
@@ -73,7 +37,7 @@ permalink: /people/
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 4 %}
+{% if even_odd == 5 %}
 </div>
 </div>
 {% endif %}
@@ -82,7 +46,53 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 4 %}
+{% if even_odd != 5 %}
+</div>
+</div>
+{% endif %}
+</div>
+
+
+
+<div class="row" style="margin-top: 0px; margin-bottom: 0px;">
+<div class="col-sm-12">
+### Affiliated Faculty
+</div>
+{% assign number_printed = 0 %}
+{% for member in site.data.team_members %}
+
+{% if member.role == "Affiliated Faculty" %}
+
+{% assign even_odd = number_printed | modulo: 6 %}
+
+{% if even_odd == 0 %}
+<div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
+<div class="row">
+{% endif %}
+
+<div class="col-sm-2 col-sm-2 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
+
+<div class="row" style="padding-left: 25%;  margin-bottom: 0px;">
+<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
+</div>
+
+<h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
+
+
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 5 %}
+</div>
+</div>
+{% endif %}
+
+{% endif %}
+
+{% endfor %}
+
+{% if even_odd != 5 %}
 </div>
 </div>
 {% endif %}
@@ -99,7 +109,7 @@ permalink: /people/
 
 {% if member.role == "Visitor" or member.role == "Postdoc"%}
 
-{% assign even_odd = number_printed | modulo: 5 %}
+{% assign even_odd = number_printed | modulo: 6 %}
 
 {% if even_odd == 0 %}
 <div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
@@ -119,7 +129,7 @@ permalink: /people/
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 4 %}
+{% if even_odd == 5 %}
 </div>
 </div>
 {% endif %}
@@ -128,7 +138,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 4 %}
+{% if even_odd != 5 %}
 </div>
 </div>
 {% endif %}
@@ -144,7 +154,7 @@ permalink: /people/
 
 {% if member.role == "Graduate Student"%}
 
-{% assign even_odd = number_printed | modulo: 5 %}
+{% assign even_odd = number_printed | modulo: 6 %}
 
 {% if even_odd == 0 %}
 <div class="col-lg-12 col-sm-12 col-xs-6 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
@@ -164,7 +174,7 @@ permalink: /people/
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 4 %}
+{% if even_odd == 5 %}
 </div>
 </div>
 {% endif %}
@@ -173,7 +183,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 4 %}
+{% if even_odd != 5 %}
 </div>
 </div>
 {% endif %}
