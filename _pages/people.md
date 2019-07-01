@@ -13,6 +13,7 @@ permalink: /people/
 ### Faculty
 </div>
 {% assign number_printed = 0 %}
+<div class="col-12">  
 {% for member in site.data.team_members %}
 
 {% if member.role == "Faculty" %}
@@ -39,7 +40,7 @@ permalink: /people/
 {% endif %}
 
 {% endfor %}
-
+</div>  
 </div>
 
 
