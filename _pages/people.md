@@ -18,11 +18,11 @@ permalink: /people/
 {% if member.role == "Faculty" %}
   
 {% if number_printed == 0 %}
-<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">{{ number_printed }}
+<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 {% endif %}
 
 {% if number_printed != 0 %}
-<div class="col-sm-2 col-md-2 col-md-offset-1 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">{{ number_printed }}
+<div class="col-sm-2 col-md-2 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 {% endif %}
 
 <div class="row" style="padding-left: 25%;  margin-bottom: 0px;">
