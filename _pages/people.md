@@ -46,7 +46,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 1 %}
+{% if even_odd != 4 %}
 </div>
 </div>
 {% endif %}
@@ -61,7 +61,7 @@ permalink: /people/
 
 {% if member.role == "Affiliated Faculty" %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign even_odd = number_printed | modulo: 5 %}
 
 {% if even_odd == 0 %}
 <div class="col-sm-5 col-xs-12 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
@@ -81,7 +81,7 @@ permalink: /people/
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
+{% if even_odd == 4 %}
 </div>
 </div>
 {% endif %}
@@ -90,7 +90,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 1 %}
+{% if even_odd != 4 %}
 </div>
 </div>
 {% endif %}
@@ -105,7 +105,7 @@ permalink: /people/
 
 {% if member.role == "Visitor" or member.role == "Postdoc"%}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign even_odd = number_printed | modulo: 5 %}
 
 {% if even_odd == 0 %}
 <div class="col-sm-5 col-xs-12 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
@@ -125,7 +125,7 @@ permalink: /people/
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
+{% if even_odd == 4 %}
 </div>
 </div>
 {% endif %}
@@ -134,7 +134,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 1 %}
+{% if even_odd != 4 %}
 </div>
 </div>
 {% endif %}
@@ -149,7 +149,7 @@ permalink: /people/
 
 {% if member.role == "Graduate Student"%}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign even_odd = number_printed | modulo: 5 %}
 
 {% if even_odd == 0 %}
 <div class="col-sm-5 col-xs-12 clearfix fixheight" style="padding-right: 17px; padding-left: 17px;">
@@ -169,7 +169,7 @@ permalink: /people/
 
 {% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
+{% if even_odd == 4 %}
 </div>
 </div>
 {% endif %}
@@ -178,7 +178,7 @@ permalink: /people/
 
 {% endfor %}
 
-{% if even_odd != 1 %}
+{% if even_odd != 4 %}
 </div>
 </div>
 {% endif %}
