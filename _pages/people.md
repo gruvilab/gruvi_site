@@ -27,7 +27,7 @@ permalink: /people/
 <div class="col-sm-6 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 
 <div class="row" style="padding-left: 15%;  margin-bottom: 0px;">
-<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="75%" style="float: left;"/></a>
+<a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="90%" style="float: left;"/></a>
 </div>
 
 <h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
