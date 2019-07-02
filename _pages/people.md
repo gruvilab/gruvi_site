@@ -30,7 +30,7 @@ permalink: /people/
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="85%" style="float: left;"/></a>
 </div>
 
-<h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
+<h5 style="text-align: center; margin-top: 2px;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
 
 
 </div>
@@ -74,7 +74,7 @@ permalink: /people/
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="85%" style="float: left;"/></a>
 </div>
 
-<h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
+<h5 style="text-align: center; margin-top: 2px;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
 
 
 </div>
@@ -118,7 +118,7 @@ permalink: /people/
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="85%" style="float: left;"/></a>
 </div>
 
-<h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
+<h5 style="text-align: center; margin-top: 2px;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
 
 
 </div>
@@ -162,7 +162,7 @@ permalink: /people/
 <a  href="{{ member.website }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="85%" style="float: left;"/></a>
 </div>
 
-<h5 style="text-align: center;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
+<h5 style="text-align: center; margin-top: 2px;"><a href="{{ member.website }}" target="_blank">{{ member.name }}</a></h5>
 
 
 </div>
