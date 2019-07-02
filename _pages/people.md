@@ -42,7 +42,7 @@ permalink: /people/
 </div>
 {% endif %}
 
-{% endif %}
+{% endif %} 
 
 {% endfor %}
 
