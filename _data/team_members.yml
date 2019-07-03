@@ -105,8 +105,12 @@
 
 ################################# Postdocs and visitors  #################################
 
-
-
+- name: Jiongchao Jin
+  photo: jiongchao.jpg
+  role: Visitor
+  email: 
+  website: #
+  number_educ: 0
 
 - name: Manyi Li
   photo: manyi.jpg
@@ -127,6 +131,13 @@
   role: Visitor
   email: 
   website: https://scholar.google.com/citations?user=GUSTl88AAAAJ&hl=en
+  number_educ: 0
+
+- name: Xiaogang Wang
+  photo: xiaogang.jpg
+  role: Visitor
+  email: 
+  website: #
   number_educ: 0
 
 #- name: Zili Yi
