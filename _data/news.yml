@@ -39,7 +39,7 @@
   headline: >-
     Accepted Paper on CVPR
   text: >-
-    A paper by Zhiqin Chen and Hao Zhang on learning implicit fields for generative modeling of 3D shapes will be presented at CVPR 2019! It has also been invited to be presented at the <a href="https://3dscenegen.github.io/">Workshop on 3D Scene Generation</a> at CVPR; see <a href="https://arxiv.org/abs/1812.02822">paper on arXiv</a>. 
+    A paper by Zhiqin Chen and Hao Zhang on learning implicit fields for generative modeling of 3D shapes will be presented at CVPR 2019!<br>It has also been invited to be presented at the <a href="https://3dscenegen.github.io/">Workshop on 3D Scene Generation</a> at CVPR; see <a href="https://arxiv.org/abs/1812.02822">paper on arXiv</a>.<br>Congratulations to both Zhiqin and Richard!
   highlight: 1
   image: zhiqin_cvpr.png
 
