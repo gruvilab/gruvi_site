@@ -11,7 +11,12 @@
 
 ################################# Lab Directors  #################################
 
-
+- name: Yağız Aksoy
+  photo: yagiz.jpg
+  role: Faculty
+  email: 
+  website: http://people.inf.ethz.ch/aksoyy/
+  number_educ: 0
 
 - name: Angel Chang
   photo: angel.png
@@ -54,7 +59,6 @@
   email: pingtan@cs.sfu.ca
   website: http://www.cs.sfu.ca/~pingtan/
   number_educ: 0
-
 
 - name: KangKang Yin
   photo: kkyin.jpg
@@ -104,12 +108,12 @@
 
 
 
-#- name: Manyi Li
-#  photo: manyi.jpg
-#  role: Visitor
-#  email: 
-#  website: https://manyili12345.github.io/
-#  number_educ: 0
+- name: Manyi Li
+  photo: manyi.jpg
+  role: Visitor
+  email: 
+  website: https://manyili12345.github.io/
+  number_educ: 0
 
 - name: Jie Tang
   photo: jietang.jpg
@@ -125,12 +129,12 @@
   website: https://scholar.google.com/citations?user=GUSTl88AAAAJ&hl=en
   number_educ: 0
 
-- name: Zili Yi
-  photo: zili.jpg
-  role: Visitor
-  email: 
-  website: http://www.cs.mun.ca/~yz7241/
-  number_educ: 0
+#- name: Zili Yi
+#  photo: zili.jpg
+#  role: Visitor
+#  email: 
+#  website: http://www.cs.mun.ca/~yz7241/
+#  number_educ: 0
 
 
 ################################# Graduate Students  #################################
