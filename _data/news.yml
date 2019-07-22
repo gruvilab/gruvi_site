@@ -15,7 +15,7 @@
   headline: >-
     Richard's SGP Keynote Speech
   text: >-
-    Richard Zhang was featured in the Eurographics Symposium on Geometry Processing (SGP) as a keynote speaker! His speech was titled “Can Machines Learn to Generate 3D Shapes?”. In his talk, Richard highlighted the representation, data, and output challenges that researchers must tackle in this domain and how his research has shaped itself to address these challenges.</p><p style="text-align: justify;">One of the key issues in this domain is not generate shapes that look right; instead, they need to serve their intended function while displaying the right part connections, arrangements, and geometry.
+    Richard Zhang was featured in the Eurographics Symposium on Geometry Processing (SGP) as a keynote speaker! His speech was titled “Can Machines Learn to Generate 3D Shapes?”.</p><p style="text-align: justify;">In his talk, Richard highlighted the representation, data, and output challenges that researchers must tackle and how his research has shaped itself to address these challenges.</p><p style="text-align: justify;">One of the key issues in this domain is not generate shapes that look right; instead, they need to serve their intended function while displaying the right part connections, arrangements, and geometry.
   highlight: 1
   image: Richard_SGP.jpeg
 
