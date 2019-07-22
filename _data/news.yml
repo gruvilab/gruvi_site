@@ -11,9 +11,17 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: Jul 22, 2019
+  headline: >-
+    Richard's SGP Keynote Speech
+  text: >-
+Richard Zhang was featured in the Eurographics Symposium on Geometry Processing (SGP) as a keynote speaker! His speech was titled “Can Machines Learn to Generate 3D Shapes?”. In that talk, Richard highlighted the representation, data, and output challenges researchers must tackle and how his research has shaped itself to address these challenges.</p><p style="text-align: justify;">One of the key issue in this domain is not generate shapes that look right; they need to serve their intended function while displaying the right part connections, arrangements, and geometry.
+  highlight: 1
+  image: Richard_SGP.jpeg
+
 - date: Jul 3, 2019
   headline: >-
-    Yağız Aksoy joins GrUVi
+    Yağız Aksoy Joins GrUVi
   text: >-
     GrUVi is glad to announce that Yagiz Aksoy will join our team this August. He is a PhD student of Marc Pollefeys at ETH Zurich. During his PhD, he spent a year at MIT CSAIL working with Wojciech Matusik and three years at Disney Research Zurich.<br>His research is at the intersection of computer vision and computer graphics, focusing on analyzing images to allow for realistic manipulation of photographs. His research has resulted in publications at venues such as SIGGRAPH, CVPR, and ACM Transactions on Graphics.<br>Welcome to the GrUVi team, Yagiz!
   highlight: 1
@@ -40,7 +48,7 @@
     Accepted Paper on CVPR
   text: >-
     A paper by Zhiqin Chen and Hao Zhang on learning implicit fields for generative modeling of 3D shapes will be presented at CVPR 2019!<br>It has also been invited to be presented at the <a href="https://3dscenegen.github.io/">Workshop on 3D Scene Generation</a> at CVPR; see <a href="https://arxiv.org/abs/1812.02822">paper on arXiv</a>.<br>Congratulations to both Zhiqin and Richard!
-  highlight: 1
+  highlight: 0
   image: zhiqin_cvpr.png
 
 - date: April 14, 2019
