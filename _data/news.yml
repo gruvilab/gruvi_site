@@ -19,6 +19,14 @@
   highlight: 1
   image: Richard_SGP.jpeg
 
+- date: Jul 9, 2019
+  headline: >-
+    Xiaoming Liu Visits SFU
+  text: >-
+    <a href"http://www.cse.msu.edu/~liuxm" target="_blank">Dr. Xiaoming Liu</a> visited SFU today following an invitation from Dr. Yasutaka Furukawa! His talk titled "Inverse Graphics for 3D Modeling and Reconstruction: from Face to Generic Objects" has the following abstract<br><br>"Reconstructing the detailed and complete 3D surface of an object from a single 2D image is a long standing computer vision problem. In this talk, we present an inverse graphics-based framework to learn a 3D face model from a large set of in-the-wild 2D face images, without the need of capturing 3D scans. We also extend this framework to high-fidelity face modeling, as well as generic object modeling and 3D reconstruction. In the end, we will briefly overview other research efforts in the Computer Vision Lab at Michigan State University, including face anti-spoofing, explainable recognition, early sensor fusion of LiDAR and RGB, 2D/3D object detection from urban driving videos, etc."
+  highlight: 1
+  image: xiaoming.jpg
+
 - date: Jul 3, 2019
   headline: >-
     Yağız Aksoy Joins GrUVi
@@ -40,7 +48,7 @@
     Kangxue Yin wins an Award!
   text: >-
     The GrUVi team congratulates Kangxue Yin, whom received the prestigious Chinese Government Award for Outstanding Self-financed Students Abroad!</p><p style="text-align: justify;">This award was established in 2003 by the&nbsp;<a title="China Scholarship Council" href="https://en.wikipedia.org/wiki/China_Scholarship_Council">China Scholarship Council</a>. The worldwide recipients are chosen annually based on a record of outstanding accomplishments in any discipline.</p><p style="text-align: justify;">This award is considered the highest award given by Chinese government for Chinese graduate students studying abroad who do not receive regular financial support from Chinese government.</p><p style="text-align: justify;">Currently, this award is granted to only 500 students every year. Since there are around half a million Chinese students to study abroad per year, this a highly competitive award. For the academic year 2018, only 6 awardees were based in British Columbia, Canada. Among them, Kangxue was the only student majoring in Computer Science.
-  highlight: 1
+  highlight: 0
   image: kangxue_award.jpg
 
 - date: May 1, 2019
