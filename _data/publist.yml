@@ -87,7 +87,7 @@
 
 - title: >-
    Qualitative Organization of Photo Collections via Quartet Analysis and Active Learning
-  image: xu_cvm19_mosaic.png
+  image: gan_gi19_album.png
   description: >-
     We introduce the use of qualitative analysis and active learning to photo album construction. Given a heterogeneous collection of pho- tos, we organize them into a hierarchical categorization tree (C-tree) based on qualitative analysis using quartets instead of relying on conventional, quantitative image similarity metrics. The main moti- vation is that in a heterogeneous collection, quantitative distances may become unreliable between dissimilar data and there is unlikely a single metric that is well applicable to all data.
   venue: >-
