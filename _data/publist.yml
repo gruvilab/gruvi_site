@@ -23,16 +23,105 @@
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 
 - title: >-
+   BAE-NET: Branched Autoencoder for Shape Co-Segmentation
+  image: schor_partAE.png
+  description: >-
+    We treat shape co-segmentation as a representation learning problem and introduce BAE-NET, a branched autoencoder network, for the task. The unsupervised BAE-NET is trained with all shapes in an input collection using a shape reconstruction loss, without ground-truth segmentations. Specifically, the network takes an input shape and encodes it using a convolutional neural network, whereas the decoder concatenates the resulting feature code with a point coordinate and outputs a value indicating whether the point is inside/outside the shape. Importantly, the decoder is branched: each branch learns a compact representation for one commonly recurring part of the shape collection, e.g., airplane wings. By complementing the shape reconstruction loss with a label loss, BAE-NET is easily tuned for one-shot learning.
+  authors: Zhiqin Chen, Kangxue Yin, Matt Fisher, Siddhartha Chaudhuri, and Hao Zhang
+  venue: >-
+     ICCV 2019
+  year: 2019
+  highlight: 0
+  pdf: https://arxiv.org/abs/1903.11228
+
+- title: >-
+   Learning to Generate the "Unseen" via Part Synthesis and Composition
+  image: schor_partAE.png
+  description: >-
+    Data-driven generative modeling has made remarkable progress by leveraging the power of deep neural networks. A reoccurring challenge is how to sample a rich variety of data from the entire target distribution, rather than only from the distribution of the training data. In other words, we would like the generative model to go beyond the observed training samples and learn to also generate "unseen" data. In our work, we present a generative neural network for shapes that is based on a part-based prior, where the key idea is for the network to synthesize shapes by varying both the shape parts and their compositions.
+  authors: Nadav Schor, Oren Katzier, Hao Zhang, and Daniel Cohen-Or
+  venue: >-
+     ICCV 2019
+  year: 2019
+  highlight: 1
+  pdf: https://arxiv.org/abs/1811.07441
+
+- title: >-
+   CoSegNet: Deep Co-Segmentation of 3D Shapes with Group Consistency Loss
+  image: zhu_cosegnet.png
+  description: >-
+    We introduce CoSegNet, a deep neural network architecture for co-segmentation of a set of 3D shapes represented as point clouds. CoSegNet takes as input a set of unsegmented shapes, proposes per-shape parts, and then jointly optimizes the part labelings across the set subjected to a novel group consistency loss expressed via matrix rank estimates. The proposals are refined in each iteration by an auxiliary network that acts as a weak regularizing prior, pre-trained to denoise noisy, unlabeled parts from a large collection of segmented 3D shapes, where the part compositions within the same object category can be highly inconsistent. The output is a consistent part labeling for the input set, with each shape segmented into up to K (a user-specified hyperparameter) parts.
+  authors: Chenyang Zhu, Kai Xu, Siddhartha Chaudhuri, Li Yi, Leonidas J. Guibas, and Hao Zhang
+  venue: >-
+     arXiv
+  year: 2019
+  highlight: 0
+  pdf: https://arxiv.org/abs/1903.10297
+
+- title: >-
+   Learning Implicit Fields for Generative Shape Modeling
+  image: chen_cvpr19_IMGAN.png
+  description: >-
+    We advocate the use of implicit fields for learning generative models of shapes and introduce an implicit field decoder for shape generation, aimed at improving the visual quality of the generated shapes. An implicit field assigns a value to each point in 3D space, so that a shape can be extracted as an iso-surface. Our implicit field decoder is trained to perform this assignment by means of a binary classifier. Specifically, it takes a point coordinate, along with a feature vector encoding a shape, and outputs a value which indicates whether the point is outside the shape or not ...
+  authors: Zhiqin Chen and Hao Zhang
+  venue: >-
+     CVPR 2019
+  year: 2019
+  highlight: 1
+  pdf: https://arxiv.org/abs/1812.02822
+  bibtex: https://www.cs.sfu.ca/~haoz/pubs/haoz_paper_bib.html#imgan_cvpr19
+  project_page: https://github.com/czq142857/implicit-decoder
+
+- title: >-
    GRAINS: Generative Recursive Autoencoders for INdoor Scenes
   image: li_tog18_grains.png
   description: >-
     We present a generative neural network which enables us to generate plausible 3D indoor scenes in large quantities and varieties, easily and highly efficiently. Our key observation is that indoor scene structures are inherently hierarchical. Hence, our network is not convolutional; it is a recursive neural network or RvNN. Using a dataset of annotated scene hierarchies, we train a variational recursive autoencoder, or RvNN-VAE, which performs scene object grouping during its encoding phase and scene generation during decoding.
   authors: Manyi Li, Akshay Gadi Patil, Kai Xu, Siddhartha Chaudhuri, Owais Khan, Ariel Shamir, Changhe Tu, Baoquan Chen, Daniel Cohen-Or, and Hao Zhang
   venue: >-
-     ACM Transactions on Graphics, accepted with Minor Revision
-  year: 2018
-  highlight: 0
+     ACM Transactions on Graphics, to appear and be presented at SIGGRAPH 2019
+  year: 2019
+  highlight: 1
   pdf: https://arxiv.org/abs/1807.09193
+  bibtex: https://www.cs.sfu.ca/~haoz/pubs/haoz_paper_bib.html#grains_tog19
+
+- title: >-
+   Qualitative Organization of Photo Collections via Quartet Analysis and Active Learning
+  image: xu_cvm19_mosaic.png
+  description: >-
+    We introduce the use of qualitative analysis and active learning to photo album construction. Given a heterogeneous collection of pho- tos, we organize them into a hierarchical categorization tree (C-tree) based on qualitative analysis using quartets instead of relying on conventional, quantitative image similarity metrics. The main moti- vation is that in a heterogeneous collection, quantitative distances may become unreliable between dissimilar data and there is unlikely a single metric that is well applicable to all data.
+  venue: >-
+      Proc. of Graphics Interface, 2019
+  authors: Yuan Gan, Yan Zhang, and Hao Zhang
+  year: 2019
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~haoz/papers.html
+
+- title: >-
+   Discernible Image Mosaic with Edge-Aware Adaptive Tiles
+  image: xu_cvm19_mosaic.png
+  description: >-
+    We present a novel method to produce discernible image mosaics, with relatively large image tiles replaced by images drawn from a database, to resemble a target image. Since visual edges strongly support content perception, we compose our mosaic via edge-aware photo retrieval to best preserve visual edges in the target image. Moreover, unlike most previous works which apply a pre-determined partition to an input image, our image mosaics are composed by adaptive tiles, whose sizes are determined based on the available images and an objective of maximizing resemblance to the target.
+  venue: >-
+      Computational Visual Media (CVM), 2019
+  authors: Pengfei Xu, Jiangqiang Ding, Hao Zhang, and Hui Huang
+  year: 2019
+  highlight: 1
+  project_page: https://www.cs.sfu.ca/~haoz/papers.html
+  bibtex: https://www.cs.sfu.ca/~haoz/pubs/haoz_paper_bib.html#mosaic_cvm19
+
+- title: >-
+   BranchGAN: Branched Generative Adversarial Networks for Scale-Disentangled Learning and Synthesis of Images
+  image: yi_branchGAN.png
+  description: >-
+    We introduce BranchGAN, a novel training method that enables unconditioned generative adversarial networks (GANs) to learn image manifolds at multiple scales. The key novel feature of BranchGAN is that it is trained in multiple branches, progressively covering both the breadth and depth of the network, as resolutions of the training images increase to reveal finer-scale features. Specifically, each noise vector, as input to the generator network, is explicitly split into several sub-vectors, each corresponding to, and is trained to learn, image representations at a particular scale. During training, we progressively "de-freeze" the sub-vectors, one at a time, as a new set of higher-resolution images is employed for training and more network layers are added.
+  venue: >-
+      arXiv
+  authors: Zili Yi, Zhiqin Chen, Hao Cai, Xin Huang, Minglun Gong, and Hao Zhang
+  year: 2018
+  highlight: 1
+  project_page: https://github.com/duxingren14/BranchGAN
+  pdf: https://arxiv.org/pdf/1803.08467.pdf
 
 - title: >-
    SCORES: Shape Composition with Recursive Substructure Priors
