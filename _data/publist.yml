@@ -24,14 +24,14 @@
 
 - title: >-
    BAE-NET: Branched Autoencoder for Shape Co-Segmentation
-  image: schor_partAE.png
+  image: chen_BAENET.png
   description: >-
     We treat shape co-segmentation as a representation learning problem and introduce BAE-NET, a branched autoencoder network, for the task. The unsupervised BAE-NET is trained with all shapes in an input collection using a shape reconstruction loss, without ground-truth segmentations. Specifically, the network takes an input shape and encodes it using a convolutional neural network, whereas the decoder concatenates the resulting feature code with a point coordinate and outputs a value indicating whether the point is inside/outside the shape. Importantly, the decoder is branched: each branch learns a compact representation for one commonly recurring part of the shape collection, e.g., airplane wings. By complementing the shape reconstruction loss with a label loss, BAE-NET is easily tuned for one-shot learning.
   authors: Zhiqin Chen, Kangxue Yin, Matt Fisher, Siddhartha Chaudhuri, and Hao Zhang
   venue: >-
      ICCV 2019
   year: 2019
-  highlight: 0
+  highlight: 1
   pdf: https://arxiv.org/abs/1903.11228
 
 - title: >-
@@ -43,7 +43,7 @@
   venue: >-
      ICCV 2019
   year: 2019
-  highlight: 1
+  highlight: 0
   pdf: https://arxiv.org/abs/1811.07441
 
 - title: >-
