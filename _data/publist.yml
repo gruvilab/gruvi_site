@@ -81,7 +81,7 @@
   venue: >-
      ACM Transactions on Graphics, to appear and be presented at SIGGRAPH 2019
   year: 2019
-  highlight: 1
+  highlight: 0
   pdf: https://arxiv.org/abs/1807.09193
   bibtex: https://www.cs.sfu.ca/~haoz/pubs/haoz_paper_bib.html#grains_tog19
 
