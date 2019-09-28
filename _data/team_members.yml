@@ -164,6 +164,13 @@
   website:
   number_educ: 0
 
+- name: Sachini Herath
+  photo: SachiniHerath.jpg
+  role: Graduate Student
+  email: sherath@sfu.ca
+  website: https://scholar.google.ca/citations?user=SPoN53oAAAAJ&hl=en
+  number_educ: 0
+
 - name: Wallace Lira
   photo: WallaceLira.jpeg
   role: Graduate Student
@@ -248,12 +255,12 @@
   website: http://kangxue.org/
   number_educ: 0
 
-- name: Hamid Younesy
-  photo: hamid.png
-  role: Graduate Student
-  email: hyounesy@sfu.ca
-  website: http://www.personal_pagegate.net/profile/Hamid_Younesy
-  number_educ: 0  
+#- name: Hamid Younesy
+#  photo: hamid.png
+#  role: Graduate Student
+#  email: hyounesy@sfu.ca
+#  website: http://www.personal_pagegate.net/profile/Hamid_Younesy
+#  number_educ: 0  
   
 #- name: Chenyang Zhu
 #  photo: chenyang.png
