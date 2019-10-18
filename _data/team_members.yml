@@ -157,6 +157,13 @@
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
 
+- name: Ali Gholami
+  photo: AliGholami.jpg
+  role: Graduate Student
+  email:
+  website:
+  number_educ: 0
+
 - name: Mohsen Kamalzadeh
   photo: mohsen.jpg
   role: Graduate Student
@@ -169,6 +176,13 @@
   role: Graduate Student
   email: sherath@sfu.ca
   website: https://scholar.google.ca/citations?user=SPoN53oAAAAJ&hl=en
+  number_educ: 0
+
+- name: Sepidehsadat Hosseini
+  photo: SepidehsadatHosseini.jpeg
+  role: Graduate Student
+  email: 
+  website: 
   number_educ: 0
 
 - name: Wallace Lira
@@ -206,10 +220,17 @@
   website: http://www.sfu.ca/~agadipat/
   number_educ: 0
 
-- name: Feitong Tan
-  photo: FeitongTan.jpg
+- name: Jamal Rahim
+  photo: JamalRahim.png
   role: Graduate Student
   email: 
+  website: https://jrahim.github.io/
+  number_educ: 0
+
+- name: Mohammad Shabani
+  photo: MohammadShabani.jpeg
+  role: Graduate Student
+  email: mshabani@sfu.ca
   website:
   number_educ: 0
 
@@ -218,6 +239,13 @@
   role: Graduate Student
   email:
   website:  http://www.sfu.ca/~rakeshs/
+  number_educ: 0
+
+- name: Feitong Tan
+  photo: FeitongTan.jpg
+  role: Graduate Student
+  email: 
+  website:
   number_educ: 0
 
 - name: Chengzhou Tang
