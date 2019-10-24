@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: Oct 24, 2019
+  headline: >-
+    LOGAN featured for press release at SIG Asia
+  text: >-
+    Congratulations to Kangxue, whose work <b>LOGAN: Unpaired Shape Transform in Latent Overcomplete Space</b> will be featured for press release at SIGGRAPH Asia 2019!<br><br>LOGAN is able to learn what shape features to preserve during shape translation, either local or non-local, whether content or style, depending solely on the input domains for training, which was an improvement over the state of the art.<br><br>LOGAN is an abbreviation for Latent Overcomplete GAN. Richard Zhang, who is also the last author, created the fun acronym.<br><br>
+  highlight: 1
+  image: logan.jpg
+
 - date: Jul 23, 2019
   headline: >-
     IGS'19 Organized by GrUVi
@@ -40,7 +48,7 @@
     Yağız Aksoy Joins GrUVi
   text: >-
     GrUVi is glad to announce that Yagiz Aksoy will join our team this August. He is a PhD student of Marc Pollefeys at ETH Zurich. During his PhD, he spent a year at MIT CSAIL working with Wojciech Matusik and three years at Disney Research Zurich.<br>His research is at the intersection of computer vision and computer graphics, focusing on analyzing images to allow for realistic manipulation of photographs. His research has resulted in publications at venues such as SIGGRAPH, CVPR, and ACM Transactions on Graphics.<br>Welcome to the GrUVi team, Yagiz!
-  highlight: 1
+  highlight: 0
   image: yagiz.jpg
 
 - date: Jun 3, 2019
