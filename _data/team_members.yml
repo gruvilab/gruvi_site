@@ -111,7 +111,14 @@
   email: 
   website: #
   number_educ: 0
-
+  
+- name: Pyojin Kim
+  photo: PyojinKim.png
+  role: Postdoc
+  email: 
+  website: http://pyojinkim.com/
+  number_educ: 0
+  
 - name: Manyi Li
   photo: manyi.jpg
   role: Visitor
