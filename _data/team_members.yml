@@ -227,6 +227,13 @@
   website: 
   number_educ: 0
 
+- name: Nelson Nauata
+  photo: nauata.jpg
+  role: Graduate Student
+  email: 
+  website: http://www.sfu.ca/~nnauata/
+  number_educ: 0
+  
 - name: Akshay Gadi Patil
   photo: akshay.png
   role: Graduate Student
