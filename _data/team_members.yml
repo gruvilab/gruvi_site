@@ -269,6 +269,13 @@
   website:  http://www.sfu.ca/~rakeshs/
   number_educ: 0
 
+- name: Weilian Song
+  photo: weilian.jpg
+  role: Graduate Student
+  email: weilian_song@sfu.ca
+  website: https://weiliansong.github.io/
+  number_educ: 0
+  
 - name: Feitong Tan
   photo: FeitongTan.jpg
   role: Graduate Student
