@@ -164,6 +164,13 @@
 
 ################################# Graduate Students  #################################
 
+- name: Mahsa Maleki Abyaneh
+  photo: mahsa.jpg
+  role: Graduate Student
+  email: mahsa_maleki_abyaneh@sfu.ca
+  website:
+  number_educ: 0
+  
 - name: Zhiqin Chen
   photo: zhiqin.jpg
   role: Graduate Student
