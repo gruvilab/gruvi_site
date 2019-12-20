@@ -297,6 +297,13 @@
   website: 
   number_educ: 0
 
+- name: Madhawa Vidanapathirana
+  photo: madhawa.jpg
+  role: Graduate Student
+  email: madhawa_vidanapathirana@sfu.ca
+  website: https://github.com/madhawav
+  number_educ: 0
+  
 - name: Luwei Yang
   photo: luwei.jpg
   role: Graduate Student
