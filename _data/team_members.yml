@@ -140,12 +140,12 @@
   website: 
   number_educ: 0
 
-- name: Fei-Peng Tian
-  photo: feipeng.jpg
-  role: Visitor
-  email: 
-  website: https://scholar.google.com/citations?user=GUSTl88AAAAJ&hl=en
-  number_educ: 0
+#- name: Fei-Peng Tian
+#  photo: feipeng.jpg
+#  role: Visitor
+#  email: 
+#  website: https://scholar.google.com/citations?user=GUSTl88AAAAJ&hl=en
+#  number_educ: 0
 
 - name: Xiaogang Wang
   photo: xiaogang.jpg
