@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: Jun 07, 2020
+  headline: >-
+    GrUVi tackles COVID-19 using AI
+  text: >-
+    SFU researchers helped to develop an AI system capable of assisting resident and less experienced doctors look over a data set and make a quick diagnosis before a senior doctor can step in. This is accoding to Yağız Aksoy, a gruvier and also a member of the team that proposed the diagnosis tool, which is currently in the validation phase at St. Paul’s Hospital in Vancouver, Canada. Read more about it <a href="http://www.sfu.ca/sfunews/stories/2020/06/sfu-researchers-help-develop-ai-tool-for-speedy-covid-19-diagnos.html">here</a>. Thank you for your hard work, Dr. Aksoy!
+  highlight: 1
+  image: covid.jpg
+
 - date: Oct 24, 2019
   headline: >-
     LOGAN - SIG Asia Press Release
@@ -40,7 +48,7 @@
     Xiaoming Liu Visits SFU
   text: >-
     <a href"http://www.cse.msu.edu/~liuxm" target="_blank">Dr. Xiaoming Liu</a> visited SFU today following an invitation from Dr. Yasutaka Furukawa! His talk titled "Inverse Graphics for 3D Modeling and Reconstruction: from Face to Generic Objects" has the following abstract: <br><br>"Reconstructing the detailed and complete 3D surface of an object from a single 2D image is a long standing computer vision problem. In this talk, we present an inverse graphics-based framework to learn a 3D face model from a large set of in-the-wild 2D face images, without the need of capturing 3D scans. We also extend this framework to high-fidelity face modeling, as well as generic object modeling and 3D reconstruction. In the end, we will briefly overview other research efforts in the Computer Vision Lab at Michigan State University, including face anti-spoofing, explainable recognition, early sensor fusion of LiDAR and RGB, 2D/3D object detection from urban driving videos, etc."
-  highlight: 1
+  highlight: 0
   image: xiaoming.jpg
 
 - date: Jul 3, 2019
