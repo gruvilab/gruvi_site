@@ -27,10 +27,8 @@ function closeNavD{{ include.number_printed | strip }}() {
 }
 
 var queryString{{ include.number_printed | strip }} = window.location.search;
-console.log(queryString{{ include.number_printed | strip }});
 var urlParams{{ include.number_printed | strip }} = new URLSearchParams(queryString{{ include.number_printed | strip }});
 var news_id_{{ include.number_printed | strip }} = urlParams{{ include.number_printed | strip }}.get('news_id')
-console.log(news_id_{{ include.number_printed | strip }});
 	
 if (urlParams{{ include.number_printed | strip }}.has('news_id_{{ include.number_printed | strip }}')) {
 	openNavD{{ include.number_printed | strip }}();
