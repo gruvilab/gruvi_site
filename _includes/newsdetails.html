@@ -26,10 +26,10 @@ function closeNavD{{ include.number_printed }}() {
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "0%";
 }
 
-queryString1 = window.location.search;
+var queryString1 = window.location.search;
 console.log(queryString1);
-urlParams = new URLSearchParams(queryString1);
-news_id = urlParams.get('news_id')
+var urlParams = new URLSearchParams(queryString1);
+var news_id = urlParams.get('news_id')
 console.log(news_id);
 
 
