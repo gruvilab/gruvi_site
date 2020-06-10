@@ -29,7 +29,7 @@ function closeNavD{{ include.number_printed }}() {
 var queryString{{ include.number_printed }} = window.location.search;
 console.log(queryString{{ include.number_printed }});
 var urlParams{{ include.number_printed }} = new URLSearchParams(queryString{{ include.number_printed }});
-var news_id_{{ include.number_printed }} = urlParams.get('news_id')
+var news_id_{{ include.number_printed }} = urlParams{{ include.number_printed }}.get('news_id')
 console.log(news_id_{{ include.number_printed }});
 	
 if (urlParams.has('news_id_{{ include.number_printed }}')) {
