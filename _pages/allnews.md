@@ -8,6 +8,7 @@ permalink: /allnews
 
 ## News
 {% assign number_printed = 0 %}
+{% assign post_count = 0 %}
 
 
 {% for post in site.data.news %}
@@ -16,12 +17,14 @@ permalink: /allnews
 
 {% for article in site.data.news%}
 
+{% capture news_id %} {{ post_count | minus: number_printed }} {% endcapture %}
+
 <div class="row">
-{% include newsdetails.html number_printed=number_printed headline=article.headline date=article.date image=article.image text=article.text %}
+{% include newsdetails.html number_printed=post_count headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
   
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ post_count }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | strip_html | truncatewords: 45}}
 </div>
 
