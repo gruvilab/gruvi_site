@@ -26,11 +26,15 @@ function closeNavD{{ include.number_printed }}() {
     document.getElementById("myNavD{{ include.number_printed }}").style.width = "0%";
 }
 
-var queryString1 = window.location.search;
-console.log(queryString1);
-var urlParams = new URLSearchParams(queryString1);
-var news_id = urlParams.get('news_id')
-console.log(news_id);
+var queryString{{ include.number_printed }} = window.location.search;
+console.log(queryString{{ include.number_printed }});
+var urlParams{{ include.number_printed }} = new URLSearchParams(queryString{{ include.number_printed }});
+var news_id_{{ include.number_printed }} = urlParams.get('news_id')
+console.log(news_id_{{ include.number_printed }});
+	
+if (urlParams.has('news_id_{{ include.number_printed }}')) {
+	openNavD{{ include.number_printed }}();
+}
 
 
 </script>
