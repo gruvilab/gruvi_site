@@ -20,11 +20,11 @@ permalink: /allnews
 {% capture news_id %} {{ post_count | minus: number_printed }} {% endcapture %}
 
 <div class="row">
-{% include newsdetails.html number_printed=post_count headline=article.headline date=article.date image=article.image text=article.text %}
+{% include newsdetails.html number_printed=news_id headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
   
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ post_count }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ news_id }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | strip_html | truncatewords: 45}}
 </div>
 
