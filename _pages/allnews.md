@@ -8,6 +8,7 @@ permalink: /allnews
 
 ## News
 {% assign number_printed = 0 %}
+{% assign post_count = 0 %}
 
 
 {% for post in site.data.news %}
@@ -23,7 +24,7 @@ permalink: /allnews
 </div>
   
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ids }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ids | strip }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | strip_html | truncatewords: 45}}
 </div>
 
