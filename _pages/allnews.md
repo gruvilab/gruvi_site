@@ -8,6 +8,7 @@ permalink: /allnews
 
 ## News
 {% assign number_printed = 0 %}
+{% assign number_printed_total = site.data.news | size %}
 
 
 {% for post in site.data.news %}
@@ -17,11 +18,11 @@ permalink: /allnews
 {% for article in site.data.news%}
 
 <div class="row">
-{% include newsdetails.html number_printed=number_printed headline=article.headline date=article.date image=article.image text=article.text %}
+{% include newsdetails.html number_printed=number_printed_total-number_printed headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
   
 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed }}()">
+<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ number_printed_total-number_printed }}()">
   <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | strip_html | truncatewords: 45}}
 </div>
 
