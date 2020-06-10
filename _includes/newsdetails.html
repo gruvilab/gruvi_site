@@ -1,11 +1,11 @@
-<div id="myNavD{{ include.number_printed }}" class="overlay clearfix" align="center">
+<div id="myNavD{{ include.number_printed | strip | strip | strip }}" class="overlay clearfix" align="center">
 <div class="overlay-content" style="max-width: 600px;">
 <div class="well clearfix">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ include.number_printed }}()">&times;</a>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNavD{{ include.number_printed | strip | strip }}()">&times;</a>
 <newstit>{{ include.headline }}</newstit>
 <p style="text-align:center">{{ include.date }}</p>
 {% if include.image %}
-<img id="myImageNavD{{ include.number_printed }}" src="" class="img-responsive" width="33%" hspace="10" style="float: left" />
+<img id="myImageNavD{{ include.number_printed | strip }}" src="" class="img-responsive" width="33%" hspace="10" style="float: left" />
 {% endif %}
 <p style="padding: 0 15px; text-align: justify;">{{ include.text}}</p>
 </div>
@@ -13,27 +13,27 @@
 </div>
 
 <script>
-function openNavD{{ include.number_printed }}() {
+function openNavD{{ include.number_printed | strip }}() {
     if ($(window).width()<900)
 	$('#main-nav').fadeOut();
-    document.getElementById("myNavD{{ include.number_printed }}").style.width = "100%";
-	document.getElementById('myImageNavD{{ include.number_printed }}').src = "{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}";
+    document.getElementById("myNavD{{ include.number_printed | strip }}").style.width = "100%";
+	document.getElementById('myImageNavD{{ include.number_printed | strip }}').src = "{{ site.url }}{{ site.baseurl }}/images/newspic/{{ include.image }}";
 }
 
-function closeNavD{{ include.number_printed }}() {
+function closeNavD{{ include.number_printed | strip }}() {
     if ($(window).width()<900)
 	$('#main-nav').fadeIn();
-    document.getElementById("myNavD{{ include.number_printed }}").style.width = "0%";
+    document.getElementById("myNavD{{ include.number_printed | strip }}").style.width = "0%";
 }
 
-var queryString{{ include.number_printed }} = window.location.search;
-console.log(queryString{{ include.number_printed }});
-var urlParams{{ include.number_printed }} = new URLSearchParams(queryString{{ include.number_printed }});
-var news_id_{{ include.number_printed }} = urlParams{{ include.number_printed }}.get('news_id')
-console.log(news_id_{{ include.number_printed }});
+var queryString{{ include.number_printed | strip }} = window.location.search;
+console.log(queryString{{ include.number_printed | strip }});
+var urlParams{{ include.number_printed | strip }} = new URLSearchParams(queryString{{ include.number_printed | strip }});
+var news_id_{{ include.number_printed | strip }} = urlParams{{ include.number_printed | strip }}.get('news_id')
+console.log(news_id_{{ include.number_printed | strip }});
 	
-if (urlParams{{ include.number_printed }}.has('news_id_{{ include.number_printed }}')) {
-	openNavD{{ include.number_printed }}();
+if (urlParams{{ include.number_printed | strip }}.has('news_id_{{ include.number_printed | strip }}')) {
+	openNavD{{ include.number_printed | strip }}();
 }
 
 
