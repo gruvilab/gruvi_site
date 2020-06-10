@@ -33,7 +33,9 @@
   year: 2020
   highlight: 1
   pdf: https://arxiv.org/abs/1912.01756
-
+  bibtex: https://zhangfuyang.github.io/conv-mpn/bib.txt
+  project_page: https://zhangfuyang.github.io/conv-mpn/page.html
+  
 - title: >-
    BAE-NET: Branched Autoencoder for Shape Co-Segmentation
   image: chen_BAENET.png
