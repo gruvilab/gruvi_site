@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: Jun 23, 2020
+  headline: >-
+    SFU Researchers Receive CVPR Awards
+  text: >-
+    Visual computing researchers from SFU received multiple awards at the annual Conference on Computer Vision and Pattern Recognition (CVPR) this past week. CVPR is the premier conference in computer vision with the highest impact factor among all conferences in computer science and was held virtually for the first time this year from June 14-19. Computing science professor Greg Mori served as one of four program chairs at the conference. Read more <a href="https://www.sfu.ca/computing/newsandevents/2020/visual-computing-researchers-cvpr.html">here</a>.
+  highlight: 1
+  image: CVPR_GRUVI.png
+
 - date: Jun 09, 2020
   headline: >-
     GrUVi making waves at CVPR 2020
@@ -40,7 +48,7 @@
     IGS'19 Organized by GrUVi
   text: >-
     The International Geometry Summit (IGS) 2019, organized by  Richard Zhang and Ali Mahdavi-Amiri, took place from 17th June to the 21th June 2019 at SFU Harbour Center in Vancouver, Canada. IGS 2019 included four conferences: the Symposium on Solid and Physical Modelling, Shape Modeling International, SIAM Conference on Computational Geometric Design, and International Conference on Geometric Modelling and Processing. IGS 2019 featured state of the art researches in its technical paper sessions along with 12 keynote speeches from prominent researchers in the area of geometry.</p><p style="text-align: justify;">Congratulations to Richard Zhang and Ali Mahdavi-Amiri for the successful organization and thanks to all GrUVi students that volunteered to make IGS'19 a success!
-  highlight: 1
+  highlight: 0
   image: igs19.png
 
 - date: Jul 22, 2019
