@@ -23,6 +23,82 @@
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 
 - title: >-
+   TilinGNN: Learning to Tile with Self-Supervised Graph Neural Network
+  image: xu_tiling.png
+  description: >-
+   We introduce the first neural optimization framework to solve a classical instance of the tiling problem. Namely, we seek a non-periodic tiling of an arbitrary 2D shape using one or more types of tiles: the tiles maximally fill the shape’s interior without overlaps or holes. To start, we reformulate tiling as a graph problem by modeling candidate tile locations in the target shape as graph nodes and connectivity between tile locations as edges. We build a graph convolutional neural network, coined TilinGNN, to progressively propagate and aggregate features over graph edges and predict tile placements. Our network is self-supervised and trained by maximizing the tiling coverage on target shapes, while avoiding overlaps and holes between the tiles. After training, TilinGNN has a running time that is roughly linear to the number of candidate tile locations, significantly outperforming traditional combinatorial search.
+  authors: Hao Xu, Ka Hei Hui, Chi-Wing Fu, and Hao Zhang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH), Vol. 39, No. 4, 2020
+  year: 2020
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~haoz/papers.html
+  priject_page: https://appsrv.cse.cuhk.edu.hk/~haoxu/projects/TilinGnn/
+
+- title: >-
+   Graph2Plan: Learning Floorplan Generation from Layout Graphs
+  image: hu_gtop.png
+  description: >-
+   We introduce a learning framework for automated floorplan generation which combines generative modeling using deep neural networks and user-in-the-loop designs to enable human users to provide sparse design constraints. Such constraints are represented by a layout graph. The core component of our learning framework is a deep neural network, Graph2Plan, which is trained on RPLAN, a large-scale dataset consisting of 80K annotated, human-designed floorplans. The network converts a layout graph, along with a building boundary, into a floorplan that fulfills both the layout and boundary constraints.
+  authors: Ruizhen Hu, Zeyu Huang, Yuhan Tang, Oliver van Kaick, Hao Zhang, and Hui Huang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH), Vol. 39, No. 4, 2020
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/2004.13204
+  priject_page: https://vcc.tech/research/2020/Graph2Plan
+
+- title: >-
+   FAME: 3D Shape Generation via Functionality-Aware Model Evolution
+  image: guan_tvcg20_fame_small.png
+  description: >-
+   We introduce a modeling tool which can evolve a set of 3D objects in a functionality-aware manner. Our goal is for the evolution to generate large and diverse sets of plausible 3D objects for data augmentation, constrained modeling, as well as open-ended exploration to possibly inspire new designs. Starting with an initial population of 3D objects belonging to one or more functional categories, we evolve the shapes through part re-combination to produce generations of hybrids or crossbreeds between parents from the heterogeneous shape collection ...
+  authors: Yanran Guan, Han Liu, Kun Liu, Kangxue Yin, Ruizhen Hu, Oliver van Kaick, Yan Zhang, Ersin Yumer, Nathan Carr, Radomir Mech, and Hao Zhang
+  venue: >-
+     IEEE Trans. on Visualization and Computer Graphics (TVCG), major revision, 2020
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/2005.04464
+
+- title: >-
+   GANhopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation
+  image: lira_GANH.png
+  description: >-
+   We introduce GANhopper, an unsupervised image-to-image translation network that transforms images gradually between two domains, through multiple hops. Instead of executing translation directly, we steer the translation by requiring the network to produce in-between images which resemble weighted hybrids between images from the two input domains. Our network is trained on unpaired images from the two domains only, without any in-between images. All hops are produced using a single generator along each direction. In addition to the standard cycle-consistency and adversarial losses, we introduce a new hybrid discriminator, which is trained to classify the intermediate images produced by the generator as weighted hybrids, with weights based on a predetermined hop count.
+  authors: Wallace Lira, Johannes Merz, Daniel Ritchie, Daniel Cohen-Or, and Hao Zhang
+  venue: >-
+     Arxiv
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/2002.10102
+  project_page: https://github.com/wallacemplira/ganhopper
+
+- title: >-
+   DR-KFS: A Differentiable Visual Similarity Metric for 3D Shape Reconstruction
+  image: jin_DRKFD.png
+  description: >-
+   We advocate the use of differential visual shape metrics to train deep neural networks for 3D reconstruction. We introduce such a metric which compares two 3D shapes by measuring visual, image-space differences between multiview images differentiably rendered from the shapes. Furthermore, we develop a differentiable image-space distance based on mean-squared errors defined over HardNet features computed from probabilistic keypoint maps of the compared images. Our differential visual shape metric can be easily plugged into various reconstruction networks, replacing the object-space distortion measures, such as Chamfer or Earth Mover distances, so as to optimize the network weights to produce reconstruction results with better structural fidelity and visual quality.
+  authors: Jiongchao Jin, Akshay Gadi Patil, and Hao Zhang
+  venue: >-
+     Arxiv
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/1911.09204
+
+- title: >-
+   BSP-Net: Generating Compact Meshes via Binary Space Partitioning
+  image: chen_BSPNET.png
+  description: >-
+   Polygonal meshes are ubiquitous in the digital 3D domain, yet they have only played a minor role in the deep learning revolution. Leading methods for learning generative models of shapes rely on implicit functions, and generate meshes only after expensive iso-surfacing routines. To overcome these challenges, we are inspired by a classical spatial data structure from computer graphics, Binary Space Partitioning (BSP), to facilitate 3D learning. The core ingredient of BSP is an operation for recursive subdivision of space to obtain convex sets. By exploiting this property, we devise BSP-Net, a network that learns to represent a 3D shape via convex decomposition. Importantly, BSP-Net is unsupervised since no convex shape decompositions are needed for training. The network is trained to reconstruct a shape using a set of convexes obtained from a BSP-tree built on a set of planes. The convexes inferred by BSP-Net can be easily extracted to form a polygon mesh, without any need for iso-surfacing. The generated meshes are compact (i.e., low-poly) and well suited to represent sharp geometry; they are guaranteed to be watertight and can be easily parameterized. We also show that the reconstruction quality by BSP-Net is competitive with state-of-the-art methods while using much fewer primitives.
+  authors: Zhiqin Chen, Andrea Tagliasacchi, and Hao Zhang
+  venue: >-
+     CVPR (oral presentation), 2020. Best Student Paper Award.
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/1911.06971
+  project_page: https://bsp-net.github.io/
+
+- title: >-
    Conv-MPN: Convolutional Message Passing Neural Network for Structured Outdoor Architecture Reconstruction
   image: nelson_cvpr20.png
   description: >-
@@ -35,6 +111,96 @@
   pdf: https://arxiv.org/abs/1912.01756
   bibtex: https://zhangfuyang.github.io/conv-mpn/bib.txt
   project_page: https://zhangfuyang.github.io/conv-mpn/page.html
+
+- title: >-
+   AdaCoSeg: Adaptive Shape Co-Segmentation with Group Consistency Loss
+  image: zhu_adacoseg.png
+  description: >-
+    We introduce AdaSeg, a deep neural network architecture for adaptive co-segmentation of a set of 3D shapes represented as point clouds. Differently from the familiar single-instance segmentation problem, co-segmentation is intrinsically contextual: how a shape is segmented can vary depending on the set it is in. Hence, our network features an adaptive learning module to produce a consistent shape segmentation which adapts to a set.
+  authors: Chenyang Zhu, Kai Xu, Siddhartha Chaudhuri, Li Yi, Leonidas J. Guibas, and Hao Zhang
+  venue: >-
+      CVPR (oral presentation), 2020
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/1903.10297
+  project_page: https://www.cs.sfu.ca/~haoz/papers.html
+
+- title: >-
+   PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes
+  image: wu_PQNET.png
+  description: >-
+    We introduce PQ-NET, a deep neural network which represents and generates 3D shapes via sequential part assembly. The input to our network is a 3D shape segmented into parts, where each part is first encoded into a feature representation using a part autoencoder. The core component of PQ-NET is a sequence-to-sequence or Seq2Seq autoencoder which encodes a sequence of part features into a latent vector of fixed size, and the decoder reconstructs the 3D shape, one part at a time, resulting in a sequential assembly. The latent space formed by the Seq2Seq encoder encodes both part structure and fine part geometry. The decoder can be adapted to perform several generative tasks including shape autoencoding, interpolation, novel shape generation, and single-view 3D reconstruction, where the generated shapes are all composed of meaningful parts.
+  authors: Rundi Wu, Yixin Zhuang, Kai Xu, Hao Zhang, and Baoquan Chen
+  venue: >-
+      CVPR, 2020
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/1911.10949
+
+- title: >-
+   Learning Generative Models of 3D Structures
+  image: egstar_2020.png
+  description: >-
+    3D models of objects and scenes are critical to many academic disciplines and industrial applications. Of particular interest is the emerging opportunity for 3D graphics to serve artificial intelligence: computer vision systems can benefit from synthetically- generated training data rendered from virtual 3D scenes, and robots can be trained to navigate in and interact with real-world environments by first acquiring skills in simulated ones. One of the most promising ways to achieve this is by learning and applying generative models of 3D content: computer programs that can synthesize new 3D shapes and scenes. To allow users to edit and manipulate the synthesized 3D content to achieve their goals, the generative model should also be structure-aware: it should express 3D shapes and scenes using abstractions that allow manipulation of their high-level structure. This state-of-the- art report surveys historical work and recent progress on learning structure-aware generative models of 3D shapes and scenes.
+  authors: Siddhartha Chaudhuri, Daniel Ritchie, Jiajun Wu, Kai Xu, and Hao Zhang
+  venue: >-
+      Computer Graphics Forum (Eurographics STAR), 2020
+  year: 2020
+  highlight: 1
+  project_page: https://www.cs.sfu.ca/~haoz/papers.html
+  pdf: https://www.cs.sfu.ca/~haoz/pubs/egstar2020.pdf
+
+- title: >-
+   LOGAN: Unpaired Shape Transform in Latent Overcomplete Space
+  image: yin_LOGAN.png
+  description: >-
+    We introduce LOGAN, a deep neural network aimed at learning general-purpose shape transforms from unpaired domains. The network is trained on two sets of shapes, e.g., tables and chairs, while there is neither a pairing between shapes from the domains as supervision nor any point-wise correspondence between any shapes. Once trained, LOGAN takes a shape from one domain and transforms it into the other. Our network consists of an autoencoder to encode shapes from the two input domains into a common latent space, where the latent codes concatenate multi-scale shape features, resulting in an overcomplete representation. The translator is based on a latent generative adversarial network (GAN), where an adversarial loss enforces cross-domain translation while a feature preservation loss ensures that the right shape features are preserved for a natural shape transform.
+  authors: Kangxue Yin, Zhiqin Chen, Hui Huang, Daniel Cohen-Or, and Hao Zhang
+  venue: >-
+      ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 38, No. 6, Article 198, 2019
+  year: 2019
+  highlight: 0
+  project_page: https://github.com/kangxue/LOGAN
+  pdf: https://arxiv.org/abs/1903.10170
+
+- title: >-
+   SDM-NET: Deep Generative Network for Structured Deformable Mesh
+  image: gao_SDM.png
+  description: >-
+    We introduce SDM-NET, a deep generative neural network which produces structured deformable meshes. Specifically, the network is trained to generate a spatial arrangement of closed, deformable mesh parts, which respect the global part structure of a shape collection, e.g., chairs, airplanes, etc. Our key observation is that while the overall structure of a 3D shape can be complex, the shape can usually be decomposed into a set of parts, each homeomorphic to a box, and the finer-scale geometry of the part can be recovered by deforming the box. The architecture of SDM-NET is that of a two-level variational autoencoder (VAE). At the part level, a PartVAE learns a deformable model of part geometries. At the structural level, we train a Structured Parts VAE (SP-VAE), which jointly learns the part structure of a shape collection and the part geometries, ensuring a coherence between global shape structure and surface details.
+  authors: Lin Gao, Jie Yang, Tong Wu, Yu-Jie Yuan, Hongbo Fu, Yu-Kun Lai, and Hao Zhang
+  venue: >-
+      ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 38, No. 6, Article 243, 2019
+  year: 2019
+  highlight: 0
+  project_page: http://geometrylearning.com/sdm-net/
+  pdf: https://arxiv.org/abs/1908.04520 
+
+- title: >-
+   Computational LEGO Technic Design
+  image: xu_LEGO_long.png
+  description: >-
+    We introduce a method to automatically compute LEGO Technic models from user input sketches, optionally with motion annotations. The generated models resemble the input sketches with coherently-connected bricks and simple layouts, while respecting the intended symmetry and mechanical properties expressed in the inputs. This complex computational assembly problem involves an immense search space, and a much richer brick set and connection mechanisms than regular LEGO. To address it, we first comprehensively model the brick properties and connection mechanisms, then formulate the construction requirements into an objective function, accounting for faithfulness to input sketch, model simplicity, and structural integrity. Next, we model the problem as a sketch cover, where we iteratively refine a random initial layout to cover the input sketch, while guided by the objective. At last, we provide a working system to analyze the balance, stress, and assemblability of the generated model.
+  authors: Hao Xu, Ka Hei Hui, Chi-Wing Fu, and Hao Zhang
+  venue: >-
+      ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 38, No. 6, Article 196, 2019
+  year: 2019
+  highlight: 0
+  project_page: http://appsrv.cse.cuhk.edu.hk/~haoxu/projects/compute_technic/
+  pdf: https://appsrv.cse.cuhk.edu.hk/~haoxu/projects/compute_technic/xu_siga19_paper.pdf  
+
+- title: >-
+   RPM-Net: Recurrent Prediction of Motion and Parts from Point Cloud
+  image: yan_RPM.png
+  description: >-
+    We introduce RPM-Net, a deep learning-based approach which simultaneously infers movable parts and hallucinates their motions from a single, un-segmented, and possibly partial, 3D point cloud shape. RPM-Net is a novel Recurrent Neural Network (RNN), composed of an encoder-decoder pair with interleaved Long Short-Term Memory (LSTM) components, which together predict a temporal sequence of point-wise displacements for the input shape. At the same time, the displacements allow the network to learn moveable parts, resulting in a motion-based shape segmentation. Recursive applications of RPM-Net on the obtained parts can predict finer-level part motions, resulting in a hierarchical object segmentation. Furthermore, we develop a separate network to estimate part mobilities, e.g., per part motion parameters, from the segmented motion sequence.
+  authors: Zhihao Yan, Ruizhen Hu, Xingguang Yan, Luanmin Chen, Oliver van Kaick, Hao Zhang, and Hui Huang
+  venue: >-
+     ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia), Vol. 38, No. 6, Article 240, 2019
+  year: 2019
+  highlight: 0
+  project_page: https://vcc.tech/research/2019/RPMNet
+  pdf: http://vcc.szu.edu.cn/file/upload_file//image/research/att201911071109/RPM-Net_reduced.pdf  
   
 - title: >-
    BAE-NET: Branched Autoencoder for Shape Co-Segmentation
