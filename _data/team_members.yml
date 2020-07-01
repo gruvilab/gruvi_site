@@ -185,6 +185,14 @@
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
 
+
+- name: Sebastian Dille
+  photo: SebastianDille3x4.jpg
+  role: Graduate Student
+  email:
+  website:
+  number_educ: 0
+
 - name: Ali Gholami
   photo: AliGholami.jpg
   role: Graduate Student
@@ -211,6 +219,14 @@
   role: Graduate Student
   email: 
   website: 
+  number_educ: 0
+
+
+- name: S. Mahdi Hosseini M.
+  photo: Mahdi.JPEG
+  role: Graduate Student
+  email: 
+  website: http://www.sfu.ca/~smh31/
   number_educ: 0
 
 - name: Kevin Joseph
@@ -267,6 +283,13 @@
   role: Graduate Student
   email: 
   website: https://jrahim.github.io/
+  number_educ: 0
+
+- name: Sepideh Sarajian Maralan
+  photo: sepideh.png
+  role: Graduate Student
+  email: 
+  website: http://sfu.ca/~ssarajia
   number_educ: 0
 
 - name: Mohammad Shabani
@@ -332,12 +355,12 @@
 #  website:  http://www.sfu.ca/~renjiaoy/
 #  number_educ: 0
 
-- name: Kangxue Yin
-  photo: kangxue.jpg
-  role: Graduate Student
-  email: kangxuey@sfu.ca
-  website: http://kangxue.org/
-  number_educ: 0
+#- name: Kangxue Yin
+#  photo: kangxue.jpg
+#  role: Graduate Student
+#  email: kangxuey@sfu.ca
+#  website: http://kangxue.org/
+#  number_educ: 0
 
 - name: Fenggen Yu
   photo: FenggenYu.jpg
