@@ -200,6 +200,13 @@
   website:
   number_educ: 0
 
+- name: Saghar Irandoust
+  photo: saghar.jpeg
+  role: Graduate Student
+  email:
+  website: https://www.linkedin.com/in/saghar-irandoust/
+  number_educ: 0
+
 - name: Mohsen Kamalzadeh
   photo: mohsen.jpg
   role: Graduate Student
