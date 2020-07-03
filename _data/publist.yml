@@ -190,6 +190,19 @@
   pdf: https://arxiv.org/pdf/1904.01201.pdf
 
 - title: >-
+   Hierarchy Denoising Recursive Autoencoders for 3D Scene Layout Prediction
+  image: yifei_hierarchylayout.png
+  description: >-
+    Indoor scenes exhibit rich hierarchical structure in 3D object layouts. Many tasks in 3D scene understanding can benefit from reasoning jointly about the hierarchical context of a scene, and the identities of objects. We present a variational denoising recursive autoencoder (VDRAE) that generates and iteratively refines a hierarchical representation of 3D object layouts, interleaving bottom-up encoding for context aggregation and top-down decoding for propagation. We train our VDRAE on large-scale 3D scene datasets to predict both instance-level segmentations and a 3D object detections from an over-segmentation of an input point cloud. We show that our VDRAE improves object detection performance on real-world 3D point cloud datasets compared to baselines from prior work.
+  authors: Yifei Shi, Angel X. Chang, Zhelun Wu, Manolis Savva, Kai Xu
+  venue: >-
+      In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 1771-1780).
+  year: 2019
+  highlight: 0
+  project_page: http://www.yifeishi.net/hierarchylayout.html
+  pdf: https://arxiv.org/pdf/1903.03757.pdf
+
+- title: >-
    Scan2CAD: Learning CAD Model Alignment in RGB-D Scans
   image: armen_scan2cad.png
   description: >-
