@@ -32,8 +32,8 @@
      In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11097-11107).
   year: 2020
   highlight: 0
-  priject_page: https://sapien.ucsd.edu/
   pdf: https://arxiv.org/pdf/2003.08515.pdf
+  priject_page: https://sapien.ucsd.edu/
 
 - title: >-
    DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames
@@ -45,8 +45,8 @@
      International Conference on Learning Representations (ICLR), 2020
   year: 2020
   highlight: 0
-  priject_page: https://github.com/facebookresearch/habitat-api
   pdf: https://arxiv.org/pdf/1911.00357.pdf
+  priject_page: https://github.com/facebookresearch/habitat-api
 
 - title: >-
    Are We Making Real Progress in Simulated Environments? Measuring the Sim2Real Gap in Embodied Visual Navigation
@@ -58,8 +58,8 @@
      arXiv:1912.06321.
   year: 2020
   highlight: 0
-  priject_page: https://github.com/ChanganVR/RelationalGraphLearning
   pdf: https://arxiv.org/pdf/1909.13165.pdf
+  priject_page: https://github.com/ChanganVR/RelationalGraphLearning
 
 - title: >-
    Relational Graph Learning for Crowd Navigation
@@ -71,8 +71,8 @@
      arXiv:1909.13165.
   year: 2020
   highlight: 0
-  priject_page: https://abhiskk.github.io/sim2real
   pdf: https://arxiv.org/pdf/1912.06321.pdf
+  priject_page: https://abhiskk.github.io/sim2real
 
 - title: >-
    TilinGNN: Learning to Tile with Self-Supervised Graph Neural Network
