@@ -62,6 +62,19 @@
   priject_page: https://github.com/ChanganVR/RelationalGraphLearning
 
 - title: >-
+   Are We Making Real Progress in Simulated Environments? Measuring the Sim2Real Gap in Embodied Visual Navigation
+  image: kadian_simulated_environments.png
+  description: >-
+   Does progress in simulation translate to progress in robotics? Specifically, if method A outperforms method B in simulation, how likely is the trend to hold in reality on a robot? We examine this question for embodied (PointGoal) navigation – developing engineering tools and a research paradigm for evaluating a simulator by its sim2real predictivity, revealing surprising findings about prior work. First, we develop Habitat-PyRobot Bridge (HaPy), a library for seamless execution of identical code on a simulated agent and a physical robot. Habitat-to-Locobot transfer with HaPy involves just one line change in a config parameter, essentially treating reality as just another simulator! Second, we investigate sim2real predictivity of HabitatSim [1] for PointGoal navigation. We 3D-scan a physical lab space to create a virtualized replica, and run parallel tests of 9 different models in reality and simulation. We present a new metric called Sim-vs-Real Correlation Coefficient (SRCC) to quantify sim2real predictivity. Our analysis reveals several important findings. We find that SRCC for Habitat as used for the CVPR19 challenge is low (0.18 for the success metric), which suggests that performance improvements for this simulator-based challenge would not transfer well to a physical robot. We find that this gap is largely due to AI agents learning to ‘cheat’ by exploiting simulator imperfections – specifically, the way Habitat allows for ‘sliding’ along walls on collision. Essentially, the virtual robot is capable of cutting corners, leading to unrealistic shortcuts through parts of non-navigable space. Naturally, such exploits do not work in the real world where the robot stops on contact with walls. Our experiments show that it is possible to optimize simulation parameters to enable robots trained in imperfect simulators to generalize learned skills to reality (e.g. improving SRCCSucc from 0.18 to 0.844).
+  authors: Abhishek Kadian, Joanne Truong, Aaron Gokaslan, Alexander Clegg, Erik Wijmans, Stefan Lee, Manolis Savva, Sonia Chernova, Dhruv Batra
+  venue: >-
+     Arxiv
+  year: 2020
+  highlight: 0
+  pdf: https://arxiv.org/pdf/1912.06321.pdf
+  project_page: https://abhiskk.github.io/sim2real
+
+- title: >-
    Relational Graph Learning for Crowd Navigation
   image: changan_crowd_navigation.png
   description: >-
@@ -71,8 +84,8 @@
      Arxiv
   year: 2020
   highlight: 0
-  pdf: https://arxiv.org/pdf/1912.06321.pdf
-  project_page: https://abhiskk.github.io/sim2real
+  pdf: https://arxiv.org/pdf/1909.13165.pdf
+  project_page: https://github.com/ChanganVR/RelationalGraphLearning
 
 - title: >-
    TilinGNN: Learning to Tile with Self-Supervised Graph Neural Network
