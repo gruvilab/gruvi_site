@@ -111,6 +111,7 @@
   year: 2020
   highlight: 1
   pdf: https://arxiv.org/abs/2005.04464
+  project_page: https://github.com/wallacemplira/ganhopper
 
 - title: >-
    GANhopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation
