@@ -23,6 +23,19 @@
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 
 - title: >-
+   SAPIEN: a SimulAted Part-based Interactive ENvironment
+  image: fanbo_sapien.png
+  description: >-
+   Building home assistant robots has long been a pursuit for vision and robotics researchers. To achieve this task, a simulated environment with physically realistic simulation, sufficient articulated objects, and transferability to the real robot is indispensable. Existing environments achieve these requirements for robotics simulation with different levels of simplification and focus. We take one step further in constructing an environment that supports household tasks for training robot learning algorithm. Our work, SAPIEN, is a realistic and physics-rich simulated environment that hosts a large-scale set for articulated objects. Our SAPIEN enables various robotic vision and interaction tasks that require detailed part-level understanding.We evaluate stateof-the-art vision algorithms for part detection and motion attribute recognition as well as demonstrate robotic interaction tasks using heuristic approaches and reinforcement learning algorithms. We hope that our SAPIEN can open a lot of research directions yet to be explored, including learning cognition through interaction, part motion discovery, and construction of robotics-ready simulated game environment.
+  authors: Fanbo Xiang, Yuzhe Qin, Kaichun Mo, Yikuan Xia, Hao Zhu, Fangchen Liu, Minghua Liu, Hanxiao Jiang, Yifu Yuan, He Wang, Li Yi, Angel X. Chang, Leonidas Guibas, Hao Su
+  venue: >-
+     In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11097-11107).
+  year: 2020
+  highlight: 0
+  pdf: https://arxiv.org/pdf/2003.08515.pdf
+  priject_page: https://sapien.ucsd.edu/
+
+- title: >-
    DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames
   image: erik_dd_ppo.png
   description: >-
@@ -253,6 +266,19 @@
   highlight: 0
   project_page: https://niessnerlab.org/projects/avetisyan2019scan2cad.html
   pdf: https://arxiv.org/pdf/1811.11187.pdf
+
+- title: >-
+   Mimic and Rephrase: Reflective Listening in Open-Ended Dialogue
+  image: justin_mimic_and_rephrase.png
+  description: >-
+    Reflective listening—demonstrating that you have heard your conversational partner—is key to effective communication. Expert human communicators often mimic and rephrase their conversational partner, e.g., when responding to sentimental stories or to questions they don’t know the answer to. We introduce a new task and an associated dataset wherein dialogue agents similarly mimic and rephrase a user’s request to communicate sympathy (I’m sorry to hear that) or lack of knowledge (I do not know that). We study what makes a rephrasal response good against a set of qualitative metrics. We then evaluate three models for generating responses: a syntax-aware rulebased system, a seq2seq LSTM neural models with attention (S2SA), and the same neural model augmented with a copy mechanism (S2SA+C). In a human evaluation, we find that S2SA+C and the rule-based system are comparable and approach human-generated response quality. In addition, experiences with a live deployment of S2SA+C in a customer support setting suggest that this generation task is a practical contribution to real world conversational agents.
+  authors: Justin Dieter, Tian Wang, Gabor Angeli, Angel X. Chang, Arun Tejasvi Chaganty
+  venue: >-
+      In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL) (pp. 393-403).
+  year: 2019
+  highlight: 0
+  project_page: https://github.com/square/MimicAndRephrase
+  pdf: https://www.aclweb.org/anthology/K19-1037.pdf
 
 - title: >-
    LOGAN: Unpaired Shape Transform in Latent Overcomplete Space
