@@ -255,6 +255,19 @@
   pdf: https://arxiv.org/pdf/1903.03757.pdf
 
 - title: >-
+   PartNet: A Large-scale Benchmark for Fine-grained and Hierarchical Part-level 3D Object Understanding
+  image: kaichun_partnet.png
+  description: >-
+    We present PartNet: a consistent, large-scale dataset of 3D objects annotated with fine-grained, instance-level, and hierarchical 3D part information. Our dataset consists of 573,585 part instances over 26,671 3D models covering 24 object categories. This dataset enables and serves as a catalyst for many tasks such as shape analysis, dynamic 3D scene modeling and simulation, affordance analysis, and others. Using our dataset, we establish three benchmarking tasks for evaluating 3D part recognition: fine-grained semantic segmentation, hierarchical semantic segmentation, and instance segmentation. We benchmark four state-ofthe-art 3D deep learning algorithms for fine-grained semantic segmentation and three baseline methods for hierarchical semantic segmentation. We also propose a novel method for part instance segmentation and demonstrate its superior performance over existing methods.
+  authors: Kaichun Mo, Shilin Zhu, Angel X. Chang, Li Yi, Subarna Tripathi, Leonidas Guibas, Hao Su
+  venue: >-
+      In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 909-918).
+  year: 2019
+  highlight: 0
+  project_page: https://cs.stanford.edu/~kaichun/partnet/
+  pdf: https://arxiv.org/pdf/1812.02713.pdf
+
+- title: >-
    Scan2CAD: Learning CAD Model Alignment in RGB-D Scans
   image: armen_scan2cad.png
   description: >-
