@@ -31,7 +31,7 @@
   venue: >-
      In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11097-11107).
   year: 2020
-  highlight: 0
+  highlight: 1
   pdf: https://arxiv.org/pdf/2003.08515.pdf
   priject_page: https://sapien.ucsd.edu/
 
@@ -44,7 +44,7 @@
   venue: >-
      International Conference on Learning Representations (ICLR), 2020
   year: 2020
-  highlight: 0
+  highlight: 1
   pdf: https://arxiv.org/pdf/1911.00357.pdf
   priject_page: https://github.com/facebookresearch/habitat-api
 
@@ -57,7 +57,7 @@
   venue: >-
      arXiv:1912.06321.
   year: 2020
-  highlight: 0
+  highlight: 1
   pdf: https://arxiv.org/pdf/1909.13165.pdf
   priject_page: https://github.com/ChanganVR/RelationalGraphLearning
 
@@ -70,7 +70,7 @@
   venue: >-
      arXiv:1909.13165.
   year: 2020
-  highlight: 0
+  highlight: 1
   pdf: https://arxiv.org/pdf/1912.06321.pdf
   priject_page: https://abhiskk.github.io/sim2real
 
