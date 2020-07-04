@@ -33,7 +33,7 @@
   year: 2020
   highlight: 0
   pdf: https://arxiv.org/pdf/2003.08515.pdf
-  priject_page: https://sapien.ucsd.edu/
+  project_page: https://sapien.ucsd.edu/
 
 - title: >-
    DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames
