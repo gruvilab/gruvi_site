@@ -23,6 +23,31 @@
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 
 - title: >-
+   GANhopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation
+  image: lira_GANH.png
+  description: >-
+   We introduce GANhopper, an unsupervised image-to-image translation network that transforms images gradually between two domains, through multiple hops. Instead of executing translation directly, we steer the translation by requiring the network to produce in-between images which resemble weighted hybrids between images from the two input domains. Our network is trained on unpaired images from the two domains only, without any in-between images. All hops are produced using a single generator along each direction. In addition to the standard cycle-consistency and adversarial losses, we introduce a new hybrid discriminator, which is trained to classify the intermediate images produced by the generator as weighted hybrids, with weights based on a predetermined hop count.
+  authors: Wallace Lira, Johannes Merz, Daniel Ritchie, Daniel Cohen-Or, and Hao Zhang
+  venue: >-
+     ECCV
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/2002.10102
+  project_page: https://github.com/wallacemplira/ganhopper
+
+- title: >-
+   DR-KFS: A Differentiable Visual Similarity Metric for 3D Shape Reconstruction
+  image: jin_DRKFD.png
+  description: >-
+   We advocate the use of differential visual shape metrics to train deep neural networks for 3D reconstruction. We introduce such a metric which compares two 3D shapes by measuring visual, image-space differences between multiview images differentiably rendered from the shapes. Furthermore, we develop a differentiable image-space distance based on mean-squared errors defined over HardNet features computed from probabilistic keypoint maps of the compared images. Our differential visual shape metric can be easily plugged into various reconstruction networks, replacing the object-space distortion measures, such as Chamfer or Earth Mover distances, so as to optimize the network weights to produce reconstruction results with better structural fidelity and visual quality.
+  authors: Jiongchao Jin, Akshay Gadi Patil, and Hao Zhang
+  venue: >-
+     ECCV
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/1911.09204
+
+- title: >-
    SAPIEN: a SimulAted Part-based Interactive ENvironment
   image: fanbo_sapien.png
   description: >-
@@ -111,31 +136,6 @@
   year: 2020
   highlight: 1
   pdf: https://arxiv.org/abs/2005.04464
-
-- title: >-
-   GANhopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation
-  image: lira_GANH.png
-  description: >-
-   We introduce GANhopper, an unsupervised image-to-image translation network that transforms images gradually between two domains, through multiple hops. Instead of executing translation directly, we steer the translation by requiring the network to produce in-between images which resemble weighted hybrids between images from the two input domains. Our network is trained on unpaired images from the two domains only, without any in-between images. All hops are produced using a single generator along each direction. In addition to the standard cycle-consistency and adversarial losses, we introduce a new hybrid discriminator, which is trained to classify the intermediate images produced by the generator as weighted hybrids, with weights based on a predetermined hop count.
-  authors: Wallace Lira, Johannes Merz, Daniel Ritchie, Daniel Cohen-Or, and Hao Zhang
-  venue: >-
-     Arxiv
-  year: 2020
-  highlight: 1
-  pdf: https://arxiv.org/abs/2002.10102
-  project_page: https://github.com/wallacemplira/ganhopper
-
-- title: >-
-   DR-KFS: A Differentiable Visual Similarity Metric for 3D Shape Reconstruction
-  image: jin_DRKFD.png
-  description: >-
-   We advocate the use of differential visual shape metrics to train deep neural networks for 3D reconstruction. We introduce such a metric which compares two 3D shapes by measuring visual, image-space differences between multiview images differentiably rendered from the shapes. Furthermore, we develop a differentiable image-space distance based on mean-squared errors defined over HardNet features computed from probabilistic keypoint maps of the compared images. Our differential visual shape metric can be easily plugged into various reconstruction networks, replacing the object-space distortion measures, such as Chamfer or Earth Mover distances, so as to optimize the network weights to produce reconstruction results with better structural fidelity and visual quality.
-  authors: Jiongchao Jin, Akshay Gadi Patil, and Hao Zhang
-  venue: >-
-     Arxiv
-  year: 2020
-  highlight: 1
-  pdf: https://arxiv.org/abs/1911.09204
 
 - title: >-
    BSP-Net: Generating Compact Meshes via Binary Space Partitioning
