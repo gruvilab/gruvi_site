@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: July 8, 2020
+  headline: >-
+    Gruviers Won Symposium of Geometry Processing (SGP) 2020 Dataset Award
+  text: >-
+    Congratulations to Angel Xuan Chang and Manolis Savva, whose work <b>ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes</b> won the 2020 SGP dataset award. ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations. More information can be found in the paper. <br><br>
+  highlight: 1
+  image: logan.jpg
+
 - date: Jun 23, 2020
   headline: >-
     Gruviers Receive CVPR Awards
@@ -40,7 +48,7 @@
     LOGAN - SIG Asia Press Release
   text: >-
     Congratulations to Kangxue, whose work <b>LOGAN: Unpaired Shape Transform in Latent Overcomplete Space</b> will be featured for press release at SIGGRAPH Asia 2019!<br><br>LOGAN is able to learn what shape features to preserve during shape translation, either local or non-local, whether content or style, depending solely on the input domains for training, which was an improvement over the state of the art.<br><br>LOGAN is an abbreviation for Latent Overcomplete GAN. Richard Zhang, who is also the last author, created the fun acronym.<br><br>
-  highlight: 1
+  highlight: 0
   image: logan.jpg
 
 - date: Jul 23, 2019
