@@ -15,7 +15,7 @@
   headline: >-
     Gruviers Won Symposium of Geometry Processing (SGP) 2020 Dataset Award
   text: >-
-    Congratulations to Angel Xuan Chang and Manolis Savva, whose work <b>ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes</b> won the 2020 SGP dataset award. ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations. More information can be found in the paper. <br><br>
+    Congratulations to Angel Xuan Chang and Manolis Savva, whose work <b>ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes</b> won the 2020 SGP dataset award. ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations. More information can be found in the paper <a href="http://www.scan-net.org/">. <br><br>
   highlight: 1
   image: logan.jpg
 
