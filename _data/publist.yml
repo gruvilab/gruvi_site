@@ -23,7 +23,7 @@
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 - title: >-
    Vectorizing World Buildings: Planar Graph Reconstruction by Primitive Detection and Relationship Inference
-  image: vectorize-building.png
+  image: vectorize-building.jpg
   description: >-
    This paper tackles a 2D architecture vectorization problem, whose task is to infer an outdoor building architecture as a 2D planar graph from a single RGB image. We provide a new benchmark with ground-truth annotations for 2,001 complex buildings across the cities of Atlanta, Paris, and Las Vegas. We also propose a novel algorithm utilizing 1) convolutional neural networks (CNNs) that detects geometric primitives and infers their relationships and 2) an integer programming (IP) that assembles the information into a 2D planar graph. While being a trivial task for human vision, the inference of a graph structure with an arbitrary topology is still an open problem for computer vision. Qualitative and quantitative evaluations demonstrate that our algorithm makes significant improvements over the current state-of-the-art, towards an intelligent system at the level of human perception. We will share code and data.
   authors: Nelson Nauata, Yasutaka Furukawa
