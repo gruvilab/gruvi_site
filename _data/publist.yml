@@ -22,6 +22,18 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 - title: >-
+   House-GAN: Relational Generative Adversarial Networks for Graph-constrained House Layout Generation
+  image: house-gan.jpg
+  description: >-
+   This paper proposes a novel graph-constrained generative adversarial network, whose generator and discriminator are built upon relational architecture. The main idea is to encode the constraint into the graph structure of its relational networks. We have demonstrated the proposed architecture for a new house layout generation problem, whose task is to take an architectural constraint as a graph (i.e., the number and types of rooms with their spatial adjacency) and produce a set of axis-aligned bounding boxes of rooms. We measure the quality of generated house layouts with the three metrics: the realism, the diversity, and the compatibility with the input graph constraint. Our qualitative and quantitative evaluations over 117,000 real floorplan images demonstrate that the proposed approach outperforms existing methods and baselines. We will publicly share all our code and data.  authors: Nelson Nauata, Yasutaka Furukawa
+  venue: >-
+     ECCV (oral presentation)
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/abs/2003.06988
+  project_page: https://ennauata.github.io/housegan/page.html
+
+- title: >-
    Vectorizing World Buildings: Planar Graph Reconstruction by Primitive Detection and Relationship Inference
   image: vectorize-building.jpg
   description: >-
