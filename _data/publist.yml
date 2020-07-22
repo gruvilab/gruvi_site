@@ -22,6 +22,19 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: tex_file_name.bib {the bibtex item should be uploaded directly to the bibtex folder}
 - title: >-
+     Learning Pairwise Inter-Plane Relations for Piecewise Planar Reconstruction
+  image: yimming_eccv20.png
+  description: >-
+     This paper proposes a novel single-image piecewise planar reconstruction technique that infers and enforces inter-plane relationships. Our approach takes a planar reconstruction result from an existing system, then utilizes convolutional neural network (CNN) to (1) classify if two planes are orthogonal or parallel; and 2) infer if two planes are touching and, if so, where in the image. We formulate an optimization problem to refine plane parameters and employ a message passing neural network to refine plane segmentation masks by enforcing the inter-plane relations. Our qualitative and quantitative evaluations demonstrate the effectiveness of the proposed approach in terms of plane parameters and segmentation accuracy.
+  authors: Yiming Qian and Yasutaka Furukawa
+  venue: >-
+     ECCV
+  year: 2020
+  highlight: 1
+  pdf: https://drive.google.com/file/d/1OlUhc-P-NM9bDCTqK8CPCGff-xE1o3Vc/view?usp=sharing
+  project_page: https://yi-ming-qian.github.io/projects/interplane.html
+
+- title: >-
    House-GAN: Relational Generative Adversarial Networks for Graph-constrained House Layout Generation
   image: housegan.jpg
   description: >-
