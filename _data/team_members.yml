@@ -206,6 +206,13 @@
   email:
   website: https://www.linkedin.com/in/saghar-irandoust/
   number_educ: 0
+  
+- name: Hanxiao Jiang(Shawn)
+  photo: Shawn.jpeg
+  role: Graduate Student
+  email:
+  website: https://jianghanxiao.github.io/
+  number_educ: 0
 
 - name: Mohsen Kamalzadeh
   photo: mohsen.jpg
