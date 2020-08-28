@@ -23,6 +23,19 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 - title: >-
+    ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language
+  image: Chen_ScanRefer.png
+  description: >-
+    This paper introduces the task of 3D object localization in RGB-D scans using natural language descriptions. As input, it assumes a point cloud of a scanned 3D scene along with a free-form description of a specified target object. To address this task, the paper proposes ScanRefer, learning a fused descriptor from 3D object proposals and encoded sentence embeddings. This fused descriptor correlates language expressions with geometric features, enabling regression of the 3D bounding box of a target object. It also introduces the ScanRefer dataset, containing 51,583 descriptions of 11,046 objects from 800 ScanNet scenes. ScanRefer is the first large-scale effort to perform object localization via natural language expression directly in 3D.
+  authors: Dave Zhenyu Chen, Angel X. Chang, Matthias Nießner
+  venue: >-
+    ECCV
+  year: 2020
+  highlight: 1
+  pdf: https://arxiv.org/pdf/1912.08830.pdf
+  project_page: https://daveredrum.github.io/ScanRefer
+
+- title: >-
      Learning Pairwise Inter-Plane Relations for Piecewise Planar Reconstruction
   image: yimming_eccv20.png
   description: >-
