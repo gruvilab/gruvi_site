@@ -11,9 +11,17 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: September 13, 2020
+  headline: >-
+    Kevin Xu is Now a SFU Adjunt Professor
+  text: >-
+    Kevin (Kai) Xu, a former gruvier from 2008 to 2010 when he worked as a visiting PhD student under the supervision of Richard Zhang, is now is rejoining GrUVi after being appointed as an Adjunct Professor at Simon Fraser University. Welcome back to GrUVi, Kevin!  Check <a href="https://kevinkaixu.net/" target="_blank">his website</a> for more information about his recent works in computer graphics and computer vision!
+  highlight: 1
+  image: kevinxu.jpg
+
 - date: July 8, 2020
   headline: >-
-    Gruviers Won the 2020 Symposium of Geometry Processing (SGP) Dataset Award
+    Gruviers Won the SGP Dataset Award
   text: >-
     Congratulations to Angel Xuan Chang and Manolis Savva, whose work <b>ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes</b> won the 2020 SGP dataset award. ScanNet is an RGB-D video dataset containing 2.5 million views in more than 1500 scans, annotated with 3D camera poses, surface reconstructions, and instance-level semantic segmentations. More information can be found in the paper <a href="http://www.scan-net.org/">here</a>.
   highlight: 1
@@ -40,7 +48,7 @@
     GrUVi tackles COVID-19 using AI
   text: >-
     SFU researchers helped to develop an AI system capable of assisting resident and less experienced doctors look over a data set and make a quick diagnosis before a senior doctor can step in. This is accoding to Yağız Aksoy, a gruvier and also a member of the team that proposed the diagnosis tool, which is currently in the validation phase at St. Paul’s Hospital in Vancouver, Canada. Read more about it <a href="http://www.sfu.ca/sfunews/stories/2020/06/sfu-researchers-help-develop-ai-tool-for-speedy-covid-19-diagnos.html">here</a>. Thank you for your hard work, Dr. Aksoy!
-  highlight: 1
+  highlight: 0
   image: covid.jpg
 
 - date: Oct 24, 2019
