@@ -60,13 +60,6 @@
   website: http://www.cs.sfu.ca/~pingtan/
   number_educ: 0
 
-- name: Kevin (Kai) Xu
-  photo: kevinxu.jpg
-  role: Faculty
-  email: kevin.kai.xu@gmail.com
-  website: https://kevinkaixu.net/
-  number_educ: 0
-
 - name: KangKang Yin
   photo: kkyin.jpg
   role: Faculty
@@ -108,6 +101,13 @@
   role: Affiliated Faculty
   email: 
   website: http://ws.iat.sfu.ca/
+  number_educ: 0
+
+- name: Kevin (Kai) Xu
+  photo: kevinxu.jpg
+  role: Affiliated Faculty
+  email: kevin.kai.xu@gmail.com
+  website: https://kevinkaixu.net/
   number_educ: 0
 
 ################################# Postdocs and visitors  #################################
