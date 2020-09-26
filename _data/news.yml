@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: September 25, 2020
+  headline: >-
+    Gruviers Receive Funding from CFI
+  text: >-
+    Congratulations to Angel Xuan Chang, Yasutaka Furukawa and Manolis Savva for receiving fundings form Canada Foundation for Innovation (CFI). This funding will allow our researchers to take their transformative discoveries to the next level. More information about the funding and the projects can be found here <a href="http://www.scan-net.org/">here</a>.
+  highlight: 1
+  image: kevinxu.jpg
+
 - date: September 23, 2020
   headline: >-
     Talk by He Wang
@@ -40,7 +48,7 @@
     Gruviers Receive CVPR Awards
   text: >-
     Visual computing researchers from SFU received multiple awards at the annual Conference on Computer Vision and Pattern Recognition (CVPR) this past week. CVPR is the premier conference in computer vision with the highest impact factor among all conferences in computer science and was held virtually for the first time this year from June 14-19. Computing science professor Greg Mori served as one of four program chairs at the conference. <br><br> Zhiqin Chen and Richard Zhang, together with GrUVi alumnus Andrea Tagliasacchi, won the Best Student Paper Award with "BSP-Net: Generating Compact Meshes via Binary Space Partitioning" introduces a deep neural network which applies a classical graphics technique to learn compact shape representations.  <br><br> Yasutaka Furukawa won the PAMI Longuet-Higgins Prize for his CVPR 2007 milestone paper on “multi-view stereo reconstruction”, which has been cited more than 3,000 times! <br><br> Also, Akshay Gadi Patil won the Best Paper Award at the CVPR Workshop on Text and Documents in the Deep Learning Era for his work "READ: Recursive Autoencoders for Document Layout Generation". <br><br> Read more <a href="https://www.sfu.ca/computing/newsandevents/2020/visual-computing-researchers-cvpr.html">here</a>. Well done, gruviers!
-  highlight: 1
+  highlight: 0
   image: CVPR_GRUVI.png
 
 - date: Jun 09, 2020
