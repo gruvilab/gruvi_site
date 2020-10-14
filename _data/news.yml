@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: October 10, 2020
+  headline: >-
+    Keynote and award at ChinaGraph'20
+  text: >-
+    Richard Zhang will deliver one of the keynote talks [Add link:&nbsp;<a href="https://chinagraph2020.xmu.edu.cn/keynotes.html#keynote3" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://chinagraph2020.xmu.edu.cn/keynotes.html%23keynote3&amp;source=gmail&amp;ust=1602802139125000&amp;usg=AFQjCNHEtagtWzWWzjL0Ke5SgTXXVpUmXg">https://chinagraph2020.xmu.<wbr />edu.cn/keynotes.html#keynote3</a>] (virtually) at ChinaGraph 2020 held in Xiamen, China, on October 23. ChinaGraph is a bi-annual conference on computer graphics in China, the most important gathering of graphics researchers, students, and industries in the country. In another news, 3D-FRONT [Add link:&nbsp;<a href="https://pages.tmall.com/wow/cab/tianchi/promotion/alibaba-3d-scene-dataset" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://pages.tmall.com/wow/cab/tianchi/promotion/alibaba-3d-scene-dataset&amp;source=gmail&amp;ust=1602802139125000&amp;usg=AFQjCNEXuf-Zfe-oBBUwfoipKwLbIFKd-A">https://pages.tmall.com/wow/<wbr />cab/tianchi/promotion/alibaba-<wbr />3d-scene-dataset</a>], a large-scale 3D indoor scene dataset&nbsp;published earlier this year by Richard and colleagues from Alibaba and the Chinese Academy of Sciences, has won the inaugural ChinaGraph Best Dataset Award.
+  highlight: 1
+  image: chinagraph20.png
+
 - date: September 25, 2020
   headline: >-
     Gruviers Receive Funding from CFI
