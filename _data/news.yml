@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: December 2, 2020
+  headline: >-
+    Graphics Interface 2021
+  text: >-
+    Gruvi is glad to announce that Ali Mahdavi-Amiri and Manolis Savva will serve as general and program co-chair at the Graphics Interface 2021. Graphics Interface is the only conference for computer graphics and human computer interaction. To learn more about the conference please visit <a href="http://www.http://graphicsinterface.org/conference/2021/">here</a>.
+  highlight: 1
+  image: chinagraph20.png
+
 - date: October 10, 2020
   headline: >-
     Keynote and award at ChinaGraph'20
@@ -40,7 +48,7 @@
     New SFU CS Adjunct Prof
   text: >-
     Kevin (Kai) Xu, a former gruvier from 2008 to 2010, when he worked as a visiting Ph.D. student under the supervision of Richard Zhang, is now resuming his affiliation with GrUVi after being appointed as an Adjunct Professor at SFU CS for a three-year term. Welcome back to GrUVi, Kevin!</p><p style="padding: 0 15px; text-align: justify;">Check <a href="https://kevinkaixu.net/" target="_blank">his website</a> for more information about his recent works in computer graphics and computer vision!
-  highlight: 1
+  highlight: 0
   image: kevinxu.jpg
 
 - date: July 8, 2020
