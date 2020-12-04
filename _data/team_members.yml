@@ -112,12 +112,12 @@
 
 ################################# Postdocs and visitors  #################################
 
-- name: Jiongchao Jin
-  photo: Jiongchao.jpg
-  role: Visitor
-  email: 
-  website: #
-  number_educ: 0
+# - name: Jiongchao Jin
+#   photo: Jiongchao.jpg
+#   role: Visitor
+#   email: 
+#   website: #
+#   number_educ: 0
   
 - name: Pyojin Kim
   photo: PyojinKim.png
@@ -154,12 +154,12 @@
 #  website: https://scholar.google.com/citations?user=GUSTl88AAAAJ&hl=en
 #  number_educ: 0
 
-- name: Xiaogang Wang
-  photo: xiaogang.jpg
-  role: Visitor
-  email: 
-  website: #
-  number_educ: 0
+# - name: Xiaogang Wang
+#   photo: xiaogang.jpg
+#   role: Visitor
+#   email: 
+#   website: #
+#   number_educ: 0
 
 #- name: Zili Yi
 #  photo: zili.jpg
@@ -401,7 +401,7 @@
   photo: FenggenYu.jpg
   role: Graduate Student
   email: fenggen_yu@sfu.ca
-  website: https://foggyu.github.io/
+  website: https://fenggenyu.github.io/
   number_educ: 0
 
 - name: Fuyang Zhang
