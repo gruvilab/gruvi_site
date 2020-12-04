@@ -199,7 +199,14 @@
   email:
   website:
   number_educ: 0
-
+  
+- name: Arezou Fatemi
+  photo: arezou_fatemi.jpg
+  role: Graduate Student
+  email:
+  website:
+  number_educ: 0
+  
 - name: Ali Gholami
   photo: AliGholami.jpg
   role: Graduate Student
