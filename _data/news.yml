@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: December 3, 2020
+  headline: >-
+    Talk by Hadar Averbuch-Elor
+  text: >-
+    <b>Talk title:</b>&nbspc;Generation by Decomposition</p><p><b>Time:</b>&nbspc;December 16, from 1:30 to 2:30PM (PST)</p><p><b>Abstract:</b>&nbspc;Deep learning has revolutionized our ability to generate novel images and 3D shapes. Neural networks are typically trained to map a high-dimensional latent code to full realistic samples. In this talk, I will present two recent works focusing on generation of handwritten text and 3D shapes. In these works, we take a different approach and generate image and shape samples using a more granular part-based decomposition, demonstrating that the whole is not necessarily “greater than the sum of its parts”. I will also discuss how our generation by decomposition approach allows for a semantic manipulation of 3D shapes and improved handwritten text recognition performance.</p><p><b>Bio:</b>&nbspc;Hadar Averbuch-Elor is a postdoctoral researcher at Cornell-Tech working with Prof. Noah Snavely. Her research interests lie in the intersection of computer graphics and computer vision. Currently, her research focuses on understanding and manipulating visual concepts by combining pixels with more structured modalities, including natural language and 3D geometry. She completed her PhD in Electrical Engineering at Tel-Aviv University in Israel where she was advised by Prof. Daniel Cohen-Or. She also held research positions at Facebook and Amazon AI. Hadar has received several awards including the Zuckerman Postdoctoral Scholar Fellowship and the Tel Aviv University President Award for Women. To learn more about the conference please visit <a href="http://graphicsinterface.org/conference/2021/">here</a>.
+  highlight: 1
+  image: hadar.png
+
 - date: December 2, 2020
   headline: >-
     Graphics Interface 2021
@@ -40,7 +48,7 @@
     Talk by He Wang
   text: >-
     <b>Title:</b> Category-Level Object Perception for Physical Interaction<br><b>Time:</b> 1:30 - 2:30, Wednesday, September 23<br><br><b>Abstract:</b> Deep neural networks have shown great success both in semantic perception tasks, e.g. object recognition and semantic segmentation, and in end-to-end perception for reinforcement learning and robotic tasks. However, it is still unclear how to bridge these two perception paradigms to gain a deep semantic and interaction-driven understanding of physical interaction.<br><br>In this talk, I will focus on how to explore categorical actionable information for the sake of perceiving and understanding physical interactions. First, I will show that learning high-level semantic actionable information, e.g. object state, can help with action planning. Second, I will introduce the problem of estimating category-level 6D pose and 3D size for rigid objects. This category pose can be seen as low-level actionable information and can benefit object manipulation tasks. Lastly, I will present my recent works on curating an articulated object dataset and estimating category-level articulated object pose.<br><br><b>Bio:</b> He Wang is a fifth-year PhD student at Stanford University under the supervision of Prof. Leonidas Guibas. His research interests span across computer vision, geometric computing, and robotics.  In his PhD he contributed to generative modeling of human object interactions, opened up a new direction in estimating category-level pose and size for rigid and articulated objects. He receives Eurographics 2019 best paper honorable mention award and three of his works are accepted as CVPR oral presentations. Prior to his PhD he obtained his bachelor in Microelectronics from Tsinghua University.
-  highlight: 1
+  highlight: 0
   image: he_profile.png
 
 - date: September 13, 2020
