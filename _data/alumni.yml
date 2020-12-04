@@ -1,6 +1,12 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Jiongchao Jin
+  graduation: 2020
+  text: Gruvi Alumni
+- name: Xianggang Wang
+  graduation: 2020
+  text: Gruvi Alumni
 - name: Kangxue Yin
   graduation: 2020
   text: Research Scientist at NVIDIA
