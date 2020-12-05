@@ -349,7 +349,7 @@
   number_educ: 0
 
 - name: Shimon Smith
-  photo: shimon_smith.jpeg
+  photo: shimon_smith.jpg
   role: Graduate Student
   email: 
   website:
@@ -376,6 +376,13 @@
   website: https://sites.google.com/site/chengzhout/
   number_educ: 0
 
+- name: Maham Tanveer
+  photo: maham_tanveer.jpg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+  
 - name: Sicong Tang
   photo: sicong.jpg
   role: Graduate Student
@@ -388,6 +395,13 @@
   role: Graduate Student
   email: madhawa_vidanapathirana@sfu.ca
   website: https://github.com/madhawav
+  number_educ: 0
+ 
+- name: Aditya Vora
+  photo: aditya_vora.jpg
+  role: Graduate Student
+  email: voraaditya898@gmail.com
+  website: https://github.com/aditya-vora
   number_educ: 0
   
 - name: Luwei Yang
