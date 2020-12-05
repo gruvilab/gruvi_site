@@ -147,6 +147,13 @@
   website: 
   number_educ: 0
 
+- name: Hang Zhou
+  photo: hang_zhou.jpg
+  role: Postdoc
+  email: 
+  website: http://home.ustc.edu.cn/~zh2991/
+  number_educ: 0
+  
 #- name: Fei-Peng Tian
 #  photo: feipeng.jpg
 #  role: Visitor
@@ -333,7 +340,7 @@
   email: mshabani@sfu.ca
   website:
   number_educ: 0
-
+  
 - name: Rakesh Shrestha
   photo: rakesh.jpg
   role: Graduate Student
@@ -341,6 +348,13 @@
   website:  http://www.sfu.ca/~rakeshs/
   number_educ: 0
 
+- name: Shimon Smith
+  photo: shimon_smith.jpeg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+  
 - name: Weilian Song
   photo: weilian.jpg
   role: Graduate Student
