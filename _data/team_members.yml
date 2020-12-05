@@ -192,14 +192,20 @@
   website: 
   number_educ: 0
 
+- name: Qimin Chen
+  photo: qimin_chen.jpg
+  role: Graduate Student
+  email: 
+  website: https://qiminchen.github.io/
+  number_educ: 0
+
 - name: Zhiqin Chen
   photo: zhiqin.jpg
   role: Graduate Student
-  email: agadipat@sfu.ca
+  email: zhiqinc@sfu.ca
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
-
-
+  
 - name: Sebastian Dille
   photo: SebastianDille3x4.jpg
   role: Graduate Student
