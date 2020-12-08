@@ -213,6 +213,13 @@
   website:
   number_educ: 0
   
+- name: Yasaman Etesam
+  photo: YasamanEtesam.jpg
+  role: Graduate Student
+  email:
+  website: https://www.linkedin.com/in/yasaman-etesam
+  number_educ: 0
+  
 - name: Arezou Fatemi
   photo: arezou_fatemi.jpg
   role: Graduate Student
