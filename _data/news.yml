@@ -11,6 +11,24 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+
+- date: April 2, 2021
+  headline: >-
+    Talk by Kaichun Mo   
+  text: >-
+    <b>Talk title:</b> Learning 3D Shape Actionable Information from Simulated Interaction  <br><br><b>Time:</b> April 2, from 3:30 to 4:30PM (PST)  <br><br><b>Abstract:</b> We humans accomplish everyday tasks by interacting with a wide range of 3D objects, with diverse geometry, rich semantics, and complicated structures. One fundamental goal of computational visual perception is to equip intelligent agents with similar capabilities to understand how to meaningfully interact with the 3D environment. While great advances have been achieved in both fields of 3D vision (e.g. object detection, pose estimation, shape reconstruction) and robotic manipulation (e.g. planning, control), we ask the question -- what are good visual representations of 3D shapes for various downstream robotic manipulation tasks? In this talk, I will introduce my recent research taking one step along this direction that learns 3D shape actionable information via large-scale annotation-free learning from simulated interaction. More specifically, I will present two works (i.e. Where2Act, O2O-Afford) that learn 3D shape visual affordance post-conditioned on various primitive manipulation policies, using the large-scale ShapeNet/PartNet dataset and SAPIEN physical simulation environment.<br><br><b>Bio:</b> <a target="_blank" href="https://cs.stanford.edu/~kaichun/">Kaichun Mo</a> is a fifth-year Ph.D. Student in Computer Science at Stanford University, advised by Prof. Leonidas Guibas. Before that, he received his BS.E. degree from the ACM Honored Class at Shanghai Jiao Tong University. His research interests focus on understanding 3D shape structure and semantics for various applications in 3D vision, graphics, and robotic manipulation. He has interned at Adobe Research, Autodesk Research (AI Lab), and Facebook AI Research. He has published papers at CVPR, ECCV, NeurIPS, ICLR, Siggraph Asia, ToG, AAAI.
+  highlight: 1
+  image: Kaichun_Mo.jpeg
+  
+- date: March 19, 2021
+  headline: >-
+    Talk by Animesh Garg   
+  text: >-
+    <b>Talk title:</b> Building Blocks of Generalizable Autonomy in Robot Manipulation  <br><br><b>Time:</b> March 19, from 3:30 to 4:30PM (PST)  <br><br><b>Abstract:</b> My approach to Generalizable Autonomy posits that interactive learning across families of tasks is essential for discovering efficient representation and inference mechanisms. Arguably, a cognitive concept or a dexterous skill should be reusable across task instances to avoid constant relearning. It is insufficient to learn to “open a door”, and then have to re-learn it for a new door, or even windows & cupboards. Thus, I focus on three key questions:  (1) Representational biases for embodied reasoning, (2) Causal Inference in abstract sequential domains,  and (3) Interactive Policy Learning under uncertainty.
+In this talk, I will first through example lay bare the need for structured biases in modern RL algorithms in the context of robotics. This will span state, actions, learning mechanisms, and network architectures. Secondly,  we will talk about the discovery of latent causal structure in dynamics for planning. Finally, I will demonstrate how large-scale data generation combined with insights from structure learning can enable sample efficient algorithms for practical systems. In this talk, I will focus mainly on manipulation, but my work has been applied to surgical robotics and legged locomotion as well.<br><br><b>Bio:</b> <a target="_blank" href="https://animesh.garg.tech/">Animesh Garg</a> is an CIFAR Chair Assistant Professor of Computer Science at the University of Toronto and a Faculty Member at the Vector Institute where he leads the Toronto People, AI, and Robotics (PAIR) research group. Animesh is affiliated with Mechanical and Industrial Engineering (courtesy) and UofT Robotics Institute. Animesh also spends time as a Senior Researcher at Nvidia Research in ML for Robotics. Prior to this, Animesh earned a Ph.D. from UC Berkeley, and was a postdoc at the Stanford AI Lab. His research focuses on machine learning algorithms for perception and control in robotics. His work aims to build Generalizable Autonomy in robotics which involves a confluence of representations and algorithms for reinforcement learning, control, and perception. His work has received multiple Best Paper Awards (ICRA, IROS, Hamlyn Symposium, Neurips Workshop, ICML Workshop) and has been covered in the press (New York Times, Nature, BBC).
+  highlight: 1
+  image: animesh-garg.jpeg
+
 - date: December 3, 2020
   headline: >-
     Talk by Hadar Averbuch-Elor   
