@@ -11,7 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
-
+- date: April 10, 2021
+  headline: >-
+    Symposium on Geometry Processing (SGP) 2021
+  text: >-
+    Gruvi is glad to announce that Angel Chang will serve as Conference Chair in the SGP 2021. The Symposium on Geometry Processing (SGP) is the flagship conference in geometry processing. To learn more about the conference please visit <a href="https://sgp2021.github.io/organization/">here</a>.
+  highlight: 1
+  image: angel.png
+  
 - date: April 2, 2021
   headline: >-
     Talk by Kaichun Mo   
@@ -41,7 +48,7 @@
     Graphics Interface 2021
   text: >-
     Gruvi is glad to announce that Ali Mahdavi-Amiri and Manolis Savva will serve as general and program co-chair at the Graphics Interface 2021. Graphics Interface is the only conference for computer graphics and human computer interaction. To learn more about the conference please visit <a href="http://graphicsinterface.org/conference/2021/">here</a>.
-  highlight: 1
+  highlight: 0
   image: graphics_interface_2021.png
 
 - date: October 10, 2020
