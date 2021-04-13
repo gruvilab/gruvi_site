@@ -21,16 +21,6 @@
 #  project_page: https://www.google.ca/link_to_project_page
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
-
-- title: >-
-    Boosting Monocular Depth Estimation Models to High-Resolution via Content-Adaptive Multi-Resolution Merging
-  description: >-
-  authors: S. Mahdi H. Miangoleh, Sebastian Dille, Long Mai, Sylvain Paris, Yagiz Aksoy
-  venue: >-
-    CVPR
-  year: 2021
-  highlight: 1
-  pdf: http://yaksoy.github.io/research/
   
 - title: >-
     HumanGPS: Geodesic PreServing Feature for Dense Human Correspondence
@@ -42,16 +32,6 @@
   year: 2021
   highlight: 1
   pdf: https://arxiv.org/pdf/2103.15573.pdf
-  
-- title: >-
-    End-to-End Rotation Averaging with Multi-Source Propagation
-  description: >-
-  authors: Luwei Yang, Heng Li, Jamal Rahim, Zhaopeng Cui, Ping Tan
-  venue: >-
-    CVPR
-  year: 2021
-  highlight: 1
-  pdf: https://www.cs.sfu.ca/~pingtan/
   
 - title: >-
     Learning Camera Localization via dense scene matching
@@ -209,6 +189,26 @@
   pdf: https://arxiv.org/pdf/1912.08830.pdf
   project_page: https://daveredrum.github.io/ScanRefer
 
+- title: >-
+    Boosting Monocular Depth Estimation Models to High-Resolution via Content-Adaptive Multi-Resolution Merging
+  description: >-
+  authors: S. Mahdi H. Miangoleh, Sebastian Dille, Long Mai, Sylvain Paris, Yagiz Aksoy
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: http://yaksoy.github.io/research/
+
+- title: >-
+    End-to-End Rotation Averaging with Multi-Source Propagation
+  description: >-
+  authors: Luwei Yang, Heng Li, Jamal Rahim, Zhaopeng Cui, Ping Tan
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~pingtan/
+  
 - title: >-
      Learning Pairwise Inter-Plane Relations for Piecewise Planar Reconstruction
   image: yimming_eccv20.png
