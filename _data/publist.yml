@@ -23,6 +23,28 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 - title: >-
+    ScanRefer: Hyper-LifelongGAN: Scalable Lifelong Learning for Image Conditioned Generation
+  image: zhai-cvpr21.png
+  description: >-
+  authors: Mengyao Zhai, Lei Chen, and Greg Mori
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://www2.cs.sfu.ca/~mori/research/papers/zhai-cvpr21.pdf
+  
+- title: >-
+    ScanRefer: Learning Discriminative Prototypes with Dynamic Time Warping
+  image: chang-cvpr21.png
+  description: >-
+  authors: Xiaobin Chang, Frederick Tung, and Greg Mori
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2103.09458.pdf
+  
+- title: >-
     ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language
   image: Chen_ScanRefer.png
   description: >-
