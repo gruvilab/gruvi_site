@@ -23,6 +23,48 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 - title: >-
+    ScanRefer: Plan2Scene: Converting Floorplans to 3D Scenes
+  image: cvpr2021-plan2cg.jpeg
+  description: >-
+  authors: Madhawa Vidanapathirana, Qirui Wu, Yasutaka Furukawa, Angel Chang, and Manolis Savva
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  
+- title: >-
+    ScanRefer: Heterogeneous Grid Convolution for Adaptive, Efficient, and Controllable Computation
+  image: cvpr2021-hetero.jpeg
+  description: >-
+  authors: Ryuhei Hamaguchi, Yasutaka Furukawa, Masaki Onishi, and Ken Sakurada
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+
+- title: >-
+    ScanRefer: House-GAN++: Generative Adversarial Layout Refinement Networks
+  image: cvpr2021-houseganpp.jpeg
+  description: >-
+  authors: Nelson Nauata, Sepidehsadat Hosseini, Kai-Hung Chang, Hang Chu, Chin-Yi Cheng, and Yasutaka Furukawa
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2103.02574.pdf
+
+- title: >-
+    ScanRefer: Roof-GAN: Learning to Generate Roof Geometry and Relations for Residential Houses
+  image: cvpr2021-roofgan.jpeg
+  description: >-
+  authors: Yiming Qian, Hao Zhang, and Yasutaka Furukawa
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2012.09340.pdf
+  
+- title: >-
     ScanRefer: Hyper-LifelongGAN: Scalable Lifelong Learning for Image Conditioned Generation
   image: zhai-cvpr21.png
   description: >-
