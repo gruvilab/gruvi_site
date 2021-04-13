@@ -31,6 +31,7 @@
     CVPR
   year: 2021
   highlight: 1
+  pdf: https://msavva.github.io/
   
 - title: >-
     Heterogeneous Grid Convolution for Adaptive, Efficient, and Controllable Computation
@@ -41,6 +42,7 @@
     CVPR
   year: 2021
   highlight: 1
+  pdf: https://www2.cs.sfu.ca/~furukawa/
 
 - title: >-
     House-GAN++: Generative Adversarial Layout Refinement Networks
