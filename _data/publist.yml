@@ -23,6 +23,114 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 - title: >-
+    Boosting Monocular Depth Estimation Models to High-Resolution via Content-Adaptive Multi-Resolution Merging
+  description: >-
+  authors: S. Mahdi H. Miangoleh, Sebastian Dille, Long Mai, Sylvain Paris, Yagiz Aksoy
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: http://yaksoy.github.io/research/
+  
+- title: >-
+    HumanGPS: Geodesic PreServing Feature for Dense Human Correspondence
+  image: shitao_cvpr21.png
+  description: >-
+  authors: Feitong Tan, Danhang Tang, Mingsong Dou, Kaiwen Guo, Rohit Pandey, Cem Keskin, Ruofei Du, Deqing Sun, Sofien Bouaziz, Sean Fanello, Ping Tan, Yinda Zhang
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2103.15573.pdf
+  
+- title: >-
+    End-to-End Rotation Averaging with Multi-Source Propagation
+  description: >-
+  authors: Luwei Yang, Heng Li, Jamal Rahim, Zhaopeng Cui, Ping Tan
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~pingtan/
+  
+- title: >-
+    Learning Camera Localization via dense scene matching
+  image: shitao_cvpr21.png
+  description: >-
+  authors: Shitao Tang, Chengzhou Tang, Rui Huang, Siyu Zhu, Ping Tan
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2103.16792.pdf
+  
+- title: >-
+    Riggable 3D Face Reconstruction via In-Network Optimization
+  image: riggable_cvpr21.png
+  description: >-
+  authors: Ziqian Bai, Zhaopeng Cui, Xiaoming Liu, Ping Tan
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2104.03493.pdf
+
+- title: >-
+    D2IM-Net: Learning Detail Disentangled Implicit Fields from Single Images
+  image: arxiv20_decorgan.png
+  description: >-
+  authors: Manyi Li, Hao Zhang
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2012.06650.pdf
+  
+- title: >-
+    DECOR-GAN: 3D Shape Detailization by Conditional Refinement
+  image: arxiv20_decorgan.png
+  description: >-
+  authors: Zhiqin Chen, Vladimir Kim, Matthew Fisher, Noam Aigerman, Hao Zhang, and Siddhartha Chaudhuri
+  venue: >-
+    CVPR (oral presentation)
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2012.02206.pdf
+  
+- title: >-
+    Scan2Cap: Context-aware Dense Captioning in RGB-D Scans
+  image: scan2cap.jpeg
+  description: >-
+  authors: Dave Zhenyu Chen, Ali Gholami, Matthias Nießner, Angel X. Chang
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2012.02206.pdf
+  
+- title: >-
+    LayoutGMN: Neural Graph Matching for Structural Layout Similarity
+  image: 8-LayoutGMN.png
+  description: >-
+  authors: Akshay Gadi Patil, Manyi Li, Matthew Fisher, Manolis Savva, Hao Zhang
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2012.06547.pdf
+  
+- title: >-
+    Mirror3D: Depth Refinement for Mirror Surfaces
+  image: mirror3d.png
+  description: >-
+  authors: Jiaqi Tan, Weijie (Lewis) Lin, Angel X. Chang, Manolis Savva
+  venue: >-
+    CVPR
+  year: 2021
+  highlight: 1
+  pdf: https://msavva.github.io/
+  
+- title: >-
     Plan2Scene: Converting Floorplans to 3D Scenes
   image: cvpr2021-plan2cg.jpeg
   description: >-
