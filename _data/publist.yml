@@ -178,6 +178,7 @@
 
 - title: >-
     Boosting Monocular Depth Estimation Models to High-Resolution via Content-Adaptive Multi-Resolution Merging
+  image: mrm.jpg
   description: >-
   authors: S. Mahdi H. Miangoleh, Sebastian Dille, Long Mai, Sylvain Paris, Yagiz Aksoy
   venue: >-
@@ -188,6 +189,7 @@
 
 - title: >-
     End-to-End Rotation Averaging with Multi-Source Propagation
+  image: PastedGraphic-2.png
   description: >-
   authors: Luwei Yang, Heng Li, Jamal Rahim, Zhaopeng Cui, Ping Tan
   venue: >-
