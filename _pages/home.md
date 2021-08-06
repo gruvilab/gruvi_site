@@ -41,12 +41,12 @@ permalink: /
 			
 		}  , 500 );
 		
-	$(function() {
 		setTimeout( function(){ 
 		    $('.longtitle').trunk8({
 			lines: 10
-			});
+			});			
 		}  , 800 );
+		
 	$('.news').trunk8({
 		lines: 11
 		});
