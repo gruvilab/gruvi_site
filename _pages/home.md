@@ -27,6 +27,7 @@ permalink: /
 				for (var j = 0; j < children.length; j++) {
 				  var tableChild = children[j];
 				  console.log(tableChild);
+				  console.log(tableChild.clientHeight);
 					if (tableChild.classList.contains('news')){
 						if (children[0].clientHeight> 20){
 							tableChild.classList.add("longtitle");
