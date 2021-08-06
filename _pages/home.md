@@ -19,7 +19,8 @@ permalink: /
 			});
 			
 			$('.well').each(function(){ 
-
+				console.log(this);
+				console.log(this.height());
 				if($(this).height() > 348)
 				{
 					$(this).lastChild.addClass('longtitle');
