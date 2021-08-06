@@ -18,14 +18,14 @@ permalink: /
 			lines: 11
 			});
 			
-			$('well').each(function(){ 
-				console.log(this);
-				console.log(this.height());
-				if($(this).height() > 348)
-				{
-					$(this).lastChild.addClass('longtitle');
-				}
-			});
+			var wells = document.getElementsByClassName("well");
+			for (var i = 0; i < wells.length; i++) {
+			   console.log(well.item(i));
+			   //if($(this).height() > 348)
+				//{
+				//	$(this).lastChild.addClass('longtitle');
+				//}
+			}
 			
 		}  , 500 );
 	$('.news').trunk8({
