@@ -24,8 +24,8 @@ permalink: /
 			   console.log(wells.item(i).lastChild);
 			   
 			   var children = wells.item(i).children;
-				for (var i = 0; i < children.length; i++) {
-				  var tableChild = children[i];
+				for (var j = 0; j < children.length; j++) {
+				  var tableChild = children[j];
 				  console.log(tableChild);
 				}
 			   //if($(this).height() > 348)
