@@ -18,7 +18,7 @@ permalink: /
 			lines: 11
 			});
 			
-			$('.well').each(function(){ 
+			$('well').each(function(){ 
 				console.log(this);
 				console.log(this.height());
 				if($(this).height() > 348)
