@@ -20,7 +20,7 @@ permalink: /
 			
 			var wells = document.getElementsByClassName("well");
 			for (var i = 0; i < wells.length; i++) {
-			   console.log(well.item(i));
+			   console.log(wells.item(i));
 			   //if($(this).height() > 348)
 				//{
 				//	$(this).lastChild.addClass('longtitle');
