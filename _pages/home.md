@@ -21,7 +21,7 @@ permalink: /
 			var wells = document.getElementsByClassName("frontpage");
 			for (var i = 0; i < wells.length; i++) {
 			   console.log(wells.item(i));
-			   console.log(wells.lastChild);
+			   console.log(wells.item(i).lastChild);
 			   //if($(this).height() > 348)
 				//{
 				//	$(this).lastChild.addClass('longtitle');
