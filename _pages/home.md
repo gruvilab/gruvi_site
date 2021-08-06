@@ -21,12 +21,15 @@ permalink: /
 			var wells = document.getElementsByClassName("frontpage");
 			for (var i = 0; i < wells.length; i++) {
 			   console.log(wells.item(i));
-			   console.log(wells.item(i).lastChild);
+			   //console.log(wells.item(i).lastChild);
 			   
 			   var children = wells.item(i).children;
 				for (var j = 0; j < children.length; j++) {
 				  var tableChild = children[j];
-				  console.log(tableChild);
+				  //console.log(tableChild);
+					if (tableChild.classList.contains('news')){
+						console.log("aqui");
+					}
 				}
 			   //if($(this).height() > 348)
 				//{
