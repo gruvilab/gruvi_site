@@ -28,7 +28,7 @@ permalink: /
 				  var tableChild = children[j];
 				  //console.log(tableChild);
 					if (tableChild.classList.contains('news')){
-						if (children.item(0).clientHeight> 20){
+						if (children[0].clientHeight> 20){
 							tableChild.classList.add("longtitle");
 						}
 					}
