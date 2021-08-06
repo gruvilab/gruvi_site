@@ -23,7 +23,7 @@ permalink: /
 			   console.log(wells.item(i));
 			   console.log(wells.item(i).lastChild);
 			   
-			   var children = wells.children;
+			   var children = wells.item(i).children;
 				for (var i = 0; i < children.length; i++) {
 				  var tableChild = children[i];
 				  console.log(tableChild);
