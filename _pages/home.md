@@ -18,9 +18,10 @@ permalink: /
 			lines: 11
 			});
 			
-			var wells = document.getElementsByClassName("well");
+			var wells = document.getElementsByClassName("frontpage");
 			for (var i = 0; i < wells.length; i++) {
 			   console.log(wells.item(i));
+			   console.log(wells.lastChild);
 			   //if($(this).height() > 348)
 				//{
 				//	$(this).lastChild.addClass('longtitle');
@@ -61,7 +62,7 @@ $('.news').trunk8({
 {% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
 
 <div class="col-sm-6 clearfix">
- <div class="well">
+ <div class="well frontpage">
   <newstit class="subhover pointer" onclick="openNavD{{ ID }}()" style="cursor:pointer;">{{ article.headline }}</newstit>
   <p>{{ article.date }}</p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/newspic/{{ article.image }}" class="img-responsive subhover pointer" onclick="openNavD{{ ID }}()" width="33%" hspace="10" style="float: left;" />
