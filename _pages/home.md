@@ -28,9 +28,9 @@ permalink: /
 				  var tableChild = children[j];
 				  //console.log(tableChild);
 					if (tableChild.classList.contains('news')){
-						//tableChild.addClass('longtitle');
-						
-						console.log(wells.item(i).clientHeight);
+						if (wells.item(i).clientHeight){
+							tableChild.classList.add("longtitle");
+						}
 					}
 				}
 			   //if($(this).height() > 348)
