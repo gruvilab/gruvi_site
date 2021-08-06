@@ -17,6 +17,15 @@ permalink: /
 		    $('.news').trunk8({
 			lines: 11
 			});
+			
+			$('well').each(function(){ 
+
+				if($(this).height() > 348)
+				{
+					$(this).lastChild.addClass('longtitle');
+				}
+			});
+			
 		}  , 500 );
 	$('.news').trunk8({
 		lines: 11
