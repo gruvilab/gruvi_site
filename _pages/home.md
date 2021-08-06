@@ -30,6 +30,13 @@ permalink: /
 				}
 				console.log(children[0].clientHeight);
 				console.log(children[3].clientHeight);
+				
+				const el = children[0];  
+				const divHeight = +el.offsetHeight  
+				const lineHeight = +el.style.lineHeight.replace('px', '');  
+				const lines = divHeight / lineHeight;  
+				console.log(lines);
+				
 			   //if($(this).height() > 348)
 				//{
 				//	$(this).lastChild.addClass('longtitle');
