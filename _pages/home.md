@@ -8,13 +8,6 @@ permalink: /
 
 <script type="text/javascript" language="javascript">
 
-	function countLines(el) {
-	   var divHeight = el.offsetHeight
-	   var lineHeight = parseInt(el.style.lineHeight);
-	   var lines = divHeight / lineHeight;
-	   alert("Lines: " + lines);
-	}
-
 	$(function() {
 		setTimeout( function(){ 
 		    $('.news').trunk8({
@@ -35,8 +28,8 @@ permalink: /
 			   if (children[0].clientHeight> 20){
 							children[3].classList.add("longtitle");
 				}
-				console.log(countLines(children[0]));
-				console.log(countLines(children[3]));
+				console.log(children[0].clientHeight);
+				console.log(children[3].clientHeight);
 			   //if($(this).height() > 348)
 				//{
 				//	$(this).lastChild.addClass('longtitle');
