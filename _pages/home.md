@@ -26,14 +26,11 @@ permalink: /
 							children[3].classList.add("longtitle");
 				}
 			}
+			$('.longtitle').trunk8({
+				lines: 10
+			});
 			
 		}  , 500 );
-		
-		setTimeout( function(){ 
-		    $('.longtitle').trunk8({
-			lines: 10
-			});			
-		}  , 800 );
 		
 	$('.news').trunk8({
 		lines: 11
