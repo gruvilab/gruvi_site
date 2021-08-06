@@ -27,8 +27,8 @@ permalink: /
 				for (var j = 0; j < children.length; j++) {
 				  var tableChild = children[j];
 				  //console.log(tableChild);
-					if (tableChild.classList.contains('news')){
-						if (wells.item(i).clientHeight> 348){
+					if (tableChild.classList.contains('subhover')){
+						if (tableChild.clientHeight> 20){
 							tableChild.classList.add("longtitle");
 						}
 					}
