@@ -20,10 +20,7 @@ permalink: /
 			});
 			
 			var wells = document.getElementsByClassName("frontpage");
-			for (var i = 0; i < wells.length; i++) {
-			   console.log(wells.item(i));
-			   //console.log(wells.item(i).lastChild);
-			   
+			for (var i = 0; i < wells.length; i++) {			   
 			   var children = wells.item(i).children;
 			   if (wells.item(i).clientHeight> 348){
 							children[3].classList.add("longtitle");
