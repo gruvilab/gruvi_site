@@ -192,6 +192,13 @@
   website: https://reza-asad.github.io/
   number_educ: 0
 
+- name: Linas Beresna
+  photo: LinasBeresna.jpg
+  role: Graduate Student
+  email: 
+  website: https://www.linkedin.com/in/linas-beresna/?originalSubdomain=uk
+  number_educ: 0
+
 - name: Qimin Chen
   photo: qimin_chen.jpg
   role: Graduate Student
@@ -234,27 +241,6 @@
   website:
   number_educ: 0
 
-- name: Saghar Irandoust
-  photo: saghar.jpeg
-  role: Graduate Student
-  email:
-  website: https://www.linkedin.com/in/saghar-irandoust/
-  number_educ: 0
-  
-- name: Hanxiao Jiang (Shawn)
-  photo: Shawn.jpeg
-  role: Graduate Student
-  email:
-  website: https://jianghanxiao.github.io/
-  number_educ: 0
-
-- name: Mohsen Kamalzadeh
-  photo: mohsen.jpg
-  role: Graduate Student
-  email: 
-  website:
-  number_educ: 0
-
 - name: Sachini Herath
   photo: SachiniHerath.jpg
   role: Graduate Student
@@ -277,11 +263,32 @@
   website: http://www.sfu.ca/~smh31/
   number_educ: 0
 
+- name: Saghar Irandoust
+  photo: saghar.jpeg
+  role: Graduate Student
+  email:
+  website: https://www.linkedin.com/in/saghar-irandoust/
+  number_educ: 0
+  
+- name: Hanxiao Jiang (Shawn)
+  photo: Shawn.jpeg
+  role: Graduate Student
+  email:
+  website: https://jianghanxiao.github.io/
+  number_educ: 0
+
 - name: Kevin Joseph
   photo: KevinJoseph.jpg
   role: Graduate Student
   email: 
   website: https://www.linkedin.com/in/kevin-joseph-ab38b8a8
+  number_educ: 0
+  
+- name: Mohsen Kamalzadeh
+  photo: mohsen.jpg
+  role: Graduate Student
+  email: 
+  website:
   number_educ: 0
 
 - name: Wallace Lira
@@ -339,7 +346,14 @@
   email: 
   website: https://jrahim.github.io/
   number_educ: 0
-  
+
+- name: Julia Read
+  photo: JuliaRead.jpg
+  role: Graduate Student
+  email: 
+  website: https://juliahread.com/
+  number_educ: 0
+
 - name: Sonia Raychaudhuri
   photo: SoniaRaychaudhuri.jpg
   role: Graduate Student
