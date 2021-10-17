@@ -21,28 +21,39 @@
 #  project_page: https://www.google.ca/link_to_project_page
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
-  
+
 - title: >-
-    Learning and Exploring Motor Skills with Spacetime Bounds
-  image: ma2021learning.png
+    Neural Marching Cubes
+  image: chen2021neural.png
   description: >-
-  authors: Li-Ke Ma, Zeshi Yang, Xin Tong, Baining Guo, KangKang Yin
+  authors: Zhiqin Chen and Hao Zhang
   venue: >-
-    Eurographics
+    SIGGRAPH Asia
   year: 2021
   highlight: 1
-  pdf: https://www.cs.sfu.ca/~kkyin/papers/STBounds.pdf
+  pdf: https://arxiv.org/pdf/2106.11272.pdf
   
 - title: >-
-    Discovering Diverse Athletic Jumping Strategies
-  image: yin2021discovering.png
+    TM-NET: Deep Generative Networks for Textured Meshes
+  image: gao2020tm.png
   description: >-
-  authors: Zhiqi Yin, Zeshi Yang, Michiel van de Panne, KangKang Yin
+  authors: Lin Gao, Tong Wu, Yu-Jie Yuan, Ming-Xian Lin, Yu-Kun Lai, and Hao Zhang
   venue: >-
-    SIGGRAPH
+    SIGGRAPH Asia
   year: 2021
   highlight: 1
-  pdf: https://www.cs.sfu.ca/~kkyin/papers/Jump.pdf
+  pdf: https://arxiv.org/pdf/2010.06217.pdf
+  
+- title: >-
+    Continuous Aerial Path Planning for 3D Urban Scene Reconstruction
+  image: smith2018aerial.png
+  description: >-
+  authors: Han Zhang, Yusong Yao, Ke Xie, Chi-Wing Fu, Hao Zhang, and Hui Huang
+  venue: >-
+    SIGGRAPH Asia
+  year: 2021
+  highlight: 1
+  pdf: https://vcc.tech/research/2021/DronePath
   
 - title: >-
     Extreme Structure from Motion for Indoor Panoramas without Visual Overlaps
@@ -87,40 +98,29 @@
   year: 2021
   highlight: 1
   pdf: https://arxiv.org/pdf/2011.09127.pdf
-  
-- title: >-
-    Neural Marching Cubes
-  image: chen2021neural.png
-  description: >-
-  authors: Zhiqin Chen and Hao Zhang
-  venue: >-
-    SIGGRAPH Asia
-  year: 2021
-  highlight: 1
-  pdf: https://arxiv.org/pdf/2106.11272.pdf
-  
-- title: >-
-    TM-NET: Deep Generative Networks for Textured Meshes
-  image: gao2020tm.png
-  description: >-
-  authors: Lin Gao, Tong Wu, Yu-Jie Yuan, Ming-Xian Lin, Yu-Kun Lai, and Hao Zhang
-  venue: >-
-    SIGGRAPH Asia
-  year: 2021
-  highlight: 1
-  pdf: https://arxiv.org/pdf/2010.06217.pdf
-  
-- title: >-
-    Continuous Aerial Path Planning for 3D Urban Scene Reconstruction
-  image: smith2018aerial.png
-  description: >-
-  authors: Han Zhang, Yusong Yao, Ke Xie, Chi-Wing Fu, Hao Zhang, and Hui Huang
-  venue: >-
-    SIGGRAPH Asia
-  year: 2021
-  highlight: 1
-  pdf: https://vcc.tech/research/2021/DronePath
 
+- title: >-
+    Discovering Diverse Athletic Jumping Strategies
+  image: yin2021discovering.png
+  description: >-
+  authors: Zhiqi Yin, Zeshi Yang, Michiel van de Panne, KangKang Yin
+  venue: >-
+    SIGGRAPH
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~kkyin/papers/Jump.pdf
+  
+- title: >-
+    Learning and Exploring Motor Skills with Spacetime Bounds
+  image: ma2021learning.png
+  description: >-
+  authors: Li-Ke Ma, Zeshi Yang, Xin Tong, Baining Guo, KangKang Yin
+  venue: >-
+    Eurographics
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~kkyin/papers/STBounds.pdf
+  
 - title: >-
     HumanGPS: Geodesic PreServing Feature for Dense Human Correspondence
   image: feitong_cvpr21.png
