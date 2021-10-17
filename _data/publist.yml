@@ -23,6 +23,105 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
   
 - title: >-
+    Learning and Exploring Motor Skills with Spacetime Bounds
+  image: ma2021learning.png
+  description: >-
+  authors: Li-Ke Ma, Zeshi Yang, Xin Tong, Baining Guo, KangKang Yin
+  venue: >-
+    Eurographics
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~kkyin/papers/STBounds.pdf
+  
+- title: >-
+    Discovering Diverse Athletic Jumping Strategies
+  image: yin2021discovering.png
+  description: >-
+  authors: Zhiqi Yin, Zeshi Yang, Michiel van de Panne, KangKang Yin
+  venue: >-
+    SIGGRAPH
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~kkyin/papers/Jump.pdf
+  
+- title: >-
+    Extreme Structure from Motion for Indoor Panoramas without Visual Overlaps
+  image: shabani2021extreme.png
+  description: >-
+  authors: Amin Shabani, Weilian Song, Hirochika Fujiki, Makoto Odamaki, and Yasutaka Furukawa
+  venue: >-
+    ICCV
+  year: 2021
+  highlight: 1
+  pdf: https://aminshabani.github.io/publications/extreme_sfm/pdfs/iccv2021_2088.pdf
+  
+- title: >-
+    Structured Outdoor Architecture Reconstruction by Exploration and Classification
+  image: zhang2021structured.png
+  description: >-
+  authors: Fuyang Zhang, Sam Xu, Nelson Nauata, and Yasutaka Furukawa
+  venue: >-
+    ICCV
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2108.07990.pdf
+  
+- title: >-
+    Interpretation of Emergent Communication in Heterogeneous Collaborative Embodied Agents
+  image: patel2021interpretation.png
+  description: >-
+  authors: Shivansh Patel, Saim Wani, Unnat Jain, Alexander Schwing, Svetlana Lazebnik, Manolis Savva, Angel X. Chang
+  venue: >-
+    ICCV
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2110.05769.pdf
+  
+- title: >-
+    3D-FRONT: 3D Furnished Rooms with Layout and Semantics
+  image: fu20213d.png
+  description: >-
+  authors: Huan Fu, Bowen Cai, Lin Gao, Lingxiao Zhang, Cao Li, Zengqi Xun, Chengyue Sun, Yiyun Fei, Yu Zheng, Ying Li, Yi Liu, Peng Liu, Lin Ma, Le Weng, Xiaohang Hu, Xin Ma, Qian Qian, Rongfei Jia, Binqiang Zhao, and Hao Zhang
+  venue: >-
+    ICCV
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2011.09127.pdf
+  
+- title: >-
+    Neural Marching Cubes
+  image: chen2021neural.png
+  description: >-
+  authors: Zhiqin Chen and Hao Zhang
+  venue: >-
+    SIGGRAPH Asia
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2106.11272.pdf
+  
+- title: >-
+    TM-NET: Deep Generative Networks for Textured Meshes
+  image: gao2020tm.png
+  description: >-
+  authors: Lin Gao, Tong Wu, Yu-Jie Yuan, Ming-Xian Lin, Yu-Kun Lai, and Hao Zhang
+  venue: >-
+    SIGGRAPH Asia
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2010.06217.pdf
+  
+- title: >-
+    Continuous Aerial Path Planning for 3D Urban Scene Reconstruction
+  image: smith2018aerial.png
+  description: >-
+  authors: Han Zhang, Yusong Yao, Ke Xie, Chi-Wing Fu, Hao Zhang, and Hui Huang
+  venue: >-
+    SIGGRAPH Asia
+  year: 2021
+  highlight: 1
+  pdf: https://vcc.tech/research/2021/DronePath
+
+- title: >-
     HumanGPS: Geodesic PreServing Feature for Dense Human Correspondence
   image: feitong_cvpr21.png
   description: >-
