@@ -1,6 +1,9 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Manyi Li
+  graduation: 2021
+  text: Gruvi Alumni
 - name: Jiongchao Jin
   graduation: 2020
   text: PhD at Beihang University and Bytedance
@@ -30,7 +33,7 @@
   text: Postdoc at Shenzhen University
 - name: Changqing Zou
   graduation: 2017
-  text: Principal Research Scientist & Research Manager in Huawei Canada
+  text: Assistant Research Scientist at University of Maryland Institute for Advanced Computer Studies
 - name: Zhaopeng Cui
   graduation: 2017
   text: PostDoc Researcher at ETH Zurich
