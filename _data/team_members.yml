@@ -126,12 +126,12 @@
   website: http://pyojinkim.com/
   number_educ: 0
   
-- name: Manyi Li
-  photo: manyi.jpg
-  role: Visitor
-  email: 
-  website: https://manyili12345.github.io/
-  number_educ: 0
+#- name: Manyi Li
+#  photo: manyi.jpg
+#  role: Visitor
+#  email: 
+#  website: https://manyili12345.github.io/
+#  number_educ: 0
 
 - name: Yiming Qian
   photo: yiming.jpg
@@ -227,12 +227,12 @@
   website: https://www.linkedin.com/in/yasaman-etesam
   number_educ: 0
   
-- name: Arezou Fatemi
-  photo: arezou_fatemi.jpg
-  role: Graduate Student
-  email:
-  website:
-  number_educ: 0
+#- name: Arezou Fatemi
+#  photo: arezou_fatemi.jpg
+#  role: Graduate Student
+#  email:
+#  website:
+#  number_educ: 0
   
 - name: Ali Gholami
   photo: AliGholami.jpg
