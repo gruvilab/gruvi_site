@@ -1,0 +1,11 @@
+## Create by Fenggen Yu
+
+Put pictures in: gruvi_site/images/teampic/
+
+image size: 3:4
+
+image format: any
+
+Update people info in: gruvi_site/_data/
+
+if you don't have info, such email, leave it blank
