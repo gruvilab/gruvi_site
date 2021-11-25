@@ -212,6 +212,13 @@
   email: zhiqinc@sfu.ca
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
+
+- name: Perry Deng
+  photo: perry.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
   
 - name: Sebastian Dille
   photo: SebastianDille3x4.jpg
@@ -291,6 +298,13 @@
   website:
   number_educ: 0
 
+- name: Perla Sai Raj Kishore
+  photo: perla.jpg
+  role: Graduate Student
+  email: sairajkishore13@gmail.com
+  website: https://sairajk.github.io/
+  number_educ: 0
+  
 - name: Wallace Lira
   photo: WallaceLira.jpeg
   role: Graduate Student
@@ -436,6 +450,13 @@
   role: Graduate Student
   email: voraaditya898@gmail.com
   website: https://github.com/aditya-vora
+  number_educ: 0
+
+- name: Ruiqi Wang
+  photo: Ruiqi.jfif
+  role: Graduate Student
+  email: ruiqi_w@sfu.ca
+  website: https://suikei-wang.github.io/
   number_educ: 0
   
 - name: Xiang Xu
