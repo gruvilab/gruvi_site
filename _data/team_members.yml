@@ -248,6 +248,12 @@
   website:
   number_educ: 0
 
+- name: Sanjay Haresh
+  photo: SanjayHaresh.jfif
+  role: Graduate Student
+  website: https://www.linkedin.com/in/sanjay-haresh/
+  number_educ: 0
+
 - name: Sachini Herath
   photo: SachiniHerath.jpg
   role: Graduate Student
