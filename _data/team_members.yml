@@ -310,7 +310,13 @@
   email: sairajkishore13@gmail.com
   website: https://sairajk.github.io/
   number_educ: 0
-  
+
+- name: Han-Hung Lee
+  photo: HanHungLee.jpeg
+  role: Graduate Student
+  website: https://hanhung.github.io/
+  number_educ: 0
+
 - name: Wallace Lira
   photo: WallaceLira.jpeg
   role: Graduate Student
