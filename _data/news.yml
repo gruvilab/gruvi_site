@@ -11,7 +11,15 @@
 #  highlight: 1
 #  image: news_1.PNG
 
-- date: March 2nd, 2021
+- date: May 4th, 2022
+  headline: >-
+    Gruviers Receive Awards at Graphics Interface 2022.
+  text: >-
+    Congratulations to Hao (Richard) Zhang and Manolis Savva for receiving awards at the Graphics Interface 2022. Richard has received the 2022 CHCCS/SCDHM Achievement Award of the Canadian Human-Computer Communications Society. Richard has had numerous high-impact contributions to computer graphics including geometric modeling, shape analysis, geometric deep learning, and computational design and fabrication. Manolis has received the 2022 Early Career Researcher Award. Manolis has established himself as a central figure in topics at the intersection of computer graphics, 3D sensing, and machine learning. To learn more about the research contributions of Richard and Manolis please checkout <a href="https://graphicsinterface.org/awards/chccs-scdhm-achievement/hao-zhang/">here</a> and <a href="https://graphicsinterface.org/awards/early-career-researcher-award/manolis-savva/">here</a>.
+  highlight: 1
+  image: CFI_funding.png
+
+- date: March 2nd, 2022
   headline: >-
     Gruviers have 12 Accepted Papers at CVPR 2022.
   text: >-
@@ -21,7 +29,7 @@
 
 - date: Dec 20th, 2021
   headline: >-
-    Gruvi Wishes Everyone a Very Happy New Year.
+    We Wish You a Very Happy New Year.
   text: >-
     We wrap-up the year 2021 with great achievements and look forward to the new year ahead of us. In 2021, Gruviers were able to publish their work at many 1st tier conferences: CVPR (12 papers), SIGGRAPH and SIGGRAPH Asia (4 papers),  ICCV (4 papers), Eurographics and Neurips. Congratulations to all Gruviers for their hard work.
   highlight: 1
@@ -40,12 +48,12 @@
     Zhiqin Chen Recieves Google PhD Fellowship.
   text: >-
     Congratulations to Zhiqin Chen for receiving a PhD Fellowship from Google. The Google PhD Fellowship Program was created to recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields. Fellowships support promising PhD candidates of all backgrounds who seek to influence the future of technology. To learn more about Zhiqin's research please visit <a href="https://czq142857.github.io/">here</a>.
-  highlight: 1
+  highlight: 0
   image: zhiqin_google_fellowship.png
 
 - date: August 31st, 2021
   headline: >-
-    Akshay Gadi Patil Recieves ICCV 2021 Outstanding Reviewer Award.
+    Akshay Gadi Patil Receives ICCV 2021 Outstanding Reviewer Award.
   text: >-
     Congratulations to Akshay for receiving the Outstanding Reviewer Award at ICCV 2021. To learn more about Akshay's work please visit <a href="https://www.sfu.ca/~agadipat/">here</a>.   
   highlight: 0
@@ -61,7 +69,7 @@
 
 - date: July 23rd, 2021
   headline: >-
-    Nelson Nauata Recieves Borealis AI 2021 Fellowship.
+    Nelson Nauata Receives Borealis AI 2021 Fellowship.
   text: >-
     Congratulations to Nelson Nauata for receiving a Borealis AI 2021 Fellowship. Only ten students from the top academic institutions in Canada received fellowships this year, all with the goal of contributing to the advancement of artificial intelligence and machine learning. To learn more about the award and Nelson’s contributions check out <a href="https://www.sfu.ca/computing/newsandevents/2021/computing-science-phd-student-named-borealis-ai-2021-fellow.html">here</a>.
   highlight: 0
