@@ -11,11 +11,19 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: March 2nd, 2021
+  headline: >-
+    Gruviers have 12 Accepted Papers at CVPR 2022.
+  text: >-
+    Congratulations to all Gruviers who are publishing their work at CVPR 2022. CVPR is the premier conference on computer vision and will be held in New Orleans this year. To learn more about the sample work that Gruvi will be presenting checkout <a href="https://www.cs.sfu.ca/~haoz/papers.html">here</a> and <a href="https://www.cs.sfu.ca/~furukawa/">here</a>.
+  highlight: 1
+  image: graphics_interface_2021.png
+
 - date: Dec 20th, 2021
   headline: >-
     Gruvi Wishes Everyone a Very Happy New Year.
   text: >-
-    We wrap-up the year 2021 with great achievements and look forward to the new year ahead of us. In 2021, Gruviers were able to publish their work at many 1st tier conferences: CVPR (12 papers), SIGGRAPH and SIGGRAPH Asia (4 papers),  ICCV (4 papers), Eurographics and Neurips .Congratulations to all Gruviers for their hard work..
+    We wrap-up the year 2021 with great achievements and look forward to the new year ahead of us. In 2021, Gruviers were able to publish their work at many 1st tier conferences: CVPR (12 papers), SIGGRAPH and SIGGRAPH Asia (4 papers),  ICCV (4 papers), Eurographics and Neurips. Congratulations to all Gruviers for their hard work.
   highlight: 1
   image: graphics_interface_2021.png
 
@@ -40,7 +48,7 @@
     Akshay Gadi Patil Recieves ICCV 2021 Outstanding Reviewer Award.
   text: >-
     Congratulations to Akshay for receiving the Outstanding Reviewer Award at ICCV 2021. To learn more about Akshay's work please visit <a href="https://www.sfu.ca/~agadipat/">here</a>.   
-  highlight: 1
+  highlight: 0
   image: akshay_iccv_reviewer_award.jpg
 
 - date: Aug 5, 2021
