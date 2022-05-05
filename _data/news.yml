@@ -27,6 +27,14 @@
   highlight: 1
   image: telaviv_talk.JPG
 
+- date: July 23rd, 2021
+  headline: >-
+    Nelson Nauata Awarded a Borealis AI 2021 Fellowship.
+  text: >-
+    <strong>Title:</strong> SAPE: Congratulations to Nelson Nauata for receiving a Borealis AI 2021 Fellowship. Only ten students from the top academic institutions in Canada received fellowships this year, all with the goal of contributing to the advancement of artificial intelligence and machine learning. To learn more about the award and Nelson’s contributions check out <a href="https://www.sfu.ca/computing/newsandevents/2021/computing-science-phd-student-named-borealis-ai-2021-fellow.html">here</a>.
+  highlight: 1
+  image: OrPerel.jpg
+
 - date: Jun 19, 2021
   headline: >-
     GrUVi making waves at CVPR 2021
