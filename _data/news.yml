@@ -11,6 +11,14 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: Dec 20th, 2021
+  headline: >-
+    Gruvi Wishes Everyone a Very Happy New Year.
+  text: >-
+    We wrap-up the year 2021 with great achievements and look forward to the new year ahead of us. In 2021, Gruviers were able to publish their work at many 1st tier conferences: CVPR (12 papers), SIGGRAPH and SIGGRAPH Asia (4 papers),  ICCV (4 papers), Eurographics and Neurips .Congratulations to all Gruviers for their hard work..
+  highlight: 1
+  image: graphics_interface_2021.png
+
 - date: Oct 19, 2021
   headline: >-
     Talk by Or Perel from Tel Aviv University
@@ -21,9 +29,9 @@
 
 - date: September 24th, 2021
   headline: >-
-    Zhiqin Chen Recieves a Google PhD Fellowship.
+    Zhiqin Chen Recieves Google PhD Fellowship.
   text: >-
-    <strong>Congratulations to Zhiqin Chen for receiving a PhD Fellowship from Google. The Google PhD Fellowship Program was created to recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields. Fellowships support promising PhD candidates of all backgrounds who seek to influence the future of technology. To learn more about Zhiqin's research please visit <a href="https://czq142857.github.io/">here</a>.
+    Congratulations to Zhiqin Chen for receiving a PhD Fellowship from Google. The Google PhD Fellowship Program was created to recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields. Fellowships support promising PhD candidates of all backgrounds who seek to influence the future of technology. To learn more about Zhiqin's research please visit <a href="https://czq142857.github.io/">here</a>.
   highlight: 1
   image: zhiqin_google_fellowship.png
 
@@ -31,7 +39,7 @@
   headline: >-
     Akshay Gadi Patil Recieves ICCV 2021 Outstanding Reviewer Award.
   text: >-
-    <strong>Congratulations to Akshay for receiving the Outstanding Reviewer Award at ICCV 2021. To learn more about Akshay's work please visit <a href="https://www.sfu.ca/~agadipat/">here</a>.   
+    Congratulations to Akshay for receiving the Outstanding Reviewer Award at ICCV 2021. To learn more about Akshay's work please visit <a href="https://www.sfu.ca/~agadipat/">here</a>.   
   highlight: 1
   image: akshay_iccv_reviewer_award.jpg
 
@@ -40,14 +48,14 @@
     Talk by Tel Aviv students Or Patashnik and Yuval Alaluf
   text: >-
     <strong>Title:</strong> Recent Advancements in StyleGAN Inversion</p> <p style="text-align: justify;"><strong>Time:</strong> Wednesday, August 11, 10AM </p> <p style="text-align: justify;"><strong>Abstract:&nbsp;</strong>StyleGAN has recently been established as the state-of-the-art unconditional generator, synthesizing images of phenomenal realism and fidelity. With its rich semantic space, many works have attempted to understand and control StyleGAN&rsquo;s latent representations with the goal of performing image manipulations. To perform manipulations on real images, however, one must learn to &ldquo;invert&rdquo; the GAN and encode a given image into StyleGAN&rsquo;s latent space, which remains an open challenge. In this talk, we will discuss recent techniques and advancements in GAN Inversion and explore their importance for real image editing applications. In addition, going beyond the inversion task, we demonstrate how StyleGAN can be used for performing a wide range of image-to-image translation tasks.</p> <p style="text-align: justify;"><strong>Bios:&nbsp;</strong>Or and Yuval are both graduate students studying Computer Science at Tel-Aviv University under the supervision of Professor Daniel Cohen-Or and have collaborated on numerous works in the past year. Their main interests lie in the field of Computer Vision with recent work centered around image generation and manipulation.</p> <p style="text-align: center;"><a href="https://orpatashnik.github.io/">https://orpatashnik.github.io/</a></p> <p style="text-align: center;"><a href="https://yuval-alaluf.github.io/">https://yuval-alaluf.github.io/</a>
-  highlight: 1
+  highlight: 0
   image: telaviv_talk.JPG
 
 - date: July 23rd, 2021
   headline: >-
-    Nelson Nauata Recieves a Borealis AI 2021 Fellowship.
+    Nelson Nauata Recieves Borealis AI 2021 Fellowship.
   text: >-
-    <strong>Congratulations to Nelson Nauata for receiving a Borealis AI 2021 Fellowship. Only ten students from the top academic institutions in Canada received fellowships this year, all with the goal of contributing to the advancement of artificial intelligence and machine learning. To learn more about the award and Nelson’s contributions check out <a href="https://www.sfu.ca/computing/newsandevents/2021/computing-science-phd-student-named-borealis-ai-2021-fellow.html">here</a>.
+    Congratulations to Nelson Nauata for receiving a Borealis AI 2021 Fellowship. Only ten students from the top academic institutions in Canada received fellowships this year, all with the goal of contributing to the advancement of artificial intelligence and machine learning. To learn more about the award and Nelson’s contributions check out <a href="https://www.sfu.ca/computing/newsandevents/2021/computing-science-phd-student-named-borealis-ai-2021-fellow.html">here</a>.
   highlight: 0
   image: nelson_borealis_fellowship.png
 
