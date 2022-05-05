@@ -19,6 +19,14 @@
   highlight: 1
   image: OrPerel.jpg
 
+- date: September 24th, 2021
+  headline: >-
+    Zhiqin Chen Recieves a Google PhD Fellowship.
+  text: >-
+    <strong>Congratulations to Zhiqin Chen for receiving a PhD Fellowship from Google. The Google PhD Fellowship Program was created to recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields. Fellowships support promising PhD candidates of all backgrounds who seek to influence the future of technology. To learn more about Zhiqin's research please visit <a href="https://czq142857.github.io/">here</a>.
+  highlight: 1
+  image: zhiqin_google_fellowship.png
+
 - date: August 31st, 2021
   headline: >-
     Akshay Gadi Patil Recieves ICCV 2021 Outstanding Reviewer Award.
@@ -37,10 +45,10 @@
 
 - date: July 23rd, 2021
   headline: >-
-    Nelson Nauata Awarded a Borealis AI 2021 Fellowship.
+    Nelson Nauata Recieves a Borealis AI 2021 Fellowship.
   text: >-
     <strong>Congratulations to Nelson Nauata for receiving a Borealis AI 2021 Fellowship. Only ten students from the top academic institutions in Canada received fellowships this year, all with the goal of contributing to the advancement of artificial intelligence and machine learning. To learn more about the award and Nelson’s contributions check out <a href="https://www.sfu.ca/computing/newsandevents/2021/computing-science-phd-student-named-borealis-ai-2021-fellow.html">here</a>.
-  highlight: 1
+  highlight: 0
   image: nelson_borealis_fellowship.png
 
 - date: Jun 19, 2021
