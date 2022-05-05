@@ -11,6 +11,15 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: May 5th, 2022
+  headline: >-
+    Talk by Yotam Nitzan from Tel Aviv University
+  text: >-
+    <strong>Title:</strong> MyStyle: A Personalized Generative Prior</p> <p style="text-align: justify;"><strong>Time:</strong> Friday, March 6th at 11:00 AM PST</p> <p style="text-align: justify;"><strong>Abstract:&nbsp;</strong>Deep generative models have proved to be successful for many image-to-image applications. Such models hallucinate information based on their large and diverse training datasets. Therefore, when enhancing or editing a portrait image, the model produces a generic and plausible output, but often it isn't the person who actually appears in the image. In this talk, I'll present our latest work, MyStyle - which introduces the notion of a personalized generative model. Trained on ~100 images of the same individual, MyStyle learns a personalized prior, custom to their unique appearance. This prior is then leveraged to solve ill-posed image enhancement and editing tasks - such as super-resolution, inpainting and changing the head pose.
+.</p> <p style="text-align: center;"><a href="https://arxiv.org/pdf/2203.17272.pdf">MyStyle Paper</a></p> <p style="text-align: center;"><a href="https://yotamnitzan.github.io/">Yotam Nitzan's personal webpage</a>
+  highlight: 1
+  image: OrPerel.jpg
+
 - date: May 4th, 2022
   headline: >-
     Gruviers Receive Awards at Graphics Interface 2022.
@@ -40,7 +49,7 @@
     Talk by Or Perel from Tel Aviv University
   text: >-
     <strong>Title:</strong> SAPE: Spatially-Adaptive Progressive Encoding for Neural Optimization</p> <p style="text-align: justify;"><strong>Time:</strong> Wednesday, Nov 3, 1:30 PM </p> <p style="text-align: justify;"><strong>Abstract:&nbsp;</strong>Multilayer-perceptrons (MLP) are known to struggle with learning functions of high-frequencies, and in particular cases with wide frequency bands. We present a spatially adaptive progressive encoding (SAPE) scheme for input signals of MLP networks, which enables them to better fit a wide range of frequencies without sacrificing training stability or requiring any domain specific preprocessing. SAPE gradually unmasks signal components with increasing frequencies as a function of time and space. The progressive exposure of frequencies is monitored by a feedback loop throughout the neural optimization process, allowing changes to propagate at different rates among local spatial portions of the signal space. We demonstrate the advantage of SAPE on a variety of domains and applications, including regression of low dimensional signals and images, representation learning of occupancy networks, and a geometric task of mesh transfer between 3D shapes.</p> <p style="text-align: center;"><a href="https://arxiv.org/abs/2104.09125">SAPE Paper</a></p> <p style="text-align: center;"><a href="https://orperel.github.io/">Or Perel's personal webpage</a>
-  highlight: 1
+  highlight: 0
   image: OrPerel.jpg
 
 - date: September 24th, 2021
