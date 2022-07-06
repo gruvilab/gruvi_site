@@ -8,33 +8,6 @@ permalink: /vc_workshop_2022
 
 ## About GrUVi
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="keywords" content="GrUVI-Cohen-Or Visual Computing WorkshopSunday Aug 7th, T9204, List of Presenters">
-    <meta name="description" content="">
-    <title>SFU-preSIG-VC-Workshop</title>
-    <link rel="stylesheet" href="./SFU-preSIG-VC-Workshop_files/nicepage.css" media="screen">
-<link rel="stylesheet" href="./SFU-preSIG-VC-Workshop_files/SFU-preSIG-VC-Workshop.css" media="screen">
-    <script class="u-script" type="text/javascript" src="./SFU-preSIG-VC-Workshop_files/jquery.js.download" defer=""></script>
-    <script class="u-script" type="text/javascript" src="./SFU-preSIG-VC-Workshop_files/nicepage.js.download" defer=""></script>
-    <meta name="generator" content="Nicepage 4.13.4, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="./SFU-preSIG-VC-Workshop_files/css">
-    
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"logo": "images/SFU.png"
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="SFU-preSIG-VC-Workshop">
-    <meta property="og:type" content="website">
-  </head>
-  <body class="u-body u-xl-mode">
     <section class="u-clearfix u-grey-5 u-section-1" id="sec-0202">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
@@ -171,4 +144,4 @@ permalink: /vc_workshop_2022
       </div>
     </section>
   
-<style>.u-disable-duration * {transition-duration: 0s !important;}</style></body>
+<style>.u-disable-duration * {transition-duration: 0s !important;}</style>
