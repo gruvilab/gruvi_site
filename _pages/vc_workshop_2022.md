@@ -6,36 +6,42 @@ sitemap: false
 permalink: /vc_workshop_2022
 ---
 
-## About GrUVi
+## SFU Visual Computing Workshop
 
-    <section class="u-clearfix u-grey-5 u-section-1" id="sec-0202">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout" style="">
-            <div class="u-layout-row" style="">
-              <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-                <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h2 class="u-align-center u-text u-text-1">&nbsp;SFU Visual Computing Workshop<br>
-                    <span style="font-style: italic; font-size: 1.5rem;">Sunday Aug 7th</span>
-                    <br>
-                    <span style="font-size: 18px;">1:00-6:00 PM</span>
-                  </h2>
-                </div>
-              </div>
-              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2" src="">
-                <div class="u-container-layout u-container-layout-2" src="">
-                  <img class="u-image u-image-1" src="./SFU-preSIG-VC-Workshop_files/tag_sgp11.png" data-image-width="400" data-image-height="252">
-                </div>
-              </div>
-            </div>
-          </div>
+<div class="col-sm-12">
+
+<div class="col-sm-8">
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000" data-pause="hover" >
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Items -->
+    <div class="carousel-inner" markdown="0">
+
+        <div class="item active">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2014.jpg" alt="Slide 1" />
         </div>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-grey-5 u-section-2" id="carousel_f94b">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-table u-table-responsive u-table-1">
-          <table class="u-table-entity u-table-entity-1">
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2010.jpg" alt="Slide 2" />
+        </div>
+    </div> 
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+<div style="padding: 0px;">
+<table class="u-table-entity u-table-entity-1">
             <colgroup>
               <col width="50%">
               <col width="50%">
@@ -111,37 +117,6 @@ permalink: /vc_workshop_2022
               </tr>
             </tbody>
           </table>
-        </div>
-        <h1 class="u-text u-text-1">Schedule</h1>
-      </div>
-    </section>
-    <section class="u-clearfix u-grey-5 u-section-3" id="sec-2129">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-center u-container-style u-grey-5 u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-text u-text-1">
-                    <span style="font-size: 1.5rem;"> SFU Harbour Centre Campus Vancouver,&nbsp;</span>
-                    <br>
-                  </h2>
-                  <p class="u-text u-text-2"> Room 2270, Sauder Industries Policy Room</p>
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-expanded u-grey-10 u-map">
-                    <div class="embed-responsive">
-                      <iframe class="embed-responsive-item" src="./SFU-preSIG-VC-Workshop_files/maps.html" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMlNGVSUyMEhhcmJvdXIlMjBjZW50ZXIlMjIlMkMlMjJ6b29tJTIyJTNBbnVsbCUyQyUyMnR5cGVJZCUyMiUzQSUyMnJvYWQlMjIlMkMlMjJsYW5nJTIyJTNBbnVsbCUyQyUyMmFwaUtleSUyMiUzQW51bGwlMkMlMjJtYXJrZXJzJTIyJTNBJTVCJTVEJTdE"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-<style>.u-disable-duration * {transition-duration: 0s !important;}</style>
+</div>
+
+
