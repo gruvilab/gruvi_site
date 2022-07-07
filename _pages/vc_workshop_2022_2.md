@@ -47,9 +47,7 @@ permalink: /vc_workshop_2022_2
 </div>
 
     
-<div class="col-sm-12">
-
-    <div class="table-users1 col-sm-8">
+<div class="table-users1 col-sm-8">
     <table class="tg table11">
     <tbody>
        <tr>
@@ -102,6 +100,4 @@ permalink: /vc_workshop_2022_2
       </tr>
     </tbody>
     </table>
-    </div>
-    
 </div>
