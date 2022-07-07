@@ -21,10 +21,10 @@ permalink: /vc_workshop_2022_2
     <!-- Items -->
     <div class="carousel-inner" markdown="0">            
         <div class="item active">
-            <img src="./SFU-preSIG-VC-Workshop_files/tag_sgp11.png" alt="Slide 1" />
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/tag_sgp11.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="./SFU-preSIG-VC-Workshop_files/tag_sgp11.png" alt="Slide 2" />
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/tag_sgp11.png" alt="Slide 2" />
         </div>
     </div> 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -46,9 +46,7 @@ permalink: /vc_workshop_2022_2
 
     
 <div class="table-users">
-   <div class="header1">
-       Schedule
-    </div>
+   <div class="header">Schedule</div>
    
    <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -111,7 +109,7 @@ permalink: /vc_workshop_2022_2
 </tbody>
 </table>
 </div>
-    
+        
 </div>
 
 
