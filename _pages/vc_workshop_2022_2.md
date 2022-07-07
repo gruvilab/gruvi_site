@@ -41,7 +41,7 @@ permalink: /vc_workshop_2022_2
 
 <div style="padding: 0px;">
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/sfu_logo.png" style="height: 50px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/sfu_logo.png" style="height: 50px" />
 </figure>
 
 </div>
