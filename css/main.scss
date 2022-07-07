@@ -138,7 +138,7 @@ $padding: 10px;
    text-transform: uppercase;
 }
 
-.table-users {
+.table-users1 {
    border: 1px solid darken($baseColor, 5%);
    border-radius: $borderRadius;
    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
@@ -148,7 +148,7 @@ $padding: 10px;
    width: 800px;
 }
 
-table {
+table, table11 {
    width: 100%;
    
    td, th { 
