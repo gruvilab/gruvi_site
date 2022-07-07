@@ -5,7 +5,8 @@ excerpt: "SFU Visual Computing Workshop"
 sitemap: false
 permalink: /vc_workshop_2022_2
 ---
-## SFU Visual Computing Workshop
+
+<h2 id="workshop" style="text-align: center;">SFU Visual Computing Workshop</h2>
 
 <div class="col-sm-12">
 
@@ -39,7 +40,7 @@ permalink: /vc_workshop_2022_2
 </div>
 
 
-<h2 id="schedule" style="text-align: center;">Schedule</h2>
+<h3 id="schedule" style="text-align: center;">Schedule</h3>
 <div class="table-users1 col-sm-8">
 <table class="tg">
 <tbody>
