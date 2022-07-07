@@ -44,6 +44,7 @@ permalink: /vc_workshop_2022_2
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/sfu_logo.png" style="height: 50px">
 </figure>
 
+    </div>
     
 <div class="table-users">
    <div class="header1">Schedule</div>
@@ -109,7 +110,6 @@ permalink: /vc_workshop_2022_2
 </tbody>
 </table>
 </div>
-        
-</div>
+  
 
 
