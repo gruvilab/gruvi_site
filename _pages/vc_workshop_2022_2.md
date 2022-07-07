@@ -94,5 +94,5 @@ permalink: /vc_workshop_2022_2
 </div>
     
 <div class="col-sm-12 col-md-6">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.117686490955!2d-123.111872!3d49.284756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour%20Centre!5e0!3m2!1sen!2sus!4v1657150050882!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.117686490955!2d-123.111872!3d49.284756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour%20Centre!5e0!3m2!1sen!2sus!4v1657150050882!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
