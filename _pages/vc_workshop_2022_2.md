@@ -40,7 +40,6 @@ permalink: /vc_workshop_2022_2
 
     
 <div class="table-users1 col-sm-8">
-   <div class="header1">Schedule</div>
 <table class="tg table11">
 <tbody>
  <tr>
