@@ -36,7 +36,7 @@ permalink: /vc_workshop_2022_2
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>
+
 
 
 <div style="padding: 0px;">
