@@ -40,8 +40,9 @@ permalink: /vc_workshop_2022_2
 </div>
 
 
-<h3 id="schedule" style="text-align: center;">Schedule</h3>
 <div class="table-users1 col-sm-8">
+<h3 id="schedule" style="text-align: center;">Schedule</h3>
+    
 <table class="tg">
 <tbody>
   <tr>
