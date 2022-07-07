@@ -10,7 +10,7 @@ permalink: /vc_workshop_2022_2
 
 <div class="col-sm-12">
 
-<div class="col-sm-8">
+<div class="col-sm-6">
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
@@ -37,10 +37,8 @@ permalink: /vc_workshop_2022_2
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>
-
-
-<div class="table-users1 col-sm-8">
+    
+<div class="table-users1 col-sm-6">
 <h3 id="schedule" style="text-align: center;">Schedule</h3>
     
 <table class="tg">
@@ -95,4 +93,6 @@ permalink: /vc_workshop_2022_2
   </tr>
 </tbody>
 </table>
+</div>
+    
 </div>
