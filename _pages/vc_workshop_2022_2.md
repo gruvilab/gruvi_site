@@ -41,11 +41,6 @@ permalink: /vc_workshop_2022_2
     
 <div class="table-users1 col-sm-8">
 <table class="tg">
-<thead>
-  <tr>
-    <th class="tg-baqh" colspan="2">Schedule</th>
-  </tr>
-</thead>
 <tbody>
   <tr>
     <td class="tg-0lax">1:00 PM</td>
