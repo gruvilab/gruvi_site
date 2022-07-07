@@ -47,7 +47,7 @@ permalink: /vc_workshop_2022_2
     </div>
     
 <div class="table-users">
-   <div class="header1">Schedule</div>
+   <div class="header1">Schedule
    
    <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
