@@ -46,8 +46,12 @@ permalink: /vc_workshop_2022_2
 
     </div>
     
-<div class="table-users">
-   <div class="header1">Schedule
+
+  
+
+
+<div class="table-users1">
+   <div class="header1">Schedule</div>
    
    <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -57,7 +61,7 @@ permalink: /vc_workshop_2022_2
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg table11">
 <tbody>
    <tr>
     <td>1:00 PM</td>
@@ -110,6 +114,5 @@ permalink: /vc_workshop_2022_2
 </tbody>
 </table>
 </div>
-  
-
-
+    
+    
