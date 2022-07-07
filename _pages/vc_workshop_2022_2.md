@@ -39,57 +39,63 @@ permalink: /vc_workshop_2022_2
 </div>
 
     
-<div class="table-users1 col-sm-8">
-    <table class="tg table11">
-    <tbody>
-       <tr>
-        <td>1:00 PM</td>
-        <td>Arrive with refreshments</td>
-      </tr>
-      <tr>
-        <td>1:25 PM</td>
-        <td>Opening (Richard Zhang)</td>
-      </tr>
-      <tr>
-        <td>1:30-2:00 PM</td>
-        <td>Ming Lin</td>
-      </tr>
-      <tr>
-        <td>2:00-2:30 PM</td>
-        <td>Jason Peng</td>
-      </tr>
-      <tr>
-        <td>2:30-3:00 PM</td>
-        <td>Rana Hanocka</td>
-      </tr>
-      <tr>
-        <td>3:00-3:30 PM</td>
-        <td>Panel</td>
-      </tr>
-      <tr>
-        <td>3:30-4:00 PM</td>
-        <td>Break </td>
-      </tr>
-      <tr>
-        <td>4:00-4:30 PM</td>
-        <td>Niloy Mitra</td>
-      </tr>
-      <tr>
-        <td>4:30-5:00 PM</td>
-        <td>Amit Bermano</td>
-      </tr>
-      <tr>
-        <td>5:00-5:30 PM</td>
-        <td>Yifan Wang</td>
-      </tr>
-      <tr>
-        <td>5:30-6:00 PM</td>
-        <td>Christian Theobalt</td>
-      </tr>
-      <tr>
-        <td>6:00 PM</td>
-        <td>Closing</td>
-      </tr>
-    </tbody>
-    </table>
+<div class="table-users1">
+   <div class="header1">Schedule</div>
+   
+   <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg table11">
+<tbody>
+ <tr>
+    <td class="tg-0lax">1:25 PM</td>
+    <td class="tg-0lax">Opening (Richard Zhang)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1:30-2:00 PM</td>
+    <td class="tg-0lax">Ming Lin</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2:00-2:30 PM</td>
+    <td class="tg-0lax">Jason Peng</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2:30-3:00 PM</td>
+    <td class="tg-0lax">Rana Hanocka</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3:00-3:30 PM</td>
+    <td class="tg-0lax">Panel</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">3:30-4:00 PM</td>
+    <td class="tg-0lax">Break </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">4:00-4:30 PM</td>
+    <td class="tg-0lax">Niloy Mitra</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">4:30-5:00 PM</td>
+    <td class="tg-0lax">Amit Bermano</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">5:00-5:30 PM</td>
+    <td class="tg-0lax">Yifan Wang</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">5:30-6:00 PM</td>
+    <td class="tg-0lax">Christian Theobalt</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">6:00 PM</td>
+    <td class="tg-0lax">Closing</td>
+  </tr>
+</tbody>
+</table>
 </div>
