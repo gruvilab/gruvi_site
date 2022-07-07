@@ -8,7 +8,7 @@ permalink: /vc_workshop_2022_2
 
 
 
-      <div class="u-clearfix u-sheet u-sheet-1">
+<div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-table u-table-responsive u-table-1">
           <table class="u-table-entity u-table-entity-1">
             <colgroup>
@@ -114,6 +114,6 @@ permalink: /vc_workshop_2022_2
                 </div>
               </div>
             </div>
-          </div>
+</div>
         </div>
       </div>
