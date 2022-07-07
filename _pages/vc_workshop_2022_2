@@ -6,7 +6,6 @@ sitemap: false
 permalink: /vc_workshop_2022_2
 ---
 
-<section class="u-align-center u-clearfix u-grey-5 u-section-2" id="carousel_f94b">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-table u-table-responsive u-table-1">
           <table class="u-table-entity u-table-entity-1">
@@ -88,8 +87,8 @@ permalink: /vc_workshop_2022_2
         </div>
         <h1 class="u-text u-text-1">Schedule</h1>
       </div>
-    </section>
-    <section class="u-clearfix u-grey-5 u-section-3" id="sec-2129">
+      
+      
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
