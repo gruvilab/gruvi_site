@@ -23,7 +23,7 @@ permalink: /vc_workshop_2022
 <tbody>
   <tr>
     <td class="tg-0lax">1:00 PM</td>
-    <td class="tg-0lax">Arrive wih refreshments</td>
+    <td class="tg-0lax">Arrive with refreshments</td>
   </tr>
   <tr>
     <td class="tg-0lax">1:25 PM</td>
