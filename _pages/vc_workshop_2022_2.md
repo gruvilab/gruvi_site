@@ -31,7 +31,7 @@ permalink: /vc_workshop_2022_2
   </tr>
   <tr>
     <td class="tg-0lax">1:30-2:00 PM</td>
-      <a href="http://www.cs.unc.edu/~lin/" target="_blank"><td class="tg-0lax">Ming Lin</td></a>
+      <td class="tg-0lax"><a href="http://www.cs.unc.edu/~lin/" target="_blank">Ming Lin</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2:00-2:30 PM</td>
