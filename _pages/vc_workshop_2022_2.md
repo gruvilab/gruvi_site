@@ -8,11 +8,8 @@ permalink: /vc_workshop_2022_2
 
 <h2 id="workshop" style="text-align: center;">SFU Visual Computing Workshop</h2>
 
-<div class="table-users1 col-sm-12 col-md-6">
-    <span>Sunday Aug 7th</span>
-    <span>1:00-6:00 PM</span>
-    <span> SFU Harbour Centre Campus Vancouver, Room 2270, Sauder Industries Policy Room</span>
-</div>
+<h3>Sunday Aug 7th, 1:00-6:00 PM</h3>
+<h3> SFU Harbour Centre Campus Vancouver, Room 2270, Sauder Industries Policy Room</h3>
 
 <div class="table-users1 col-sm-12 col-md-6">
 <h3 id="schedule" style="text-align: center;">Schedule</h3>
