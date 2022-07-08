@@ -11,7 +11,9 @@ permalink: /vc_workshop_2022_2
 <p style="text-align: center;">
     <span style="font-size:22px;">Sunday Aug 7th, 1:00-6:00 PM</span>
     <br>
-    <span style="font-size:18px;">SFU Harbour Centre Campus Vancouver, Room 2270, Sauder Industries Policy Room</span>
+    <span style="font-size:17px;">SFU Harbour Centre Campus Vancouver</span>
+    <br>
+    <span style="font-size:17px;">Room 2270, Sauder Industries Policy Room</span>
 </p>
 
 <div class="table-users1 col-sm-12 col-md-6">
