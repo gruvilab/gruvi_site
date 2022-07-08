@@ -82,7 +82,7 @@ permalink: /vc_workshop_2022_2
             <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/tag_sgp11.png" alt="Slide 1">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/tag_sgp11.png" alt="Slide 2">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/SFU_VC_speakers.png" alt="Slide 2">
         </div>
     </div> 
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.117686490955!2d-123.111872!3d49.284756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour%20Centre!5e0!3m2!1sen!2sus!4v1657150050882!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
