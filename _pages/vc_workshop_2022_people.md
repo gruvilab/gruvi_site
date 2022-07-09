@@ -6,7 +6,7 @@ sitemap: false
 permalink: /vc_workshop_2022_people/
 ---
 
-## SFU Visual Computing Workshop
+<h2 id="workshop" style="text-align: center;">SFU Visual Computing Workshop - People</h2>
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 <div class="col-sm-12">
