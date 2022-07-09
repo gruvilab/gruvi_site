@@ -1,0 +1,95 @@
+################################# Panelists  #################################
+
+- name: Angel Chang
+  photo: angel.png
+  role: Panelist
+  email: 
+  website: https://angelxuanchang.github.io/
+  number_educ: 0
+
+- name: Yasutaka Furukawa
+  photo: furukawa4.png
+  role: Panelist
+  email: 
+  website: https://www.cs.sfu.ca/~furukawa/
+  number_educ: 0
+
+- name: Rana Hanocka
+  photo: rana_hanocka.jpg
+  role: Panelist
+  email: 
+  website: https://people.cs.uchicago.edu/~ranahanocka/
+  number_educ: 0
+
+- name: Niloy Mitra
+  photo: niloy_mitra.jpg
+  role: Panelist
+  email: 
+  website: http://www0.cs.ucl.ac.uk/staff/n.mitra/
+  number_educ: 0
+
+- name: Arik Shamir
+  photo: arik_shamir.jpg
+  role: Panelist
+  email: 
+  website: https://faculty.runi.ac.il/arik/site/index.asp
+  number_educ: 0
+
+- name: Andrea Tagliasacchi
+  photo: andrea_tagliasacchi.jpg
+  role: Panelist
+  email: 
+  website: https://taiya.github.io/
+  number_educ: 0
+
+
+#################################   Organizers  #################################
+
+- name: Ali Mahdavi Amiri
+  photo: ali.png
+  role: Organizer
+  email: 
+  website: https://www.sfu.ca/~amahdavi/Home.html
+  number_educ: 0
+
+- name: Angel Chang
+  photo: angel.png
+  role: Organizer
+  email: 
+  website: https://angelxuanchang.github.io/
+  number_educ: 0
+
+- name: Daniel Cohen-Or
+  photo: daniel_cohen_or.png
+  role: Organizer
+  email: 
+  website: https://danielcohenor.com/
+  number_educ: 0
+
+- name: Yasutaka Furukawa
+  photo: furukawa4.png
+  role: Organizer
+  email: 
+  website: https://www.cs.sfu.ca/~furukawa/
+  number_educ: 0
+
+- name: Wallace Lira
+  photo: wallace_lira.jpg
+  role: Organizer
+  email: 
+  website: http://www.sfu.ca/~wpintoli/
+  number_educ: 0
+
+- name: Andrea Tagliasacchi
+  photo: andrea_tagliasacchi.png
+  role: Organizer
+  email: 
+  website: https://taiya.github.io/
+  number_educ: 0
+  
+- name: Richard (Hao) Zhang
+  photo: haoz.jpg
+  role: Organizer
+  email: haoz@.sfu.ca 
+  website: http://www.cs.sfu.ca/~haoz/
+  number_educ: 0
