@@ -73,12 +73,12 @@
   website: https://www.cs.sfu.ca/~furukawa/
   number_educ: 0
 
-- name: Wallace Lira
-  photo: WallaceLira.jpeg
-  role: Organizer
-  email: 
-  website: http://www.sfu.ca/~wpintoli/
-  number_educ: 0
+##- name: Wallace Lira
+##  photo: WallaceLira.jpeg
+##  role: Organizer
+##  email: 
+##  website: http://www.sfu.ca/~wpintoli/
+##  number_educ: 0
 
 - name: Andrea Tagliasacchi
   photo: andrea.png
