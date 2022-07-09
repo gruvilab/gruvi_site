@@ -15,28 +15,28 @@
   number_educ: 0
 
 - name: Rana Hanocka
-  photo: rana_hanocka.jpg
+  photo: rana_hanocka.png
   role: Panelist
   email: 
   website: https://people.cs.uchicago.edu/~ranahanocka/
   number_educ: 0
 
 - name: Niloy Mitra
-  photo: niloy_mitra.jpg
+  photo: niloy_may.jpg
   role: Panelist
   email: 
   website: http://www0.cs.ucl.ac.uk/staff/n.mitra/
   number_educ: 0
 
 - name: Arik Shamir
-  photo: arik_shamir.jpg
+  photo: ariel_shamir.jpg
   role: Panelist
   email: 
   website: https://faculty.runi.ac.il/arik/site/index.asp
   number_educ: 0
 
 - name: Andrea Tagliasacchi
-  photo: andrea_tagliasacchi.jpg
+  photo: andrea.png
   role: Panelist
   email: 
   website: https://taiya.github.io/
@@ -74,14 +74,14 @@
   number_educ: 0
 
 - name: Wallace Lira
-  photo: wallace_lira.jpg
+  photo: WallaceLira.jpeg
   role: Organizer
   email: 
   website: http://www.sfu.ca/~wpintoli/
   number_educ: 0
 
 - name: Andrea Tagliasacchi
-  photo: andrea_tagliasacchi.png
+  photo: andrea.png
   role: Organizer
   email: 
   website: https://taiya.github.io/
