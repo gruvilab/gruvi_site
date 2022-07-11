@@ -127,7 +127,7 @@ $baseColor: #4D658D;
 $borderRadius: 10px;
 $imageBig: 100px;
 $imageSmall: 60px;
-$padding: 1px;
+$padding: 10px;
 
 .header1 {
    background-color: darken($baseColor, 5%);
@@ -159,7 +159,8 @@ table, table11 {
    td {
       text-align: center;
       vertical-align: middle;
-      
+      width: 120px;
+	   
       &:last-child {
          font-size: 0.95em;
          line-height: 1.4;
