@@ -42,7 +42,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">3:00-3:30 PM</td>
-    <td class="tg-0lax">Panel: <a href="https://angelxuanchang.github.io/" target="_blank">Angle Chang</a>, <a href="https://www.cs.sfu.ca/~furukawa/" target="_blank">Yasutaka Furukawa</a>, <a href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a>, <a href="https://www.sfu.ca/~amahdavi/Home.html" target="_blank">Ali Mahdavi-Amiri (moderator)</a>, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a>, <a href="https://faculty.runi.ac.il/arik/site/index.asp" target="_blank">Ariel Shamir</a>, and <a href="https://taiya.github.io/" target="_blank">Andrea Tagliasacchi</a></td>
+    <td class="tg-0lax">Panel: <a href="https://angelxuanchang.github.io/" target="_blank">Angel Chang</a>, <a href="https://www.cs.sfu.ca/~furukawa/" target="_blank">Yasutaka Furukawa</a>, <a href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a>, <a href="https://www.sfu.ca/~amahdavi/Home.html" target="_blank">Ali Mahdavi-Amiri (moderator)</a>, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a>, <a href="https://faculty.runi.ac.il/arik/site/index.asp" target="_blank">Ariel Shamir</a>, and <a href="https://taiya.github.io/" target="_blank">Andrea Tagliasacchi</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">3:30-4:00 PM</td>
