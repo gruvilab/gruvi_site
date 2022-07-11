@@ -74,7 +74,7 @@ permalink: /vc_workshop_2022
 </div>
 
 <div class="col-sm-12 col-md-6">
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="7000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="2500" data-pause="hover" >
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
