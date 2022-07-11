@@ -16,10 +16,8 @@ permalink: /vc_workshop_2022
     <span style="font-size:17px;">1700 Labatt Hall</span>
 </p>
 
-<div class="table-users1 col-sm-12 col-md-6" style="margin-top: 0px;">    
-    
-    <h3 id="schedule" style="text-align: center;">Schedule</h3>
-    
+<div class="table-users1 col-sm-12 col-md-6" style="margin-top: 0px;">        
+<h3 id="schedule" style="text-align: center;">Schedule</h3>
 <table class="tg">
 <tbody>
   <tr>
