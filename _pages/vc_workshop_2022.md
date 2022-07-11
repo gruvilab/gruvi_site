@@ -11,9 +11,9 @@ permalink: /vc_workshop_2022
 <p style="text-align: center;">
     <span style="font-size:22px;">Sunday Aug 7th, 1:00-6:00 PM</span>
     <br>
-    <span style="font-size:17px;">SFU Harbour Centre Campus Vancouver</span>
+    <span style="font-size:17px;">SFU Harbour Centre Campus, Vancouver</span>
     <br>
-    <span style="font-size:17px;">Room 1700, Labatt Hall</span>
+    <span style="font-size:17px;">1700 Labatt Hall</span>
 </p>
 
 <div class="table-users1 col-sm-12 col-md-6" style="margin-top: 0px;">
