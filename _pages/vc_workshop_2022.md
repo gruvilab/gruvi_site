@@ -13,7 +13,7 @@ permalink: /vc_workshop_2022
     <br>
     <span style="font-size:17px;">SFU Harbour Centre Campus Vancouver</span>
     <br>
-    <span style="font-size:17px;">Room 2270, Sauder Industries Policy Room</span>
+    <span style="font-size:17px;">Room 1700, Labatt Hall</span>
 </p>
 
 <div class="table-users1 col-sm-12 col-md-6">
@@ -78,19 +78,13 @@ permalink: /vc_workshop_2022
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser1.png" alt="Slide 1">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/speakers.png" alt="Slide 1">
+        </div>
+        <div class="item active">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/panelists_organizers.png" alt="Slide 1">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser2.png" alt="Slide 2">
-        </div>
-        <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser3.png" alt="Slide 3">
-        </div>
-        <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser4.png" alt="Slide 4">
-        </div>
-        <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/SFU_VC_speakers.png" alt="Slide 5">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser.png" alt="Slide 2">
         </div>
     </div> 
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.117686490955!2d-123.111872!3d49.284756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour%20Centre!5e0!3m2!1sen!2sus!4v1657150050882!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
