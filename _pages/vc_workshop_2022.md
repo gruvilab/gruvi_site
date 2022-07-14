@@ -14,6 +14,8 @@ permalink: /vc_workshop_2022
     <span style="font-size:17px;">SFU Harbour Centre Campus, Vancouver</span>
     <br>
     <span style="font-size:17px;">1700 Labatt Hall</span>
+    <br>
+    <span style="background-color: #a6192e; border: none; color: white; padding: 10px 23px; text-align: center; text-decoration: none; display: inline-block; font-size: 18px;"><a href="https://www.eventbrite.ca/e/sfu-visual-computing-workshop-tickets-384415385767" target="_blank">Register now!</a></span>
 </p>
 
 <div class="table-users1 col-sm-12 col-md-6" style="margin-top: 0px;">        
