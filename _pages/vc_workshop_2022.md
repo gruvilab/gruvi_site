@@ -11,7 +11,7 @@ permalink: /vc_workshop_2022
 <p style="text-align: center;">
     <span style="font-size:22px;">Sunday Aug 7th, 1:00-6:00 PM</span>
     <br>
-    <span style="font-size:17px;">580 West Hastings Street (enter via Seymour Street courtyard entrance)</span>
+    <span style="font-size:17px;">580 West Hastings Street</span>
     <br>
     <span style="font-size:17px;">Room 420</span>
     <br>
