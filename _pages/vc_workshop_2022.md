@@ -11,9 +11,9 @@ permalink: /vc_workshop_2022
 <p style="text-align: center;">
     <span style="font-size:22px;">Sunday Aug 7th, 1:00-6:00 PM</span>
     <br>
-    <span style="font-size:17px;">SFU Harbour Centre Campus, Vancouver</span>
+    <span style="font-size:17px;">580 West Hastings Street (enter via Seymour Street courtyard entrance)</span>
     <br>
-    <span style="font-size:17px;">1700 Labatt Hall</span>
+    <span style="font-size:17px;">Room 420</span>
     <br>
     <a href="https://www.eventbrite.ca/e/sfu-visual-computing-workshop-tickets-384415385767" target="_blank"><span style="background-color: #a6192e; border: none; color: white; padding: 10px 23px; text-align: center; text-decoration: none; display: inline-block; font-size: 18px;">Register now!</span></a>
 </p>
@@ -32,7 +32,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">1:30-2:00 PM</td>
-      <td class="tg-0lax"><a href="http://www.cs.unc.edu/~lin/" target="_blank">Ming Lin</a></td>
+      <td class="tg-0lax"><a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit Bermano</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2:00-2:30 PM</td>
@@ -56,7 +56,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">4:30-5:00 PM</td>
-      <td class="tg-0lax"><a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit Bermano</a></td>
+      <td class="tg-0lax"><a href="http://www.cs.unc.edu/~lin/" target="_blank">Ming Lin</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">5:00-5:30 PM</td>
@@ -88,5 +88,5 @@ permalink: /vc_workshop_2022
             <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser.png" alt="Slide 3">
         </div>
     </div> 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.117686490955!2d-123.111872!3d49.284756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour%20Centre!5e0!3m2!1sen!2sus!4v1657150050882!5m2!1sen!2sus" width="100%" height="277" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273.56279770752735!2d-123.1130159570622!3d49.2843058318333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867178f4cd0049%3A0x692f0197f75f3be7!2s580%20W%20Hastings%20St%2C%20Vancouver%2C%20BC%20V6B%201L6!5e0!3m2!1sen!2sca!4v1658116301408!5m2!1sen!2sca" width="100%" height="277" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
