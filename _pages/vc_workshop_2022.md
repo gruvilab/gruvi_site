@@ -13,7 +13,7 @@ permalink: /vc_workshop_2022
     <br>
     <span style="font-size:17px;">580 West Hastings Street</span>
     <br>
-    <span style="font-size:17px;">Room 420</span>
+    <span style="font-size:17px;">Morris J Wosk Centre for Dialogue, WCC 320-370 Room</span>
     <br>
     <a href="https://www.eventbrite.ca/e/sfu-visual-computing-workshop-tickets-384415385767" target="_blank"><span style="background-color: #a6192e; border: none; color: white; padding: 10px 23px; text-align: center; text-decoration: none; display: inline-block; font-size: 18px;">Register now!</span></a>
 </p>
