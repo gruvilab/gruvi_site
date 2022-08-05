@@ -351,6 +351,13 @@
   email: 
   website: 
   number_educ: 0
+  
+- name: Aryan Mikaeili
+  photo: Aryan_Mikaeili.jpg
+  role: Graduate Student
+  email: 
+  website: https://aryanmikaeili.github.io
+  number_educ: 0
 
 - name: Nelson Nauata
   photo: nauata.jpg
