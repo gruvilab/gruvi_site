@@ -36,7 +36,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">2:00-2:30 PM</td>
-      <td class="tg-0lax"><b>TBR</b><br><a href="https://xbpeng.github.io/" target="_blank">Jason Peng</a></td>
+      <td class="tg-0lax"><b>Adversarial Imitation Learning for Motor Control</b><br><a href="https://xbpeng.github.io/" target="_blank">Jason Peng</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2:30-3:00 PM</td>
