@@ -28,7 +28,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">1:25 PM</td>
-    <td class="tg-0lax">Opening (Richard Zhang)</td>
+    <td class="tg-0lax">Opening (<a href="https://www.cs.sfu.ca/~haoz/" target="_blank">Richard Zhang</a>)</td>
   </tr>
   <tr>
     <td class="tg-0lax">1:30-2:00 PM</td>
