@@ -32,15 +32,15 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">1:30-2:00 PM</td>
-      <td class="tg-0lax"><a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit Bermano</a></td>
+      <td class="tg-0lax"><b>"CLIP as a generative foundation model"</b> by <a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit Bermano</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2:00-2:30 PM</td>
-      <td class="tg-0lax"><a href="https://xbpeng.github.io/" target="_blank">Jason Peng</a></td>
+      <td class="tg-0lax"><b>"TBR"</b> by <a href="https://xbpeng.github.io/" target="_blank">Jason Peng</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2:30-3:00 PM</td>
-      <td class="tg-0lax"><a href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a></td>
+      <td class="tg-0lax"><b>"TBR"</b> by <a href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">3:00-3:30 PM</td>
@@ -52,19 +52,19 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">4:00-4:30 PM</td>
-      <td class="tg-0lax"><a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a></td>
+      <td class="tg-0lax"><b>"Translating between Sketches and CAD programs"</b> by <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">4:30-5:00 PM</td>
-      <td class="tg-0lax"><a href="http://www.cs.unc.edu/~lin/" target="_blank">Ming Lin</a></td>
+      <td class="tg-0lax"><b>"Reconstructing Reality &ndash; From Physical World to Virtual Environments"</b> by <a href="http://www.cs.unc.edu/~lin/" target="_blank">Ming Lin</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">5:00-5:30 PM</td>
-      <td class="tg-0lax"><a href="https://yifita.netlify.app/" target="_blank">Yifan Wang</a></td>
+      <td class="tg-0lax"><b>"TBR"</b> by <a href="https://yifita.netlify.app/" target="_blank">Yifan Wang</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">5:30-6:00 PM</td>
-      <td class="tg-0lax"><a href="https://taiya.github.io/" target="_blank">Andrea Tagliasacchi</a></td>
+      <td class="tg-0lax"><b>"Neural Fields – beyond novel view synthesis"</b> by <a href="https://taiya.github.io/" target="_blank">Andrea Tagliasacchi</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6:00 PM</td>
