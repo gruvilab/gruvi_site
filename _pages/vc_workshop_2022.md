@@ -32,7 +32,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">1:30-2:00 PM</td>
-      <td class="tg-0lax"><b>CLIP as a generative foundation model</b><br><a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit Bermano</a></td>
+      <td class="tg-0lax"><b>CLIP as a Generative Foundation Model</b><br><a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit Bermano</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">2:00-2:30 PM</td>
@@ -40,7 +40,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">2:30-3:00 PM</td>
-      <td class="tg-0lax"><b>TBR</b><br><a href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a></td>
+      <td class="tg-0lax"><b>Neural Geometry Processing with no 3D Datasets</b><br><a href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">3:00-3:30 PM</td>
@@ -52,7 +52,7 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">4:00-4:30 PM</td>
-      <td class="tg-0lax"><b>Translating between Sketches and CAD programs</b><br><a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a></td>
+      <td class="tg-0lax"><b>Translating Between Sketches and CAD Programs</b><br><a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/" target="_blank">Niloy Mitra</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">4:30-5:00 PM</td>
@@ -60,11 +60,11 @@ permalink: /vc_workshop_2022
   </tr>
   <tr>
     <td class="tg-0lax">5:00-5:30 PM</td>
-      <td class="tg-0lax"><b>TBR</b><br><a href="https://yifita.netlify.app/" target="_blank">Yifan Wang</a></td>
+      <td class="tg-0lax"><b>Toward Editable Implicit Shapes</b><br><a href="https://yifita.netlify.app/" target="_blank">Yifan Wang</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">5:30-6:00 PM</td>
-      <td class="tg-0lax"><b>Neural Fields – beyond novel view synthesis</b><br><a href="https://taiya.github.io/" target="_blank">Andrea Tagliasacchi</a></td>
+      <td class="tg-0lax"><b>Neural Fields – Beyond Novel View Synthesis</b><br><a href="https://taiya.github.io/" target="_blank">Andrea Tagliasacchi</a></td>
   </tr>
   <tr>
     <td class="tg-0lax">6:00 PM</td>
