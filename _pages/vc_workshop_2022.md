@@ -88,37 +88,37 @@ permalink: /vc_workshop_2022
             <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/teaser.png" alt="Slide 3">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0379_2.png" alt="Slide 4">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0379_2.jpg" alt="Slide 4">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0380_2.png" alt="Slide 5">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0380_2.jpg" alt="Slide 5">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0382_2.png" alt="Slide 6">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0382_2.jpg" alt="Slide 6">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0384_2.png" alt="Slide 7">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0384_2.jpg" alt="Slide 7">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0385_2.png" alt="Slide 8">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0385_2.jpg" alt="Slide 8">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0387_2.png" alt="Slide 9">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0387_2.jpg" alt="Slide 9">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0389_2.png" alt="Slide 10">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0389_2.jpg" alt="Slide 10">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0394_2.png" alt="Slide 11">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0394_2.jpg" alt="Slide 11">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0397_2.png" alt="Slide 12">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0397_2.jpg" alt="Slide 12">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0401_2.png" alt="Slide 13">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0401_2.jpg" alt="Slide 13">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0407_2.png" alt="Slide 14">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0407_2.jpg" alt="Slide 14">
         </div>
     </div> 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273.56279770752735!2d-123.1130159570622!3d49.2843058318333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867178f4cd0049%3A0x692f0197f75f3be7!2s580%20W%20Hastings%20St%2C%20Vancouver%2C%20BC%20V6B%201L6!5e0!3m2!1sen!2sca!4v1658116301408!5m2!1sen!2sca" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
