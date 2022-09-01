@@ -114,7 +114,7 @@ permalink: /vc_workshop_2022
             <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0387_2.jpg" alt="Slide 9">
         </div>
         <div class="item">
-            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0389_2.jpg" alt="Slide 10">
+            <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0392_2.jpg" alt="Slide 10">
         </div>
         <div class="item">
             <img src="https://gruvi.cs.sfu.ca/_pages/SFU-preSIG-VC-Workshop_files/DSC_0394_2.jpg" alt="Slide 11">
