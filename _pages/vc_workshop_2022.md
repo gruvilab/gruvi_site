@@ -90,7 +90,8 @@ permalink: /vc_workshop_2022
     </div> 
     <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273.56279770752735!2d-123.1130159570622!3d49.2843058318333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867178f4cd0049%3A0x692f0197f75f3be7!2s580%20W%20Hastings%20St%2C%20Vancouver%2C%20BC%20V6B%201L6!5e0!3m2!1sen!2sca!4v1658116301408!5m2!1sen!2sca" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
 </div>
-
+<br>
+<br>
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="3500" data-pause="hover" >
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
