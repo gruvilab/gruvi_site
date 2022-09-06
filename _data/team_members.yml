@@ -1,7 +1,7 @@
 #- name: Name of the Researcher
 #  photo: FirstNameLastName.{jpg, png}
 #  role: {Faculty, Affiliated Faculty, Graduate Studant, Visitor, Postdoc}
-#  email: researcher's email 
+#  email: researcher's email  
 #  website: researcher's website
 #  number_educ: [1,4]
 #  education1: Ph.D. (year), University (program)
