@@ -1,6 +1,9 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Yiming Qian
+  graduation: 2022
+  text: Applied Scientist, Amazon
 - name: Madhawa Vidanapathirana
   graduation: 2021
   text: Software Development Engineer, Microsoft
