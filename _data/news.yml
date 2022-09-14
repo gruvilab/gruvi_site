@@ -11,6 +11,13 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+- date: Sep 14th, 2022
+  headline: >-
+    Gruviers awarded with the inaugural Outstanding TA Award
+  text: >-
+    Congratulations to <a href="https://qiminchen.github.io/" target="_blank" >Qimin Chen</a>, <a href="http://www.sfu.ca/~wpintoli/" target="_blank" >Wallace Lira</a>, and <a href="https://www.linkedin.com/in/sonia-raychaudhuri" target="_blank" >Sonya Raychaudhuri</a> selected as recipients for the inaugural <a href="https://www.sfu.ca/computing/current-students/graduate-students/cs-outstanding-teaching-assistant-award.html" target="_blank">CS Outstanding Teaching Assistent Award<\a>!<br><br>This award recognizes exceptional TAs in the School of Computing Science for their outstanding work in teaching and performing other TA duties. The recipients  will be acknowledged at the October 20th school meeting.
+  highlight: 1
+
 - date: Aug 7th, 2022
   headline: >-
     The First SFU Visual Computing Workshop was held in Vancouver
@@ -40,7 +47,7 @@
     Gruviers have 12 Accepted Papers at CVPR 2022.
   text: >-
     Congratulations to all Gruviers who are publishing their work at CVPR 2022. CVPR is the premier conference on computer vision and will be held in New Orleans this year. To learn more about the sample work that Gruvi will be presenting checkout <a href="https://www.cs.sfu.ca/~haoz/papers.html">here</a> and <a href="https://www.cs.sfu.ca/~furukawa/">here</a>.
-  highlight: 1
+  highlight: 0
   image: CFI_funding.png
 
 - date: Dec 20th, 2021
