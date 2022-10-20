@@ -352,12 +352,12 @@
   website: 
   number_educ: 0
 
-- name: Johanes Merz
-  photo: merz.png
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
+#- name: Johanes Merz
+#  photo: merz.png
+#  role: Graduate Student
+#  email: 
+#  website: 
+#  number_educ: 0
   
 - name: Aryan Mikaeili
   photo: Aryan_Mikaeili.jpg
@@ -508,7 +508,7 @@
 - name: Dinggong Yang
   photo: dingdong_yang.jpg
   role: Graduate Student
-  email: 
+  email: https://santisy.github.io/
   website: 
   number_educ: 0
 
