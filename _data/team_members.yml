@@ -4,10 +4,10 @@
 #  email: researcher's email  
 #  website: researcher's website
 #  number_educ: [1,4]
-#  education1: Ph.D. (year), University (program)
-#  education2: M.Sc. (year), University (program)
-#  education3: B.Sc. (year), University (program)
-#  education4: Other? (year), University (program)
+#  education1: Ph.D. (year), University  (program)
+#  education2: M.Sc. (year), University  (program)
+#  education3: B.Sc. (year), University  (program)
+#  education4: Other? (year), University  (program)
 
 ################################# Lab Directors  #################################
 
