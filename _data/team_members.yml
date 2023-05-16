@@ -161,6 +161,13 @@
   website: http://home.ustc.edu.cn/~zh2991/
   number_educ: 0
   
+- name: Zeno Sambugaro
+  photo: zeno_sambugaro.jpg
+  role: Visitor
+  email: 
+  website: https://zenos4mbu.github.io/
+  number_educ: 0
+  
 #- name: Fei-Peng Tian
 #  photo: feipeng.jpg
 #  role: Visitor
@@ -558,7 +565,7 @@
   photo: mingrui_zhao.jpg
   role: Graduate Student
   email: 
-  website: https://www.linkedin.com/in/mingrui-zhao-4352b71b4/
+  website: https://mingrui-zhao.github.io/
   number_educ: 0
 
 #- name: Hamid Younesy
