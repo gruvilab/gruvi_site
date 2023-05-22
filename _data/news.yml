@@ -51,7 +51,7 @@ headline: >-
 text: >-
    We are thrilled to announce that Professor Yasutaka Furukawa, one of our esteemed professors, has been appointed as the Program Chair for the International Conference on Computer Vision (ICCV) 2023. The ICCV, a top-tier event in the field of computer vision, provides an excellent platform to exchange novel ideas and discuss the latest advancements. We invite you to learn more about the ICCV 2023 and Prof. Furukawa&#39;s role by visiting the official conference website at <a href="https://iccv2023.thecvf.com/">https://iccv2023.thecvf.com/</a>.
 highlight: 1
-image: yasu_iccv23.png
+image: yasu_iccv23.jpg
 
 - date: February 27, 2023
   headline: >-
@@ -59,7 +59,7 @@ image: yasu_iccv23.png
   text: >-
      Congratulations to all Gruviers who are publishing their work at CVPR 2023. Among the accepted papers, <a href="https://mobile-nerf.github.io/">MobileNeRF</a> <strong>is one of the 12 finalists for best paper award!</strong> Congrats for <a href="https://czq142857.github.io/">Zhiqin</a> and <a href="https://taiya.github.io/">Andrea</a> for their excellent work! </p><p>CVPR is the premier conference on computer vision and will be held in <strong>Vancourver</strong> this year. To learn more about the sample work that Gruvi will be presenting checkout our <a href="https://gruvi.ca/publications/">publication page</a> to get more information.
   highlight: 0
-  image: gruvi_cvpr23.png
+  image: gruvi_cvpr23.jpg
 
 
 
