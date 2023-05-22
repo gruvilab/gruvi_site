@@ -11,6 +11,15 @@
 #  highlight: 1
 #  image: news_1.PNG
 
+
+- date: May 18, 2023
+  headline: >-
+    Prof. Pat Hanrahan gave his Turing Award Lecture at SFU CS
+  text: >-
+    The recoding is available in this <a href="https://stream.sfu.ca/Media/Play/963b0b1088c3493f8fdc4291ed2f19c91d">link</a> (SFU account is needed).</p><p>Here is some information about the lecture.</p><p><strong>Title:</strong></p><p>Shading Languages and the Emergence of Programmable Graphics Systems</p><p><strong>Abstract:</strong></p><p>A major challenge in using computer graphics for movies and games is to create a rendering system that can create realistic pictures of a virtual world.  The system must handle the variety and complexity of the shapes, materials, and lighting that combine to create what we see every day.  The images must also be free of artifacts, emulate cameras to create depth of field and motion blur, and compose seamlessly with photographs of live action.</p><p>Pixar&#39;s RenderMan was created for this purpose, and has been widely used in feature film production.  A key innovation in the system is to use a shading language to procedurally describe appearance.  Shading languages were subsequently extended to run in real-time on graphics processing units (GPUs), and now shading languages are widely used in game engines.  The final step was the realization that the GPU is a data-parallel computer, and the the shading language could be extended into a general-purpose data-parallel programming language.  This enabled a wide variety of applications in high performance computing, such as physical simulation and machine learning, to be run on GPUs.  Nowadays, GPUs are the fastest computers in the world. This talk will review the history of shading languages and GPUs, and discuss the broader implications for computing.</p><p><strong>Biography:</strong></p><p>Pat Hanrahan is the Canon Professor of Computer Science and Electrical Engineering in the Computer Graphics Laboratory at Stanford University.  His research focuses on rendering algorithms, graphics systems, and visualization.  Hanrahan received a Ph.D. in biophysics from the University of Wisconsin-Madison in 1985.  As a founding employee at Pixar Animation Studios in the 1980s, Hanrahan led the design of the RenderMan Interface Specification and the RenderMan Shading Language.  In 1989, he joined the faculty of Princeton University.  In 1995, he moved to Stanford University.  More recently, Hanrahan served as a co-founder and CTO of Tableau Software.  He has received three Academy Awards for Science and Technology, the SIGGRAPH Computer Graphics Achievement Award, the SIGGRAPH Stephen A. Coons Award, and the IEEE Visualization Career Award.  He is a member of the National Academy of Engineering and the American Academy of Arts and Sciences.  In 2019, he received the ACM A. M. Turing Award.
+  highlight: 1
+  image: talk_pat.jpg
+
 - date: May 15, 2023
   headline: >-
     Prof. Tagliasacchi Co-Chairs 3DV 2024: Papers Invitation Open
@@ -18,6 +27,44 @@
     We are thrilled to share that Prof. <a href="https://taiya.github.io/">Andrea Tagliasacchi</a> will serve as co-chair for the International Conference on 3D Vision (3DV) 2024, alongside Prof. Siyu Tang from ETH and Federico Tombari from Google. Smaller conferences like 3DV play a vital role in fostering lasting networks within the research community, and 3DV 2024 promises to be an exciting opportunity for this.</p> <p>Furthermore, the call for papers for 3DV 2024 is now officially open. The conference will take place in the beautiful location of Davos, Switzerland, where World Economic Forum is annually held there. Researchers are encouraged to submit their papers by July 31st. For additional details, please visit the conference website at <strong><a href="https://3dvconf.github.io/2024/call-for-papers/">https://3dvconf.github.io/2024/call-for-papers/</a></strong>. Don&#39;t miss this incredible chance to share your research with the international community at 3DV 2024!
   highlight: 1
   image: taiya_3dv.png
+  
+- date: April 18, 2023
+  headline: >-
+    Talk by Karsten Kreis from NVIDIA
+  text: >-
+     Record link: <a href="https://stream.sfu.ca/Media/Channel/4b63668f57a046589246cf6c0c8eb2d05f">https://stream.sfu.ca/Media/Channel/4b63668f57a046589246cf6c0c8eb2d05f</a></p><p><strong>Title</strong>: Diffusion Models: From Foundations to Image, Video and 3D Content Creation</p><p><strong>Abstract</strong>: Denoising diffusion-based generative models have led to multiple breakthroughs in deep generative learning. In this talk, I will provide an overview over recent works by the NVIDIA Toronto AI Lab on diffusion models and their applications for digital content creation. I will start with a short introduction of diffusion models and recapitulate their mathematical formulation. Then, I will briefly discuss our foundational works on diffusion models, which includes advanced diffusion processes for faster and smoother diffusion and denoising, techniques for more efficient model sampling, as well as latent space diffusion models, a flexible diffusion model framework that has been widely used in the literature. Moreover, I will discuss works that use diffusion models for image, video and 3D content creation. This includes large text-to-image models as well as recent work on high resolution video synthesis with latent diffusion models. I will also summarize some of our efforts on 3D generative modeling. This includes object-centric 3D synthesis by training diffusion models on geometric shape datasets or leveraging large-scale text-to-image diffusion models as priors for shape distillation, as well as full scene-level generation with hierarchical latent diffusion models.</p><p><strong>Bio</strong>: Karsten Kreis is a senior research scientist at NVIDIA’s Toronto AI Lab. Prior to joining NVIDIA, he worked on deep generative modeling at D-Wave Systems and co-founded Variational AI, a startup utilizing generative models for drug discovery. Before switching to deep learning, Karsten did his M.Sc. in quantum information theory at the Max Planck Institute for the Science of Light and his Ph.D. in computational and statistical physics at the Max Planck Institute for Polymer Research. Currently, Karsten’s research focuses on developing novel generative learning methods and on applying deep generative models on problems in areas such as computer vision, graphics and digital artistry, as well as in the natural sciences.
+
+  highlight: 1
+  image: talk_karsten.jpg
+  
+- date: April 1, 2023
+  headline: >-
+    Visual and Interactive Computing Institute (VINCI) is Founded
+  text: >-
+     We are delighted to announce the establishment of the Visual and Interactive Computing Institute (VINCI), co-directed by our esteemed Prof. Yasutaka Furukawa and Prof. Parmit Chilana. VINCI has been brought to life by 44 dedicated faculty members from 14 different departments and 7 distinct faculties within SFU. The primary objective of the institute is to bolster interdisciplinary research collaborations.
+  highlight: 0
+  image: yasu_vinci.png
+  
+- date: March 8, 2023
+headline: >-
+  Prof. Furukawa Appointed as Program Chair for ICCV 2023
+text: >-
+   We are thrilled to announce that Professor Yasutaka Furukawa, one of our esteemed professors, has been appointed as the Program Chair for the International Conference on Computer Vision (ICCV) 2023. The ICCV, a top-tier event in the field of computer vision, provides an excellent platform to exchange novel ideas and discuss the latest advancements. We invite you to learn more about the ICCV 2023 and Prof. Furukawa&#39;s role by visiting the official conference website at <a href="https://iccv2023.thecvf.com/">https://iccv2023.thecvf.com/</a>.
+highlight: 1
+image: yasu_iccv23.png
+
+- date: February 27, 2023
+  headline: >-
+    Gruviers have 10 Accepted Papers at CVPR 2023
+  text: >-
+     Congratulations to all Gruviers who are publishing their work at CVPR 2023. Among the accepted papers, <a href="https://mobile-nerf.github.io/">MobileNeRF</a> <strong>is one of the 12 finalists for best paper award!</strong> Congrats for <a href="https://czq142857.github.io/">Zhiqin</a> and <a href="https://taiya.github.io/">Andrea</a> for their excellent work! </p><p>CVPR is the premier conference on computer vision and will be held in <strong>Vancourver</strong> this year. To learn more about the sample work that Gruvi will be presenting checkout our <a href="https://gruvi.ca/publications/">publication page</a> to get more information.
+  highlight: 0
+  image: gruvi_cvpr23.png
+
+
+
+  
+  
 - date: Sep 14th, 2022
   headline: >-
     Gruviers Awarded with the inaugural CS Outstanding TA Award
