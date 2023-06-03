@@ -39,12 +39,26 @@
   website: http://www.cs.sfu.ca/~furukawa/
   number_educ: 0
   
+- name: Ke Li
+  photo: ke_li.jpg
+  role: Faculty
+  email: 
+  website: https://www.sfu.ca/~keli/
+  number_educ: 0  
+
 - name: Ali Mahdavi-Amiri
   photo: ali.png
   role: Faculty
   email: 
   website: https://sites.google.com/site/alimahdaviamiri/
   number_educ: 0
+
+- name: Jason Peng
+  photo: jason_peng.jpg
+  role: Faculty
+  email: 
+  website: https://xbpeng.github.io/
+  number_educ: 0  
 
 - name: Manolis Savva	
   photo: manolis.png
@@ -126,12 +140,12 @@
 #   website: #
 #   number_educ: 0
   
-- name: Pyojin Kim
-  photo: PyojinKim.png
-  role: Postdoc
-  email: 
-  website: http://pyojinkim.com/
-  number_educ: 0
+# - name: Pyojin Kim
+#   photo: PyojinKim.png
+#   role: Postdoc
+#   email: 
+#   website: http://pyojinkim.com/
+#   number_educ: 0
   
 #- name: Manyi Li
 #  photo: manyi.jpg
@@ -147,12 +161,12 @@
 #  website: https://scholar.google.com/citations?user=2xMfNpMAAAAJ&hl=en
 #  number_educ: 0
   
-- name: Jie Tang
-  photo: jietang.jpg
-  role: Visitor
-  email: 
-  website: 
-  number_educ: 0
+# - name: Jie Tang
+#   photo: jietang.jpg
+#   role: Visitor
+#   email: 
+#   website: 
+#   number_educ: 0
 
 - name: Hang Zhou
   photo: hang_zhou.jpg
@@ -199,12 +213,12 @@
 
 ################################# Graduate Students  #################################
 
-- name: Mahsa Maleki Abyaneh
-  photo: mahsa.jpg
-  role: Graduate Student
-  email: mahsa_maleki_abyaneh@sfu.ca
-  website:
-  number_educ: 0
+# - name: Mahsa Maleki Abyaneh
+#   photo: mahsa.jpg
+#   role: Graduate Student
+#   email: mahsa_maleki_abyaneh@sfu.ca
+#   website:
+#   number_educ: 0
 
 - name: Reza Asad
   photo: reza_asad.png
@@ -234,12 +248,12 @@
   website: http://www.sfu.ca/~zhiqinc/
   number_educ: 0
 
-- name: Perry Deng
-  photo: PerryDeng.png
-  role: Graduate Student
-  email: 
-  website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
-  number_educ: 0
+# - name: Perry Deng
+#   photo: PerryDeng.png
+#   role: Graduate Student
+#   email: 
+#   website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
+#   number_educ: 0
   
 - name: Sebastian Dille
   photo: SebastianDille3x4.jpg
@@ -248,12 +262,12 @@
   website:
   number_educ: 0
   
-- name: Yasaman Etesam
-  photo: YasamanEtesam.jpg
-  role: Graduate Student
-  email:
-  website: https://www.linkedin.com/in/yasaman-etesam
-  number_educ: 0
+# - name: Yasaman Etesam
+#   photo: YasamanEtesam.jpg
+#   role: Graduate Student
+#   email:
+#   website: https://www.linkedin.com/in/yasaman-etesam
+#   number_educ: 0
   
 #- name: Arezou Fatemi
 #  photo: arezou_fatemi.jpg
@@ -262,18 +276,18 @@
 #  website:
 #  number_educ: 0
   
-- name: Ali Gholami
-  photo: AliGholami.jpg
-  role: Graduate Student
-  email:
-  website:
-  number_educ: 0
+# - name: Ali Gholami
+#   photo: AliGholami.jpg
+#   role: Graduate Student
+#   email:
+#   website:
+#   number_educ: 0
 
-- name: Sanjay Haresh
-  photo: SanjayHaresh.jfif
-  role: Graduate Student
-  website: https://www.linkedin.com/in/sanjay-haresh/
-  number_educ: 0
+# - name: Sanjay Haresh
+#   photo: SanjayHaresh.jfif
+#   role: Graduate Student
+#   website: https://www.linkedin.com/in/sanjay-haresh/
+#   number_educ: 0
 
 - name: Sachini Herath
   photo: SachiniHerath.jpg
@@ -289,7 +303,6 @@
   website: 
   number_educ: 0
 
-
 - name: S. Mahdi Hosseini M.
   photo: Mahdi.JPEG
   role: Graduate Student
@@ -297,12 +310,12 @@
   website: http://www.sfu.ca/~smh31/
   number_educ: 0
 
-- name: Saghar Irandoust
-  photo: saghar.jpeg
-  role: Graduate Student
-  email:
-  website: https://www.linkedin.com/in/saghar-irandoust/
-  number_educ: 0
+# - name: Saghar Irandoust
+#   photo: saghar.jpeg
+#   role: Graduate Student
+#   email:
+#   website: https://www.linkedin.com/in/saghar-irandoust/
+#   number_educ: 0
   
 - name: Hanxiao Jiang (Shawn)
   photo: Shawn.jpeg
@@ -311,12 +324,12 @@
   website: https://jianghanxiao.github.io/
   number_educ: 0
 
-- name: Kevin Joseph
-  photo: KevinJoseph.jpg
-  role: Graduate Student
-  email: 
-  website: https://www.linkedin.com/in/kevin-joseph-ab38b8a8
-  number_educ: 0
+# - name: Kevin Joseph
+#   photo: KevinJoseph.jpg
+#   role: Graduate Student
+#   email: 
+#   website: https://www.linkedin.com/in/kevin-joseph-ab38b8a8
+#   number_educ: 0
   
 #- name: Mohsen Kamalzadeh
 #  photo: mohsen.jpg
@@ -338,19 +351,19 @@
   website: https://hanhung.github.io/
   number_educ: 0
 
-- name: Wallace Lira
-  photo: WallaceLira.jpeg
-  role: Graduate Student
-  email: wpintoli@sfu.ca
-  website: http://www.sfu.ca/~wpintoli/
-  number_educ: 0
+# - name: Wallace Lira
+#   photo: WallaceLira.jpeg
+#   role: Graduate Student
+#   email: wpintoli@sfu.ca
+#   website: http://www.sfu.ca/~wpintoli/
+#   number_educ: 0
 
-- name: Heng Li
-  photo: hengli.png
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
+# - name: Heng Li
+#   photo: hengli.png
+#   role: Graduate Student
+#   email: 
+#   website: 
+#   number_educ: 0
 
 - name: Jiacheng Chen
   photo: JiachengChen.png
@@ -359,12 +372,12 @@
   website: http://jcchen.me
   number_educ: 0
   
-- name: Jon Liu
-  photo: jonliu.jpg
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
+# - name: Jon Liu
+#   photo: jonliu.jpg
+#   role: Graduate Student
+#   email: 
+#   website: 
+#   number_educ: 0
 
 #- name: Johanes Merz
 #  photo: merz.png
@@ -380,12 +393,12 @@
   website: https://aryanmikaeili.github.io
   number_educ: 0
 
-- name: Nelson Nauata
-  photo: nauata.jpg
-  role: Graduate Student
-  email: 
-  website: http://www.sfu.ca/~nnauata/
-  number_educ: 0
+# - name: Nelson Nauata
+#   photo: nauata.jpg
+#   role: Graduate Student
+#   email: 
+#   website: http://www.sfu.ca/~nnauata/
+#   number_educ: 0
   
 - name: Akshay Gadi Patil
   photo: akshay.png
@@ -394,12 +407,12 @@
   website: http://www.sfu.ca/~agadipat/
   number_educ: 0
 
-- name: Jamal Rahim
-  photo: JamalRahim.png
-  role: Graduate Student
-  email: 
-  website: https://jrahim.github.io/
-  number_educ: 0
+# - name: Jamal Rahim
+#   photo: JamalRahim.png
+#   role: Graduate Student
+#   email: 
+#   website: https://jrahim.github.io/
+#   number_educ: 0
 
 - name: Julia Read
   photo: JuliaRead.jpg
@@ -415,11 +428,11 @@
   website: https://www.linkedin.com/in/sonia-raychaudhuri
   number_educ: 0
 
-- name: Yue Ruan
-  photo: YueRuan.jpg
-  role: Graduate Student
-  website: https://www.linkedin.com/in/yue-ruan-127a9a15b/
-  number_educ: 0
+# - name: Yue Ruan
+#   photo: YueRuan.jpg
+#   role: Graduate Student
+#   website: https://www.linkedin.com/in/yue-ruan-127a9a15b/
+#   number_educ: 0
 
 - name: Mehdi Safaee
   photo: Mehdi_Safaee.png
@@ -449,12 +462,12 @@
   website:  http://www.sfu.ca/~rakeshs/
   number_educ: 0
 
-- name: Shimon Smith
-  photo: shimon_smith.jpg
-  role: Graduate Student
-  email: 
-  website:
-  number_educ: 0
+# - name: Shimon Smith
+#   photo: shimon_smith.jpg
+#   role: Graduate Student
+#   email: 
+#   website:
+#   number_educ: 0
   
 - name: Weilian Song
   photo: weilian.jpg
@@ -463,26 +476,26 @@
   website: https://weiliansong.github.io/
   number_educ: 0
   
-- name: Feitong Tan
-  photo: FeitongTan.jpg
-  role: Graduate Student
-  email: 
-  website:
-  number_educ: 0
+# - name: Feitong Tan
+#   photo: FeitongTan.jpg
+#   role: Graduate Student
+#   email: 
+#   website:
+#   number_educ: 0
 
-- name: Jiaqi Tan
-  photo: JiaqiTan.jpg
-  role: Graduate Student
-  email: 
-  website: https://christinatan0704.github.io/mysite/
-  number_educ: 0
+# - name: Jiaqi Tan
+#   photo: JiaqiTan.jpg
+#   role: Graduate Student
+#   email: 
+#   website: https://christinatan0704.github.io/mysite/
+#   number_educ: 0
 
-- name: Chengzhou Tang
-  photo: chengzhou.png
-  role: Graduate Student
-  email: 
-  website: https://sites.google.com/site/chengzhout/
-  number_educ: 0
+# - name: Chengzhou Tang
+#   photo: chengzhou.png
+#   role: Graduate Student
+#   email: 
+#   website: https://sites.google.com/site/chengzhout/
+#   number_educ: 0
 
 - name: Maham Tanveer
   photo: maham_tanveer.jpg
