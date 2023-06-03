@@ -1,6 +1,14 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Luwei Yang
+  graduation: 2023
+  text: Map & Localization Research Scientist @ TuSimple
+  photo: luwei.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
 - name: Sanjay Haresh
   graduation: 2023
   text: 
@@ -17,6 +25,22 @@
   website: 
   number_educ: 0
 
+- name: Reza Asad
+  graduation: 2022
+  text: Ph.D. student at Simon Fraser University
+  photo: reza_asad.png
+  role: Graduate Student
+  email: rasad@sfu.ca
+  website: https://reza-asad.github.io/
+  number_educ: 0
+- name: Sepidehsadat Hosseini
+  graduation: 2022
+  text: Machine Learning Researcher at MARZ
+  photo: SepidehsadatHosseini.jpeg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
 - name: Jiaqi Tan
   graduation: 2022
   text: PhD student at University of Simon Fraser University
@@ -25,7 +49,6 @@
   email: 
   website: https://christinatan0704.github.io/mysite/
   number_educ: 0
-
 - name: Yue Ruan
   graduation: 2022
   text: Software Development Engineer at Amazon

@@ -220,13 +220,6 @@
 #   website:
 #   number_educ: 0
 
-- name: Reza Asad
-  photo: reza_asad.png
-  role: Graduate Student
-  email: rasad@sfu.ca
-  website: https://reza-asad.github.io/
-  number_educ: 0
-
 - name: Linas Beresna
   photo: LinasBeresna.jpg
   role: Graduate Student
@@ -294,13 +287,6 @@
   role: Graduate Student
   email: sherath@sfu.ca
   website: https://scholar.google.ca/citations?user=SPoN53oAAAAJ&hl=en
-  number_educ: 0
-
-- name: Sepidehsadat Hosseini
-  photo: SepidehsadatHosseini.jpeg
-  role: Graduate Student
-  email: 
-  website: 
   number_educ: 0
 
 - name: S. Mahdi Hosseini M.
@@ -539,12 +525,6 @@
   website: https://santisy.github.io/
   number_educ: 0
 
-- name: Luwei Yang
-  photo: luwei.jpg
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
 
 #- name: Renjiao Yi
 #  photo: renjiao.png
