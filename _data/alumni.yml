@@ -84,10 +84,9 @@
   website: 
   number_educ: 0
 
-
 - name: Wallace Lira
   graduation: 2022
-  text: 
+  text: Research Engineer at Huawei Vancouver
   photo: WallaceLira.jpeg
   role: Graduate Student
   email: wpintoli@sfu.ca
@@ -121,14 +120,14 @@
   website: https://www.linkedin.com/in/yasaman-etesam
   number_educ: 0
 
-- name: Perry Deng
-  graduation: 2022
-  text: 
-  photo: PerryDeng.png
-  role: Graduate Student
-  email: 
-  website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
-  number_educ: 0
+# - name: Perry Deng
+#   graduation: 2022
+#   text: 
+#   photo: PerryDeng.png
+#   role: Graduate Student
+#   email: 
+#   website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
+#   number_educ: 0
 
 - name: Yiming Qian
   graduation: 2022
