@@ -1,15 +1,164 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Sanjay Haresh
+  graduation: 2023
+  text: 
+  photo: SanjayHaresh.jfif
+  role: Graduate Student
+  website: https://www.linkedin.com/in/sanjay-haresh/
+  number_educ: 0
+- name: Heng Li
+  graduation: 2023
+  text: Ph.D Candidate of ECE at HKUST
+  photo: hengli.png
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+
+- name: Jiaqi Tan
+  graduation: 2022
+  text: PhD student at University of Simon Fraser University
+  photo: JiaqiTan.jpg
+  role: Graduate Student
+  email: 
+  website: https://christinatan0704.github.io/mysite/
+  number_educ: 0
+
+- name: Yue Ruan
+  graduation: 2022
+  text: Software Development Engineer at Amazon
+  photo: YueRuan.jpg
+  role: Graduate Student
+  website: https://www.linkedin.com/in/yue-ruan-127a9a15b/
+  number_educ: 0
+
+- name: Jamal Rahim
+  graduation: 2022
+  text: 
+  photo: JamalRahim.png
+  role: Graduate Student
+  email: 
+  website: https://jrahim.github.io/
+  number_educ: 0  
+
+- name: Nelson Nauata
+  graduation: 2022
+  text: Video Machine Learning Engineer at Apple
+  photo: nauata.jpg
+  role: Graduate Student
+  email: 
+  website: http://www.sfu.ca/~nnauata/
+  number_educ: 0
+
+- name: Jon Liu
+  graduation: 2022
+  text: 
+  photo: jonliu.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+
+
+- name: Wallace Lira
+  graduation: 2022
+  text: 
+  photo: WallaceLira.jpeg
+  role: Graduate Student
+  email: wpintoli@sfu.ca
+  website: http://www.sfu.ca/~wpintoli/
+  number_educ: 0
+
+- name: Saghar Irandoust
+  graduation: 2022
+  text: Machine Learning Research Engineer at Borealis AI
+  photo: saghar.jpeg
+  role: Graduate Student
+  email:
+  website: https://www.linkedin.com/in/saghar-irandoust/
+  number_educ: 0
+
+- name: Ali Gholami
+  graduation: 2022
+  text: Senior Research Scientist @ Zippin
+  photo: AliGholami.jpg
+  role: Graduate Student
+  email:
+  website:
+  number_educ: 0
+
+- name: Yasaman Etesam
+  graduation: 2022
+  text: Ph.D. student at ROSIE Lab at Simon Fraser University
+  photo: YasamanEtesam.jpg
+  role: Graduate Student
+  email:
+  website: https://www.linkedin.com/in/yasaman-etesam
+  number_educ: 0
+
+- name: Perry Deng
+  graduation: 2022
+  text: 
+  photo: PerryDeng.png
+  role: Graduate Student
+  email: 
+  website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
+  number_educ: 0
+
 - name: Yiming Qian
   graduation: 2022
   text: Applied Scientist, Amazon
+
+
+- name: Kevin Joseph
+  graduation: 2021
+  text: Machine Learning Engineer at Weir Motion Metrics
+  photo: KevinJoseph.jpg
+  role: Graduate Student
+  email: 
+  website: https://www.linkedin.com/in/kevin-joseph-ab38b8a8
+  number_educ: 0
 - name: Madhawa Vidanapathirana
   graduation: 2021
   text: Software Development Engineer, Microsoft
 - name: Manyi Li
   graduation: 2021
   text: Associate Researcher, Shandong University, China 
+- name: Feitong Tan
+  graduation: 2021
+  text: Research Scientist at Google AR
+  photo: FeitongTan.jpg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+- name: Shimon Smith
+  graduation: 2021
+  text: 
+  photo: shimon_smith.jpg
+  role: Graduate Student
+  email: 
+  website:
+  number_educ: 0
+
+- name: Pyojin Kim
+  graduation: 2020
+  text: Assistant Professor at Sookmyung Women’s University, Seoul, Korea
+  photo: PyojinKim.png
+  role: Postdoc
+  email: 
+  website: https://mpil.sookmyung.ac.kr/people/
+  number_educ: 0
+- name: Mahsa Maleki Abyaneh
+  graduation: 2020
+  text: AI Research Engineer at LivingCities
+  photo: mahsa.jpg
+  role: Graduate Student
+  email: mahsa_maleki_abyaneh@sfu.ca
+  website:
+  number_educ: 0
 - name: Mohsen Kamalzadeh
   graduation: 2020
   text: UX Software Developer, AI@Unity
@@ -19,9 +168,18 @@
 - name: Xianggang Wang
   graduation: 2020
   text: Assistant Professor at Southeast University, China
+- name: Chengzhou Tang
+  graduation: 2020
+  text: Research scientist at Meta
+  photo: chengzhou.png
+  role: Graduate Student
+  email: 
+  website: https://sites.google.com/site/chengzhout/
+  number_educ: 0
 - name: Kangxue Yin
   graduation: 2020
   text: Research Scientist at NVIDIA
+
 - name: Renjiao Yi
   graduation: 2019
   text: Gruvi Alumni
