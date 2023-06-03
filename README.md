@@ -24,3 +24,7 @@ Email: haoz (at) sfu.ca
 
 Code is a Copyright of Allan Lab. Code released under the MIT License.
 
+# Usage
+
+There is two repos for the gruvi site. The currently active one is gruvilab.github.io (which is gruvi.ca). The old one is gruvi_site (which is gruvi.cs.sfu.ca).
+The textural data is stored in _data folder and images in images folder.
