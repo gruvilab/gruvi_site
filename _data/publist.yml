@@ -22,7 +22,7 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
-!include notion_publist.yml
+!include _data/notion_publist.yml
 
   
 - title: >-
