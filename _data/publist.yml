@@ -22,8 +22,16 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
-!include _data/notion_publist.yml
-
+- title: >-
+    Neural Marching Cubes
+  image: chen2021neural.png
+  description: >-
+  authors: Zhiqin Chen and Hao Zhang
+  venue: >-
+    SIGGRAPH Asia
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2106.11272.pdf
   
 - title: >-
     TM-NET: Deep Generative Networks for Textured Meshes
