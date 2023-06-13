@@ -28,3 +28,10 @@ Code is a Copyright of Allan Lab. Code released under the MIT License.
 
 There is two repos for the gruvi site. The currently active one is gruvilab.github.io (which is gruvi.ca). The old one is gruvi_site (which is gruvi.cs.sfu.ca).
 The textural data is stored in _data folder and images in images folder.
+
+To build the website locally for faster iteration (github auto CI's speed is slow due to heavy upload), you can use jekyll-docker. After you pulled the jekyll docker image, you can just run `bash docker_build.sh` to build the website and view the built site in `_site` folder. More information about jekyll-docker can be found [here](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
+
+## Update
+As of 2023-06-12, we adopt notion databases to store our new publication data. Notion databases is much easier to manage and very friendly for multi-user editing.
+The notion homepage for our website is [here](https://www.notion.so/yanxg/SFU-GrUVi-Website-Databases-052be593dbe246668fdb123b682debb8).
+Some scripts for fetching notion data to the website repo can be found in the `scripts` folder.
