@@ -23,7 +23,7 @@ permalink: /publications/
  <div class="well clearfix">
 
 
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;" />
+  <img src="/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;" />
 
 <pubtit>{{ publi.title }}</pubtit>
 <em>{{ publi.authors }}</em><br>
