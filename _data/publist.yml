@@ -1,5 +1,33 @@
 
 - title: >-
+    Realistic Saliency Guided Image Enhancement
+  image: 2023-06-14_59e4ea73-0aa4-4d38-8eb7-88a3428b942e.jpg
+  description: >-
+  authors: S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric Kee, Eli Shechtman, Yağız Aksoy
+  venue: >-
+    CVPR 2023
+  year: 2023
+  highlight: 1
+  pdf: http://yaksoy.github.io/realisticEditing/
+  project_page: http://yaksoy.github.io/realisticEditing/
+
+
+
+- title: >-
+    Computational Flash Photography through Intrinsics
+  image: 2023-06-14_6a1f6f77-f792-415f-a4b9-15a19cda6d15.jpg
+  description: >-
+  authors: Sepideh Sarajian Maralan, Chris Careaga, and Yağız Aksoy
+  venue: >-
+    CVPR 2023
+  year: 2023
+  highlight: 1
+  pdf: http://yaksoy.github.io/intrinsicFlash/
+  project_page: http://yaksoy.github.io/intrinsicFlash/
+
+
+
+- title: >-
     Emergence of Maps in the Memories of Blind Navigation Agents
   image: 2023-05-01_c08df0c7-8898-4d63-95ee-20e93f9f5b8f.jpg
   description: >-
@@ -154,20 +182,6 @@
 
 
 - title: >-
-    Computational Flash Photography through Intrinsics
-  image: 2023-04-01_6a1f6f77-f792-415f-a4b9-15a19cda6d15.jpg
-  description: >-
-  authors: Sepideh Sarajian Maralan, Chris Careaga, and Yağız Aksoy
-  venue: >-
-    CVPR 2023
-  year: 2023
-  highlight: 1
-  pdf: http://yaksoy.github.io/intrinsicFlash/
-  project_page: http://yaksoy.github.io/intrinsicFlash/
-
-
-
-- title: >-
     NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization
   image: 2023-04-01_73a510c5-02c6-4a27-9b9a-09e875390a45.jpg
   description: >-
@@ -178,6 +192,20 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2211.11177
   project_page: https://github.com/Tangshitao/NeuMap
+
+
+
+- title: >-
+    Vectorizing Building Blueprints
+  image: 2022-12-01_c9b9e48d-4f8c-48b8-ba80-17396fad3344.jpg
+  description: >-
+  authors: Weilian Song, Mahsa Maleki Abyaneh, Mohammad Amin Shabani, and Yasutaka Furukawa
+  venue: >-
+    ACCV 2022
+  year: 2022
+  highlight: 1
+  pdf: https://drive.google.com/file/d/1ASIAVhs0HeTiTdyHrEim2G4cF7PXCOs0/view
+  project_page: https://drive.google.com/file/d/1ASIAVhs0HeTiTdyHrEim2G4cF7PXCOs0/view
 
 
 
@@ -262,6 +290,34 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2207.04632
   project_page: https://samxuxiang.github.io/skexgen/index.html
+
+
+
+- title: >-
+    HEAT: Holistic Edge Attention Transformer for Structured Reconstruction
+  image: 2022-04-14_7d93afe8-9aea-4cba-b951-e14e6849e611.jpg
+  description: >-
+  authors: Jiacheng Chen, Yiming Qian, and Yasutaka Furukawa
+  venue: >-
+    CVPR 2022
+  year: 2022
+  highlight: 1
+  pdf: https://arxiv.org/abs/2111.15143
+  project_page: https://heat-structured-reconstruction.github.io/
+
+
+
+- title: >-
+    Single User WiFi Structure from Motion in the Wild
+  image: 2022-03-14_386b9443-f01c-4dbe-b712-18d7b1910e35.jpg
+  description: >-
+  authors: Yiming Qian, Hang Yan, Sachini Herath, Pyojin Kim, and Yasutaka Furukawa
+  venue: >-
+    ICRA 2022
+  year: 2022
+  highlight: 1
+  pdf: https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing
+  project_page: https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing
 
 
 
