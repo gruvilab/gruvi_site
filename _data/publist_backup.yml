@@ -1,3 +1,28 @@
+# To insert a new publication, please:
+# copy the form below;
+# paste it below;
+# remove # characters, which marks the start of a comment;
+# change contents accordingly
+#  if some variable (pdf,presentation,project_page,video,bibtex) does not exist, remove the corresponding line
+#  Please make sure to preserve the identation, as it is used to parse the file correctly. Also please notice that the characters >- are important to help us escape : and - characters, which are otherwise control characters for the parser.
+#
+#- title: >-
+#    Full title name
+#  image: publication_photo_name.{png,jpg}
+#  description: >-
+#    Full description text
+#  authors: A First, B Second, C Third
+#  venue: >-
+#    Full conference name
+#  year: yyyy
+#  highlight: 0 or 1
+#  pdf: https://www.google.ca/full_link_to_pdf_file
+#  presentation: ppt_file_name.ppt {the presentation should be uploaded directly to the presentations folder}
+#  project_page: https://www.google.ca/link_to_project_page
+#  video: https://www.youtube.com/link_to_youtube_video
+#  bibtex: https://www.sfu.ca/tex_file_name.bib
+
+
 
 - title: >-
     Emergence of Maps in the Memories of Blind Navigation Agents
@@ -293,30 +318,8 @@
 
 
 
- ################################# BELOW: MANUAL ENTRIES ################################# 
-# To insert a new publication, please:
-# copy the form below;
-# paste it below;
-# remove # characters, which marks the start of a comment;
-# change contents accordingly
-#  if some variable (pdf,presentation,project_page,video,bibtex) does not exist, remove the corresponding line
-#  Please make sure to preserve the identation, as it is used to parse the file correctly. Also please notice that the characters >- are important to help us escape : and - characters, which are otherwise control characters for the parser.
-#
-#- title: >-
-#    Full title name
-#  image: publication_photo_name.{png,jpg}
-#  description: >-
-#    Full description text
-#  authors: A First, B Second, C Third
-#  venue: >-
-#    Full conference name
-#  year: yyyy
-#  highlight: 0 or 1
-#  pdf: https://www.google.ca/full_link_to_pdf_file
-#  presentation: ppt_file_name.ppt {the presentation should be uploaded directly to the presentations folder}
-#  project_page: https://www.google.ca/link_to_project_page
-#  video: https://www.youtube.com/link_to_youtube_video
-#  bibtex: https://www.sfu.ca/tex_file_name.bib
+
+################################# BELOW: MANUAL ENTRIES #################################
 
 - title: >-
     Neural Marching Cubes
