@@ -427,12 +427,13 @@
   website: https://mehdi0xc.github.io
   number_educ: 0
 
-- name: Sepideh Sarajian Maralan
-  photo: sepideh.png
+- name: Sepidehsadat Hosseini
+  photo: SepidehsadatHosseini.jpeg
   role: Graduate Student
   email: 
-  website: http://sfu.ca/~ssarajia
+  website: https://sepidsh.github.io/
   number_educ: 0
+  group: Yasu 
 
 - name: Mohammad Shabani
   photo: MohammadShabani.jpeg
