@@ -196,6 +196,20 @@
 
 
 - title: >-
+    SAC-GAN: Structure-Aware Image Composition
+  image: 2022-12-05_555d2cb2-472e-4c25-bd27-ae0be3ea3524.png
+  description: >-
+  authors: Hang Zhou, Rui Ma, Lingxiao Zhang, Lin Gao, Ali Mahdavi-Amiri, and Hao Zhang
+  venue: >-
+    IEEE Transaction of Visualization and Computer Graphics
+  year: 2022
+  highlight: 1
+  pdf: https://arxiv.org/abs/2112.06596
+  project_page: https://arxiv.org/abs/2112.06596
+
+
+
+- title: >-
     Vectorizing Building Blueprints
   image: 2022-12-01_c9b9e48d-4f8c-48b8-ba80-17396fad3344.jpg
   description: >-
@@ -252,6 +266,20 @@
 
 
 - title: >-
+    Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps
+  image: 2022-10-01_4ba354c2-1b60-493d-97d3-1d9213f4c3df.jpg
+  description: >-
+  authors: M.Mahdavian, KangKang Yin, and Mo Chen
+  venue: >-
+    IEEE Robotics and Automation Letters
+  year: 2022
+  highlight: 1
+  pdf: https://arxiv.org/abs/2109.10445
+  project_page: https://arxiv.org/abs/2109.10445
+
+
+
+- title: >-
     Articulated 3D Human-Object Interactions from RGB Videos:An Empirical Analysis of Approaches and Challenges
   image: 2022-09-12_315625ea-6b60-4cf6-b1df-990c9c46a53b.png
   description: >-
@@ -262,6 +290,20 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2209.05612
   project_page: https://3dlg-hcvc.github.io/3dhoi/
+
+
+
+- title: >-
+    Learning to Use Chopsticks in Diverse Gripping Styles
+  image: 2022-07-30_d678f388-423a-436a-8fb4-e65ec066498c.jpg
+  description: >-
+  authors: Zeshi Yang, KangKang Yin, and Libin Liu
+  venue: >-
+    SIGGRAPH 2022
+  year: 2022
+  highlight: 1
+  pdf: https://arxiv.org/abs/2205.14313
+  project_page: https://github.com/chopsticks-research2022/learning2usechopsticks
 
 
 
@@ -308,6 +350,20 @@
 
 
 - title: >-
+    UNIST: Unpaired Neural Implicit Shape Translation Network
+  image: 2022-03-30_a0971bb6-97d2-4960-a91b-747093d53f8b.svg
+  description: >-
+  authors: Qimin Chen, Johannes Merz, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang
+  venue: >-
+    CVPR 2022
+  year: 2022
+  highlight: 1
+  pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_UNIST_Unpaired_Neural_Implicit_Shape_Translation_Network_CVPR_2022_paper.pdf
+  project_page: https://qiminchen.github.io/unist/
+
+
+
+- title: >-
     Single User WiFi Structure from Motion in the Wild
   image: 2022-03-14_386b9443-f01c-4dbe-b712-18d7b1910e35.jpg
   description: >-
@@ -346,6 +402,48 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2106.14405
   project_page: https://aihabitat.org/
+
+
+
+- title: >-
+    Multimodal Shape Completion via IMLE
+  image: 2021-06-30_772535f6-7463-4bd9-a12c-36c8030b9b9e.png
+  description: >-
+  authors: Himanshu Arora, Saurabh Mishra, Shichong Peng, Ke Li, Ali Mahdavi-Amiri
+  venue: >-
+    CVPR 2022
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/abs/2106.16237
+  project_page: https://arxiv.org/abs/2106.16237
+
+
+
+- title: >-
+    Discovering Diverse Athletic Jumping Strategies
+  image: 2021-05-02_87e25aef-ee38-4efe-ab82-5ad3b3edaebb.png
+  description: >-
+  authors: Zhiqi Yin, Zeshi Yang, Michiel van de Panne, KangKang Yin
+  venue: >-
+    SIGGRAPH 2021
+  year: 2021
+  highlight: 1
+  pdf: https://www.cs.sfu.ca/~kkyin/papers/Jump.pdf
+  project_page: https://arpspoof.github.io/project/jump/jump.html
+
+
+
+- title: >-
+    CAPRI-Net: Learning Compact CAD Shapes with Adaptive Primitive Assembly
+  image: 2021-04-12_8e49a3c8-3bc1-4910-ab61-559e02920f96.png
+  description: >-
+  authors: Fenggen Yu, Zhiqin Chen, Manyi Li, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang.
+  venue: >-
+    CVPR 2022
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2104.05652.pdf
+  project_page: https://fenggenyu.github.io/capri.html
 
 
 
