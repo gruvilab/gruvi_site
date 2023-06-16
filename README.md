@@ -36,3 +36,5 @@ As of 2023-06-12, we adopt notion databases to store our new publication data. N
 The notion homepage for our website is [here](https://www.notion.so/yanxg/SFU-GrUVi-Website-Databases-052be593dbe246668fdb123b682debb8).
 Some scripts for fetching notion data to the website repo can be found in the `scripts` folder.
 
+
+
