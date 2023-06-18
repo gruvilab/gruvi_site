@@ -255,6 +255,13 @@
   website:
   number_educ: 0
   
+- name: Obumneme Dukor
+  photo: obumneme.png
+  role: Graduate Student
+  email: 
+  website: https://www.stanleydukor.com/
+  number_educ: 0
+
 # - name: Yasaman Etesam
 #   photo: YasamanEtesam.jpg
 #   role: Graduate Student
