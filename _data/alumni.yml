@@ -9,6 +9,7 @@
   email: 
   website: 
   number_educ: 0
+
 - name: Sanjay Haresh
   graduation: 2023
   text: Gruvi Alumni
@@ -33,14 +34,28 @@
   email: rasad@sfu.ca
   website: https://reza-asad.github.io/
   number_educ: 0
-- name: Sepidehsadat Hosseini
+
+
+- name: Sepideh Sarajian Maralan
   graduation: 2022
   text: Machine Learning Researcher at MARZ
-  photo: SepidehsadatHosseini.jpeg
+  photo: sepideh.jpeg
   role: Graduate Student
   email: 
   website: 
   number_educ: 0
+  group: Yagiz 
+
+- name: Mahesh Kumar Krishna Reddy
+  graduation: 2022
+  text: Senior Engineer at Qualcomm AI Research
+  photo: MaheshKumarKrishnaReddy.jpeg
+  role: Graduate Student
+  email:
+  website: https://www.linkedin.com/in/mahesh-kumar-krishna-reddy-9b0b0a1a/
+  number_educ: 0
+  group: Yagiz
+
 - name: Jiaqi Tan
   graduation: 2022
   text: PhD student at Simon Fraser University
