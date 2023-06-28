@@ -248,11 +248,18 @@
 #   website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
 #   number_educ: 0
   
+- name: Chris Careaga
+  photo: chris_careaga.jpg
+  role: Graduate Student
+  email:
+  website: https://ccareaga.github.io/
+  number_educ: 0
+
 - name: Sebastian Dille
   photo: SebastianDille3x4.jpg
   role: Graduate Student
   email:
-  website:
+  website: https://sebastian-dille.github.io/
   number_educ: 0
   
 - name: Obumneme Dukor
