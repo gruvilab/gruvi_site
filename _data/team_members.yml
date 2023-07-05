@@ -455,6 +455,13 @@
   email: mshabani@sfu.ca
   website:
   number_educ: 0
+
+- name: Ahan Shabanov
+  photo: ahan_shabanov.jpg
+  role: Graduate Student
+  email: sha.ahan10@gmail.com
+  website: https://ahanio.github.io
+  number_educ: 0
   
 - name: Rakesh Shrestha
   photo: rakesh.jpg
