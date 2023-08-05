@@ -1,5 +1,47 @@
 
 - title: >-
+    Learning Physically Simulated Tennis Skills from Broadcast Videos
+  image: 2023-07-01_fd9e8fb3-ecc3-4c62-abb8-631e62ebd6e1.png
+  description: >-
+  authors: Haotian Zhang, Ye Yuan, Viktor Makoviychuk, Yunrong Guo, Sanja Fidler, Xue Bin Peng, Kayvon Fatahalian
+  venue: >-
+    SIGGRAPH 2023
+  year: 2023
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/Vid2Player3D/2023_TOG_Vid2Player3D.pdf
+  project_page: https://xbpeng.github.io/projects/Vid2Player3D/index.html
+
+
+
+- title: >-
+    Synthesizing Physical Character-Scene Interactions
+  image: 2023-07-01_d34f0d36-07ec-4c96-a246-3213aa65f9e0.png
+  description: >-
+  authors: Mohamed Hassan, Yunrong Guo, Tingwu Wang, Michael Black, Sanja Fidler, Xue Bin Peng
+  venue: >-
+    SIGGRAPH 2023
+  year: 2023
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/CALM/2023_SIGGRAPH_CALM.pdf
+  project_page: https://xbpeng.github.io/projects/CALM/index.html
+
+
+
+- title: >-
+    CALM: Conditional Adversarial Latent Models for Directable Virtual Characters
+  image: 2023-07-01_2a5a8d54-c945-4a54-bc8f-ea9130197bc3.png
+  description: >-
+  authors: Chen Tessler, Yoni Kasten, Yunrong Guo, Shie Mannor, Gal Chechik, Xue Bin Peng
+  venue: >-
+    SIGGRAPH 2023
+  year: 2023
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/CALM/2023_SIGGRAPH_CALM.pdf
+  project_page: https://xbpeng.github.io/projects/CALM/index.html
+
+
+
+- title: >-
     Realistic Saliency Guided Image Enhancement
   image: 2023-06-14_59e4ea73-0aa4-4d38-8eb7-88a3428b942e.jpg
   description: >-
@@ -48,10 +90,10 @@
   description: >-
   authors: Xiang Xu, Pradeep Kumar Jayaraman, Joseph G. Lambourne, Karl D.D. Willis, Yasutaka Furukawa
   venue: >-
-    ICML 2023
+    ICML
   year: 2023
   highlight: 1
-  pdf: https://hnc-cad.github.io/static/paper/upload.pdfhttps://hnc-cad.github.io/
+  pdf: https://hnc-cad.github.io/static/paper/upload.pdf
   project_page: https://hnc-cad.github.io/
 
 
@@ -328,7 +370,7 @@
   description: >-
   authors: Xiang Xu, Karl Willis, Joseph Lambourne, Chin-Yi Cheng, Pradeep Kumar Jayaraman, and Yasutaka Furukawa
   venue: >-
-    ICML 2022
+    ICML
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2207.04632
