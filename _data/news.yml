@@ -12,7 +12,7 @@
 #  image: news_1.PNG
 - date: August 4, 2023
   headline: >-
-    Prof. Jason Peng at SIGGRAPH 2023: A Trilogy in Virtual Character Research
+    A Trilogy of Character Animation Research in SIGGRAPH 2023
   text: >-
     We are proud to highlight that three of Prof. Jason Peng&#39;s research papers will be presented in the upcoming SIGGRAPH 2023. These papers mark advances in physics-based character animation.</p> <p>Below are titles and links to the related project pages:</p> <p>Learning Physically Simulated Tennis Skills from Broadcast Videos <a href="https://xbpeng.github.io/projects/Vid2Player3D/index.html">https://xbpeng.github.io/projects/Vid2Player3D/index.html</a></p> <p>Synthesizing Physical Character-Scene Interactions <a href="https://xbpeng.github.io/projects/InterPhys/index.html">https://xbpeng.github.io/projects/InterPhys/index.html</a></p> <p>CALM: Conditional Adversarial Latent Models for Directable Virtual Characters <a href="https://xbpeng.github.io/projects/CALM/index.html">https://xbpeng.github.io/projects/CALM/index.html</a></p> <p>Note: The SIGGRAPH conference, short for Special Interest Group on Computer GRAPHics and Interactive Techniques, is the world&#39;s premier annual event for showcasing the latest innovations in computer graphics and interactive techniques. It brings together researchers, artists, developers, filmmakers, scientists, and business professionals from around the globe. The conference offers a unique blend of educational sessions, hands-on workshops, and exhibitions of cutting-edge technology and applications.
   highlight: 1
