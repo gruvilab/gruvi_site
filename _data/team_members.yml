@@ -427,6 +427,13 @@
   website: https://juliahread.com/
   number_educ: 0
 
+- name: Cody Reading
+  photo: codyreading.jpeg
+  role: Graduate Student
+  email:
+  website: https://codyreading.github.io/
+  number_educ: 0
+
 - name: Sonia Raychaudhuri
   photo: SoniaRaychaudhuri.jpg
   role: Graduate Student
@@ -511,6 +518,13 @@
 #   website: https://sites.google.com/site/chengzhout/
 #   number_educ: 0
 
+- name: Maria Taktasheva
+  photo: maria.png
+  role: Graduate Student
+  email: 
+  website: https://dblp.org/pid/244/2434.html
+  number_educ: 0
+
 - name: Maham Tanveer
   photo: maham_tanveer.jpg
   role: Graduate Student
@@ -537,6 +551,13 @@
   role: Graduate Student
   email: ruiqi_w@sfu.ca
   website: https://suikei-wang.github.io/
+  number_educ: 0
+
+- name: Yuefan Wu
+  photo: yuefan.jpg
+  role: Graduate Student
+  email: 
+  website: https://ivenwu.com/
   number_educ: 0
   
 - name: Xiang Xu
