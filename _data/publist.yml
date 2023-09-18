@@ -1,5 +1,75 @@
 
 - title: >-
+    HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling
+  image: 2023-10-02_97a335a8-5de9-4af8-97fe-b8cdbbc02c06.png
+  description: >-
+  authors: Fenggen Yu, Yiming Qian, Francisca Gil-Ureta, Brian Jackson, Eric Bennett, and Hao Zhang
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2301.10460
+  project_page: https://arxiv.org/abs/2301.10460
+
+
+
+- title: >-
+    PARIS: Part-level Reconstruction and Motion Analysis for Articulated Objects
+  image: 2023-10-02_c34ba525-ac8d-4b9b-91e7-d412e7fce348.png
+  description: >-
+  authors: Jiayi Liu, Ali Mahdavi-Amiri, Manolis Savva
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2303.10735
+  project_page: https://3dlg-hcvc.github.io/paris/
+
+
+
+- title: >-
+    SKED: Sketch-guided Text-based 3D Editing
+  image: 2023-10-02_76c3667b-3a91-4d35-94e6-0d33b0b6a293.png
+  description: >-
+  authors: Aryan Mikaeili, Or Perel, Mehdi Safaee, Daniel Cohen-Or, Ali Mahdavi-Amiri
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2303.10735v3
+  project_page: https://sked-paper.github.io/
+
+
+
+- title: >-
+    DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion
+  image: 2023-10-02_40055d39-bb6d-44ea-8d68-453f503ef32d.png
+  description: >-
+  authors: Maham Tanveer, Yizhi Wang, Ali Mahdavi-Amiri, Hao Zhang
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://ds-fusion.github.io/
+  project_page: https://ds-fusion.github.io/
+
+
+
+- title: >-
+    Multi3DRefer: Grounding Text Description to Multiple 3D Objects
+  image: 2023-10-02_770d6d8f-f95b-46d8-8cab-db33928836de.jpg
+  description: >-
+  authors: Yiming Zhang, ZeMing Gong, Angel X. Chang
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2309.05251
+  project_page: https://3dlg-hcvc.github.io/multi3drefer/
+
+
+
+- title: >-
     Learning Physically Simulated Tennis Skills from Broadcast Videos
   image: 2023-07-01_fd9e8fb3-ecc3-4c62-abb8-631e62ebd6e1.png
   description: >-
@@ -90,11 +160,12 @@
   description: >-
   authors: Xiang Xu, Pradeep Kumar Jayaraman, Joseph G. Lambourne, Karl D.D. Willis, Yasutaka Furukawa
   venue: >-
-    ICML
+    ICML 2023
   year: 2023
   highlight: 1
-  pdf: https://hnc-cad.github.io/static/paper/upload.pdf
+  pdf: https://arxiv.org/pdf/2307.00149.pdf
   project_page: https://hnc-cad.github.io/
+  video: https://www.youtube.com/watch?v=1XVUJIKioO4
 
 
 
