@@ -10,6 +10,23 @@
 #    Op dit plein stond het hoofdkantoor van de NIROM: Nederlands Indische Radio Omroep
 #  highlight: 1
 #  image: news_1.PNG
+
+- date: September 18, 2023
+  headline: >-
+    ICCV 2023: Spotlight on GruVI Lab
+  text: >-
+    ICCV, the premier conference on computer vision, will be held in <strong>Paris</strong> this year (Oct 2-6). GrUVi lab will once again have a good show at ICCV, with <a href="https://gruvi.ca/publications/">5 technical papers</a>, 3 co-organized workshops! Also, Prof. Yasutaka Furukawa serves as a program chair for this year’s ICCV!</p> <p>The 5 papers are: </p> <p>Multi3DRefer: Grounding Text Description to Multiple 3D Objects DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion SKED: Sketch-guided Text-based 3D Editing PARIS: Part-level Reconstruction and Motion Analysis for Articulated Objects HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling</p> <p>Congrats for the authors!</p> <p>As for the workshops, Prof. Richard Zhang co-organizes the <strong><a href="https://3dv-in-ecommerce.github.io/">3D Vision and Modeling Challenges in eCommerce</a>,</strong> Prof. Angel Chang co-organizes the <strong><a href="https://languagefor3dscenes.github.io/ICCV2023/">3rd Workshop on Language for 3D Scenes</a></strong> and <a href="https://iccv-clvl.github.io/2023/"><strong>CLVL: 5th Workshop on Closing the Loop between Vision and Language.</strong></a>
+  highlight: 1
+  image: iccv23_logo.png
+
+- date: June 26, 2023
+  headline: >-
+    Talk by Mikaela Uy from Stanford 
+  text: >-
+    The recording is available at this <a href="https://stream.sfu.ca/Media/Play/17d663a3fe654ee3a40d88adb85f456e1d">link</a>.</p> <p><strong>Title</strong>: Towards Controllable 3D Content Creation by leveraging Geometric Priors</p> <p><strong>Abstract</strong>: The growing popularity for extended realities pushes the demand for the automatic creation and synthesis of new 3D content that would otherwise be a tedious and laborious process. A key property needed to make 3D content creation useful is <strong>user controllability</strong> as it allows one to realize specific ideas. User-control can be of various forms, e.g. target scans, input images or programmatic edits etc. In this talk, I will be touching works that enable user-control through i) object parts and ii) sparse scene images by leveraging geometric priors. The former utilizes object semantic priors by proposing a novel shape space factorization through an introduced cross diffusion network that enabled multiple applications in both shape generation and editing. The latter leverages pretrained models of large 2D datasets for sparse view 3D NeRF reconstruction of scenes by learning a distribution of geometry represented as ambiguity-aware depth estimates. As an add-on, we will also briefly revisit the volume rendering equation in NeRFs and reformulate it to piecewise linear density that alleviates underlying issues caused by quadrature instability.</p> <p><strong>Bio:</strong> Mika is a fourth year PhD student at Stanford advised by Leo Guibas. Her research focuses on the representation and generation of objects/scenes for user-controllable 3D content creation. She was a research intern at Adobe, Autodesk and now, Google, and is generously supported by Apple AI/ML PhD Fellowship and Snap Research Fellowship.
+  highlight: 1
+  image: mikauy_talk.png
+
 - date: August 4, 2023
   headline: >-
     A Trilogy of Character Animation Research in SIGGRAPH 2023
@@ -64,7 +81,7 @@
     Prof. Tagliasacchi Co-Chairs 3DV 2024: Papers Invitation Open
   text: >-
     We are thrilled to share that Prof. <a href="https://taiya.github.io/">Andrea Tagliasacchi</a> will serve as co-chair for the International Conference on 3D Vision (3DV) 2024, alongside Prof. Siyu Tang from ETH and Federico Tombari from Google. Smaller conferences like 3DV play a vital role in fostering lasting networks within the research community, and 3DV 2024 promises to be an exciting opportunity for this.</p> <p>Furthermore, the call for papers for 3DV 2024 is now officially open. The conference will take place in the beautiful location of Davos, Switzerland, where World Economic Forum is annually held there. Researchers are encouraged to submit their papers by July 31st. For additional details, please visit the conference website at <strong><a href="https://3dvconf.github.io/2024/call-for-papers/">https://3dvconf.github.io/2024/call-for-papers/</a></strong>. Don&#39;t miss this incredible chance to share your research with the international community at 3DV 2024!
-  highlight: 1
+  highlight: 0
   image: taiya_3dv.png
   
 - date: April 18, 2023
@@ -72,7 +89,7 @@
     Talk by Karsten Kreis from NVIDIA
   text: >-
      Record link is <a href="https://stream.sfu.ca/Media/Channel/4b63668f57a046589246cf6c0c8eb2d05f">here</a></p><p><strong>Title</strong>: Diffusion Models: From Foundations to Image, Video and 3D Content Creation</p><p><strong>Abstract</strong>: Denoising diffusion-based generative models have led to multiple breakthroughs in deep generative learning. In this talk, I will provide an overview over recent works by the NVIDIA Toronto AI Lab on diffusion models and their applications for digital content creation. I will start with a short introduction of diffusion models and recapitulate their mathematical formulation. Then, I will briefly discuss our foundational works on diffusion models, which includes advanced diffusion processes for faster and smoother diffusion and denoising, techniques for more efficient model sampling, as well as latent space diffusion models, a flexible diffusion model framework that has been widely used in the literature. Moreover, I will discuss works that use diffusion models for image, video and 3D content creation. This includes large text-to-image models as well as recent work on high resolution video synthesis with latent diffusion models. I will also summarize some of our efforts on 3D generative modeling. This includes object-centric 3D synthesis by training diffusion models on geometric shape datasets or leveraging large-scale text-to-image diffusion models as priors for shape distillation, as well as full scene-level generation with hierarchical latent diffusion models.</p><p><strong>Bio</strong>: Karsten Kreis is a senior research scientist at NVIDIA’s Toronto AI Lab. Prior to joining NVIDIA, he worked on deep generative modeling at D-Wave Systems and co-founded Variational AI, a startup utilizing generative models for drug discovery. Before switching to deep learning, Karsten did his M.Sc. in quantum information theory at the Max Planck Institute for the Science of Light and his Ph.D. in computational and statistical physics at the Max Planck Institute for Polymer Research. Currently, Karsten’s research focuses on developing novel generative learning methods and on applying deep generative models on problems in areas such as computer vision, graphics and digital artistry, as well as in the natural sciences.
-  highlight: 1
+  highlight: 0
   image: talk_karsten.jpg
   
 - date: April 1, 2023
