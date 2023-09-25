@@ -1,5 +1,19 @@
 
 - title: >-
+    UniT3D: A Unified Transformer for 3D Dense Captioning and Visual Grounding
+  image: 2023-10-02_96b1c296-9893-4784-801a-f0daed0f43ef.jpg
+  description: >-
+  authors: Dave Zhenyu Chen, Ronghang Hu, Xinlei Chen, Matthias Nießner, Angel X. Chang
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2212.00836
+  project_page: https://arxiv.org/abs/2212.00836
+
+
+
+- title: >-
     HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling
   image: 2023-10-02_97a335a8-5de9-4af8-97fe-b8cdbbc02c06.png
   description: >-
