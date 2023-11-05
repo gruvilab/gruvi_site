@@ -16,7 +16,7 @@ class Updater():
         self.people_database_id = '778b56a297cc4fd7b45d8f40c3d4e1cb'
         self.key = "secret_dhDJCxIGksOzhxiKis5UfH8VWA6JXTnF5T44BANarrG"
         self.headers = {"Authorization":self.key, "Notion-Version":"2022-06-28", "Content-Type":"application/json"}
-    def update_publication(self):
+    def update_publication(self, download_thumbnails=True):
         query_url = self.base_url+self.publication_database_id+"/query"
         print("query_url:", query_url)
         filter_rule={}
@@ -27,14 +27,15 @@ class Updater():
         df = pd.DataFrame(datalist)
         df.to_csv("db_bak_publist.csv")
 
-        all_str = convertPub2gruvi(datalist, download_thumbnails=True)
+        all_str = convertPub2gruvi(datalist, download_thumbnails=download_thumbnails)
         with open("../_data/old_manual_publist_stopped_at_2021.yml", "r") as f:
             old_str = f.read()
         with open("../_data/publist.yml", "w") as f:
             f.write(all_str + "\n ################################# BELOW: MANUAL ENTRIES ################################# \n" \
                     + old_str)
         print(all_str)
-    def update_news(self):
+    def update_news(self): # Still need some effort to make it work.
+        # The most challenging part is to parse the rich text, and turn it into markdown. Also need to download the images.
         query_url = os.path.join(self.base_url, self.news_database_id, "query")
         print("query_url:", query_url)
         filter_rule={}
@@ -123,6 +124,7 @@ def convertPub2gruvi(datalist, download_thumbnails=True):
     {title}
   image: {thumb_name}
   description: >-
+    
   authors: {authors}
   venue: >-
     {venue}
@@ -143,5 +145,5 @@ def convertPub2gruvi(datalist, download_thumbnails=True):
 #%%
 if __name__ == "__main__":
     updater = Updater()
-    #updater.update_publication()
-    updater.update_news()
+    updater.update_publication(download_thumbnails=False)
+    #updater.update_news()
