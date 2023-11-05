@@ -1,5 +1,203 @@
 
 - title: >-
+    Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects
+  image: 2024-03-18_6ba78a9f-244d-494e-b4e7-299a9dda8692.png
+  description: >-
+  authors: Qirui Wu, Daniel Ritchie, Manolis Savva, Angel X Chang
+  venue: >-
+    3DV 2024
+  year: 2024
+  highlight: 1
+  pdf: 
+  project_page: 
+
+
+
+- title: >-
+    OPDMulti: Openable Part Detection for Multiple Objects
+  image: 2024-03-18_99d34d16-28ec-4ada-abee-307b42832af2.png
+  description: >-
+  authors: Xiaohao Sun*, Hanxiao Jiang*, Manolis Savva, Angel X Chang
+  venue: >-
+    3DV 2024
+  year: 2024
+  highlight: 1
+  pdf: https://arxiv.org/abs/2303.14087
+  project_page: https://3dlg-hcvc.github.io/OPDMulti/
+
+
+
+- title: >-
+    ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering
+  image: 2023-12-12_af27631d-4936-4a32-b742-dca9d9379a50.png
+  description: >-
+  authors: Qimin Chen, Zhiqin Chen, Hang Zhou, Hao Zhang
+  venue: >-
+    SIGGRAPH Asia 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2306.04889
+  project_page: https://qiminchen.github.io/shaddr/
+
+
+
+- title: >-
+    DiViNeT: 3D Reconstruction from Disparate Views via Neural Template Regularization
+  image: 2023-12-10_8fcbf0dc-f008-47d3-9190-245544f99ad3.png
+  description: >-
+  authors: Aditya Vora, Akshay Gadi Patil, Hao (Richard) Zhang
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2306.04699
+  project_page: https://aditya-vora.github.io/divinetpp/
+
+
+
+- title: >-
+    
+  image: 2023-12-10_a6aec9d2-5b4e-485c-b437-baa336078736.png
+  description: >-
+  authors: Jiacheng Chen, Ruizhi Deng, Yasutaka Furukawa
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2306.01461
+  project_page: https://poly-diffuse.github.io/
+
+
+
+- title: >-
+    MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion
+  image: 2023-12-10_52024903-b5ec-47c0-83bf-a5f65531d5f8.png
+  description: >-
+  authors: Shitao Tang*, Fuyang Zhang*, Jiacheng Chen, Peng Wang, Yasutaka Furukawa
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2307.01097
+  project_page: https://mvdiffusion.github.io/
+
+
+
+- title: >-
+    Neural Fields with Hard Constraints of Arbitrary Differential Order
+  image: 2023-12-10_e465f55d-74c4-42c4-bb93-c056ef05e56a.jpg
+  description: >-
+  authors: Fangcheng Zhong, Kyle Fogarty, Param Hanji, Tianhao Wu, Alejandro Sztrajman, Andrew Spielberg, Andrea Tagliasacchi, Petra Bosilj, Cengiz Oztireli
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2306.08943
+  project_page: https://arxiv.org/abs/2306.08943
+
+
+
+- title: >-
+    Unsupervised Semantic Correspondence Using Stable Diffusion
+  image: 2023-12-10_e40d79ba-70ee-4aee-86a4-023047c0b26d.jpg
+  description: >-
+  authors: Eric Hedlin, Gopal Sharma, Shweta Mahajan, Hossam Isack, Abhishek Kar, Andrea Tagliasacchi, Kwang Moo Yi
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2305.15581
+  project_page: https://ubc-vision.github.io/LDM_correspondences/
+
+
+
+- title: >-
+    A Step Towards Worldwide Biodiversity Assessment: The BIOSCAN-1M Insect Dataset
+  image: 2023-12-10_062f2450-a093-4a1d-afc7-127b9ff2af39.png
+  description: >-
+  authors: Zahra Gharaee, Zeming Gong, Nicholas Pellegrino, Iuliia Zarubiieva, Joakim Bruslund Haurum, Scott C Lowe, Jaclyn TA McKeown, Chris CY Ho, Joschka McLeod, Yi-Yun C Wei, Jireh Agda, Sujeevan Ratnasingham, Dirk Steinke, Angel X. Chang, Graham W Taylor, Paul Fieguth
+  venue: >-
+    NeurIPS Datasets and Benchmarks Track 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2307.10455
+  project_page: https://biodiversitygenomics.net/1M_insects/
+
+
+
+- title: >-
+    PAPR: Proximity Attention Point Rendering
+  image: 2023-12-10_b595d4de-624c-430c-a679-0429d50269dc.png
+  description: >-
+  authors: Yanshu Zhang*, Shichong Peng*, Seyed Alireza Moazenipourasil, Ke Li
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2307.11086
+  project_page: https://zvict.github.io/papr/
+
+
+
+- title: >-
+    PuzzleFusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving
+  image: 2023-12-10_e9f11fd2-9460-41d8-8179-5cd059dcdb98.png
+  description: >-
+  authors: Sepidehsadat Hosseini, Mohammad Amin Shabani, Saghar Irandoust∗
+, Yasutaka Furukawa
+  venue: >-
+    NeurIPS 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2211.13785v2.pdf
+  project_page: https://github.com/sepidsh/PuzzleFussion
+
+
+
+- title: >-
+    Floorplan Restoration by Structure Hallucinating Transformer Cascades
+  image: 2023-11-20_10ad0ead-0668-44d3-8be8-e1627048574a.png
+  description: >-
+  authors: Sepidehsadat Hosseini, Yasutaka Furukawa
+  venue: >-
+    BMVC 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2206.00645.pdf
+  project_page: https://sepidsh.github.io/floorplan_restore/
+
+
+
+- title: >-
+    HomeRobot: Open Vocabulary Mobile Manipulation
+  image: 2023-11-06_1b12c251-91ff-4e6d-9098-46e325abba8f.jpeg
+  description: >-
+  authors: Sriram Yenamandra, Arun Ramachandran, Karmesh Yadav, Austin Wang, Mukul Khanna, Theo Gervet, Tsung-Yen Yang, Vidhi Jain, Alexander William Clegg, John Turner, Zsolt Kira, Manolis Savva, Angel X. Chang, Devendra Chaplot, Dhruv Batra, Roozbeh Mottaghi, Yonatan Bisk, Chris Paxton
+  venue: >-
+    CoRL 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2306.11565
+  project_page: https://ovmm.github.io/
+  video: https://www.youtube.com/watch?v=EA8HEzopkc0
+
+
+
+- title: >-
+    Exploiting Proximity-Aware Tasks for Embodied Social Navigation
+  image: 2023-10-02_cdc1a96a-7fa0-4e3b-8f2b-4ba676ac8d73.png
+  description: >-
+  authors: Enrico Cancelli, Tommaso Campari, Luciano Serafini, Angel X. Chang, Lamberto Ballan
+  venue: >-
+    ICCV 2023
+  year: 2023
+  highlight: 1
+  pdf: https://arxiv.org/abs/2212.00767
+  project_page: https://arxiv.org/abs/2212.00767
+
+
+
+- title: >-
     UniT3D: A Unified Transformer for 3D Dense Captioning and Visual Grounding
   image: 2023-10-02_96b1c296-9893-4784-801a-f0daed0f43ef.jpg
   description: >-
@@ -151,6 +349,21 @@
   highlight: 1
   pdf: http://yaksoy.github.io/intrinsicFlash/
   project_page: http://yaksoy.github.io/intrinsicFlash/
+
+
+
+- title: >-
+    Adaptive IMLE for Few-shot Pretraining-free Generative Modelling
+  image: 2023-05-01_2ff4a77a-2833-429c-b89c-3c0c2873aeae.png
+  description: >-
+  authors: Mehran Aghabozorgi, Shichong Peng, Ke Li
+  venue: >-
+    ICLR 2023
+  year: 2023
+  highlight: 1
+  pdf: https://openreview.net/pdf?id=CNq0JvrDfw
+  project_page: https://mehranagh20.github.io/AdaIMLE/
+  video: https://youtu.be/xKt6YYY4hq8
 
 
 
@@ -362,6 +575,21 @@
   highlight: 1
   pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/3b3a83a5d86e1d424daefed43d998079-Paper-Conference.pdf
   project_page: https://3dlg-hcvc.github.io/multiscan/
+
+
+
+- title: >-
+    CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis
+  image: 2022-11-28_62603cb1-eb87-4492-9360-62a4f88afdc3.gif
+  description: >-
+  authors: Shichong Peng, Alireza Moazeni, Ke Li
+  venue: >-
+    NeurIPS 2022
+  year: 2022
+  highlight: 1
+  pdf: https://arxiv.org/abs/2211.14286
+  project_page: https://niopeng.github.io/CHIMLE/
+  video: https://www.youtube.com/watch?v=plgPL3XyzRg
 
 
 
