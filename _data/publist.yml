@@ -3,6 +3,7 @@
     Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects
   image: 2024-03-18_6ba78a9f-244d-494e-b4e7-299a9dda8692.png
   description: >-
+    
   authors: Qirui Wu, Daniel Ritchie, Manolis Savva, Angel X Chang
   venue: >-
     3DV 2024
@@ -17,6 +18,7 @@
     OPDMulti: Openable Part Detection for Multiple Objects
   image: 2024-03-18_99d34d16-28ec-4ada-abee-307b42832af2.png
   description: >-
+    
   authors: Xiaohao Sun*, Hanxiao Jiang*, Manolis Savva, Angel X Chang
   venue: >-
     3DV 2024
@@ -31,6 +33,7 @@
     ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering
   image: 2023-12-12_af27631d-4936-4a32-b742-dca9d9379a50.png
   description: >-
+    
   authors: Qimin Chen, Zhiqin Chen, Hang Zhou, Hao Zhang
   venue: >-
     SIGGRAPH Asia 2023
@@ -45,6 +48,7 @@
     DiViNeT: 3D Reconstruction from Disparate Views via Neural Template Regularization
   image: 2023-12-10_8fcbf0dc-f008-47d3-9190-245544f99ad3.png
   description: >-
+    
   authors: Aditya Vora, Akshay Gadi Patil, Hao (Richard) Zhang
   venue: >-
     NeurIPS 2023
@@ -59,6 +63,7 @@
     
   image: 2023-12-10_a6aec9d2-5b4e-485c-b437-baa336078736.png
   description: >-
+    
   authors: Jiacheng Chen, Ruizhi Deng, Yasutaka Furukawa
   venue: >-
     NeurIPS 2023
@@ -73,6 +78,7 @@
     MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion
   image: 2023-12-10_52024903-b5ec-47c0-83bf-a5f65531d5f8.png
   description: >-
+    
   authors: Shitao Tang*, Fuyang Zhang*, Jiacheng Chen, Peng Wang, Yasutaka Furukawa
   venue: >-
     NeurIPS 2023
@@ -87,6 +93,7 @@
     Neural Fields with Hard Constraints of Arbitrary Differential Order
   image: 2023-12-10_e465f55d-74c4-42c4-bb93-c056ef05e56a.jpg
   description: >-
+    
   authors: Fangcheng Zhong, Kyle Fogarty, Param Hanji, Tianhao Wu, Alejandro Sztrajman, Andrew Spielberg, Andrea Tagliasacchi, Petra Bosilj, Cengiz Oztireli
   venue: >-
     NeurIPS 2023
@@ -101,6 +108,7 @@
     Unsupervised Semantic Correspondence Using Stable Diffusion
   image: 2023-12-10_e40d79ba-70ee-4aee-86a4-023047c0b26d.jpg
   description: >-
+    
   authors: Eric Hedlin, Gopal Sharma, Shweta Mahajan, Hossam Isack, Abhishek Kar, Andrea Tagliasacchi, Kwang Moo Yi
   venue: >-
     NeurIPS 2023
@@ -115,6 +123,7 @@
     A Step Towards Worldwide Biodiversity Assessment: The BIOSCAN-1M Insect Dataset
   image: 2023-12-10_062f2450-a093-4a1d-afc7-127b9ff2af39.png
   description: >-
+    
   authors: Zahra Gharaee, Zeming Gong, Nicholas Pellegrino, Iuliia Zarubiieva, Joakim Bruslund Haurum, Scott C Lowe, Jaclyn TA McKeown, Chris CY Ho, Joschka McLeod, Yi-Yun C Wei, Jireh Agda, Sujeevan Ratnasingham, Dirk Steinke, Angel X. Chang, Graham W Taylor, Paul Fieguth
   venue: >-
     NeurIPS Datasets and Benchmarks Track 2023
@@ -129,6 +138,7 @@
     PAPR: Proximity Attention Point Rendering
   image: 2023-12-10_b595d4de-624c-430c-a679-0429d50269dc.png
   description: >-
+    
   authors: Yanshu Zhang*, Shichong Peng*, Seyed Alireza Moazenipourasil, Ke Li
   venue: >-
     NeurIPS 2023
@@ -143,6 +153,7 @@
     PuzzleFusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving
   image: 2023-12-10_e9f11fd2-9460-41d8-8179-5cd059dcdb98.png
   description: >-
+    
   authors: Sepidehsadat Hosseini, Mohammad Amin Shabani, Saghar Irandoust∗
 , Yasutaka Furukawa
   venue: >-
@@ -158,6 +169,7 @@
     Floorplan Restoration by Structure Hallucinating Transformer Cascades
   image: 2023-11-20_10ad0ead-0668-44d3-8be8-e1627048574a.png
   description: >-
+    
   authors: Sepidehsadat Hosseini, Yasutaka Furukawa
   venue: >-
     BMVC 2023
@@ -172,6 +184,7 @@
     HomeRobot: Open Vocabulary Mobile Manipulation
   image: 2023-11-06_1b12c251-91ff-4e6d-9098-46e325abba8f.jpeg
   description: >-
+    
   authors: Sriram Yenamandra, Arun Ramachandran, Karmesh Yadav, Austin Wang, Mukul Khanna, Theo Gervet, Tsung-Yen Yang, Vidhi Jain, Alexander William Clegg, John Turner, Zsolt Kira, Manolis Savva, Angel X. Chang, Devendra Chaplot, Dhruv Batra, Roozbeh Mottaghi, Yonatan Bisk, Chris Paxton
   venue: >-
     CoRL 2023
@@ -187,6 +200,7 @@
     Exploiting Proximity-Aware Tasks for Embodied Social Navigation
   image: 2023-10-02_cdc1a96a-7fa0-4e3b-8f2b-4ba676ac8d73.png
   description: >-
+    
   authors: Enrico Cancelli, Tommaso Campari, Luciano Serafini, Angel X. Chang, Lamberto Ballan
   venue: >-
     ICCV 2023
@@ -201,6 +215,7 @@
     UniT3D: A Unified Transformer for 3D Dense Captioning and Visual Grounding
   image: 2023-10-02_96b1c296-9893-4784-801a-f0daed0f43ef.jpg
   description: >-
+    
   authors: Dave Zhenyu Chen, Ronghang Hu, Xinlei Chen, Matthias Nießner, Angel X. Chang
   venue: >-
     ICCV 2023
@@ -215,6 +230,7 @@
     HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling
   image: 2023-10-02_97a335a8-5de9-4af8-97fe-b8cdbbc02c06.png
   description: >-
+    
   authors: Fenggen Yu, Yiming Qian, Francisca Gil-Ureta, Brian Jackson, Eric Bennett, and Hao Zhang
   venue: >-
     ICCV 2023
@@ -229,6 +245,7 @@
     PARIS: Part-level Reconstruction and Motion Analysis for Articulated Objects
   image: 2023-10-02_c34ba525-ac8d-4b9b-91e7-d412e7fce348.png
   description: >-
+    
   authors: Jiayi Liu, Ali Mahdavi-Amiri, Manolis Savva
   venue: >-
     ICCV 2023
@@ -243,6 +260,7 @@
     SKED: Sketch-guided Text-based 3D Editing
   image: 2023-10-02_76c3667b-3a91-4d35-94e6-0d33b0b6a293.png
   description: >-
+    
   authors: Aryan Mikaeili, Or Perel, Mehdi Safaee, Daniel Cohen-Or, Ali Mahdavi-Amiri
   venue: >-
     ICCV 2023
@@ -257,6 +275,7 @@
     DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion
   image: 2023-10-02_40055d39-bb6d-44ea-8d68-453f503ef32d.png
   description: >-
+    
   authors: Maham Tanveer, Yizhi Wang, Ali Mahdavi-Amiri, Hao Zhang
   venue: >-
     ICCV 2023
@@ -271,6 +290,7 @@
     Multi3DRefer: Grounding Text Description to Multiple 3D Objects
   image: 2023-10-02_770d6d8f-f95b-46d8-8cab-db33928836de.jpg
   description: >-
+    
   authors: Yiming Zhang, ZeMing Gong, Angel X. Chang
   venue: >-
     ICCV 2023
@@ -285,6 +305,7 @@
     Learning Physically Simulated Tennis Skills from Broadcast Videos
   image: 2023-07-01_fd9e8fb3-ecc3-4c62-abb8-631e62ebd6e1.png
   description: >-
+    
   authors: Haotian Zhang, Ye Yuan, Viktor Makoviychuk, Yunrong Guo, Sanja Fidler, Xue Bin Peng, Kayvon Fatahalian
   venue: >-
     SIGGRAPH 2023
@@ -299,6 +320,7 @@
     Synthesizing Physical Character-Scene Interactions
   image: 2023-07-01_d34f0d36-07ec-4c96-a246-3213aa65f9e0.png
   description: >-
+    
   authors: Mohamed Hassan, Yunrong Guo, Tingwu Wang, Michael Black, Sanja Fidler, Xue Bin Peng
   venue: >-
     SIGGRAPH 2023
@@ -313,6 +335,7 @@
     CALM: Conditional Adversarial Latent Models for Directable Virtual Characters
   image: 2023-07-01_2a5a8d54-c945-4a54-bc8f-ea9130197bc3.png
   description: >-
+    
   authors: Chen Tessler, Yoni Kasten, Yunrong Guo, Shie Mannor, Gal Chechik, Xue Bin Peng
   venue: >-
     SIGGRAPH 2023
@@ -327,6 +350,7 @@
     Realistic Saliency Guided Image Enhancement
   image: 2023-06-14_59e4ea73-0aa4-4d38-8eb7-88a3428b942e.jpg
   description: >-
+    
   authors: S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric Kee, Eli Shechtman, Yağız Aksoy
   venue: >-
     CVPR 2023
@@ -342,6 +366,7 @@
     Computational Flash Photography through Intrinsics
   image: 2023-06-14_6a1f6f77-f792-415f-a4b9-15a19cda6d15.jpg
   description: >-
+    
   authors: Sepideh Sarajian Maralan, Chris Careaga, and Yağız Aksoy
   venue: >-
     CVPR 2023
@@ -356,6 +381,7 @@
     Adaptive IMLE for Few-shot Pretraining-free Generative Modelling
   image: 2023-05-01_2ff4a77a-2833-429c-b89c-3c0c2873aeae.png
   description: >-
+    
   authors: Mehran Aghabozorgi, Shichong Peng, Ke Li
   venue: >-
     ICLR 2023
@@ -371,6 +397,7 @@
     Emergence of Maps in the Memories of Blind Navigation Agents
   image: 2023-05-01_c08df0c7-8898-4d63-95ee-20e93f9f5b8f.jpg
   description: >-
+    
   authors: Erik Wijmans, Manolis Savva, Irfan Essa, Stefan Lee, Ari S Morcos, Dhruv Batra
   venue: >-
     ICLR 2023
@@ -385,6 +412,7 @@
     Hierarchical Neural Coding for Controllable CAD Model Generation
   image: 2023-04-24_a71873ed-851a-4a82-a39c-d96ac1486e2b.png
   description: >-
+    
   authors: Xiang Xu, Pradeep Kumar Jayaraman, Joseph G. Lambourne, Karl D.D. Willis, Yasutaka Furukawa
   venue: >-
     ICML 2023
@@ -400,6 +428,7 @@
     Habitat-Matterport 3D Semantics Dataset
   image: 2023-04-01_4e0e1234-968a-4b5b-af83-3f46de5449b5.png
   description: >-
+    
   authors: Karmesh Yadav, Ram Ramrakhya, Santhosh Kumar Ramakrishnan, Theo Gervet, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Dhruv Batra, Manolis Savva, Alexander William Clegg, Devendra Singh Chaplot
   venue: >-
     CVPR 2023
@@ -414,6 +443,7 @@
     ARO-Net: Learning Implicit Fields from Anchored Radial Observations
   image: 2023-04-01_09e8bfb7-cc10-4c12-91be-940f77be6a1e.png
   description: >-
+    
   authors: Yizhi Wang, Zeyu Huang, Ariel Shamir, Hui Huang, Hao Zhang, and Ruizhen Hu
   venue: >-
     CVPR 2023
@@ -428,6 +458,7 @@
     CUF: Continuous Upsampling Filters
   image: 2023-04-01_fb5c2a9b-b3da-4f72-9213-ab918b301345.jpg
   description: >-
+    
   authors: Cristina Vasconcelos, Kevin Swersky, Mark Matthews, Milad Hashemi, Cengiz Oztireli, Andrea Tagliasacchi
   venue: >-
     CVPR 2023
@@ -442,6 +473,7 @@
     OpenScene: 3D Scene Understanding with Open Vocabularies
   image: 2023-04-01_d050430b-4429-465d-9ad0-3697d4124f37.jpg
   description: >-
+    
   authors: Songyou Peng, Kyle Genova, Chiyu Max Jiang, Andrea Tagliasacchi, Marc Pollefeys, Thomas Funkhouser
   venue: >-
     CVPR 2023
@@ -456,6 +488,7 @@
     SparsePose: Sparse-View Camera Pose Regression and Refinement
   image: 2023-04-01_14c20053-18fd-405a-bcd5-64ff012adf1c.jpg
   description: >-
+    
   authors: Samarth Sinha, Jason Y. Zhang, Andrea Tagliasacchi, Igor Gilitschenski, David B. Lindell
   venue: >-
     CVPR 2023
@@ -470,6 +503,7 @@
     BlendFields: Few-Shot Example-Driven Facial Modeling
   image: 2023-04-01_c5d52e42-8a31-439a-b18a-110cbaf1692d.jpg
   description: >-
+    
   authors: Kacper Kania, Stephan J. Garbin, Andrea Tagliasacchi, Virginia Estellers, Kwang Moo Yi, Tomasz Trzcinski, Julien Valentin, Marek Kowalski
   venue: >-
     CVPR 2023
@@ -484,6 +518,7 @@
     MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures
   image: 2023-04-01_e597ffc2-5b25-4391-b4a1-6f533e25e983.png
   description: >-
+    
   authors: Zhiqin Chen, Tom Funkhouser, Peter Hedman, Andrea Tagliasacchi
   venue: >-
     CVPR 2023
@@ -498,6 +533,7 @@
     Hierarchical Neural Memory Network for Low Latency Event Processing
   image: 2023-04-01_11d5ea9f-22c9-42a4-80fb-a9ab21e7b616.jpg
   description: >-
+    
   authors: Ryuhei Hamaguchi, Yasutaka Furukawa, Masaki Onishi, and Ken Sakurada
   venue: >-
     CVPR 2023
@@ -512,6 +548,7 @@
     HouseDiffusion: Vector Floorplan Generation via a Diffusion Model with Discrete and Continuous Denoising
   image: 2023-04-01_86fb7dc9-1442-41a1-8d90-8291a3e07865.jpg
   description: >-
+    
   authors: Amin Shabani, Sepidehsadat Hosseini, and Yasutaka Furukawa
   venue: >-
     CVPR 2023
@@ -526,6 +563,7 @@
     NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization
   image: 2023-04-01_73a510c5-02c6-4a27-9b9a-09e875390a45.jpg
   description: >-
+    
   authors: Shitao Tang, Sicong Tang, Andrea Tagliasacchi, Ping Tan, and Yasutaka Furukawa
   venue: >-
     CVPR 2023
@@ -540,6 +578,7 @@
     SAC-GAN: Structure-Aware Image Composition
   image: 2022-12-05_555d2cb2-472e-4c25-bd27-ae0be3ea3524.png
   description: >-
+    
   authors: Hang Zhou, Rui Ma, Lingxiao Zhang, Lin Gao, Ali Mahdavi-Amiri, and Hao Zhang
   venue: >-
     IEEE Transaction of Visualization and Computer Graphics
@@ -554,6 +593,7 @@
     Vectorizing Building Blueprints
   image: 2022-12-01_c9b9e48d-4f8c-48b8-ba80-17396fad3344.jpg
   description: >-
+    
   authors: Weilian Song, Mahsa Maleki Abyaneh, Mohammad Amin Shabani, and Yasutaka Furukawa
   venue: >-
     ACCV 2022
@@ -568,6 +608,7 @@
     MultiScan: Scalable RGBD scanning for 3D environments with articulated objects
   image: 2022-11-29_89b26044-a63b-46bb-8335-b310c47194f2.png
   description: >-
+    
   authors: Yongsen Mao, Yiming Zhang, Hanxiao Jiang, Angel X. Chang, Manolis Savva
   venue: >-
     NeurIPS 2022
@@ -582,6 +623,7 @@
     CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis
   image: 2022-11-28_62603cb1-eb87-4492-9360-62a4f88afdc3.gif
   description: >-
+    
   authors: Shichong Peng, Alireza Moazeni, Ke Li
   venue: >-
     NeurIPS 2022
@@ -597,6 +639,7 @@
     D3Net: A Unified Speaker-Listener Architecture for 3D Dense Captioning and Visual Grounding
   image: 2022-10-25_6acd66a6-a889-4438-bcc7-551da232ee3f.png
   description: >-
+    
   authors: Dave Zhenyu Chen, Qirui Wu, Matthias Nießner, Angel X. Chang
   venue: >-
     ECCV 2022
@@ -611,6 +654,7 @@
     OPD: Single-view 3D Openable Part Detection
   image: 2022-10-25_7cc9a376-f7a0-47e6-b725-ee0a6d7550de.png
   description: >-
+    
   authors: Hanxiao Jiang, Yongsen Mao, Manolis Savva, Angel X. Chang
   venue: >-
     ECCV 2022
@@ -625,6 +669,7 @@
     Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps
   image: 2022-10-01_4ba354c2-1b60-493d-97d3-1d9213f4c3df.jpg
   description: >-
+    
   authors: M.Mahdavian, KangKang Yin, and Mo Chen
   venue: >-
     IEEE Robotics and Automation Letters
@@ -639,6 +684,7 @@
     Articulated 3D Human-Object Interactions from RGB Videos:An Empirical Analysis of Approaches and Challenges
   image: 2022-09-12_315625ea-6b60-4cf6-b1df-990c9c46a53b.png
   description: >-
+    
   authors: Sanjay Haresh, Xiaohao Sun, Hanxiao Jiang, Angel X. Chang, Manolis Savva
   venue: >-
     3DV 2022
@@ -653,6 +699,7 @@
     Learning to Use Chopsticks in Diverse Gripping Styles
   image: 2022-07-30_d678f388-423a-436a-8fb4-e65ec066498c.jpg
   description: >-
+    
   authors: Zeshi Yang, KangKang Yin, and Libin Liu
   venue: >-
     SIGGRAPH 2022
@@ -667,6 +714,7 @@
     3DVQA: Visual Question Answering for 3D Environments
   image: 2022-05-31_c98548ee-e3c8-4015-8b44-f2af87f8c61f.png
   description: >-
+    
   authors: Yasaman Etesam, Leon Kochiev, Angel X. Chang
   venue: >-
     CRV 2022
@@ -681,6 +729,7 @@
     SkexGen: Generating CAD Construction Sequences by Autoregressive VAE with Disentangled Codebooks
   image: 2022-05-14_93aea945-8b99-4fa3-aaef-ae5b7d9e943e.png
   description: >-
+    
   authors: Xiang Xu, Karl Willis, Joseph Lambourne, Chin-Yi Cheng, Pradeep Kumar Jayaraman, and Yasutaka Furukawa
   venue: >-
     ICML
@@ -695,6 +744,7 @@
     HEAT: Holistic Edge Attention Transformer for Structured Reconstruction
   image: 2022-04-14_7d93afe8-9aea-4cba-b951-e14e6849e611.jpg
   description: >-
+    
   authors: Jiacheng Chen, Yiming Qian, and Yasutaka Furukawa
   venue: >-
     CVPR 2022
@@ -709,6 +759,7 @@
     UNIST: Unpaired Neural Implicit Shape Translation Network
   image: 2022-03-30_a0971bb6-97d2-4960-a91b-747093d53f8b.svg
   description: >-
+    
   authors: Qimin Chen, Johannes Merz, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang
   venue: >-
     CVPR 2022
@@ -723,6 +774,7 @@
     Single User WiFi Structure from Motion in the Wild
   image: 2022-03-14_386b9443-f01c-4dbe-b712-18d7b1910e35.jpg
   description: >-
+    
   authors: Yiming Qian, Hang Yan, Sachini Herath, Pyojin Kim, and Yasutaka Furukawa
   venue: >-
     ICRA 2022
@@ -737,6 +789,7 @@
     Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI
   image: 2021-12-07_23711644-bc80-4dc8-b9f6-5a112d0a4200.jpeg
   description: >-
+    
   authors: Santhosh K Ramakrishnan, Aaron Gokaslan, Erik Wijmans, Oleksandr Maksymets, Alex Clegg, John Turner, Eric Undersander, Wojciech Galuba, Andrew Westbury, Angel X Chang, Manolis Savva, Yili Zhao, Dhruv Batra
   venue: >-
     NeurIPS Datasets and Benchmarks Track 2021
@@ -751,6 +804,7 @@
     Habitat 2.0: Training Home Assistants to Rearrange their Habitat
   image: 2021-12-07_bcca4a74-3f90-456c-b372-a45393aeb3ca.jpeg
   description: >-
+    
   authors: Andrew Szot, Alexander Clegg, Eric Undersander, Erik Wijmans, Yili Zhao, John Turner, Noah Maestre, Mustafa Mukadam, Devendra Singh Chaplot, Oleksandr Maksymets, Aaron Gokaslan, Vladimír Vondruš, Sameer Dharur, Franziska Meier, Wojciech Galuba, Angel Chang, Zsolt Kira, Vladlen Koltun, Jitendra Malik, Manolis Savva, Dhruv Batra
   venue: >-
     NeurIPS 2021
@@ -765,6 +819,7 @@
     Multimodal Shape Completion via IMLE
   image: 2021-06-30_772535f6-7463-4bd9-a12c-36c8030b9b9e.png
   description: >-
+    
   authors: Himanshu Arora, Saurabh Mishra, Shichong Peng, Ke Li, Ali Mahdavi-Amiri
   venue: >-
     CVPR 2022
@@ -779,6 +834,7 @@
     Discovering Diverse Athletic Jumping Strategies
   image: 2021-05-02_87e25aef-ee38-4efe-ab82-5ad3b3edaebb.png
   description: >-
+    
   authors: Zhiqi Yin, Zeshi Yang, Michiel van de Panne, KangKang Yin
   venue: >-
     SIGGRAPH 2021
@@ -793,6 +849,7 @@
     CAPRI-Net: Learning Compact CAD Shapes with Adaptive Primitive Assembly
   image: 2021-04-12_8e49a3c8-3bc1-4910-ab61-559e02920f96.png
   description: >-
+    
   authors: Fenggen Yu, Zhiqin Chen, Manyi Li, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang.
   venue: >-
     CVPR 2022
