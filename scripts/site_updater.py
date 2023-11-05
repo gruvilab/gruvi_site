@@ -123,8 +123,6 @@ def convertPub2gruvi(datalist, download_thumbnails=True):
 - title: >-
     {title}
   image: {thumb_name}
-  description: >-
-    
   authors: {authors}
   venue: >-
     {venue}
