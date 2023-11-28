@@ -143,5 +143,5 @@ def convertPub2gruvi(datalist, download_thumbnails=True):
 #%%
 if __name__ == "__main__":
     updater = Updater()
-    updater.update_publication(download_thumbnails=False)
+    updater.update_publication(download_thumbnails=True)
     #updater.update_news()
