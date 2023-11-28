@@ -7,8 +7,8 @@
     3DV 2024
   year: 2024
   highlight: 1
-  pdf: 
-  project_page: 
+  pdf: https://3dlg-hcvc.github.io/
+  project_page: https://3dlg-hcvc.github.io/
 
 
 
@@ -166,6 +166,20 @@
   pdf: https://arxiv.org/abs/2306.11565
   project_page: https://ovmm.github.io/
   video: https://www.youtube.com/watch?v=EA8HEzopkc0
+
+
+
+- title: >-
+    Intrinsic Image Decomposition via Ordinal Shading
+  image: 2023-10-28_739be168-bd35-43c7-927c-10be6c4196ef.jpg
+  authors: Chris Careaga and Yağız Aksoy
+  venue: >-
+    TOG 2023
+  year: 2023
+  highlight: 1
+  pdf: https://yaksoy.github.io/papers/TOG23-Intrinsic.pdf
+  project_page: https://yaksoy.github.io/intrinsic/
+  video: https://youtu.be/pWtJd3hqL3c
 
 
 
