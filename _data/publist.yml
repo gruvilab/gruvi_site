@@ -26,6 +26,20 @@
 
 
 - title: >-
+    Intrinsic Harmonization for Illumination-Aware Compositing
+  image: 2023-12-12_ea26e5c5-0db8-4038-9dfc-305bbded0f83.jpg
+  authors: Chris Careaga, S. Mahdi H. Miangoleh, Yağız Aksoy
+  venue: >-
+    SIGGRAPH Asia 2023
+  year: 2023
+  highlight: 1
+  pdf: https://yaksoy.github.io/papers/SigAsia23-IntrinsicCompositing.pdf
+  project_page: https://yaksoy.github.io/intrinsicCompositing/
+  video: https://www.youtube.com/watch?v=M9hCUTp8bo4
+
+
+
+- title: >-
     ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering
   image: 2023-12-12_af27631d-4936-4a32-b742-dca9d9379a50.png
   authors: Qimin Chen, Zhiqin Chen, Hang Zhou, Hao Zhang
