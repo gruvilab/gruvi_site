@@ -27,6 +27,20 @@ Code is a Copyright of Allan Lab. Code released under the MIT License.
 # Usage
 This repo (https://github.com/gruvilab/gruvi_site) is the main repo that holds the main website (https://gruvi.cs.sfu.ca/). Please only update website content to this repo.
 
+Some of the site info is stored in the `SFU GrUVi Website Databases` (link can be found in the gruvi-website slack group), this is to allow easier editing and collaborative editing.
+Currently, only the content of publication list (`_data/publist.yml`) and news (`_data/news.yml`) is managed in the database. We need further development to support full-automation over all contents.
+
+For publication update, after editing in the database, run `python scripts/site_updater.py` to fetch the data from the database and update the jekyll content.
+
+For news update, please first update in the database and sync the content to the `_data/news.yml` **manually**. Steps to do after editing and proofreading a news item in the database:
+1. convert the text to html using this site: https://markdowntohtml.com/. 
+2. Copy the html code to the search bar to put everything **in a single line**.
+3. Create a new news item in `_data/news.yml` and copy the single line html code after the `  text: >-`. Make sure to remove the starting `<p>` and the ending `</p>` as the system will automatically adding them, this is to prevent errors.
+4. For the image cover for the news, please put it in `images/newspic` with a un-duplicating name.
+After these steps, simply perform git add, commit and push to github operations, the website `gruvi.cs.sfu.ca` will be automatically built and updated with github actions.
+
+To update other contents like people, you can directly edit the yaml files in `_data`
+
 (Obsolete)~~There is two repos for the gruvi site. The currently **active** one is **gruvilab.github.io** (which is gruvi.ca). The old one is gruvi_site (which is gruvi.cs.sfu.ca). When we run the script to sync the update to the active website, the script also push the update to the old site to keep the content the same.
 The textural data is stored in _data folder and images in images folder.~~
 
