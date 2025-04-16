@@ -12,6 +12,14 @@
 #  image: news_1.PNG
 #  
 
+- date: March 24, 2025
+  headline: >-
+    3DV 2025: Spotlight on GruVi Lab
+  text: >-
+    International Conference on 3D Vision (3DV) 2025, the premier conference on 3D Visiob, will be taking place in Singapore on March 25-28, 2025. GrUVi lab will once again have a good show at 3DV with 3 technical papers and “<a href="https://github.com/3dlg-hcvc/omages">An object is worth 64x64 pixels: Generating 3d object via image diffusion</a>” <strong>wining the best paper award</strong>!</p> <p>3DV 2026 will be held in Vancouver. Prof. Manolis Savva will be serving as Conference Chair and Prof. Ali Mahdavi-Amiri will be the Program Chair. Congratulations to all the authors!</p> <p>Here are the accepted papers:</p> <ul> <li><a href="https://github.com/3dlg-hcvc/smc">SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements</a></li> <li><a href="https://github.com/3dlg-hcvc/omages">An object is worth 64x64 pixels: Generating 3d object via image diffusion</a> (3DV 2025 Best paper award)</li> <li><a href="https://theialab.github.io/noksr/">NoKSR: Kernel-Free Neural Surface Reconstruction via Point Cloud Serialization</a></li> </ul>
+  highlight: 1
+  image: 3dv_2025.png
+
 - date: December 3, 2024
   headline: >-
     SIGGRAPH Asia 2024: Spotlight on GruVi Lab
