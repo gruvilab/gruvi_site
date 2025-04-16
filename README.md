@@ -38,6 +38,7 @@ For news update, please first update in the database and sync the content to the
 3. Create a new news item in `_data/news.yml` and copy the single line html code after the `  text: >-`. Make sure to remove the starting `<p>` and the ending `</p>` as the system will automatically adding them, this is to prevent errors.
 4. For the image cover for the news, please put it in `images/newspic` with a un-duplicating name.
 After these steps, simply perform git add, commit and push to github operations, the website `gruvi.cs.sfu.ca` will be automatically built and updated with github actions.
+5. Commit changes to github repo by running `git add . && git commit -m 'update' && git pull && git push`
 
 To update other contents like people, you can directly edit the yaml files in `_data`
 
