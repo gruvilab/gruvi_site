@@ -17,6 +17,7 @@
     SIGGRAPH 2025 TPC meeting
   text: >-
     SIGGRAPH 2025 Technical Papers Committee meeting was held in Vancouver, at the SFU Harbour Center, March 27-28. The post TPC meeting workshop was held on March 29 with more than 20 invited speakers! Thank you to all the committee members and volunteers! <p>
+  highlight: 1
   image: siggraph2025_tpc_meeting.jpg
 
 - date: March 24, 2025
@@ -66,7 +67,7 @@
     CVPR 2024: Spotlight on GruVi Lab
   text: >-
     The <strong>IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)</strong>, the premier conference on computer vision, will be held in-person in Seattle, washington on June 17-21, 2024. GrUVi lab will once again have a good show at CVPR 2024, with 4 keynotes, 2 oral papers, 4 spotlights and 10 posters.</p> <p>For more details, please refer to <a href="https://docs.google.com/spreadsheets/d/1M34xrt5qJHuR8YOaMwHdB8h-QYOfhw_CmG72LMW37iI/edit?usp=sharing">SFU @ CVPR 2024 (Technical Participation)</a></p> <p>Congratulations!
-  highlight: 1
+  highlight: 0
   image: 24_cvpr_gruvi.png
 
 - date: June 13, 2024
@@ -74,7 +75,7 @@
     Jason Peng receives the CHCCS/SCDHM Graphics Interface Early Career Researcher Award
   text: >-
     Congratulations to Jason Peng for receiving the <a href="https://graphicsinterface.org/awards/early-career-researcher-award/">CHCCS/SCDHM Graphics Interface Early Career Researcher Award</a>.</p> <p>The <em>CHCCS/SCDHM, Graphics Interface Early Career Researcher Award</em>, aims to recognize, support and encourage outstanding early career faculty members in the fields related to the Graphics Interface conference, which covers all aspects of graphics, human-computer interaction, and visualization. The award is given annually to up to two individuals and presented at the annual Graphics Interface conference.
-  highlight: 1
+  highlight: 0
   image: 24_jason.png
 
 
