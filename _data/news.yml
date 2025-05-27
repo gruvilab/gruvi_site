@@ -12,6 +12,22 @@
 #  image: news_1.PNG
 #  
 
+- date: May 26, 2025
+  headline: >-
+    Graphics Interface (GI) 2025
+  text: >-
+    Graphics Interface (GI) is a unique conference for computer graphics and human-computer interaction. GI 2025 will be held in Kelowna, British Columbia, from May 26 to May 29, 2025.  Prof. Parmit Chilana and Prof. Ali Mahdavi-Amiri are invited to give a talk in the conference. </p> <p><a href="https://graphicsinterface.org/conference/2025/speakers/">https://graphicsinterface.org/conference/2025/speakers/</a> <p>
+  highlight: 1
+  image: gi2025.png
+
+- date: May 14, 2025
+  headline: >-
+    Richard Zhang elected to the SIGGRAPH academy
+  text: >-
+    Congratulations to Prof. Richang Zhang for being  elected to the <a href="https://www.siggraph.org/awards/acm-siggraph-academy/">**SIGGRAPH academy</a>** for technical contributions in spectral and learning-based methods for geometric modeling.</p> <p>The ACM SIGGRAPH Academy is an honorary group of individuals who have made substantial contributions to the field of computer graphics. </p> <p>Please find the official announcement here: <a href="https://www.siggraph.org/award-winners/announcing-the-2025-award-winners">https://www.siggraph.org/award-winners/announcing-the-2025-award-winners</a> <p>
+  highlight: 1
+  image: richard_siggraph_academy.png
+
 - date: March 30, 2025
   headline: >-
     SIGGRAPH 2025 TPC meeting
@@ -51,7 +67,7 @@
     ECCV 2024: Spotlight on GruVi Lab
   text: >-
     The <strong>European Conference on Computer Vision</strong> (<strong>ECCV</strong>), a biennial premier research conference in Computer Vision and Machine Learning, will be held from September 29, 2024 to October 4, 2024 in Mico Milano, Italy. GrUVi lab will once again have a good show at ECCV, with 9 technical papers. </p> <p>Congratulations to all the authors! </p> <p>And here are the 9 accepted papers:</p> <ul> <li><a href="https://3dlg-hcvc.github.io/r3ds/"><strong>R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding</strong></a></li> <li><a href="https://qiminchen.github.io/decollage/"><strong>DECOLLAGE: 3D Detailization by Controllable,Localized, and Learned Geometry Enhancement</strong></a></li> <li><a href="https://xbpeng.github.io/projects/TeSMo/index.html"><strong>Generating Human Interaction Motions in Scenes with Text Control</strong></a></li> <li><a href="https://sherwinbahmani.github.io/tc4d/"><strong>TC4D: Trajectory-Conditioned Text-to-4D Generation</strong></a></li> <li><a href="https://theialab.github.io/laghashes/"><strong>Lagrangian Hashing for Compressed Neural Field Representations</strong></a></li> <li><a href="https://quadraturefields.github.io"><strong>Volumetric Rendering with Baked Quadrature Fields</strong></a></li> <li><a href="https://pointnerfpp.github.io"><strong>PointNeRF++: A multi-scale, point-based Neural Radiance Field</strong></a></li> <li><a href="https://mingrui-zhao.github.io/SweepNet/"><strong>SweepNet: Unsupervised Learning Shape Abstraction via Neural Sweepers</strong></a></li> <li><a href="https://yaksoy.github.io/intrinsicHDR/"><strong>Intrinsic Single-Image HDR Reconstruction</strong></a></li> </ul><p>
-  highlight: 1
+  highlight: 0
   image: 24_eccv_gruvi.png
 
 - date: July 28, 2024
@@ -59,7 +75,7 @@
     SIGGRAPH 2024: Spotlight on GruVi Lab
   text: >-
     SIGGRAPH, the premier conference on computer graphics, will be held from July 28, 2024 to August 1, 2024 in Denver, United States. GrUVi lab will once again have a good show at SIGGRAPG, with 6 technical papers. Congratulations to all the authors!</p> <p>And here are the 6 accepted papers:</p> <ul> <li><a href="https://yaksoy.github.io/sidepth/"><strong>Scale-Invariant Monocular Depth Estimation via SSI Depth</strong></a></li> <li><a href="https://github.com/czq142857/DAE-Net"><strong>DAE-Net: Deforming Auto-Encoder for fine-grained shape co-segmentation</strong></a></li> <li><a href="https://xbpeng.github.io/projects/CondMDI/index.html"><strong>Flexible Motion In-betweening with Diffusion Models</strong></a></li> <li><a href="https://xbpeng.github.io/projects/SuperPADL/index.html"><strong>SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation</strong></a></li> <li><a href="https://xbpeng.github.io/projects/AMDM/index.html"><strong>Interactive Character Control with Auto-Regressive Motion Diffusion Models</strong></a></li> <li><a href="https://github.com/samxuxiang/BrepGen"><strong>BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry</strong></a></li> </ul><p>
-  highlight: 1
+  highlight: 0
   image: 24_siggraph_gruvi.png
 
 - date: June 17, 2024
