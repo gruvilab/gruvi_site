@@ -12,6 +12,14 @@
 #  image: news_1.PNG
 #  
 
+- date: June 9, 2025
+  headline: >-
+    CVPR 2025: Spotlight on GruVi Lab
+  text: >-
+    The <strong>IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)</strong>, the premier conference on computer vision, will be held in-person at the Music City Center, Nashville on June 11-15, 2025. GrUVi lab will once again have a good show at CVPR 2025, with 1 workshop, 3 posters and 1 highlight paper, and 7 invited talks.</p> <p>Here are the details of the accepted papers:</p> <ol> <li><a href="https://snap-research.github.io/ac3d/">AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers</a></li> <li><a href="https://cvpr.thecvf.com/virtual/2025/poster/34349">PIAD: Pose and Illumination agnostic Anomaly Detection</a></li> <li><a href="https://moflow-imle.github.io/">MoFlow: One-Step Flow Matching for Human Trajectory Forecasting via Implicit Maximum Likelihood Estimation based Distillation</a></li> <li><a href="https://vcc.tech/research/2025/ArcPro">ArcPro: Architectural Programs for Structured 3D Abstraction of Sparse Points</a></li> </ol> <p>Here are the details of the invited talks:</p> <ol> <li>Prof. Angle Chang will give a talk at <a href="https://3d-llm-vla.github.io/">Workshop on Bridging Language, Vision and Action in 3D Environments</a></li> <li>Prof. Angle Chang will give a talk at <a href="https://3dcompat-dataset.org/workshop/C3DV25/">Workshop on Compositional 3D Vision</a></li> <li>Prof. Angle Chang will give a talk at <a href="https://robo-3dvlms.github.io/">Workshop on 3D Vision Language Models (VLMs) for Robotic Manipulation</a></li> <li>Prof. Angle Chang will give a talk at <a href="https://scene-understanding.com/">Workshop on 3D Scene Understanding for Vision, Graphics, and Robotics</a></li> <li>Prof. Richard Zhang will give a talk at <a href="https://www.projectaria.com/events/CVPR2025/DTC_workshop/">Workshop on 3D Digital Twin</a></li> <li>Prof. Richard Zhang will give a talk at <a href="https://ind3dworkshop.github.io/cvpr2025/">Workshop on Ind3D: Enforcing Inductive Bias in 3D Generation</a></li> <li>Prof. Angelica Lim and Prof. Jason Peng will give talks at <a href="https://humanoid-agents.github.io/">Workshop on Humanoid Agents</a></li> </ol><p>
+  highlight: 1
+  image: cvpr2025_logo.png
+
 - date: May 26, 2025
   headline: >-
     Graphics Interface (GI) 2025
@@ -58,7 +66,7 @@
     ECCV 2024: Spotlight on Workshops
   text: >-
     The <strong>European Conference on Computer Vision</strong> (<strong>ECCV</strong>), a biennial premier research conference in Computer Vision and Machine Learning, will be held from September 29, 2024 to October 4, 2024 in Mico Milano, Italy. In addition to all accepted papers, GrUVi lab will also stand out in  organizing multiple workshops.</p> <p>Here are the information of workshops organized by our amazing professors:</p> <ul> <li><a href="https://sites.google.com/view/cv4metaverse-2024/">https://sites.google.com/view/cv4metaverse-2024/</a> - Organizers (Richard Zhang)</li> <li><a href="https://3dv-in-ecommerce.github.io/">https://3dv-in-ecommerce.github.io/</a> - Organizers (Richard Zhang, Angel Chang)</li> <li><a href="https://ai3dcc.github.io/">https://ai3dcc.github.io/</a> - Organizers (Angel Chang, Manolis Savva)</li> <li><a href="https://geo-lme.github.io/">https://geo-lme.github.io/</a> - Speaker (Richard Zhang)</li> </ul><p>
-  highlight: 1
+  highlight: 0
   image: 24_eccv_gruvi.png
 
 
