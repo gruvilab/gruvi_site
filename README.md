@@ -30,7 +30,7 @@ This repo (https://github.com/gruvilab/gruvi_site) is the main repo that holds t
 Some of the site info is stored in the `SFU GrUVi Website Databases` (link can be found in the gruvi-website slack group), this is to allow easier editing and collaborative editing.
 Currently, only the content of publication list (`_data/publist.yml`) and news (`_data/news.yml`) is managed in the database. We need further development to support full-automation over all contents.
 
-For publication update, after editing in the database, run `python scripts/site_updater.py` to fetch the data from the database and update the jekyll content.
+For publication update, after editing in the database, run `python site_updater.py` under the `scripts` folder to fetch the data from the database and update the jekyll content.
 
 For news update, please first update in the database and sync the content to the `_data/news.yml` **manually**. Steps to do after editing and proofreading a news item in the database:
 1. convert the text to html using this site: https://markdowntohtml.com/. 

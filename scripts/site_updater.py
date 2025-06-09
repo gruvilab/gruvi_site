@@ -96,6 +96,9 @@ def convertPub2gruvi(datalist, download_thumbnails=True):
         if diprop.get("ConferenceDate", None) is not None:
             date = diprop["ConferenceDate"]["date"]["start"]
             year = date[:4]
+        if len(diprop["Name"]["title"])==0:
+            # invalid entry, skip
+            continue
         title = diprop["Name"]["title"][0]["text"]["content"]
         if diprop.get("Authors", None) is not None:
             authors  = gather_plain_text( diprop["Authors"] )

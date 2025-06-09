@@ -1,5 +1,174 @@
 
 - title: >-
+    PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers
+  image: 2025-08-10_20bbceb3-5801-8079-a34a-cd390e7ac4f1.png
+  authors: Michael Xu, Yi Shi, KangKang Yin, Xue Bin Peng
+  venue: >-
+    SIGGRAPH conference
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2505.04002
+  project_page: https://michaelx.io/parc/index.html
+
+
+
+- title: >-
+    MASH: Masked Anchored SpHerical Distances for 3D Shape Representation and Generation
+  image: 2025-08-10_200bceb3-5801-807b-a52d-dfee6255f294.png
+  authors: Changhao Li, Yu Xin, Xiaowei Zhou, Ariel Shamir, Hao Zhang, Ligang Liu, Ruizhen Hu
+  venue: >-
+    SIGGRAPH conference
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2504.09149v1
+  project_page: https://565353780.github.io/MASH/
+
+
+
+- title: >-
+    HoLa: B-Rep Generation using a Holistic Latent Representation
+  image: 2025-08-10_200bceb3-5801-805b-bbea-c0b370a299a4.png
+  authors: Yilin Liu, Duoteng Xu, Xingyao Yu, Xiang Xu, Daniel Cohen-Or, Hao Zhang, and Hui Huang
+  venue: >-
+    SIGGRAPH journal
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2504.14257
+  project_page: https://vcc.tech/research/2025/HolaBRep
+
+
+
+- title: >-
+    Cora: Correspondence-aware image editing using few step diffusion
+  image: 2025-08-10_200bceb3-5801-808a-af5a-ca8c6cb22599.jpg
+  authors: Amir Alimohammadi, Aryan Mikaeili, Sauradip Nag, Negar Hassanpour, Andrea Tagliasacchi, Ali Mahdavi-Amiri
+  venue: >-
+    SIGGRAPH
+  year: 2025
+  highlight: 1
+  pdf: https://cora-edit.github.io/
+  project_page: https://cora-edit.github.io/
+
+
+
+- title: >-
+    ArcPro: Architectural Programs for Structured 3D Abstraction of Sparse Points
+  image: 2025-06-13_200bceb3-5801-8005-9dac-da6b9c35b611.png
+  authors: Qirui Huang, Runze Zhang, Kangjun Liu, Minglun Gong, Hao Zhang, and Hui Huang
+  venue: >-
+    CVPR (Highlight)
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2503.02745
+  project_page: https://vcc.tech/research/2025/ArcPro
+
+
+
+- title: >-
+    MoFlow: One-Step Flow Matching for Human Trajectory Forecasting via Implicit Maximum Likelihood Estimation based Distillation
+  image: 2025-06-09_20dbceb3-5801-8061-82c6-d55fa1401547.png
+  authors: Yuxiang Fu, Qi Yan, Lele Wang, Ke Li, Renjie Liao
+  venue: >-
+    CVPR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2503.09950
+  project_page: https://moflow-imle.github.io/
+
+
+
+- title: >-
+    PIAD: Pose and Illumination agnostic Anomaly Detection
+  image: 2025-06-09_20abceb3-5801-80b5-92e5-cb2b8a0fa7d6.png
+  authors: Kaichen Yang;Junjie Cao;Zeyu Bai;Zhixun Su;Andrea Tagliasacchi
+  venue: >-
+    CVPR
+  year: 2025
+  highlight: 1
+  pdf: https://cvpr.thecvf.com/virtual/2025/poster/34349
+  project_page: https://cvpr.thecvf.com/virtual/2025/poster/34349
+
+
+
+- title: >-
+    AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers
+  image: 2025-06-09_20abceb3-5801-802b-8176-e95ab2bbd148.png
+  authors: Sherwin Bahmani, Ivan Skorokhodov, Guocheng Qian, Aliaksandr Siarohin, Willi Menapace, Andrea Tagliasacchi, David B. Lindell, Sergey Tulyakov
+  venue: >-
+    CVPR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2411.18673
+  project_page: https://snap-research.github.io/ac3d/
+
+
+
+- title: >-
+    ViGiL3D: A Linguistically Diverse Dataset for 3D Visual Grounding
+  image: 2025-06-01_205bceb3-5801-8037-bb81-e10291ed8793.png
+  authors: Austin T. Wang, Zeming Gong, Angel X. Chang
+  venue: >-
+    ACL
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2501.01366
+  project_page: https://3dlg-hcvc.github.io/vigil3d/
+
+
+
+- title: >-
+    GALA: Geometry-Aware Local Adaptive Grids for Detailed 3D Generation
+  image: 2025-04-24_200bceb3-5801-804c-b80c-f069756e402e.png
+  authors: Dingdong Yang, Yizhi Wang, Konrad Schindler, Ali Mahdavi-Amiri, and Hao Zhang
+  venue: >-
+    ICLR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2410.10037
+  project_page: https://santisy.github.io/GALA/
+
+
+
+- title: >-
+    CLIBD: Bridging Vision and Genomics for Biodiversity Monitoring at Scale
+  image: 2025-04-20_205bceb3-5801-8036-b5d2-c708fe22c147.png
+  authors: Zeming Gong, Austin T. Wang, Xiaoliang Huo, Joakim Bruslund Haurum, Scott C Lowe, Graham W Taylor, Angel X. Chang
+  venue: >-
+    ICLR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2405.17537
+  project_page: https://3dlg-hcvc.github.io/bioscan-clip/
+
+
+
+- title: >-
+    SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects
+  image: 2025-04-20_205bceb3-5801-80a9-9b22-e2fe021b24d0.png
+  authors: Jiayi Liu, Denys Iliash, Angel X. Chang, Manolis Savva, Ali Mahdavi-Amiri
+  venue: >-
+    ICLR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/pdf/2410.16499
+  project_page: https://3dlg-hcvc.github.io/singapo/
+
+
+
+- title: >-
+    Duoduo CLIP: Efficient 3D Understanding with Multi-View Images
+  image: 2025-04-20_205bceb3-5801-8079-b9ac-d0b63067bfc2.png
+  authors: Han-Hung Lee, Yiming Zhang, Angel X. Chang
+  venue: >-
+    ICLR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2406.11579
+  project_page: https://3dlg-hcvc.github.io/DuoduoCLIP/
+
+
+
+- title: >-
     SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements
   image: 2025-03-25_509bf7e8-b922-4e77-9840-b4bc43663925.png
   authors: Hou In Ivan Tam, Hou In Derek Pun, Austin T. Wang, Angel X. Chang, Manolis Savva
