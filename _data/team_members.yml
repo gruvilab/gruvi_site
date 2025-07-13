@@ -182,12 +182,12 @@
   website: https://sauradip.github.io/
   number_educ: 0
   
-- name: Yizhi Wang
-  photo: yizhi.jpg
-  role: Postdoc
-  email: 
-  website: https://yizhiwang96.github.io/
-  number_educ: 0
+# - name: Yizhi Wang
+#   photo: yizhi.jpg
+#   role: Postdoc
+#   email: 
+#   website: https://yizhiwang96.github.io/
+#   number_educ: 0
 
 #- name: Fei-Peng Tian
 #  photo: feipeng.jpg
@@ -592,6 +592,13 @@
   website: https://santisy.github.io/
   number_educ: 0
 
+- name: Zhiyun Peng
+  photo: zhiyun_richard_peng.PNG
+  role: Graduate Student
+  email:
+  website: https://zhiyunrichardpeng.github.io/
+  number_educ: 0
+
 
 #- name: Renjiao Yi
 #  photo: renjiao.png
@@ -607,12 +614,12 @@
 #  website: http://kangxue.org/
 #  number_educ: 0
 
-- name: Fenggen Yu
-  photo: FenggenYu.jpg
-  role: Graduate Student
-  email: fenggen_yu@sfu.ca
-  website: https://fenggenyu.github.io/
-  number_educ: 0
+# - name: Fenggen Yu
+#   photo: FenggenYu.jpg
+#   role: Graduate Student
+#   email: fenggen_yu@sfu.ca
+#   website: https://fenggenyu.github.io/
+#   number_educ: 0
 
 - name: Xingguang Yan
   photo: xingguang_yan.jpg
