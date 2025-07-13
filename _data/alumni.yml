@@ -1,6 +1,24 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Yizhi Wang
+  graduation: 2024
+  text: Research scientist at TikTok USA
+  photo: yizhi.jpg
+  role: Postdoc
+  email:
+  website: https://yizhiwang96.github.io/
+  number_educ: 0
+  
+- name: Fenggen Yu
+  graduation: 2024
+  text: Research scientist at Amazon
+  photo: FenggenYu.jpg
+  role: Graduate Student
+  email:
+  website: https://fenggenyu.github.io/
+  number_educ: 0
+  
 - name: Hang Zhou
   graduation: 2023
   text: Gruvi Alumni
