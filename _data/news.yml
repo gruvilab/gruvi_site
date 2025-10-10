@@ -12,6 +12,15 @@
 #  image: news_1.PNG
 #  
 
+- date: August 7, 2025
+  headline: >-
+    SCA and SIGGRAPH 2025
+  text: >-
+    <strong>SIGGRAPH</strong>, the premier conference and exhibition dedicated to computer graphics and interactive techniques, will be held in-person at the Convention Centre in Vancouver, BC from August 10–14 2025. GrUVi lab will once again have a good show at SIGGRAPH 2025, with 7 technical papers. Prof. Richard Zhang and Prof. Ali Mahdavi-Amiri, will serve as the Technical Papers Chair and Session Chair, respectively.</p> <p>Symposium on Computer Animation (SCA), the premier forum for innovations in the software and technology of computer animation, will take place in Vancouver, BC, from August 8-10, 2025. Prof. Jason Peng will serve as the local chair.</p> <p>Please check out SFU <a href="https://www.sfu.ca/fas/computing/news-events/news/2025/august/showcasing-innovation-sfu-computing-science-leads-at-siggraph-2025.html">news</a> for more details. <p>
+  highlight: 1
+  image: siggraph_sca_2025.png
+
+
 - date: June 9, 2025
   headline: >-
     CVPR 2025: Spotlight on GruVi Lab
@@ -57,7 +66,7 @@
     SIGGRAPH Asia 2024: Spotlight on GruVi Lab
   text: >-
     SIGGRAPH Asia 2024, the premier conference on computer graphics, will be taking place from 3 – 6 December 2024 at the Tokyo International Forum (TIF), Tokyo, Japan. GrUVi lab will once again have a good show at SIGGRAPH Asia with 2 technical papers and <a href="https://yaksoy.github.io/ColorfulShading/">Colorful Diffuse Intrinsic Image Decomposition in the Wild</a> <strong>winning an SIGGRAPH Asia 2024 Best Paper Award Honorable Mention</strong>. Prof. Richard Zhang will be serving as Technical Papers Assistant Chair. Congratulations to all the authors!</p> <p>And here is the accepted paper:</p> <ul> <li><a href="https://research.nvidia.com/labs/par/maskedmimic/">MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting</a></li> <li><a href="https://yaksoy.github.io/ColorfulShading/">Colorful Diffuse Intrinsic Image Decomposition in the Wild</a></li> </ul> <p>
-  highlight: 1
+  highlight: 0
   image: 24_siga_gruvi.webp
 
 
