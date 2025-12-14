@@ -11,7 +11,7 @@
     <div class="carousel-inner" markdown="0">
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
-{% if publi.highlight == 1 %}
+{% if publi.highlight == 1 and publi.image %}
 {% if number_printed < 10 %}	    
 {% if number_printed == 0 %}
         <div class="item active" style="height: 245px; ">

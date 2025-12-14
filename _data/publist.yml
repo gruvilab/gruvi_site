@@ -1,3 +1,107 @@
+# To insert a new publication, please:
+# copy the form below;
+# paste it below;
+# remove # characters, which marks the start of a comment;
+# change contents accordingly
+#  if some variable (pdf,presentation,project_page,video,bibtex) does not exist, remove the corresponding line
+#  Please make sure to preserve the identation, as it is used to parse the file correctly. Also please notice that the characters >- are important to help us escape : and - characters, which are otherwise control characters for the parser.
+#
+#- title: >-
+#    Full title name
+#  image: publication_photo_name.{png,jpg}
+#  description: >-
+#    Full description text
+#  authors: A First, B Second, C Third
+#  venue: >-
+#    Full conference name
+#  year: yyyy
+#  highlight: 0 or 1
+#  pdf: https://www.google.ca/full_link_to_pdf_file
+#  presentation: ppt_file_name.ppt {the presentation should be uploaded directly to the presentations folder}
+#  project_page: https://www.google.ca/link_to_project_page
+#  video: https://www.youtube.com/link_to_youtube_video
+#  bibtex: https://www.sfu.ca/tex_file_name.bib
+
+- title: "ART-DECO: Arbitrary Text Guidance for 3D Detailizer Construction"
+  image: 
+  authors: Qimin Chen, Yuezhi Yang, Wang Yifan, Vladimir G. Kim, Siddhartha Chaudhuri, Hao Zhang, Zhiqin Chen
+  venue: SIGGRAPH Asia 
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2505.20431
+  project_page: https://qiminchen.github.io/artdeco/
+
+- title: "ASIA: Adaptive 3D Segmentation using Few Image Annotations"
+  image: 
+  authors: Sai Raj Kishore Perla, Aditya Vora, Sauradip Nag, Ali Mahdavi-Amiri, Hao (Richard) Zhang
+  venue: SIGGRAPH Asia 
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2509.24288
+  project_page: https://sairajk.github.io/asia/
+
+- title: "In-2-4D: Inbetweening from Two Single-View Images to 4D Generation"
+  image: 
+  authors: Sauradip Nag, Daniel Cohen-Or, Hao (Richard) Zhang, Ali Mahdavi-Amiri
+  venue: SIGGRAPH Asia 
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2504.08366
+  project_page: https://in-2-4d.github.io/
+
+- title: "Radiant Foam: Real-Time Differentiable Ray Tracing"
+  image: 
+  authors: Shrisudhan Govindarajan, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi
+  venue: ICCV (Highlight)
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2502.01157
+  project_page: https://radfoam.github.io/
+
+- title: "StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splatting"
+  image: 
+  authors: Shakiba Kheradmand, Delio Vicini, George Kopanas, Dmitry Lagun, Kwang Moo Yi, Mark J. Matthews, Andrea Tagliasacchi
+  venue: ICCV
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2503.24366
+  project_page: https://ubc-vision.github.io/stochasticsplats
+
+- title: "RoMo: Robust Motion Segmentation Improves Structure from Motion"
+  image: 
+  authors: Lily Goli, Sara Sabour, Mark J. Matthews, Marcus A Brubaker, Dmitry Lagun, Alec Jacobson, David J. Fleet, Saurabh Saxena, Andrea Tagliasacchi
+  venue: ICCV
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2411.18650
+  project_page: https://romosfm.github.io/
+
+- title: "NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes"
+  image: 
+  authors: Han-Hung Lee, Qinghong Han, Angel X. Chang
+  venue: ICCV
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2503.16375
+  project_page: https://3dlg-hcvc.github.io/NuiScene/
+
+- title: "Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling"
+  image: 
+  authors: Qirui Wu, Denys Iliash, Daniel Ritchie, Manolis Savva, Angel X. Chang
+  venue: ICCV (Highlight)
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2411.19492
+  project_page: https://3dlg-hcvc.github.io/diorama/
+
+- title: "Global Motion Corresponder for 3D Point-Based Scene Interpolation under Large Motion"
+  image: 
+  authors: Junru Lin*, Chirag Vashist*, Mikaela Angelina Uy, Colton Stearns, Xuan Luo, Leonidas Guibas, Ke Li
+  venue: ICCV
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2508.20136
+  project_page: https://junrul.github.io/gmc/
 
 - title: >-
     PARC: Physics-based Augmentation with Reinforcement Learning for Character Controllers

@@ -22,8 +22,9 @@ permalink: /publications/
 <div class="col-sm-12 clearfix">
  <div class="well clearfix">
 
-
+{% if publi.image %}
   <img src="/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;" />
+{% endif %}
 
 <pubtit>{{ publi.title }}</pubtit>
 <em>{{ publi.authors }}</em><br>
