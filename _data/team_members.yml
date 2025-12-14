@@ -132,47 +132,12 @@
   number_educ: 0
 
 ################################# Postdocs  #################################
-
-# - name: Jiongchao Jin
-#   photo: Jiongchao.jpg
-#   role: Visitor
-#   email: 
-#   website: #
-#   number_educ: 0
-  
-# - name: Pyojin Kim
-#   photo: PyojinKim.png
-#   role: Postdoc
-#   email: 
-#   website: http://pyojinkim.com/
-#   number_educ: 0
-  
-#- name: Manyi Li
-#  photo: manyi.jpg
-#  role: Visitor
-#  email: 
-#  website: https://manyili12345.github.io/
-#  number_educ: 0
-
-#- name: Yiming Qian
-#  photo: yiming.jpg
-#  role: Postdoc
-#  email: 
-#  website: https://scholar.google.com/citations?user=2xMfNpMAAAAJ&hl=en
-#  number_educ: 0
   
 # - name: Jie Tang
 #   photo: jietang.jpg
 #   role: Visitor
 #   email: 
 #   website: 
-#   number_educ: 0
-
-# - name: Hang Zhou
-#   photo: hang_zhou.jpg
-#   role: Postdoc
-#   email: 
-#   website: http://home.ustc.edu.cn/~zh2991/
 #   number_educ: 0
 
 - name: Sauradip Nag
@@ -182,13 +147,6 @@
   website: https://sauradip.github.io/
   number_educ: 0
   
-# - name: Yizhi Wang
-#   photo: yizhi.jpg
-#   role: Postdoc
-#   email: 
-#   website: https://yizhiwang96.github.io/
-#   number_educ: 0
-
 #- name: Fei-Peng Tian
 #  photo: feipeng.jpg
 #  role: Visitor
@@ -228,13 +186,6 @@
   website: https://youlenda.github.io/
   number_educ: 0
 
-# - name: Mahsa Maleki Abyaneh
-#   photo: mahsa.jpg
-#   role: Graduate Student
-#   email: mahsa_maleki_abyaneh@sfu.ca
-#   website:
-#   number_educ: 0
-
 - name: Reza Asad
   #text: Ph.D. student at Simon Fraser University
   photo: reza_asad.jpg
@@ -256,14 +207,6 @@
   email: 
   website: https://qiminchen.github.io/
   number_educ: 0
-
-
-# - name: Perry Deng
-#   photo: PerryDeng.png
-#   role: Graduate Student
-#   email: 
-#   website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
-#   number_educ: 0
   
 - name: Chris Careaga
   photo: chris_careaga.jpg
@@ -285,13 +228,6 @@
   email: 
   website: https://www.stanleydukor.com/
   number_educ: 0
-
-# - name: Yasaman Etesam
-#   photo: YasamanEtesam.jpg
-#   role: Graduate Student
-#   email:
-#   website: https://www.linkedin.com/in/yasaman-etesam
-#   number_educ: 0
   
 #- name: Arezou Fatemi
 #  photo: arezou_fatemi.jpg
@@ -300,13 +236,6 @@
 #  website:
 #  number_educ: 0
   
-# - name: Ali Gholami
-#   photo: AliGholami.jpg
-#   role: Graduate Student
-#   email:
-#   website:
-#   number_educ: 0
-
 - name: Shrisudhan Govindarajan
   photo: shri_govin.jpg
   role: Graduate Student
@@ -314,39 +243,12 @@
   website: https://shrisudhan.github.io/
   number_educ: 0
 
-# - name: Sanjay Haresh
-#   photo: SanjayHaresh.jfif
-#   role: Graduate Student
-#   website: https://www.linkedin.com/in/sanjay-haresh/
-#   number_educ: 0
-
 - name: S. Mahdi H. Miangoleh
   photo: Mahdi.png
   role: Graduate Student
   email: 
   website: http://www.sfu.ca/~smh31/
-  number_educ: 0
-
-# - name: Saghar Irandoust
-#   photo: saghar.jpeg
-#   role: Graduate Student
-#   email:
-#   website: https://www.linkedin.com/in/saghar-irandoust/
-#   number_educ: 0
-
-# - name: Kevin Joseph
-#   photo: KevinJoseph.jpg
-#   role: Graduate Student
-#   email: 
-#   website: https://www.linkedin.com/in/kevin-joseph-ab38b8a8
-#   number_educ: 0
-  
-#- name: Mohsen Kamalzadeh
-#  photo: mohsen.jpg
-#  role: Graduate Student
-#  email: 
-#  website:
-#  number_educ: 0
+  number_educ: 0  
 
 - name: Perla Sai Raj Kishore
   photo: PerlaKishore.png
@@ -367,27 +269,6 @@
   website: https://hanhung.github.io/
   number_educ: 0
 
-# - name: Wallace Lira
-#   photo: WallaceLira.jpeg
-#   role: Graduate Student
-#   email: wpintoli@sfu.ca
-#   website: http://www.sfu.ca/~wpintoli/
-#   number_educ: 0
-
-# - name: Heng Li
-#   photo: hengli.png
-#   role: Graduate Student
-#   email: 
-#   website: 
-#   number_educ: 0
-
-# - name: Jon Liu
-#   photo: jonliu.jpg
-#   role: Graduate Student
-#   email: 
-#   website: 
-#   number_educ: 0
-
 #- name: Johanes Merz
 #  photo: merz.png
 #  role: Graduate Student
@@ -401,22 +282,7 @@
   email: 
   website: https://aryanmikaeili.github.io
   number_educ: 0
-
-# - name: Nelson Nauata
-#   photo: nauata.jpg
-#   role: Graduate Student
-#   email: 
-#   website: http://www.sfu.ca/~nnauata/
-#   number_educ: 0
   
-
-# - name: Jamal Rahim
-#   photo: JamalRahim.png
-#   role: Graduate Student
-#   email: 
-#   website: https://jrahim.github.io/
-#   number_educ: 0
-
 - name: Julia Read
   photo: JuliaRead.jpg
   role: Graduate Student
@@ -438,12 +304,6 @@
   website: https://www.linkedin.com/in/sonia-raychaudhuri
   number_educ: 0
 
-# - name: Yue Ruan
-#   photo: YueRuan.jpg
-#   role: Graduate Student
-#   website: https://www.linkedin.com/in/yue-ruan-127a9a15b/
-#   number_educ: 0
-
 - name: Mehdi Safaee
   photo: Mehdi_Safaee.png
   role: Graduate Student
@@ -464,34 +324,6 @@
   email:
   website:  http://www.sfu.ca/~rakeshs/
   number_educ: 0
-
-# - name: Shimon Smith
-#   photo: shimon_smith.jpg
-#   role: Graduate Student
-#   email: 
-#   website:
-#   number_educ: 0
-  
-# - name: Feitong Tan
-#   photo: FeitongTan.jpg
-#   role: Graduate Student
-#   email: 
-#   website:
-#   number_educ: 0
-
-# - name: Jiaqi Tan
-#   photo: JiaqiTan.jpg
-#   role: Graduate Student
-#   email: 
-#   website: https://christinatan0704.github.io/mysite/
-#   number_educ: 0
-
-# - name: Chengzhou Tang
-#   photo: chengzhou.png
-#   role: Graduate Student
-#   email: 
-#   website: https://sites.google.com/site/chengzhout/
-#   number_educ: 0
 
 - name: Maria Taktasheva
   photo: maria.png
@@ -543,27 +375,6 @@
   number_educ: 0
 
 
-#- name: Renjiao Yi
-#  photo: renjiao.png
-#  role: Graduate Student
-#  email: 
-#  website:  http://www.sfu.ca/~renjiaoy/
-#  number_educ: 0
-
-#- name: Kangxue Yin
-#  photo: kangxue.jpg
-#  role: Graduate Student
-#  email: kangxuey@sfu.ca
-#  website: http://kangxue.org/
-#  number_educ: 0
-
-# - name: Fenggen Yu
-#   photo: FenggenYu.jpg
-#   role: Graduate Student
-#   email: fenggen_yu@sfu.ca
-#   website: https://fenggenyu.github.io/
-#   number_educ: 0
-
 - name: Xingguang Yan
   photo: xingguang_yan.jpg
   role: Graduate Student
@@ -599,9 +410,3 @@
 #  website: http://www.personal_pagegate.net/profile/Hamid_Younesy
 #  number_educ: 0  
   
-#- name: Chenyang Zhu
-#  photo: chenyang.png
-#  role: Graduate Student
-#  email: chenyang.chandler.zhu@gmail.com
-#  website: http://www.sfu.ca/~cza68/
-#  number_educ: 0

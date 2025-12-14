@@ -8,7 +8,6 @@
   role: Graduate Student
   email: 
   website: http://jcchen.me
-  number_educ: 0
   group: Yasu 
   
 - name: Sachini Herath
@@ -18,7 +17,6 @@
   role: Graduate Student
   email: sherath@sfu.ca
   website: https://scholar.google.ca/citations?user=SPoN53oAAAAJ&hl=en
-  number_educ: 0
   group: Yasu 
 
 - name: Sepidehsadat Hosseini
@@ -28,7 +26,6 @@
   role: Graduate Student
   email: 
   website: https://sepidsh.github.io/
-  number_educ: 0
   group: Yasu 
 
 - name: Amin Shabani
@@ -38,7 +35,6 @@
   role: Graduate Student
   email: mshabani@sfu.ca
   website: https://aminshabani.github.io/
-  number_educ: 0
   group: Yasu 
 
 - name: Weilian Song
@@ -48,7 +44,6 @@
   role: Graduate Student
   email: weilian_song@sfu.ca
   website: https://weiliansong.github.io/
-  number_educ: 0
   group: Yasu 
   
 - name: Xiang Xu
@@ -58,7 +53,6 @@
   role: Graduate Student
   email: xuxiangx@sfu.ca
   website: https://samxuxiang.github.io/
-  number_educ: 0
   group: Yasu 
 
 - name: Sicong Tang
@@ -68,7 +62,6 @@
   role: Graduate Student
   email: 
   website: 
-  number_educ: 0
  
 - name: Ning Wang
   graduation: 2024
@@ -77,7 +70,6 @@
   role: Visitor
   email: 
   website: https://wangning-001.github.io/
-  number_educ: 0
 
 - name: Yizhi Wang
   graduation: 2024
@@ -86,7 +78,6 @@
   role: Postdoc
   email:
   website: https://yizhiwang96.github.io/
-  number_educ: 0
   
 - name: Fenggen Yu
   graduation: 2024
@@ -95,7 +86,6 @@
   role: Graduate Student
   email:
   website: https://fenggenyu.github.io/
-  number_educ: 0
   
 - name: Hang Zhou
   graduation: 2023
@@ -104,16 +94,14 @@
   role: Postdoc
   email:
   website: https://ryanhangzhou.github.io/
-  number_educ: 0
 
 - name: Hanxiao Jiang (Shawn)
   graduation: 2023
-  text: Ph.D. student at University of Illinois Urbana-Champaign (UIUC)
+  text: Ph.D. student at Columbia
   photo: Shawn.jpeg
   role: Graduate Student
   email:
   website: https://jianghanxiao.github.io/
-  number_educ: 0
 
 - name: Akshay Gadi Patil
   graduation: 2023
@@ -122,7 +110,6 @@
   role: Graduate Student
   email: agadipat@sfu.ca
   website: http://www.sfu.ca/~agadipat/
-  number_educ: 0
   
 - name: Zhiqin Chen
   graduation: 2023
@@ -131,7 +118,6 @@
   role: Graduate Student
   email: zhiqinc@sfu.ca
   website: http://www.sfu.ca/~zhiqinc/
-  number_educ: 0
 
 - name: Luwei Yang
   graduation: 2023
@@ -140,7 +126,6 @@
   role: Graduate Student
   email: 
   website: 
-  number_educ: 0
 
 - name: Sanjay Haresh
   graduation: 2023
@@ -148,7 +133,7 @@
   photo: SanjayHaresh.jfif
   role: Graduate Student
   website: https://www.linkedin.com/in/sanjay-haresh/
-  number_educ: 0
+
 - name: Heng Li
   graduation: 2023
   text: Ph.D Candidate of ECE at HKUST
@@ -156,7 +141,6 @@
   role: Graduate Student
   email: 
   website: 
-  number_educ: 0
 
 - name: Sepideh Sarajian Maralan
   graduation: 2022
@@ -165,7 +149,6 @@
   role: Graduate Student
   email: 
   website: 
-  number_educ: 0
   group: Yagiz 
 
 - name: Mahesh Kumar Krishna Reddy
@@ -175,7 +158,6 @@
   role: Graduate Student
   email:
   website: https://www.linkedin.com/in/mahesh-kumar-krishna-reddy-9b0b0a1a/
-  number_educ: 0
   group: Yagiz
 
 - name: Jiaqi Tan
@@ -185,14 +167,13 @@
   role: Graduate Student
   email: 
   website: https://christinatan0704.github.io/mysite/
-  number_educ: 0
+
 - name: Yue Ruan
   graduation: 2022
   text: Software Development Engineer at Amazon
   photo: YueRuan.jpg
   role: Graduate Student
   website: https://www.linkedin.com/in/yue-ruan-127a9a15b/
-  number_educ: 0
 
 - name: Jamal Rahim
   graduation: 2022
@@ -201,7 +182,6 @@
   role: Graduate Student
   email: 
   website: https://jrahim.github.io/
-  number_educ: 0  
 
 - name: Nelson Nauata
   graduation: 2022
@@ -210,7 +190,6 @@
   role: Graduate Student
   email: 
   website: http://www.sfu.ca/~nnauata/
-  number_educ: 0
 
 - name: Jon Liu
   graduation: 2022
@@ -219,7 +198,6 @@
   role: Graduate Student
   email: 
   website: 
-  number_educ: 0
 
 - name: Wallace Lira
   graduation: 2022
@@ -228,7 +206,6 @@
   role: Graduate Student
   email: wpintoli@sfu.ca
   website: http://www.sfu.ca/~wpintoli/
-  number_educ: 0
 
 - name: Saghar Irandoust
   graduation: 2022
@@ -237,7 +214,6 @@
   role: Graduate Student
   email:
   website: https://www.linkedin.com/in/saghar-irandoust/
-  number_educ: 0
 
 - name: Ali Gholami
   graduation: 2022
@@ -246,7 +222,6 @@
   role: Graduate Student
   email:
   website:
-  number_educ: 0
 
 - name: Yasaman Etesam
   graduation: 2022
@@ -255,7 +230,6 @@
   role: Graduate Student
   email:
   website: https://www.linkedin.com/in/yasaman-etesam
-  number_educ: 0
 
 # - name: Perry Deng
 #   graduation: 2022
@@ -264,12 +238,14 @@
 #   role: Graduate Student
 #   email: 
 #   website: https://www.linkedin.com/in/pxd/?originalSubdomain=ca
-#   number_educ: 0
 
 - name: Yiming Qian
   graduation: 2022
   text: Applied Scientist, Amazon
-
+  photo: yiming.jpg
+  role: Postdoc
+  email: 
+  website: https://scholar.google.com/citations?user=2xMfNpMAAAAJ&hl=en
 
 - name: Kevin Joseph
   graduation: 2021
@@ -278,13 +254,20 @@
   role: Graduate Student
   email: 
   website: https://www.linkedin.com/in/kevin-joseph-ab38b8a8
-  number_educ: 0
+
 - name: Madhawa Vidanapathirana
   graduation: 2021
   text: Software Development Engineer, Microsoft
+  role: Graduate Student
+
 - name: Manyi Li
   graduation: 2021
   text: Associate Researcher, Shandong University, China 
+  photo: manyi.jpg
+  role: Visitor
+  email: 
+  website: https://manyili12345.github.io/
+
 - name: Feitong Tan
   graduation: 2021
   text: Research Scientist at Google AR
@@ -292,7 +275,7 @@
   role: Graduate Student
   email: 
   website:
-  number_educ: 0
+
 - name: Shimon Smith
   graduation: 2021
   text: Gruvi Alumni
@@ -300,7 +283,6 @@
   role: Graduate Student
   email: 
   website:
-  number_educ: 0
 
 - name: Pyojin Kim
   graduation: 2020
@@ -309,7 +291,7 @@
   role: Postdoc
   email: 
   website: https://mpil.sookmyung.ac.kr/people/
-  number_educ: 0
+
 - name: Mahsa Maleki Abyaneh
   graduation: 2020
   text: AI Research Engineer at LivingCities
@@ -317,16 +299,25 @@
   role: Graduate Student
   email: mahsa_maleki_abyaneh@sfu.ca
   website:
-  number_educ: 0
+
 - name: Mohsen Kamalzadeh
   graduation: 2020
   text: UX Software Developer, AI@Unity
+  photo: mohsen.jpg
+  role: Graduate Student
+
 - name: Jiongchao Jin
   graduation: 2020
   text: PhD at Beihang University and Bytedance
+  photo: Jiongchao.jpg
+  role: Visitor
+  email: 
+  website:
+
 - name: Xianggang Wang
   graduation: 2020
   text: Assistant Professor at Southeast University, China
+
 - name: Chengzhou Tang
   graduation: 2020
   text: Research scientist at Meta
@@ -334,17 +325,31 @@
   role: Graduate Student
   email: 
   website: https://sites.google.com/site/chengzhout/
-  number_educ: 0
+
 - name: Kangxue Yin
   graduation: 2020
   text: Research Scientist at NVIDIA
+  photo: kangxue.jpg
+  role: Graduate Student
+  email: kangxuey@sfu.ca
+  website: http://kangxue.org/
 
 - name: Renjiao Yi
   graduation: 2019
   text: Gruvi Alumni
+  photo: renjiao.png
+  role: Graduate Student
+  email:
+  website: http://www.sfu.ca/~renjiaoy/
+
 - name: Chenyang Zhu
   graduation: 2019
   text: Gruvi Alumni
+  photo: chenyang.png
+  role: Graduate Student
+  email: chenyang.chandler.zhu@gmail.com
+  website: http://www.sfu.ca/~cza68/
+
 - name: Rui Ma
   graduation: 2017
   text: Research Scientist at Altumview Systems Inc.
@@ -456,9 +461,10 @@
 - name: Martin Artner
   graduation: 2005
   text: Support Engineer at TTTech
-- name: Melanie Troy
+- name: Melanie Tory
   graduation: 2004
-  text: Associate Professor at University of Victoria
+  text: Director of human data interaction research at the Roux Institute, professor of practice at Northeastern
+  website: https://roux.northeastern.edu/people/melanie-tory/
 - name: Martin Spindler
   graduation: 2003
   text: PhD student at Otto-von-Guericke-University Magdeburg
