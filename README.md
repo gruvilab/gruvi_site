@@ -27,12 +27,13 @@ Code is a Copyright of Allan Lab. Code released under the MIT License.
 # Usage
 This repo (https://github.com/gruvilab/gruvi_site) is the main repo that holds the main website (https://gruvi.cs.sfu.ca/). Please only update website content to this repo.
 
-Some of the site info is stored in the `SFU GrUVi Website Databases` (link can be found in the gruvi-website slack group), this is to allow easier editing and collaborative editing.
-Currently, only the content of publication list (`_data/publist.yml`) and news (`_data/news.yml`) is managed in the database. We need further development to support full-automation over all contents.
+For publication update, please edit `_data/publist.yml` to modify / add items, and please upload thumbnail image to `images/pubpic/`.
 
-For publication update, after editing in the database, run `python site_updater.py` under the `scripts` folder to fetch the data from the database and update the jekyll content.
+For news update, please edit the content of `_data/news.yml`. And please upload thumbnail images to `images/newspic/`. Make sure to remove the starting `<p>` and the ending `</p>` as the system will automatically adding them, this is to prevent errors.
 
-For news update, please first update in the database and sync the content to the `_data/news.yml` **manually**. Steps to do after editing and proofreading a news item in the database:
+Directly edit paragraph format with yaml is a bit hard, an alternative way is to edit in a markdown format and then convert.
+
+Steps to do after editing and proofreading the text in markdown:
 1. convert the text to html using this site: https://markdowntohtml.com/. 
 2. Copy the html code to the search bar to put everything **in a single line**.
 3. Create a new news item in `_data/news.yml` and copy the single line html code after the `  text: >-`. Make sure to remove the starting `<p>` and the ending `</p>` as the system will automatically adding them, this is to prevent errors.
@@ -48,6 +49,8 @@ The textural data is stored in _data folder and images in images folder.~~
 To build the website locally for faster iteration (github auto CI's speed is slow due to heavy upload), you can use jekyll-docker. After you pulled the jekyll docker image, you can just run `bash docker_build.sh` in the `scripts` folder to build the website and view the built site in `_site` folder. More information about jekyll-docker can be found [here](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
 
 ## Update
+
+As of 2025-12-13, we roll back to the original yaml based update for publication list. The notion database is archived (check with Xingguang for more details).
 
 As of 2024-12-03, only the publication auto-synce is enabled. Use `python scripts/site_updater.py` to fetch the publication records to this repo. For news, please first finish editing on notion (since it is much easier to directly write HTML code in `_data/news.yml`), and then convert it to html (using https://markdowntohtml.com/), copy to the browser's address/URL bar to make the html single line. Then copy the single line html to the correct location in `_data/news.yml`. Notice that you shall remove the initial `<p>` and the ending `</p>` since the server will automatically add them.
 
