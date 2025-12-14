@@ -37,6 +37,15 @@
   website: https://aminshabani.github.io/
   group: Yasu 
 
+- name: Obumneme Dukor
+  graduation: 2024
+  text: Machine learning scientist at darkvision
+  photo: obumneme.png
+  role: Graduate Student
+  email: 
+  website: https://www.stanleydukor.com/
+  number_educ: 0
+
 - name: Weilian Song
   graduation: 2024
   text: Gruvi Alumni
@@ -63,6 +72,14 @@
   email: 
   website: 
  
+- name: Zeno Sambugaro
+  graduation: 2024
+  text: Postdoctoral researcher at the University of Verona
+  photo: zeno_sambugaro.jpg
+  role: Visitor
+  email: 
+  website: https://zenos4mbu.github.io/
+
 - name: Ning Wang
   graduation: 2024
   text: Gruvi Alumni

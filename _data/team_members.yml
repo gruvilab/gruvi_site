@@ -170,12 +170,7 @@
 
 
 ################################# Visitors #################################
-- name: Zeno Sambugaro
-  photo: zeno_sambugaro.jpg
-  role: Visitor
-  email: 
-  website: https://zenos4mbu.github.io/
-  number_educ: 0
+
 
 ################################# Graduate Students  #################################
 
@@ -220,13 +215,6 @@
   role: Graduate Student
   email:
   website: https://sebastian-dille.github.io/
-  number_educ: 0
-  
-- name: Obumneme Dukor
-  photo: obumneme.png
-  role: Graduate Student
-  email: 
-  website: https://www.stanleydukor.com/
   number_educ: 0
   
 #- name: Arezou Fatemi
