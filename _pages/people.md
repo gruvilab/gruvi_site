@@ -199,7 +199,14 @@ permalink: /people/
   {% endif %}
 
 
-<p>  <newstit>{{ member.name }}</newstit>, <pubtit>{{ member.text }}</pubtit></p>
+<p> 
+   <newstit>
+   {% if member.website %}
+      <a  href="{{ member.website }}" target="_blank">{{ member.name }}</a>
+   {% else %}  
+      {{ member.name }}
+   {% endif %}
+   </newstit> - <pubtit>{{ member.text }}</pubtit></p>
 {% endfor %}
 </div>
 </div>

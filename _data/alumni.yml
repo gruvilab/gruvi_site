@@ -1,6 +1,84 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Jiacheng Chen
+  graduation: 2025
+  text: Gruvi Alumni
+  photo: JiachengChen.png
+  role: Graduate Student
+  email: 
+  website: http://jcchen.me
+  number_educ: 0
+  group: Yasu 
+  
+- name: Sachini Herath
+  graduation: 2025
+  text: Gruvi Alumni
+  photo: SachiniHerath.jpg
+  role: Graduate Student
+  email: sherath@sfu.ca
+  website: https://scholar.google.ca/citations?user=SPoN53oAAAAJ&hl=en
+  number_educ: 0
+  group: Yasu 
+
+- name: Sepidehsadat Hosseini
+  graduation: 2025
+  text: Machine learning researcher at RBC Borealis
+  photo: SepidehsadatHosseini.jpeg
+  role: Graduate Student
+  email: 
+  website: https://sepidsh.github.io/
+  number_educ: 0
+  group: Yasu 
+
+- name: Amin Shabani
+  graduation: 2025
+  text: Machine learning researcher at RBC Borealis
+  photo: MohammadShabani.jpeg
+  role: Graduate Student
+  email: mshabani@sfu.ca
+  website: https://aminshabani.github.io/
+  number_educ: 0
+  group: Yasu 
+
+- name: Weilian Song
+  graduation: 2024
+  text: Gruvi Alumni
+  photo: weilian.jpg
+  role: Graduate Student
+  email: weilian_song@sfu.ca
+  website: https://weiliansong.github.io/
+  number_educ: 0
+  group: Yasu 
+  
+- name: Xiang Xu
+  graduation: 2024
+  text: Senior research scientist at Autodesk AI Lab
+  photo: xiang_xu2.jpg
+  role: Graduate Student
+  email: xuxiangx@sfu.ca
+  website: https://samxuxiang.github.io/
+  number_educ: 0
+  group: Yasu 
+
+- name: Sicong Tang
+  graduation: 2024
+  text: Gruvi Alumni
+  photo: sicong.jpg
+  role: Graduate Student
+  email: 
+  website: 
+  number_educ: 0
+ 
+- name: Ning Wang
+  graduation: 2024
+  text: Gruvi Alumni
+  photo: ningwang.jpg
+  role: Visitor
+  email: 
+  website: https://wangning-001.github.io/
+  number_educ: 0
+
 - name: Yizhi Wang
   graduation: 2024
   text: Research scientist at TikTok USA

@@ -219,13 +219,6 @@
   website: https://zenos4mbu.github.io/
   number_educ: 0
 
-- name: Ning Wang
-  photo: ningwang.jpg
-  role: Visitor
-  email: 
-  website: https://wangning-001.github.io/
-  number_educ: 0
-
 ################################# Graduate Students  #################################
 
 - name: Yalda Foroutan
@@ -327,13 +320,6 @@
 #   website: https://www.linkedin.com/in/sanjay-haresh/
 #   number_educ: 0
 
-- name: Sachini Herath
-  photo: SachiniHerath.jpg
-  role: Graduate Student
-  email: sherath@sfu.ca
-  website: https://scholar.google.ca/citations?user=SPoN53oAAAAJ&hl=en
-  number_educ: 0
-
 - name: S. Mahdi H. Miangoleh
   photo: Mahdi.png
   role: Graduate Student
@@ -395,13 +381,6 @@
 #   website: 
 #   number_educ: 0
 
-- name: Jiacheng Chen
-  photo: JiachengChen.png
-  role: Graduate Student
-  email: 
-  website: http://jcchen.me
-  number_educ: 0
-  
 # - name: Jon Liu
 #   photo: jonliu.jpg
 #   role: Graduate Student
@@ -472,21 +451,6 @@
   website: https://mehdi0xc.github.io
   number_educ: 0
 
-- name: Sepidehsadat Hosseini
-  photo: SepidehsadatHosseini.jpeg
-  role: Graduate Student
-  email: 
-  website: https://sepidsh.github.io/
-  number_educ: 0
-  group: Yasu 
-
-- name: Mohammad Shabani
-  photo: MohammadShabani.jpeg
-  role: Graduate Student
-  email: mshabani@sfu.ca
-  website:
-  number_educ: 0
-
 - name: Ahan Shabanov
   photo: ahan_shabanov.jpg
   role: Graduate Student
@@ -507,13 +471,6 @@
 #   email: 
 #   website:
 #   number_educ: 0
-  
-- name: Weilian Song
-  photo: weilian.jpg
-  role: Graduate Student
-  email: weilian_song@sfu.ca
-  website: https://weiliansong.github.io/
-  number_educ: 0
   
 # - name: Feitong Tan
 #   photo: FeitongTan.jpg
@@ -550,13 +507,6 @@
   website:
   number_educ: 0
   
-- name: Sicong Tang
-  photo: sicong.jpg
-  role: Graduate Student
-  email: 
-  website: 
-  number_educ: 0
- 
 - name: Aditya Vora
   photo: aditya_vora.jpg
   role: Graduate Student
@@ -578,13 +528,6 @@
   website: https://ivenwu.com/
   number_educ: 0
   
-- name: Xiang Xu
-  photo: xiang_xu2.jpg
-  role: Graduate Student
-  email: xuxiangx@sfu.ca
-  website: https://samxuxiang.github.io/
-  number_educ: 0
-
 - name: Dingdong Yang
   photo: dingdong_yang.jpg
   role: Graduate Student
