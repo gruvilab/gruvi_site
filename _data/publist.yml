@@ -23,7 +23,7 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 - title: "ART-DECO: Arbitrary Text Guidance for 3D Detailizer Construction"
-  image: 
+  image: chen_siga25_artdeco.png
   authors: Qimin Chen, Yuezhi Yang, Wang Yifan, Vladimir G. Kim, Siddhartha Chaudhuri, Hao Zhang, Zhiqin Chen
   venue: SIGGRAPH Asia 
   year: 2025
@@ -32,7 +32,7 @@
   project_page: https://qiminchen.github.io/artdeco/
 
 - title: "ASIA: Adaptive 3D Segmentation using Few Image Annotations"
-  image: 
+  image: perla_siga25_asia.gif
   authors: Sai Raj Kishore Perla, Aditya Vora, Sauradip Nag, Ali Mahdavi-Amiri, Hao (Richard) Zhang
   venue: SIGGRAPH Asia 
   year: 2025
@@ -41,7 +41,7 @@
   project_page: https://sairajk.github.io/asia/
 
 - title: "In-2-4D: Inbetweening from Two Single-View Images to 4D Generation"
-  image: 
+  image: nag_siga25_in24d.gif
   authors: Sauradip Nag, Daniel Cohen-Or, Hao (Richard) Zhang, Ali Mahdavi-Amiri
   venue: SIGGRAPH Asia 
   year: 2025
@@ -51,7 +51,7 @@
 
 
 - title: "Physics-Based Motion Imitation with Adversarial Differential Discriminators"
-  image: 
+  image: zhang_siga25_add.png
   authors: Ziyu Zhang, Sergey Bashkirov, Dun Yang, Yi Shi, Michael Taylor, Xue Bin Peng
   venue: SIGGRAPH Asia
   year: 2025
@@ -61,7 +61,7 @@
 
 
 - title: "StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data"
-  image: 
+  image: mu_siga25_stablemotion.png
   authors: Yuxuan Mu, Hung Yu Ling, Yi Shi, Ismael Baira Ojeda, Pengcheng Xi, Chang Shu, Fabio Zinno, Xue Bin Peng
   venue: SIGGRAPH Asia
   year: 2025
@@ -71,7 +71,7 @@
 
 
 - title: "TWIST: Teleoperated Whole-Body Imitation System"
-  image: 
+  image: ze_corl25_twist.png
   authors: Yanjie Ze, Zixuan Chen, João Pedro Araújo, Zi-ang Cao, Xue Bin Peng, Jiajun Wu, C. Karen Liu
   venue: CoRL
   year: 2025
@@ -81,7 +81,7 @@
 
 
 - title: "Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies"
-  image: 
+  image: chen_iros25_lcp.png
   authors: Zixuan Chen, Xialin He, Yen-Jen Wang, Qiayuan Liao, Yanjie Ze, Zhongyu Li, S. Shankar Sastry, Jiajun Wu, Koushil Sreenath, Saurabh Gupta, Xue Bin Peng
   venue: IROS
   year: 2025
@@ -90,7 +90,7 @@
   project_page: https://xbpeng.github.io/projects/LCP/index.html
 
 - title: "Radiant Foam: Real-Time Differentiable Ray Tracing"
-  image: 
+  image: govindarajan_iccv25_radfoam.webp
   authors: Shrisudhan Govindarajan, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi
   venue: ICCV (Highlight)
   year: 2025
@@ -108,7 +108,7 @@
   project_page: https://ubc-vision.github.io/stochasticsplats
 
 - title: "RoMo: Robust Motion Segmentation Improves Structure from Motion"
-  image: 
+  image: goli_iccv25_romo.gif
   authors: Lily Goli, Sara Sabour, Mark J. Matthews, Marcus A Brubaker, Dmitry Lagun, Alec Jacobson, David J. Fleet, Saurabh Saxena, Andrea Tagliasacchi
   venue: ICCV
   year: 2025
@@ -117,7 +117,7 @@
   project_page: https://romosfm.github.io/
 
 - title: "NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes"
-  image: 
+  image: lee_iccv25_nuiscene.png
   authors: Han-Hung Lee, Qinghong Han, Angel X. Chang
   venue: ICCV
   year: 2025
@@ -126,7 +126,7 @@
   project_page: https://3dlg-hcvc.github.io/NuiScene/
 
 - title: "Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling"
-  image: 
+  image: wu_iccv25_diorama.webp
   authors: Qirui Wu, Denys Iliash, Daniel Ritchie, Manolis Savva, Angel X. Chang
   venue: ICCV (Highlight)
   year: 2025
@@ -135,7 +135,7 @@
   project_page: https://3dlg-hcvc.github.io/diorama/
 
 - title: "Global Motion Corresponder for 3D Point-Based Scene Interpolation under Large Motion"
-  image: 
+  image: lin_iccv25_ball.webp
   authors: Junru Lin*, Chirag Vashist*, Mikaela Angelina Uy, Colton Stearns, Xuan Luo, Leonidas Guibas, Ke Li
   venue: ICCV
   year: 2025
@@ -3688,7 +3688,7 @@
   highlight: 1
  
 - title: Adapting Geometric Attributes for Expression-Invariant 3{D} Face Recognition
-  image: Adapting Geometric Attributes for Expression-Invariant 3{D} Face Recognition..png
+  image: li_smi07_adapting.png
   description: We investigate the use of multiple intrinsic geometric attributes, including angles, geodesic distances, and curvatures, for 3D face recognition, where each face is represented by a triangle mesh, preprocessed to possess a uni- form connectivity. As invariance to facial expressions holds the key to improving recognition performance, we propose to train for the component-wise weights to be applied to each individual attribute, as well as the weights used to combine the attributes, in order to adapt to expression variations. Using the eigenface approach based on the training results and a nearest neighbor classifier, we report recognition results on the expression-rich GavabDB face database and the well-known Notre Dame FRGC 3D database. We also perform a cross validation between the two databases.
   authors: Li X, Zhang H.  
   venue: Shape Modeling International 
