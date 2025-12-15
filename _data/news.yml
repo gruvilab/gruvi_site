@@ -12,11 +12,48 @@
 #  image: news_1.PNG
 #  
 
+- date: December 14, 2025
+  headline: >-
+    SIGGRAPH Asia 2025: Spotlight on GruVi Lab
+  text: >-
+    GrUVi lab will once again have a good show at SIGGRAPH Asia 2025 (Hong Kong, Dec 15th to Dec 18th) with 5 papers. 
+    </p>
+    <ul class="left">
+    <li><a href="https://qiminchen.github.io/artdeco/">ART-DECO: Arbitrary Text Guidance for 3D Detailizer Construction</a></li>
+    <li><a href="https://sairajk.github.io/asia/">ASIA: Adaptive 3D Segmentation using Few Image Annotations</a></li>
+    <li><a href="https://in-2-4d.github.io/">In-2-4D: Inbetweening from Two Single-View Images to 4D Generation</a></li>
+    <li><a href="https://xbpeng.github.io/projects/ADD/index.html">Physics-Based Motion Imitation with Adversarial Differential Discriminators</a></li>
+    <li><a href="https://xbpeng.github.io/projects/StableMotion/index.html">StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data</a></li>
+    </ul><p>
+  highlight: 1  
+  image: sigasia2025.svg
+
 - date: October 19, 2025
   headline: >-
     ICCV 2025: Spotlight on GruVi Lab
   text: >-
-    The <strong>International Conference on Computer Vision (ICCV)</strong>, the premier conference on computer vision, will be held in-person at the Hawaii Convention Center in Honolulu from October 19-23, 2025. GrUVi lab will once again have a good show at ICCV 2025, with 2 workshops, 3 papers, and 2 invited talks.</p> <p>Here are the details of the accepted papers:</p> <ul> <li><a href="https://arxiv.org/abs/2508.16744">Hyperbolic Multimodal Representation Learning for Biological Taxonomies</a></li> <li><a href="https://3dlg-hcvc.github.io/diorama/">Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling</a></li> <li><a href="https://3dlg-hcvc.github.io/NuiScene/">NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes</a></li> </ul> <p>Here are the details of the talks:</p> <ul> <li>Prof. Angel will be giving a talk at the <a href="https://opensun3d.github.io/">Workshop on Open-Vocabulary 3D Scene Understanding</a> and <a href="https://s3dsgr.github.io/">Workshop on Scalable 3D Scene Generation and Geometric Scene Understanding</a></li> <li>Prof. Manolis will be giving a talk at the <a href="https://awesomedigitaltwin.github.io/2025_ICCV.html">Workshop on Generating Digital Twins from Images and Videos</a></li> </ul> <p>Here are the details of the workshops:</p> <ul> <li><a href="https://ai3dcc.github.io/">AI for 3D Content Creation</a></li> <li><a href="https://iccv-clvl.github.io/2025">CLVL: 6th Workshop on Closing the Loop Between Vision and Language</a></li> </ul> <p>
+    The <strong>International Conference on Computer Vision (ICCV)</strong>, the premier conference on computer vision, will be held in-person at the Hawaii Convention Center in Honolulu from October 19-23, 2025. GrUVi lab will once again have a good show at ICCV 2025, with 4 workshops, 6 papers, and 3 invited talks.
+    </p><p><strong>Papers at the main conference</strong></p> 
+    <ul class="left"> 
+    <li><a href="https://3dlg-hcvc.github.io/diorama/">Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling</a></li> <li><a href="https://3dlg-hcvc.github.io/NuiScene/">NuiScene: Exploring Efficient Generation of Unbounded Outdoor Scenes</a></li>     
+    <li><a href="https://radfoam.github.io/">Radiant Foam: Real-Time Differentiable Ray Tracing</a></li>
+    <li><a href="https://junrul.github.io/gmc/">Global Motion Corresponder for 3D Point-Based Scene Interpolation under Large Motion</a></li>
+    <li><a href="https://ubc-vision.github.io/stochasticsplats">StochasticSplats: Stochastic Rasterization for Sorting-Free 3D Gaussian Splatting</a></li>
+    <li><a href="https://romosfm.github.io/">RoMo: Robust Motion Segmentation Improves Structure from Motion</a></li>
+    </ul> 
+    <p><strong>Papers at workshops</strong></p> 
+    <ul class="left"><li><a href="https://arxiv.org/abs/2508.16744">Hyperbolic Multimodal Representation Learning for Biological Taxonomies</a> at the <a href="https://sites.google.com/view/beyondeuclidean/home">Beyond Eucliean Workshop</a></li></ul> 
+    <p><strong>Talks</strong></p> 
+    <ul class="left"> 
+    <li>Prof. Angel will be giving invited talks at the <a href="https://opensun3d.github.io/">Workshop on Open-Vocabulary 3D Scene Understanding</a> and <a href="https://s3dsgr.github.io/">Workshop on Scalable 3D Scene Generation and Geometric Scene Understanding</a></li> 
+    <li>Prof. Manolis will be giving a talk at the <a href="https://awesomedigitaltwin.github.io/2025_ICCV.html">Workshop on Generating Digital Twins from Images and Videos</a></li> </ul> 
+    <p><strong>Workshops</strong> that we are co-organizing</p> 
+    <ul class="left"> 
+    <li>Andrea Tagliasacchi - <a href="https://geofreenvs.github.io/">GeoFreeNVS: Geometry-Free Novel View Synthesis and Controllable Video Models</a></li>
+    <li>Angel Chang - <a href="https://ai3dcc.github.io/">AI for 3D Content Creation</a></li> 
+    <li>Angel Chang, Austin Wang, Yiming Zhang - <a href="https://iccv-clvl.github.io/2025">CLVL: 6th Workshop on Closing the Loop Between Vision and Language</a></li> 
+    <li>Qirui Wu, Jiayi Liu - <a href="https://awesomedigitaltwin.github.io/2025_ICCV.html">Workshop on Generating Digital Twins from Images and Videos</a></li>
+    </ul><p>
   highlight: 1
   image: iccv2025.png
   
@@ -59,7 +96,7 @@
     SIGGRAPH 2025 TPC meeting
   text: >-
     SIGGRAPH 2025 Technical Papers Committee meeting was held in Vancouver, at the SFU Harbour Center, March 27-28. The post TPC meeting workshop was held on March 29 with more than 20 invited speakers! Thank you to all the committee members and volunteers! <p>
-  highlight: 1
+  highlight: 0
   image: siggraph2025_tpc_meeting.jpg
 
 - date: March 24, 2025

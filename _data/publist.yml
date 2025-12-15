@@ -49,6 +49,46 @@
   pdf: https://arxiv.org/abs/2504.08366
   project_page: https://in-2-4d.github.io/
 
+
+- title: "Physics-Based Motion Imitation with Adversarial Differential Discriminators"
+  image: 
+  authors: Ziyu Zhang, Sergey Bashkirov, Dun Yang, Yi Shi, Michael Taylor, Xue Bin Peng
+  venue: SIGGRAPH Asia
+  year: 2025
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/ADD/ADD_2025.pdf
+  project_page: https://xbpeng.github.io/projects/ADD/index.html
+
+
+- title: "StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data"
+  image: 
+  authors: Yuxuan Mu, Hung Yu Ling, Yi Shi, Ismael Baira Ojeda, Pengcheng Xi, Chang Shu, Fabio Zinno, Xue Bin Peng
+  venue: SIGGRAPH Asia
+  year: 2025
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/StableMotion/StableMotion_2025.pdf
+  project_page: https://xbpeng.github.io/projects/StableMotion/index.html
+
+
+- title: "TWIST: Teleoperated Whole-Body Imitation System"
+  image: 
+  authors: Yanjie Ze, Zixuan Chen, João Pedro Araújo, Zi-ang Cao, Xue Bin Peng, Jiajun Wu, C. Karen Liu
+  venue: CoRL
+  year: 2025
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/TWIST/TWIST_2025.pdf
+  project_page: https://xbpeng.github.io/projects/TWIST/index.html
+
+
+- title: "Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies"
+  image: 
+  authors: Zixuan Chen, Xialin He, Yen-Jen Wang, Qiayuan Liao, Yanjie Ze, Zhongyu Li, S. Shankar Sastry, Jiajun Wu, Koushil Sreenath, Saurabh Gupta, Xue Bin Peng
+  venue: IROS
+  year: 2025
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/LCP/LCP_2025.pdf
+  project_page: https://xbpeng.github.io/projects/LCP/index.html
+
 - title: "Radiant Foam: Real-Time Differentiable Ray Tracing"
   image: 
   authors: Shrisudhan Govindarajan, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi
