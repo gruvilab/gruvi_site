@@ -370,6 +370,7 @@
 - name: Rui Ma
   graduation: 2017
   text: Research Scientist at Altumview Systems Inc.
+  website: https://ruim-jlu.github.io/
 - name: Rui Huang
   graduation: 2017
   text: Researcher at Alibaba AI Lab, Hangzhou
@@ -379,12 +380,14 @@
 - name: Shuhua Li
   graduation: 2017
   text: Postdoc at Shenzhen University
+  website: https://sue142857.github.io/shuhuali.github.io/
 - name: Changqing Zou
   graduation: 2017
   text: ZJU100 Young Professor at Zhejiang University
 - name: Zhaopeng Cui
   graduation: 2017
   text: PostDoc Researcher at ETH Zurich
+  website: https://zhpcui.github.io/
 - name: Jaime Vargas-Trujillo
   graduation: 2016
   text: Video Game Software Engineer at Koolhaus Games Inc.
@@ -409,6 +412,7 @@
 - name: Ruizhen Hu
   graduation: 2014
   text: Assistant professor at Shenzhen Institute of Advanced Technology (SIAT)
+  website: https://csse.szu.edu.cn/staff/ruizhenhu/
 - name: Yin(Chris) Chen
   graduation: 2013
   text: Last known at National University of Defense Technology (NUDT), China
@@ -418,6 +422,7 @@
 - name: Andrea Tagliasacchi
   graduation: 2013
   text: Assistant professor at University of Victoria
+  website: https://theialab.ca/
 - name: Anna Mewhort
   graduation: 2013
   text: Software engineer at MDA.
@@ -430,6 +435,7 @@
 - name: Steven Bergner
   graduation: 2011
   text: PostDoc with Derek Bingham, Department of Statistics and Actuarial Science, SFU
+  website: https://stevenbergner.github.io/
 - name: Zahid Hossain
   graduation: 2011
   text: PhD student at Stanford University
@@ -439,6 +445,7 @@
 - name: Oliver van Kaick
   graduation: 2011
   text: Assistant professor at School of Computer Science, Carleton University, Canada.
+  website: https://people.scs.carleton.ca/~olivervankaick/
 - name: Matt Olson
   graduation: 2011
   text: Safe Software
@@ -448,6 +455,7 @@
 - name: Kai Xu
   graduation: 2010
   text: Assistant professor at National University of Defense Technology (NUDT), China
+  website: https://kevinkaixu.net/
 - name: Bernhard Finkbeiner
   graduation: 2009
   text: Self-employed
