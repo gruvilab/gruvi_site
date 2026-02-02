@@ -22,6 +22,78 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
+- title: "Advances in Neural 3D Mesh Texturing: A Survey"
+  image: perla_egstar26_texturing.gif
+  authors: Sai Raj Kishore Perla, Hao (Richard) Zhang, Ali Mahdavi-Amiri
+  venue: Eurographics STAR
+  year: 2026
+  highlight: 1
+  pdf: ""
+  project_page: ""
+
+- title: "MultiCOIN: Multi-Modal COntrollable Video INbetweening"
+  image: tanveer_eg26_multicoin.gif
+  authors: Maham Tanveer, Yang Zhou, Simon Nicklaus, Ali Mahdavi-Amiri, Hao (Richard) Zhang, Krishna Kumara Singh, Nanxuan Zhao
+  venue: Eurographics
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2510.08561
+  project_page: https://multicoinx.github.io/multicoin/
+
+- title: "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction"
+  image: vora_3dv26_hit.png
+  authors: Aditya Vora, Lily Goli, Hao Zhang, Andrea Tagliasacchi
+  venue: 3DV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2510.27088
+  project_page: https://aditya-vora.github.io/HiT/
+
+- title: "iTACO: Interactable Digital Twins of Articulated Objects from Casually Captured RGBD Videos"
+  image: peng_3dv26_itaco.png
+  authors: Weikun Peng, Jun Lv, Cewu Lu, Manolis Savva
+  venue: 3DV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2506.08334
+  project_page: https://3dlg-hcvc.github.io/video2articulation/
+
+- title: "SemLayoutDiff: Semantic Layout Generation with Diffusion Model for Indoor Scene Synthesis"
+  image: sun_3dv26_semlayoutdiff.png
+  authors: Xiaohao Sun, Divyam Goel, Angel X. Chang
+  venue: 3DV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2508.18597
+  project_page: https://3dlg-hcvc.github.io/SemLayoutDiff/
+
+- title: "HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation"
+  image: pun_3dv26_hsm.png
+  authors: Hou In Derek Pun, Hou In Ivan Tam, Austin T. Wang, Xiaoliang Huo, Angel X. Chang, Manolis Savva
+  venue: 3DV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2503.16848
+  project_page: https://3dlg-hcvc.github.io/hsm/
+
+- title: "SceneEval: Evaluating Semantic Coherence in Text-Conditioned 3D Indoor Scene Synthesis"
+  image: tam_wacv26_sceneeval.png
+  authors: Hou In Ivan Tam, Hou In Derek Pun, Austin T. Wang, Angel X. Chang, Manolis Savva
+  venue: WACV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2503.14756
+  project_page: https://3dlg-hcvc.github.io/SceneEval/
+
+- title: "S2O: Static to Openable Enhancement for Articulated 3D Objects"
+  image: iliash_wacv26_s2o.png
+  authors: Denys Iliash, Hanxiao (Shawn) Jiang, Yiming Zhang, Manolis Savva, Angel X. Chang
+  venue: WACV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2409.18896
+  project_page: https://3dlg-hcvc.github.io/s2o/
+
 - title: "ART-DECO: Arbitrary Text Guidance for 3D Detailizer Construction"
   image: chen_siga25_artdeco.png
   authors: Qimin Chen, Yuezhi Yang, Wang Yifan, Vladimir G. Kim, Siddhartha Chaudhuri, Hao Zhang, Zhiqin Chen
@@ -258,7 +330,14 @@
   pdf: https://arxiv.org/pdf/2501.01366
   project_page: https://3dlg-hcvc.github.io/vigil3d/
 
-
+- title: "Survey on Modeling of Human-made Articulated Objects"
+  image: liu_egstar25_articulated.png
+  authors: Jiayi Liu, Manolis Savva, and Ali Mahdavi-Amiri
+  venue: Eurographics STAR
+  year: 2025
+  highlight: 1
+  pdf: https://arxiv.org/abs/2403.14937
+  project_page: ""
 
 - title: >-
     GALA: Geometry-Aware Local Adaptive Grids for Detailed 3D Generation
@@ -369,8 +448,7 @@
     R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding
   image: 2024-09-29_20ea0ea9-bfe5-465f-ac7a-4e4423f5fc18.webp
   authors: Qirui Wu, Sonia Raychaudhuri, Daniel Ritchie, Manolis Savva, Angel X. Chang
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/abs/2403.12301
@@ -383,8 +461,7 @@
     Intrinsic Single-Image HDR Reconstruction
   image: 2024-09-29_f5e85155-e234-4db6-a8ff-62ab0562cdb4.jpg
   authors: Sebastian Dille, Chris Careaga, Yağız Aksoy
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://yaksoy.github.io/intrinsicHDR/
@@ -396,8 +473,7 @@
     PointNeRF++: A multi-scale, point-based Neural Radiance Field
   image: 2024-09-29_cb1a4dec-364b-4f0c-93a3-637df1003b8c.png
   authors: Weiwei Sun, Eduard Trulls, Yang-Che Tseng, Sneha Sambandam, Gopal Sharma, Andrea Tagliasacchi, Kwang Moo Yi
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://pointnerfpp.github.io/resources/paper.pdf
@@ -409,8 +485,7 @@
     Volumetric Rendering with Baked Quadrature Fields
   image: 2024-09-29_3b948533-0704-49d1-8c48-8f31094e0ffe.png
   authors: Gopal Sharma, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://quadraturefields.github.io/static/pdfs/paper.pdf
@@ -422,8 +497,7 @@
     Lagrangian Hashing for Compressed Neural Field Representations
   image: 2024-09-29_3f30a0c6-8893-440b-9b32-d7af4801d6b1.png
   authors: Shrisudhan Govindarajan, Zeno Sambugaro, Ahan Shabhanov, Towaki Takikawa, Weiwei Sun, Daniel Rebain, Nicola Conci, Kwang Moo Yi, Andrea Tagliasacchi
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://theialab.github.io/laghashes/resources/paper.pdf
@@ -435,9 +509,7 @@
     TC4D: Trajectory-Conditioned Text-to-4D Generation
   image: 2024-09-29_9aaa39a4-7677-461a-99f2-cad72b6456ea.png
   authors: Sherwin Bahmani, Xian Liu, Yifan Wang, Ivan Skorokhodov, Victor Rong, Ziwei Liu, Xihui Liu, Jeong Joon Park, Sergey Tulyakov, Gordon Wetzstein, Andrea Tagliasacchi, David B. Lindell
-  venue: >-
-    ECCV 2024
-  year: 2024
+  venue: ECCV
   highlight: 1
   pdf: https://arxiv.org/pdf/2403.17920
   project_page: https://sherwinbahmani.github.io/tc4d/
@@ -448,8 +520,7 @@
     SweepNet: Unsupervised Learning Shape Abstraction via Neural Sweepers
   image: 2024-09-29_d1cb0fa9-86a7-497d-8cad-2779b3adc4ed.gif
   authors: Mingrui Zhao, Yizhi Wang, Fenggen Yu, Changqing Zou, Ali Mahdavi-Amiri
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/abs/2407.06305
@@ -461,10 +532,7 @@
     Generating Human Interaction Motions in Scenes with Text Control
   image: 2024-09-29_ee6966d8-e673-41c5-a1d8-28740424aee9.png
   authors: Hongwei Yi, Justus Thies, Michael J. Black, Xue Bin Peng, Davis Rempe
-
-
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://xbpeng.github.io/projects/TeSMo/TeSMo_2024.pdf
@@ -477,8 +545,7 @@
     DECOLLAGE: 3D Detailization by Controllable,Localized, and Learned Geometry Enhancement
   image: 2024-09-29_4f14dee5-29c9-40e9-b342-4d389e8f6a8c.png
   authors: Qimin Chen, Zhiqin Chen, Vladimir G. Kim, Noam Aigerman, Hao Zhang, Siddhartha Chaudhuri
-  venue: >-
-    ECCV 2024
+  venue: ECCV
   year: 2024
   highlight: 1
   pdf: https://qiminchen.github.io/decollage/
@@ -490,8 +557,7 @@
     DAE-Net: Deforming Auto-Encoder for fine-grained shape co-segmentation
   image: 2024-07-29_e62454db-4641-4a35-8338-7897173c714d.jpg
   authors: Zhiqin Chen, Qimin Chen, Hang Zhou, Hao Zhang
-  venue: >-
-    SIGGRAPH 2024
+  venue: SIGGRAPH
   year: 2024
   highlight: 1
   pdf: https://github.com/czq142857/DAE-Net
@@ -503,21 +569,17 @@
     Scale-Invariant Monocular Depth Estimation via SSI Depth
   image: 2024-07-29_43f3383e-fb83-4f9f-a4fc-c5c9126c4032.jpg
   authors: S. Mahdi H. Miangoleh, Mahesh Reddy, Yağız Aksoy
-  venue: >-
-    SIGGRAPH 2024
+  venue: SIGGRAPH
   year: 2024
   highlight: 1
   pdf: 
   project_page: 
 
-
-
 - title: >-
     BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry
   image: 2024-07-28_e0c34b56-2086-4010-bed1-a468b37a9890.jpg
   authors: Xiang Xu, Joseph G. Lambourne, Pradeep Kumar Jayaraman, Zhengqing Wang, Karl D.D. Willis, Yasutaka Furukawa
-  venue: >-
-    SIGGRAPH 2024
+  venue: SIGGRAPH
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/abs/2401.15563
@@ -529,390 +591,299 @@
     Interactive Character Control with Auto-Regressive Motion Diffusion Models
   image: 2024-07-28_14b7e948-934b-444a-9150-5902e5708997.png
   authors: Yi Shi, Jingbo Wang, Xuekun Jiang, Bingkun Lin, Bo Dai, Xue Bin Peng
-  venue: >-
-    SIGGRAPH 2024
+  venue: SIGGRAPH
   year: 2024
   highlight: 1
   pdf: https://xbpeng.github.io/projects/AMDM/AMDM_2024.pdf
   project_page: https://xbpeng.github.io/projects/AMDM/index.html
   video: https://www.youtube.com/watch?v=5WE9hy0xCI4&ab_channel=YISHI
 
-
-
 - title: >-
     SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation
   image: 2024-07-28_4836c8b7-6d31-4d53-971e-926946372df4.png
   authors: Jordan Juravsky, Yunrong Guo, Sanja Fidler, Xue Bin Peng
-  venue: >-
-    SIGGRAPH 2024
+  venue: SIGGRAPH
   year: 2024
   highlight: 1
   pdf: https://xbpeng.github.io/projects/SuperPADL/SuperPADL_2024.pdf
   project_page: https://xbpeng.github.io/projects/SuperPADL/index.html
   video: https://www.youtube.com/watch?v=0yXTX0FLXaE&embeds_referring_euri=https%3A%2F%2Fxbpeng.github.io%2F&source_ve_path=Mjg2NjY
 
-
-
 - title: >-
     Flexible Motion In-betweening with Diffusion Models
   image: 2024-07-28_6db0bfdb-c3e5-452b-af2c-fed16ac5e9ec.png
   authors: Setareh Cohan, Guy Tevet, Daniele Reda, Xue Bin Peng, Michiel van de Panne
-
-
-  venue: >-
-    SIGGRAPH 2024
+  venue: SIGGRAPH
   year: 2024
   highlight: 1
   pdf: https://xbpeng.github.io/projects/CondMDI/CondMDI_2024.pdf
   project_page: https://xbpeng.github.io/projects/CondMDI/index.html
   video: https://www.youtube.com/watch?v=rRgeOXOVzGQ&ab_channel=SetarehCohan
 
-
-
 - title: >-
     Neural Fields as Distributions: Signal Processing Beyond Euclidean Space
   image: 2024-07-22_f7d57491-6c51-485c-8069-972ec9d3a8cf.png
   authors: Daniel Rebain, Soroosh Yazdani, Kwang Moo Yi, Andrea Tagliasacchi
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://drive.google.com/file/d/14r6oEWZUkXOEO0dnTTpb8gjtpmIc1f1p/view?usp=sharing
   project_page: https://ubc-vision.github.io/nfd/
 
-
-
 - title: >-
     Bayes' Rays: Uncertainty Quantification for Neural Radiance Fields
   image: 2024-07-22_5c4bb6dc-8a2b-4ba0-a9b2-186e7066f7e5.png
   authors: Lily Goli, Cody Reading, Silvia Sellan, Alec Jacobson, Andrea Tagliasacchi
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://github.com/BayesRays/bayesrays.github.io/raw/main/BayesRays.pdf
   project_page: https://bayesrays.github.io
 
-
-
 - title: >-
     Accelerating Neural Field Training via Soft Mining
   image: 2024-07-22_dc72a115-9111-4c0a-8dcb-777868c07d09.png
   authors: Shakiba Kheradmand, Daniel Rebain, Gopal Sharma, Hossam Isack, Abhishek Kar, Andrea Tagliasacchi, Kwang Moo Yi
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/pdf/2312.00075
   project_page: https://ubc-vision.github.io/nf-soft-mining/
 
-
-
 - title: >-
     Unsupervised Keypoints from Pretrained Diffusion Models
   image: 2024-07-22_4f8c1c58-b6c1-4a8f-9bd7-a72ffa3d30b6.png
   authors: Eric Hedlin, Gopal Sharma, Shweta Mahajan, Hossam Isack, Abhishek Kar, Helge Rhodin, Andrea Tagliasacchi, Kwang Moo Yi
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/pdf/2312.00065
   project_page: https://ubc-vision.github.io/StableKeypoints/
 
-
-
 - title: >-
     BANF: Band-limited Neural Fields for Levels of Detail Reconstruction
   image: 2024-07-22_0ebb847f-958b-4f88-93d6-321b31322c16.png
   authors: Ahan Shabanov, Shrisudhan Govindarajan, Cody Reading, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/pdf/2404.13024
   project_page: https://theialab.github.io/banf/
 
-
-
 - title: >-
     pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction
   image: 2024-07-22_3aa2f28b-15da-4a3b-ac5d-cb52a153b3f2.png
   authors: David Charatan, Sizhe Li, Andrea Tagliasacchi, Vincent Sitzmann
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/pdf/2312.12337
   project_page: https://davidcharatan.com/pixelsplat/
 
-
-
 - title: >-
     4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling
   image: 2024-07-22_da144cba-bbda-4cf4-96f8-9d5d8b8165df.png
   authors: Sherwin Bahmani, Ivan Skorokhodov, Victor Rong, Gordon Wetzstein, Leonidas Guibas, Peter Wonka, Sergey Tulyakov, Jeong Joon Park, Andrea Tagliasacchi, David Lindell
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/pdf/2311.17984
   project_page: https://sherwinbahmani.github.io/4dfy/
 
-
-
 - title: >-
     CAGE: Controllable Articulation GEneration
   image: 2024-07-22_361106eb-cb44-4889-9139-c7fb690a0d46.png
   authors: Jiayi Liu, Hou In Ivan Tam, Ali Mahdavi-Amiri, Manolis Savva
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_CAGE_Controllable_Articulation_GEneration_CVPR_2024_paper.pdf
   project_page: https://3dlg-hcvc.github.io/cage/
   video: https://www.youtube.com/watch?v=cH_rbKbyTpE
 
-
-
 - title: >-
     Slice3D: Multi-Slice, Occlusion-Revealing, Single View 3D Reconstruction
   image: 2024-06-22_b914f52c-9b8a-4676-813f-832639e87b28.png
   authors: Yizhi Wang, Wallace Lira, Wenqi Wang, Ali Mahdavi-Amiri, Hao Zhang
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/abs/2312.02221
   project_page: https://yizhiwang96.github.io/Slice3D/
 
-
-
 - title: >-
     PAPR in Motion: Seamless Point-level 3D Scene Interpolation
   image: 2024-06-22_e7fa23b8-059d-40d0-96fb-6329b650fbe7.png
   authors: Shichong Peng, Yanshu Zhang, Ke Li
-  venue: >-
-    CVPR 2024
+  venue: CVPR
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/abs/2406.05533
   project_page: https://niopeng.github.io/PAPR-in-Motion/
   video: https://youtu.be/vysmn3TN4FY
 
-
-
 - title: >-
     Trajeglish: Traffic Modeling as Next-Token Prediction
   image: 2024-05-07_9442ced9-0049-482f-ab4e-d8f31f56e64b.png
   authors: Jonah Philion, Xue Bin Peng, Sanja Fidler
-
-
-  venue: >-
-    ICLR 2024
+  venue: ICLR
   year: 2024
   highlight: 1
   pdf: https://xbpeng.github.io/projects/Trajeglish/Trajeglish_2024.pdf
   project_page: https://xbpeng.github.io/projects/Trajeglish/index.html
   video: https://www.youtube.com/watch?v=Bk1v_Qct3i8&embeds_referring_euri=https%3A%2F%2Fxbpeng.github.io%2F&source_ve_path=Mjg2NjY
 
-
-
-- title: >-
-    Text-to-3D Shape Generation STAR 
+- title: Text-to-3D Shape Generation
   image: 2024-04-22_951b7e5b-aebc-4313-9633-3f84b4c852dc.png
   authors: Han-Hung Lee, Manolis Savva, Angel X Chang
-  venue: >-
-    Eurographics 2024
+  venue: Eurographics STAR
   year: 2024
   highlight: 1
-  pdf: https://3dlg-hcvc.github.io/tt3dstar/
+  pdf: https://arxiv.org/abs/2403.13289
   project_page: https://3dlg-hcvc.github.io/tt3dstar/
-
-
 
 - title: >-
     Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects
   image: 2024-03-18_6ba78a9f-244d-494e-b4e7-299a9dda8692.png
   authors: Qirui Wu, Daniel Ritchie, Manolis Savva, Angel X Chang
-  venue: >-
-    3DV 2024
+  venue: 3DV
   year: 2024
   highlight: 1
-  pdf: https://3dlg-hcvc.github.io/
-  project_page: https://3dlg-hcvc.github.io/
-
-
+  pdf: https://arxiv.org/abs/2401.00405
+  project_page: https://3dlg-hcvc.github.io/generalizing_shape_retrieval/
 
 - title: >-
     OPDMulti: Openable Part Detection for Multiple Objects
   image: 2024-03-18_99d34d16-28ec-4ada-abee-307b42832af2.png
   authors: Xiaohao Sun*, Hanxiao Jiang*, Manolis Savva, Angel X Chang
-  venue: >-
-    3DV 2024
+  venue: 3DV
   year: 2024
   highlight: 1
   pdf: https://arxiv.org/abs/2303.14087
   project_page: https://3dlg-hcvc.github.io/OPDMulti/
 
-
-
 - title: >-
     Intrinsic Harmonization for Illumination-Aware Compositing
   image: 2023-12-12_ea26e5c5-0db8-4038-9dfc-305bbded0f83.jpg
   authors: Chris Careaga, S. Mahdi H. Miangoleh, Yağız Aksoy
-  venue: >-
-    SIGGRAPH Asia 2023
+  venue: SIGGRAPH Asia
   year: 2023
   highlight: 1
   pdf: https://yaksoy.github.io/papers/SigAsia23-IntrinsicCompositing.pdf
   project_page: https://yaksoy.github.io/intrinsicCompositing/
   video: https://www.youtube.com/watch?v=M9hCUTp8bo4
 
-
-
 - title: >-
     ShaDDR: Interactive Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering
   image: 2023-12-12_af27631d-4936-4a32-b742-dca9d9379a50.png
   authors: Qimin Chen, Zhiqin Chen, Hang Zhou, Hao Zhang
-  venue: >-
-    SIGGRAPH Asia 2023
+  venue: SIGGRAPH Asia
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2306.04889
   project_page: https://qiminchen.github.io/shaddr/
 
-
-
 - title: >-
     DiViNeT: 3D Reconstruction from Disparate Views via Neural Template Regularization
   image: 2023-12-10_8fcbf0dc-f008-47d3-9190-245544f99ad3.png
   authors: Aditya Vora, Akshay Gadi Patil, Hao (Richard) Zhang
-  venue: >-
-    NeurIPS 2023
+  venue: SIGGRAPH Asia
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2306.04699
   project_page: https://aditya-vora.github.io/divinetpp/
 
-
-
 - title: >-
     PolyDiffuse: Polygonal Shape Reconstruction via Guided Set Diffusion Model
   image: 2023-12-10_a6aec9d2-5b4e-485c-b437-baa336078736.png
   authors: Jiacheng Chen, Ruizhi Deng, Yasutaka Furukawa
-  venue: >-
-    NeurIPS 2023
+  venue: SIGGRAPH Asia
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2306.01461
   project_page: https://poly-diffuse.github.io/
 
-
-
 - title: >-
     MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion
   image: 2023-12-10_52024903-b5ec-47c0-83bf-a5f65531d5f8.png
   authors: Shitao Tang*, Fuyang Zhang*, Jiacheng Chen, Peng Wang, Yasutaka Furukawa
-  venue: >-
-    NeurIPS 2023
+  venue: NeurIPS
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2307.01097
   project_page: https://mvdiffusion.github.io/
 
-
-
 - title: >-
     Neural Fields with Hard Constraints of Arbitrary Differential Order
   image: 2023-12-10_e465f55d-74c4-42c4-bb93-c056ef05e56a.jpg
   authors: Fangcheng Zhong, Kyle Fogarty, Param Hanji, Tianhao Wu, Alejandro Sztrajman, Andrew Spielberg, Andrea Tagliasacchi, Petra Bosilj, Cengiz Oztireli
-  venue: >-
-    NeurIPS 2023
+  venue: NeurIPS
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2306.08943
-  project_page: https://arxiv.org/abs/2306.08943
-
-
+  project_page: https://zfc946.github.io/CNF.github.io/
 
 - title: >-
     Unsupervised Semantic Correspondence Using Stable Diffusion
   image: 2023-12-10_e40d79ba-70ee-4aee-86a4-023047c0b26d.jpg
   authors: Eric Hedlin, Gopal Sharma, Shweta Mahajan, Hossam Isack, Abhishek Kar, Andrea Tagliasacchi, Kwang Moo Yi
-  venue: >-
-    NeurIPS 2023
+  venue: NeurIPS
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2305.15581
   project_page: https://ubc-vision.github.io/LDM_correspondences/
 
 
-
 - title: >-
     A Step Towards Worldwide Biodiversity Assessment: The BIOSCAN-1M Insect Dataset
   image: 2023-12-10_062f2450-a093-4a1d-afc7-127b9ff2af39.png
   authors: Zahra Gharaee, Zeming Gong, Nicholas Pellegrino, Iuliia Zarubiieva, Joakim Bruslund Haurum, Scott C Lowe, Jaclyn TA McKeown, Chris CY Ho, Joschka McLeod, Yi-Yun C Wei, Jireh Agda, Sujeevan Ratnasingham, Dirk Steinke, Angel X. Chang, Graham W Taylor, Paul Fieguth
-  venue: >-
-    NeurIPS Datasets and Benchmarks Track 2023
+  venue: NeurIPS Datasets and Benchmarks Track
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2307.10455
   project_page: https://biodiversitygenomics.net/1M_insects/
 
-
-
 - title: >-
     PAPR: Proximity Attention Point Rendering
   image: 2023-12-10_b595d4de-624c-430c-a679-0429d50269dc.png
   authors: Yanshu Zhang*, Shichong Peng*, Seyed Alireza Moazenipourasil, Ke Li
-  venue: >-
-    NeurIPS 2023
+  venue: NeurIPS
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2307.11086
   project_page: https://zvict.github.io/papr/
 
-
-
 - title: >-
     PuzzleFusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving
   image: 2023-12-10_e9f11fd2-9460-41d8-8179-5cd059dcdb98.png
   authors: Sepidehsadat Hosseini, Mohammad Amin Shabani, Saghar Irandoust, Yasutaka Furukawa
-  venue: >-
-    NeurIPS 2023
+  venue: NeurIPS
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/pdf/2211.13785v2.pdf
   project_page: https://github.com/sepidsh/PuzzleFussion
 
-
-
 - title: >-
     Floorplan Restoration by Structure Hallucinating Transformer Cascades
   image: 2023-11-20_10ad0ead-0668-44d3-8be8-e1627048574a.png
   authors: Sepidehsadat Hosseini, Yasutaka Furukawa
-  venue: >-
-    BMVC 2023
+  venue: BMVC
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/pdf/2206.00645.pdf
   project_page: https://sepidsh.github.io/floorplan_restore/
 
-
-
 - title: >-
     HomeRobot: Open Vocabulary Mobile Manipulation
   image: 2023-11-06_1b12c251-91ff-4e6d-9098-46e325abba8f.jpeg
   authors: Sriram Yenamandra, Arun Ramachandran, Karmesh Yadav, Austin Wang, Mukul Khanna, Theo Gervet, Tsung-Yen Yang, Vidhi Jain, Alexander William Clegg, John Turner, Zsolt Kira, Manolis Savva, Angel X. Chang, Devendra Chaplot, Dhruv Batra, Roozbeh Mottaghi, Yonatan Bisk, Chris Paxton
-  venue: >-
-    CoRL 2023
+  venue: CoRL
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2306.11565
   project_page: https://ovmm.github.io/
   video: https://www.youtube.com/watch?v=EA8HEzopkc0
-
-
 
 - title: >-
     Intrinsic Image Decomposition via Ordinal Shading
@@ -932,165 +903,128 @@
     Exploiting Proximity-Aware Tasks for Embodied Social Navigation
   image: 2023-10-02_cdc1a96a-7fa0-4e3b-8f2b-4ba676ac8d73.png
   authors: Enrico Cancelli, Tommaso Campari, Luciano Serafini, Angel X. Chang, Lamberto Ballan
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2212.00767
   project_page: https://arxiv.org/abs/2212.00767
 
-
-
 - title: >-
     UniT3D: A Unified Transformer for 3D Dense Captioning and Visual Grounding
   image: 2023-10-02_96b1c296-9893-4784-801a-f0daed0f43ef.jpg
   authors: Dave Zhenyu Chen, Ronghang Hu, Xinlei Chen, Matthias Nießner, Angel X. Chang
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2212.00836
   project_page: https://arxiv.org/abs/2212.00836
 
-
-
 - title: >-
     HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling
   image: 2023-10-02_97a335a8-5de9-4af8-97fe-b8cdbbc02c06.png
   authors: Fenggen Yu, Yiming Qian, Francisca Gil-Ureta, Brian Jackson, Eric Bennett, and Hao Zhang
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2301.10460
   project_page: https://arxiv.org/abs/2301.10460
 
-
-
 - title: >-
     PARIS: Part-level Reconstruction and Motion Analysis for Articulated Objects
   image: 2023-10-02_c34ba525-ac8d-4b9b-91e7-d412e7fce348.png
   authors: Jiayi Liu, Ali Mahdavi-Amiri, Manolis Savva
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2303.10735
   project_page: https://3dlg-hcvc.github.io/paris/
 
-
-
 - title: >-
     SKED: Sketch-guided Text-based 3D Editing
   image: 2023-10-02_76c3667b-3a91-4d35-94e6-0d33b0b6a293.png
   authors: Aryan Mikaeili, Or Perel, Mehdi Safaee, Daniel Cohen-Or, Ali Mahdavi-Amiri
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2303.10735v3
   project_page: https://sked-paper.github.io/
 
-
-
 - title: >-
     DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion
   image: 2023-10-02_40055d39-bb6d-44ea-8d68-453f503ef32d.png
   authors: Maham Tanveer, Yizhi Wang, Ali Mahdavi-Amiri, Hao Zhang
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://ds-fusion.github.io/
   project_page: https://ds-fusion.github.io/
 
-
-
 - title: >-
     Multi3DRefer: Grounding Text Description to Multiple 3D Objects
   image: 2023-10-02_770d6d8f-f95b-46d8-8cab-db33928836de.jpg
   authors: Yiming Zhang, ZeMing Gong, Angel X. Chang
-  venue: >-
-    ICCV 2023
+  venue: ICCV
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2309.05251
   project_page: https://3dlg-hcvc.github.io/multi3drefer/
 
-
-
 - title: >-
     Learning Physically Simulated Tennis Skills from Broadcast Videos
   image: 2023-07-01_fd9e8fb3-ecc3-4c62-abb8-631e62ebd6e1.png
   authors: Haotian Zhang, Ye Yuan, Viktor Makoviychuk, Yunrong Guo, Sanja Fidler, Xue Bin Peng, Kayvon Fatahalian
-  venue: >-
-    SIGGRAPH 2023
+  venue: SIGGRAPH
   year: 2023
   highlight: 1
   pdf: https://xbpeng.github.io/projects/Vid2Player3D/2023_TOG_Vid2Player3D.pdf
   project_page: https://xbpeng.github.io/projects/Vid2Player3D/index.html
 
-
-
 - title: >-
     Synthesizing Physical Character-Scene Interactions
   image: 2023-07-01_d34f0d36-07ec-4c96-a246-3213aa65f9e0.png
   authors: Mohamed Hassan, Yunrong Guo, Tingwu Wang, Michael Black, Sanja Fidler, Xue Bin Peng
-  venue: >-
-    SIGGRAPH 2023
+  venue: SIGGRAPH
   year: 2023
   highlight: 1
   pdf: https://xbpeng.github.io/projects/CALM/2023_SIGGRAPH_CALM.pdf
   project_page: https://xbpeng.github.io/projects/CALM/index.html
-
-
 
 - title: >-
     CALM: Conditional Adversarial Latent Models for Directable Virtual Characters
   image: 2023-07-01_2a5a8d54-c945-4a54-bc8f-ea9130197bc3.png
   authors: Chen Tessler, Yoni Kasten, Yunrong Guo, Shie Mannor, Gal Chechik, Xue Bin Peng
-  venue: >-
-    SIGGRAPH 2023
+  venue: SIGGRAPH
   year: 2023
   highlight: 1
   pdf: https://xbpeng.github.io/projects/CALM/2023_SIGGRAPH_CALM.pdf
   project_page: https://xbpeng.github.io/projects/CALM/index.html
 
-
-
 - title: >-
     Realistic Saliency Guided Image Enhancement
   image: 2023-06-14_59e4ea73-0aa4-4d38-8eb7-88a3428b942e.jpg
   authors: S. Mahdi H. Miangoleh, Zoya Bylinskii, Eric Kee, Eli Shechtman, Yağız Aksoy
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: http://yaksoy.github.io/realisticEditing/
   project_page: http://yaksoy.github.io/realisticEditing/
   video: https://www.youtube.com/watch?v=5dKUDMnnjuo
 
-
-
 - title: >-
     Computational Flash Photography through Intrinsics
   image: 2023-06-14_6a1f6f77-f792-415f-a4b9-15a19cda6d15.jpg
   authors: Sepideh Sarajian Maralan, Chris Careaga, and Yağız Aksoy
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: http://yaksoy.github.io/intrinsicFlash/
   project_page: http://yaksoy.github.io/intrinsicFlash/
 
-
-
 - title: >-
     Adaptive IMLE for Few-shot Pretraining-free Generative Modelling
   image: 2023-05-01_2ff4a77a-2833-429c-b89c-3c0c2873aeae.png
   authors: Mehran Aghabozorgi, Shichong Peng, Ke Li
-  venue: >-
-    ICLR 2023
+  venue: ICLR
   year: 2023
   highlight: 1
   pdf: https://openreview.net/pdf?id=CNq0JvrDfw
@@ -1103,48 +1037,39 @@
     Emergence of Maps in the Memories of Blind Navigation Agents
   image: 2023-05-01_c08df0c7-8898-4d63-95ee-20e93f9f5b8f.jpg
   authors: Erik Wijmans, Manolis Savva, Irfan Essa, Stefan Lee, Ari S Morcos, Dhruv Batra
-  venue: >-
-    ICLR 2023
+  venue: ICLR
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2301.13261
   project_page: https://wijmans.xyz/publication/eom/
 
 
-
 - title: >-
     Hierarchical Neural Coding for Controllable CAD Model Generation
   image: 2023-04-24_a71873ed-851a-4a82-a39c-d96ac1486e2b.png
   authors: Xiang Xu, Pradeep Kumar Jayaraman, Joseph G. Lambourne, Karl D.D. Willis, Yasutaka Furukawa
-  venue: >-
-    ICML 2023
+  venue: ICML
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/pdf/2307.00149.pdf
   project_page: https://hnc-cad.github.io/
   video: https://www.youtube.com/watch?v=1XVUJIKioO4
 
-
-
 - title: >-
     Habitat-Matterport 3D Semantics Dataset
   image: 2023-04-01_4e0e1234-968a-4b5b-af83-3f46de5449b5.png
   authors: Karmesh Yadav, Ram Ramrakhya, Santhosh Kumar Ramakrishnan, Theo Gervet, John Turner, Aaron Gokaslan, Noah Maestre, Angel Xuan Chang, Dhruv Batra, Manolis Savva, Alexander William Clegg, Devendra Singh Chaplot
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/pdf/2210.05633.pdf
   project_page: https://aihabitat.org/datasets/hm3d-semantics/
 
-
-
 - title: >-
     ARO-Net: Learning Implicit Fields from Anchored Radial Observations
   image: 2023-04-01_09e8bfb7-cc10-4c12-91be-940f77be6a1e.png
   authors: Yizhi Wang, Zeyu Huang, Ariel Shamir, Hui Huang, Hao Zhang, and Ruizhen Hu
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2212.10275
@@ -1156,105 +1081,81 @@
     CUF: Continuous Upsampling Filters
   image: 2023-04-01_fb5c2a9b-b3da-4f72-9213-ab918b301345.jpg
   authors: Cristina Vasconcelos, Kevin Swersky, Mark Matthews, Milad Hashemi, Cengiz Oztireli, Andrea Tagliasacchi
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://cuf-paper.github.io/cuf.pdf
   project_page: https://cuf-paper.github.io/
 
-
-
 - title: >-
     OpenScene: 3D Scene Understanding with Open Vocabularies
   image: 2023-04-01_d050430b-4429-465d-9ad0-3697d4124f37.jpg
   authors: Songyou Peng, Kyle Genova, Chiyu Max Jiang, Andrea Tagliasacchi, Marc Pollefeys, Thomas Funkhouser
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2211.15654
-  project_page: https://arxiv.org/abs/2211.15654
-
-
+  project_page: https://pengsongyou.github.io/openscene
 
 - title: >-
     SparsePose: Sparse-View Camera Pose Regression and Refinement
   image: 2023-04-01_14c20053-18fd-405a-bcd5-64ff012adf1c.jpg
   authors: Samarth Sinha, Jason Y. Zhang, Andrea Tagliasacchi, Igor Gilitschenski, David B. Lindell
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
-  pdf: https://taiya.github.io/
-  project_page: https://taiya.github.io/
-
-
+  pdf: https://arxiv.org/abs/2211.16991
+  project_page: ""
 
 - title: >-
     BlendFields: Few-Shot Example-Driven Facial Modeling
   image: 2023-04-01_c5d52e42-8a31-439a-b18a-110cbaf1692d.jpg
   authors: Kacper Kania, Stephan J. Garbin, Andrea Tagliasacchi, Virginia Estellers, Kwang Moo Yi, Tomasz Trzcinski, Julien Valentin, Marek Kowalski
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
-  pdf: https://taiya.github.io/
-  project_page: https://taiya.github.io/
-
-
+  pdf: https://arxiv.org/abs/2305.07514
+  project_page: https://blendfields.github.io/
 
 - title: >-
     MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures
   image: 2023-04-01_e597ffc2-5b25-4391-b4a1-6f533e25e983.png
   authors: Zhiqin Chen, Tom Funkhouser, Peter Hedman, Andrea Tagliasacchi
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://taiya.github.io/pubs/chen2023mobilenerf.pdf
   project_page: https://mobile-nerf.github.io/
 
-
-
 - title: >-
     Hierarchical Neural Memory Network for Low Latency Event Processing
   image: 2023-04-01_11d5ea9f-22c9-42a4-80fb-a9ab21e7b616.jpg
   authors: Ryuhei Hamaguchi, Yasutaka Furukawa, Masaki Onishi, and Ken Sakurada
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
-  pdf: https://www.cs.sfu.ca/~furukawa/
-  project_page: https://www.cs.sfu.ca/~furukawa/
-
-
+  pdf: https://arxiv.org/abs/2305.17852
+  project_page: ""
 
 - title: >-
     HouseDiffusion: Vector Floorplan Generation via a Diffusion Model with Discrete and Continuous Denoising
   image: 2023-04-01_86fb7dc9-1442-41a1-8d90-8291a3e07865.jpg
   authors: Amin Shabani, Sepidehsadat Hosseini, and Yasutaka Furukawa
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2211.11177
   project_page: https://github.com/Tangshitao/NeuMap
-
-
 
 - title: >-
     NeuMap: Neural Coordinate Mapping by Auto-Transdecoder for Camera Localization
   image: 2023-04-01_73a510c5-02c6-4a27-9b9a-09e875390a45.jpg
   authors: Shitao Tang, Sicong Tang, Andrea Tagliasacchi, Ping Tan, and Yasutaka Furukawa
-  venue: >-
-    CVPR 2023
+  venue: CVPR
   year: 2023
   highlight: 1
   pdf: https://arxiv.org/abs/2211.11177
   project_page: https://github.com/Tangshitao/NeuMap
-
-
 
 - title: >-
     SAC-GAN: Structure-Aware Image Composition
@@ -1273,67 +1174,52 @@
     Vectorizing Building Blueprints
   image: 2022-12-01_c9b9e48d-4f8c-48b8-ba80-17396fad3344.jpg
   authors: Weilian Song, Mahsa Maleki Abyaneh, Mohammad Amin Shabani, and Yasutaka Furukawa
-  venue: >-
-    ACCV 2022
+  venue: ACCV
   year: 2022
   highlight: 1
   pdf: https://drive.google.com/file/d/1ASIAVhs0HeTiTdyHrEim2G4cF7PXCOs0/view
   project_page: https://drive.google.com/file/d/1ASIAVhs0HeTiTdyHrEim2G4cF7PXCOs0/view
 
-
-
 - title: >-
     MultiScan: Scalable RGBD scanning for 3D environments with articulated objects
   image: 2022-11-29_89b26044-a63b-46bb-8335-b310c47194f2.png
   authors: Yongsen Mao, Yiming Zhang, Hanxiao Jiang, Angel X. Chang, Manolis Savva
-  venue: >-
-    NeurIPS 2022
+  venue: NeurIPS
   year: 2022
   highlight: 1
   pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/3b3a83a5d86e1d424daefed43d998079-Paper-Conference.pdf
   project_page: https://3dlg-hcvc.github.io/multiscan/
 
-
-
 - title: >-
     CHIMLE: Conditional Hierarchical IMLE for Multimodal Conditional Image Synthesis
   image: 2022-11-28_62603cb1-eb87-4492-9360-62a4f88afdc3.gif
   authors: Shichong Peng, Alireza Moazeni, Ke Li
-  venue: >-
-    NeurIPS 2022
+  venue: NeurIPS
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2211.14286
   project_page: https://niopeng.github.io/CHIMLE/
   video: https://www.youtube.com/watch?v=plgPL3XyzRg
 
-
-
 - title: >-
     D3Net: A Unified Speaker-Listener Architecture for 3D Dense Captioning and Visual Grounding
   image: 2022-10-25_6acd66a6-a889-4438-bcc7-551da232ee3f.png
   authors: Dave Zhenyu Chen, Qirui Wu, Matthias Nießner, Angel X. Chang
-  venue: >-
-    ECCV 2022
+  venue: ECCV
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2112.01551
   project_page: https://daveredrum.github.io/D3Net/
 
-
-
 - title: >-
     OPD: Single-view 3D Openable Part Detection
   image: 2022-10-25_7cc9a376-f7a0-47e6-b725-ee0a6d7550de.png
   authors: Hanxiao Jiang, Yongsen Mao, Manolis Savva, Angel X. Chang
-  venue: >-
-    ECCV 2022
+  venue: ECCV
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2203.16421
   project_page: https://3dlg-hcvc.github.io/OPD/
-
-
 
 - title: >-
     Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps
@@ -1352,156 +1238,121 @@
     Articulated 3D Human-Object Interactions from RGB Videos:An Empirical Analysis of Approaches and Challenges
   image: 2022-09-12_315625ea-6b60-4cf6-b1df-990c9c46a53b.png
   authors: Sanjay Haresh, Xiaohao Sun, Hanxiao Jiang, Angel X. Chang, Manolis Savva
-  venue: >-
-    3DV 2022
+  venue: 3DV
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2209.05612
   project_page: https://3dlg-hcvc.github.io/3dhoi/
 
-
-
 - title: >-
     Learning to Use Chopsticks in Diverse Gripping Styles
   image: 2022-07-30_d678f388-423a-436a-8fb4-e65ec066498c.jpg
   authors: Zeshi Yang, KangKang Yin, and Libin Liu
-  venue: >-
-    SIGGRAPH 2022
+  venue: SIGGRAPH
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2205.14313
   project_page: https://github.com/chopsticks-research2022/learning2usechopsticks
 
-
-
 - title: >-
     3DVQA: Visual Question Answering for 3D Environments
   image: 2022-05-31_c98548ee-e3c8-4015-8b44-f2af87f8c61f.png
   authors: Yasaman Etesam, Leon Kochiev, Angel X. Chang
-  venue: >-
-    CRV 2022
+  venue: CRV
   year: 2022
   highlight: 1
   pdf: https://ieeexplore.ieee.org/document/9866910
   project_page: https://3dlg-hcvc.github.io/3DVQA/
 
-
-
 - title: >-
     SkexGen: Generating CAD Construction Sequences by Autoregressive VAE with Disentangled Codebooks
   image: 2022-05-14_93aea945-8b99-4fa3-aaef-ae5b7d9e943e.png
   authors: Xiang Xu, Karl Willis, Joseph Lambourne, Chin-Yi Cheng, Pradeep Kumar Jayaraman, and Yasutaka Furukawa
-  venue: >-
-    ICML
+  venue: ICML
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2207.04632
   project_page: https://samxuxiang.github.io/skexgen/index.html
 
-
-
 - title: >-
     HEAT: Holistic Edge Attention Transformer for Structured Reconstruction
   image: 2022-04-14_7d93afe8-9aea-4cba-b951-e14e6849e611.jpg
   authors: Jiacheng Chen, Yiming Qian, and Yasutaka Furukawa
-  venue: >-
-    CVPR 2022
+  venue: CVPR
   year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2111.15143
   project_page: https://heat-structured-reconstruction.github.io/
 
-
-
 - title: >-
     UNIST: Unpaired Neural Implicit Shape Translation Network
   image: 2022-03-30_a0971bb6-97d2-4960-a91b-747093d53f8b.svg
   authors: Qimin Chen, Johannes Merz, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang
-  venue: >-
-    CVPR 2022
+  venue: CVPR
   year: 2022
   highlight: 1
   pdf: https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_UNIST_Unpaired_Neural_Implicit_Shape_Translation_Network_CVPR_2022_paper.pdf
   project_page: https://qiminchen.github.io/unist/
 
-
-
 - title: >-
-    Single User WiFi Structure from Motion in the Wild
-  image: 2022-03-14_386b9443-f01c-4dbe-b712-18d7b1910e35.jpg
-  authors: Yiming Qian, Hang Yan, Sachini Herath, Pyojin Kim, and Yasutaka Furukawa
-  venue: >-
-    ICRA 2022
+    CAPRI-Net: Learning Compact CAD Shapes with Adaptive Primitive Assembly
+  image: 2021-04-12_8e49a3c8-3bc1-4910-ab61-559e02920f96.png
+  authors: Fenggen Yu, Zhiqin Chen, Manyi Li, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang.
+  venue: CVPR
   year: 2022
   highlight: 1
-  pdf: https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing
-  project_page: https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing
-
-
-
-- title: >-
-    Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI
-  image: 2021-12-07_23711644-bc80-4dc8-b9f6-5a112d0a4200.jpeg
-  authors: Santhosh K Ramakrishnan, Aaron Gokaslan, Erik Wijmans, Oleksandr Maksymets, Alex Clegg, John Turner, Eric Undersander, Wojciech Galuba, Andrew Westbury, Angel X Chang, Manolis Savva, Yili Zhao, Dhruv Batra
-  venue: >-
-    NeurIPS Datasets and Benchmarks Track 2021
-  year: 2021
-  highlight: 1
-  pdf: https://arxiv.org/abs/2109.08238
-  project_page: https://aihabitat.org/datasets/hm3d/
-
-
-
-- title: >-
-    Habitat 2.0: Training Home Assistants to Rearrange their Habitat
-  image: 2021-12-07_bcca4a74-3f90-456c-b372-a45393aeb3ca.jpeg
-  authors: Andrew Szot, Alexander Clegg, Eric Undersander, Erik Wijmans, Yili Zhao, John Turner, Noah Maestre, Mustafa Mukadam, Devendra Singh Chaplot, Oleksandr Maksymets, Aaron Gokaslan, Vladimír Vondruš, Sameer Dharur, Franziska Meier, Wojciech Galuba, Angel Chang, Zsolt Kira, Vladlen Koltun, Jitendra Malik, Manolis Savva, Dhruv Batra
-  venue: >-
-    NeurIPS 2021
-  year: 2021
-  highlight: 1
-  pdf: https://arxiv.org/abs/2106.14405
-  project_page: https://aihabitat.org/
-
-
+  pdf: https://arxiv.org/pdf/2104.05652.pdf
+  project_page: https://fenggenyu.github.io/capri.html
 
 - title: >-
     Multimodal Shape Completion via IMLE
   image: 2021-06-30_772535f6-7463-4bd9-a12c-36c8030b9b9e.png
   authors: Himanshu Arora, Saurabh Mishra, Shichong Peng, Ke Li, Ali Mahdavi-Amiri
-  venue: >-
-    CVPR 2022
-  year: 2021
+  venue: CVPR Workshop
+  year: 2022
   highlight: 1
   pdf: https://arxiv.org/abs/2106.16237
   project_page: https://arxiv.org/abs/2106.16237
 
+- title: >-
+    Single User WiFi Structure from Motion in the Wild
+  image: 2022-03-14_386b9443-f01c-4dbe-b712-18d7b1910e35.jpg
+  authors: Yiming Qian, Hang Yan, Sachini Herath, Pyojin Kim, and Yasutaka Furukawa
+  venue: ICRA
+  year: 2022
+  highlight: 1
+  pdf: https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing
+  project_page: https://drive.google.com/file/d/1rOKqGDQ1NtVay3-DUvhJPDhjIXD5ydSH/view?usp=sharing
 
+- title: >-
+    Habitat-Matterport 3D Dataset (HM3D): 1000 Large-scale 3D Environments for Embodied AI
+  image: 2021-12-07_23711644-bc80-4dc8-b9f6-5a112d0a4200.jpeg
+  authors: Santhosh K Ramakrishnan, Aaron Gokaslan, Erik Wijmans, Oleksandr Maksymets, Alex Clegg, John Turner, Eric Undersander, Wojciech Galuba, Andrew Westbury, Angel X Chang, Manolis Savva, Yili Zhao, Dhruv Batra
+  venue: NeurIPS Datasets and Benchmarks Track
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/abs/2109.08238
+  project_page: https://aihabitat.org/datasets/hm3d/
+
+- title: >-
+    Habitat 2.0: Training Home Assistants to Rearrange their Habitat
+  image: 2021-12-07_bcca4a74-3f90-456c-b372-a45393aeb3ca.jpeg
+  authors: Andrew Szot, Alexander Clegg, Eric Undersander, Erik Wijmans, Yili Zhao, John Turner, Noah Maestre, Mustafa Mukadam, Devendra Singh Chaplot, Oleksandr Maksymets, Aaron Gokaslan, Vladimír Vondruš, Sameer Dharur, Franziska Meier, Wojciech Galuba, Angel Chang, Zsolt Kira, Vladlen Koltun, Jitendra Malik, Manolis Savva, Dhruv Batra
+  venue: NeurIPS
+  year: 2021
+  highlight: 1
+  pdf: https://arxiv.org/abs/2106.14405
+  project_page: https://aihabitat.org/
 
 - title: >-
     Discovering Diverse Athletic Jumping Strategies
   image: 2021-05-02_87e25aef-ee38-4efe-ab82-5ad3b3edaebb.png
   authors: Zhiqi Yin, Zeshi Yang, Michiel van de Panne, KangKang Yin
-  venue: >-
-    SIGGRAPH 2021
+  venue: SIGGRAPH
   year: 2021
   highlight: 1
   pdf: https://www.cs.sfu.ca/~kkyin/papers/Jump.pdf
   project_page: https://arpspoof.github.io/project/jump/jump.html
-
-
-
-- title: >-
-    CAPRI-Net: Learning Compact CAD Shapes with Adaptive Primitive Assembly
-  image: 2021-04-12_8e49a3c8-3bc1-4910-ab61-559e02920f96.png
-  authors: Fenggen Yu, Zhiqin Chen, Manyi Li, Aditya Sanghi, Hooman Shayani, Ali Mahdavi-Amiri, Hao Zhang.
-  venue: >-
-    CVPR 2022
-  year: 2021
-  highlight: 1
-  pdf: https://arxiv.org/pdf/2104.05652.pdf
-  project_page: https://fenggenyu.github.io/capri.html
-
 
 
  ################################# BELOW: MANUAL ENTRIES ################################# 
