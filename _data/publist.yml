@@ -40,6 +40,13 @@
   pdf: https://arxiv.org/abs/2510.08561
   project_page: https://multicoinx.github.io/multicoin/
 
+- title: "Data-Efficient Inference of Neural Fluid Fields via SciML Foundation Model"
+  authors: Yuqiu Liu, Jingxuan Xu, Mauricio Soroco, Yunchao Wei, Wuyang Chen
+  venue: 3DV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2412.13897
+
 - title: "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction"
   image: vora_3dv26_hit.png
   authors: Aditya Vora, Lily Goli, Hao Zhang, Andrea Tagliasacchi
