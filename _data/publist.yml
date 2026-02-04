@@ -47,6 +47,15 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2412.13897
 
+- title: "ACT-R: Adaptive Camera Trajectories for Single-View 3D Reconstruction"
+  image: wang_3dv26_actr.png
+  authors: Yizhi Wang, Mingrui Zhao, Hao Zhang
+  venue: 3DV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2505.08239
+  project_page: https://mingrui-zhao.github.io/ACT-R/
+
 - title: "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction"
   image: vora_3dv26_hit.png
   authors: Aditya Vora, Lily Goli, Hao Zhang, Andrea Tagliasacchi
