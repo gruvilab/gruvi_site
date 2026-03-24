@@ -12,6 +12,26 @@
 #  image: news_1.PNG
 #  
 
+- date: March 18, 2026
+  headline: >-
+    3DV 2026 hosted in Vancouver!
+  text: >-
+    This year, 3DV is held in Vancouver from March 20 to 23rd.  Prof. Manolis Savva is serving as the general chair, and Prof. Ali Mahdavi-Amiri as program chair.  Prof. Angel Xuan Chang is serving as oral and nectar track session chair. In addition, SFU is holding a workshop for area chairs at the Burnaby campus on March 19th.  There is also a post-3DV workshop on <a href='https://sites.google.com/view/sfu-workshops/sfu3dv2026'>research journeys in 3D</a> on March 23rd afternoon.  
+    <br/> 
+    The GrUVi lab will also be presenting the following six papers in 3DV as well as showcasing new work in the Nectar track. 
+    </p>
+    <ul class="left">
+    <li><a href="https://arxiv.org/abs/2412.13897">Data-Efficient Inference of Neural Fluid Fields via SciML Foundation Model</a></li>
+    <li><a href="https://mingrui-zhao.github.io/ACT-R/">ACT-R: Adaptive Camera Trajectories for Single-View 3D Reconstruction</a></li>
+    <li><a href="https://aditya-vora.github.io/HiT/">HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction</a></li>
+    <li><a href="https://3dlg-hcvc.github.io/video2articulation/">iTACO: Interactable Digital Twins of Articulated Objects from Casually Captured RGBD Videos</a></li>
+    <li><a href="https://3dlg-hcvc.github.io/SemLayoutDiff/">SemLayoutDiff: Semantic Layout Generation with Diffusion Model for Indoor Scene Synthesis</a></li>
+    <li><a href="https://3dlg-hcvc.github.io/hsm/">HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation</a></li>
+    </ul><p>
+  highlight: 1  
+  image: 3dv2026.png
+
+
 - date: December 14, 2025
   headline: >-
     SIGGRAPH Asia 2025: Spotlight on GruVi Lab
@@ -88,7 +108,7 @@
     Richard Zhang elected to the SIGGRAPH academy
   text: >-
     Congratulations to Prof. Richang Zhang for being  elected to the <a href="https://www.siggraph.org/awards/acm-siggraph-academy/">**SIGGRAPH academy**</a> for technical contributions in spectral and learning-based methods for geometric modeling.</p> <p>The ACM SIGGRAPH Academy is an honorary group of individuals who have made substantial contributions to the field of computer graphics. </p> <p>Please find the official announcement here: <a href="https://www.siggraph.org/award-winners/announcing-the-2025-award-winners">https://www.siggraph.org/award-winners/announcing-the-2025-award-winners</a>
-  highlight: 1
+  highlight: 0
   image: richard_siggraph_academy.png
 
 - date: March 30, 2025
