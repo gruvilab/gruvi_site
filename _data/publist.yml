@@ -175,6 +175,14 @@
   pdf: https://arxiv.org/abs/2504.08366
   project_page: https://in-2-4d.github.io/
 
+- title: "MaskedManipulator: Versatile Whole-Body Manipulation"
+  image: tessler_siga25_maskedmanipulator.png
+  authors: Chen Tessler, Yifeng Jiang, Erwin Coumans, Zhengyi Luo, Gal Chechik, Xue Bin Peng
+  venue: SIGGRAPH Asia
+  year: 2025
+  highlight: 1
+  pdf: https://research.nvidia.com/labs/par/maskedmanipulator/assets/SIGGRAPHAsia2025_MaskedManipulator.pdf
+  project_page: https://research.nvidia.com/labs/par/maskedmanipulator/
 
 - title: "Physics-Based Motion Imitation with Adversarial Differential Discriminators"
   image: zhang_siga25_add.png
