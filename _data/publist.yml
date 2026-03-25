@@ -22,14 +22,51 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
+
+- title: "Artiverse: A Diverse and Physically Grounded Dataset for Articulated Objects"
+  image: iliash_cvpr26_artiverse.gif
+  authors: Denys Iliash, Jiayi Liu, Egor Fokin, Qirui Wu, Ali Mahdavi Amiri, Manolis Savva, Angel X Chang
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: 
+  project_page: https://3dlg-hcvc.github.io/artiverse/
+
+- title: "ShapeR: Robust Conditional 3D Shape Generation from Casual Captures"
+  image: siddiqui_cvpr26_shaper.png
+  authors: Yawar Siddiqui, Duncan Frost, Samir Aroudj, Armen Avetisyan, Henry Howard-Jenkins, Daniel DeTone, Pierre Moulon, Qirui Wu, Zhengqin Li, Julian Straub, and Richard Newcombe, Jakob Engel
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2601.11514
+  project_page: https://facebookresearch.github.io/ShapeR/
+
+- title: "CREward: A Type-Specific Creativity Reward Model"
+  image: han_cvpr26_creward.gif
+  authors: Jiyeon Han, Ali Mahdavi-Amiri, Hao (Richard) Zhang, Haedong Jeong
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: "https://arxiv.org/abs/2511.19995"
+  project_page: 
+
+- title: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
+  image: liu_cvpr26_fluidgaussian.png
+  authors: Yuqiu Liu, Jialin Song, Marissa Ramirez de Chanlatte, Rochishnu Chowdhury, Rushil Paresh Desai, Wuyang Chen, Daniel Martin, Michael Mahoney
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2603.21356
+  project_page: 
+
 - title: "Advances in Neural 3D Mesh Texturing: A Survey"
   image: perla_egstar26_texturing.gif
   authors: Sai Raj Kishore Perla, Hao (Richard) Zhang, Ali Mahdavi-Amiri
   venue: Eurographics STAR
   year: 2026
   highlight: 1
-  pdf: ""
-  project_page: ""
+  pdf: 
+  project_page: 
 
 - title: "MultiCOIN: Multi-Modal COntrollable Video INbetweening"
   image: tanveer_eg26_multicoin.gif
@@ -41,6 +78,7 @@
   project_page: https://multicoinx.github.io/multicoin/
 
 - title: "Data-Efficient Inference of Neural Fluid Fields via SciML Foundation Model"
+  image: liu_3dv26_neuralfluidfields.png
   authors: Yuqiu Liu, Jingxuan Xu, Mauricio Soroco, Yunchao Wei, Wuyang Chen
   venue: 3DV
   year: 2026
