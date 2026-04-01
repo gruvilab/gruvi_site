@@ -32,6 +32,15 @@
   pdf: 
   project_page: https://3dlg-hcvc.github.io/artiverse/
 
+- title: "JRM: Joint Reconstruction Model for Multiple Objects without Alignment"
+  image: wu_cvpr26_jrm.png
+  authors: Qirui Wu, Yawar Siddiqui, Duncan Frost, Samir Aroudj, Armen Avetisyan, Richard Newcombe, Angel X. Chang, Jakob Engel, and Henry Howard-Jenkins
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2603.25985
+  project_page: https://qiruiw.github.io/jrm/
+
 - title: "ShapeR: Robust Conditional 3D Shape Generation from Casual Captures"
   image: siddiqui_cvpr26_shaper.png
   authors: Yawar Siddiqui, Duncan Frost, Samir Aroudj, Armen Avetisyan, Henry Howard-Jenkins, Daniel DeTone, Pierre Moulon, Qirui Wu, Zhengqin Li, Julian Straub, and Richard Newcombe, Jakob Engel
