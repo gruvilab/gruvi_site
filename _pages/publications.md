@@ -24,7 +24,8 @@ permalink: /publications/
 
 {% if publi.image %}
   {% assign ext = publi.image | split:'.' | last %}
-  {% if ext == 'mov' %}
+  {% assign is_video = site.video_exts contains ext %}
+  {% if site.video_exts contains ext %}
   <video autoplay loop muted playsinline class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;">
       <source src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" type="video/mp4">
   </video>

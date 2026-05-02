@@ -68,6 +68,15 @@
   pdf: https://arxiv.org/abs/2502.07278
   project_page: 
 
+- title: "LA-Pose: Latent Action Pretraining Meets Pose Estimation"
+  image: wang_cvpr26_lapose.mp4
+  authors: Zhengqing Wang*, Saurabh Nair*, Prajwal Chidananda*, Pujith Kachana, Samuel Li, Matthew Brown, Yasutaka Furukawa
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2604.27448
+  project_page: https://la-pose.github.io/
+
 - title: "Artiverse: A Diverse and Physically Grounded Dataset for Articulated Objects"
   image: iliash_cvpr26_artiverse.gif
   authors: Denys Iliash, Jiayi Liu, Egor Fokin, Qirui Wu, Ali Mahdavi Amiri, Manolis Savva, Angel X Chang
