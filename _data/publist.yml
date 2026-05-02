@@ -96,7 +96,7 @@
   project_page: https://facebookresearch.github.io/ShapeR/
 
 - title: "CREward: A Type-Specific Creativity Reward Model"
-  image: 
+  image: han_cvpr26_creward.png
   authors: Jiyeon Han, Ali Mahdavi-Amiri, Hao (Richard) Zhang, Haedong Jeong
   venue: CVPR
   year: 2026
@@ -113,7 +113,7 @@
   pdf: https://arxiv.org/abs/2604.26262
   project_page: https://semanticfoam.github.io/
 
-- title: "MeshSplatting: Differentiable Rendering with Opaque Meshes "
+- title: "MeshSplatting: Differentiable Rendering with Opaque Meshes"
   image: held_cvpr26_meshsplatting.mov
   authors: Jan Held, Sanghyun Son, Renaud Vandeghen, Daniel Rebain, Matheus Gadelha, Yi Zhou, Anthony Cioppa, Ming C. Lin, Marc Van Droogenbroeck, Andrea Tagliasacchi
   venue: CVPR (oral)
