@@ -1,8 +1,19 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Sonia Raychaudhuri
+  graduation: 2025
+  degree: Ph.D.
+  text: Gruvi Alumni
+  photo: SoniaRaychaudhuri.jpg
+  role: Graduate Student
+  email: sonia_raychaudhuri@sfu.ca
+  website: https://sonia-raychaudhuri.github.io/
+  group: Angel
+
 - name: Jiacheng Chen
   graduation: 2025
+  degree: Ph.D.
   text: Gruvi Alumni
   photo: JiachengChen.png
   role: Graduate Student
@@ -12,6 +23,7 @@
   
 - name: Sachini Herath
   graduation: 2025
+  degree: Ph.D.
   text: Gruvi Alumni
   photo: SachiniHerath.jpg
   role: Graduate Student
@@ -21,6 +33,7 @@
 
 - name: Sepidehsadat Hosseini
   graduation: 2025
+  degree: Ph.D.
   text: Machine learning researcher at RBC Borealis
   photo: SepidehsadatHosseini.jpeg
   role: Graduate Student
@@ -30,6 +43,7 @@
 
 - name: Amin Shabani
   graduation: 2025
+  degree: Ph.D.
   text: Machine learning researcher at RBC Borealis
   photo: MohammadShabani.jpeg
   role: Graduate Student
@@ -39,6 +53,7 @@
 
 - name: Obumneme Dukor
   graduation: 2024
+  degree: M.Sc.
   text: Machine learning scientist at darkvision
   photo: obumneme.png
   role: Graduate Student
@@ -46,8 +61,19 @@
   website: https://www.stanleydukor.com/
   number_educ: 0
 
+- name: Mehdi Safaee
+  graduation: 2024
+  degree: M.Sc.
+  text: Machine Learning Engineer at Autodesk Research
+  photo: Mehdi_Safaee.png
+  role: Graduate Student
+  email: mehdi0xc@gmail.com
+  website: https://scholar.google.com/citations?user=EGwhASQAAAAJ&hl=en
+  group: Ali 
+
 - name: Weilian Song
   graduation: 2024
+  degree: Ph.D.
   text: Gruvi Alumni
   photo: weilian.jpg
   role: Graduate Student
@@ -57,6 +83,7 @@
   
 - name: Xiang Xu
   graduation: 2024
+  degree: Ph.D.
   text: Senior research scientist at Autodesk AI Lab
   photo: xiang_xu2.jpg
   role: Graduate Student
@@ -66,6 +93,7 @@
 
 - name: Sicong Tang
   graduation: 2024
+  degree: Ph.D.
   text: Gruvi Alumni
   photo: sicong.jpg
   role: Graduate Student
@@ -98,6 +126,7 @@
   
 - name: Fenggen Yu
   graduation: 2024
+  degree: Ph.D.
   text: Research scientist at Amazon
   photo: FenggenYu.jpg
   role: Graduate Student
@@ -114,6 +143,7 @@
 
 - name: Hanxiao Jiang (Shawn)
   graduation: 2023
+  degree: M.Sc.
   text: Ph.D. student at Columbia
   photo: Shawn.jpeg
   role: Graduate Student
@@ -122,6 +152,7 @@
 
 - name: Akshay Gadi Patil
   graduation: 2023
+  degree: Ph.D.
   text: Gruvi Alumni
   photo: akshay.png
   role: Graduate Student
@@ -130,6 +161,7 @@
   
 - name: Zhiqin Chen
   graduation: 2023
+  degree: Ph.D.
   text: Research Scientist at Adobe Research
   photo: zhiqin.jpg
   role: Graduate Student
@@ -146,6 +178,7 @@
 
 - name: Sanjay Haresh
   graduation: 2023
+  degree: M.Sc.
   text: Gruvi Alumni
   photo: SanjayHaresh.jfif
   role: Graduate Student

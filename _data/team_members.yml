@@ -16,6 +16,8 @@
   role: Faculty
   email: 
   website: http://yaksoy.github.io/
+  lab: Computational Photography Lab
+  lab_website: https://yaksoy.github.io/themes/
   number_educ: 0
 
 - name: Angel Chang
@@ -23,6 +25,8 @@
   role: Faculty
   email: 
   website: https://angelxuanchang.github.io/
+  lab: 3DLG
+  lab_website: https://3dlg-hcvc.github.io/
   number_educ: 0
   
 - name: Eugene Fiume
@@ -44,6 +48,8 @@
   role: Faculty
   email: 
   website: https://www.sfu.ca/~keli/
+  lab: APEX Lab
+  lab_website: https://sfuapex.ca/
   number_educ: 0  
 
 - name: Ali Mahdavi-Amiri
@@ -65,6 +71,8 @@
   role: Faculty
   email: 
   website: http://msavva.github.io/
+  lab: 3DLG
+  lab_website: https://3dlg-hcvc.github.io/
   number_educ: 0
 
 - name: Andrea Tagliasacchi
@@ -72,6 +80,8 @@
   role: Faculty
   email: 
   website: https://taiya.github.io/
+  lab: Theia Lab
+  lab_website: https://theialab.ca/
   number_educ: 0
 
 - name: KangKang Yin
@@ -285,20 +295,6 @@
   website: https://codyreading.github.io/
   number_educ: 0
 
-- name: Sonia Raychaudhuri
-  photo: SoniaRaychaudhuri.jpg
-  role: Graduate Student
-  email: sonia_raychaudhuri@sfu.ca
-  website: https://www.linkedin.com/in/sonia-raychaudhuri
-  number_educ: 0
-
-- name: Mehdi Safaee
-  photo: Mehdi_Safaee.png
-  role: Graduate Student
-  email: mehdi0xc@gmail.com
-  website: https://mehdi0xc.github.io
-  number_educ: 0
-
 - name: Ahan Shabanov
   photo: ahan_shabanov.jpg
   role: Graduate Student
@@ -374,7 +370,7 @@
   photo: fuyang.jpg
   role: Graduate Student
   email: ffuyang_zhang_2@sfu.ca
-  website: https://github.com/zhangfuyang
+  website: https://zhangfuyang.github.io/
   number_educ: 0
 
 - name: Yiming Zhang
