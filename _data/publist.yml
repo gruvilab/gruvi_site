@@ -23,6 +23,33 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 
+- title: "HairPort: In-context 3D-aware Hair Import and Transfer for Single Images"
+  image: heidari_sig26_hairport.gif
+  authors: Alireza Heidari, Amirhossein Alimohammadi, Wallace Michel Pinto Lira, Adi Bar-Lev, Ali Mahdavi-Amiri
+  venue: SIGGRAPH
+  year: 2026
+  highlight: 1
+  pdf: 
+  project_page: 
+
+- title: "Video Analysis and Generation via a Semantic Progress Function"
+  image: metzer_sig26_video.gif
+  authors: Gal Metzer, Sagi Polaczek, Ali Mahdavi-Amiri, Raja Giryes, Daniel Cohen-Or
+  venue: SIGGRAPH
+  year: 2026
+  highlight: 1
+  pdf: 
+  project_page: 
+
+- title: "Articulate That Object Part (ATOP): 3D Part Articulation via Text and Motion Personalization"
+  image: vora_tog26_atop.png
+  authors: Aditya Vora, Sauradip Nag, Kai Wang, Hao Zhang
+  venue: TOG
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2502.07278
+  project_page: 
+
 - title: "Artiverse: A Diverse and Physically Grounded Dataset for Articulated Objects"
   image: iliash_cvpr26_artiverse.gif
   authors: Denys Iliash, Jiayi Liu, Egor Fokin, Qirui Wu, Ali Mahdavi Amiri, Manolis Savva, Angel X Chang
@@ -51,12 +78,48 @@
   project_page: https://facebookresearch.github.io/ShapeR/
 
 - title: "CREward: A Type-Specific Creativity Reward Model"
-  image: han_cvpr26_creward.gif
+  image: 
   authors: Jiyeon Han, Ali Mahdavi-Amiri, Hao (Richard) Zhang, Haedong Jeong
   venue: CVPR
   year: 2026
   highlight: 1
   pdf: "https://arxiv.org/abs/2511.19995"
+  project_page: 
+
+- title: "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition"
+  image: sharafeldin_cvpr26_semantic_foam.mov
+  authors: Amr Sharafeldin, Shrisudhan Govindarajan, Thomas Walker, Aryan Mikaeili, Daniel Rebain, Kwang Moo Yi, Andrea Tagliasacchi
+  venue: CVPR (spotlight)
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2604.26262
+  project_page: https://semanticfoam.github.io/
+
+- title: "MeshSplatting: Differentiable Rendering with Opaque Meshes "
+  image: held_cvpr26_meshsplatting.mov
+  authors: Jan Held, Sanghyun Son, Renaud Vandeghen, Daniel Rebain, Matheus Gadelha, Yi Zhou, Anthony Cioppa, Ming C. Lin, Marc Van Droogenbroeck, Andrea Tagliasacchi
+  venue: CVPR (oral)
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2512.06818
+  project_page: https://meshsplatting.github.io/
+
+- title: "Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere"
+  image: disario_cvpr26_spherical_voronoi.mov
+  authors: Francesco Di Sario, Daniel Rebain, Dor Verbin, Marco Grangetto, Andrea Tagliasacchi
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2512.14180
+  project_page: https://sphericalvoronoi.github.io/
+
+- title: "ORBIT: Benchmarking SfM in the Wild with 360° Video"
+  image:
+  authors: Sara Sabour, Richard Tucker, Marcus A. Brubaker, Saurabh Saxena, Junhwa Hur, Andrea Tagliasacchi, Deqing Sun, David J. Fleet, Richard Szeliski, Noah Snavely
+  venue: CVPR
+  year: 2026
+  highlight: 1
+  pdf: https://cvpr.thecvf.com/virtual/2026/poster/38449
   project_page: 
 
 - title: "FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction"
@@ -67,6 +130,16 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2603.21356
   project_page: 
+
+- title: "HorizonWeaver: Generalizable Multi-Level Semantic Editing for Driving Scenes"
+  image: soroco_cvpr26_horizonweaver.png
+  authors: Mauricio Soroco, Francesco Pittaluga, Zaid Tasneem, Abhishek Aich, Bingbing Zhuang, Wuyang Chen, Manmohan Chandraker, Ziyu Jiang,
+  venue: CVPR Findings
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2604.04887
+  project_page: https://msoroco.github.io/horizonweaver/
+
 
 - title: "Advances in Neural 3D Mesh Texturing: A Survey"
   image: perla_egstar26_texturing.gif

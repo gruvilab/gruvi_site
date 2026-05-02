@@ -23,7 +23,14 @@ permalink: /publications/
  <div class="well clearfix">
 
 {% if publi.image %}
+  {% assign ext = publi.image | split:'.' | last %}
+  {% if ext == 'mov' %}
+  <video autoplay loop muted playsinline class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;">
+      <source src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" type="video/mp4">
+  </video>
+  {% else %}
   <img src="/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;" />
+  {% endif %}
 {% endif %}
 
 <pubtit>{{ publi.title }}</pubtit>
