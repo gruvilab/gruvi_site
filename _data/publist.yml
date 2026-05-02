@@ -41,6 +41,24 @@
   pdf: 
   project_page: 
 
+- title: "SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control"
+  image: mu_sig26_smp.png
+  authors: Yuxuan Mu, Ziyu Zhang, Yi Shi, Dun Yang, Minami Matsumoto, Kotaro Imamura, Guy Tevet, Chuan Guo, Michael Taylor, Chang Shu, Pengcheng Xi, Xue Bin Peng
+  venue: SIGGRAPH
+  year: 2026
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/SMP/SMP_2026.pdf
+  project_page: https://xbpeng.github.io/projects/SMP/index.html
+
+- title: "MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives"
+  image: wang_sig26_motionbricks.png
+  authors: Tingwu Wang, Olivier Dionne, Michael De Ruyter, David Minor, Davis Rempe, Kaifeng Zhao, Mathis Petrovich, Ye Yuan, Chenran Li, Zhengyi Luo, Brian Robison, Xavier Blackwell, Bernardo Antoniazzi, Xue Bin Peng, Yuke Zhu, Simon Yuen
+  venue: SIGGRAPH
+  year: 2026
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/MotionBricks/MotionBricks_2026.pdf
+  project_page: https://xbpeng.github.io/projects/MotionBricks/index.html
+
 - title: "Articulate That Object Part (ATOP): 3D Part Articulation via Text and Motion Personalization"
   image: vora_tog26_atop.png
   authors: Aditya Vora, Sauradip Nag, Kai Wang, Hao Zhang
@@ -150,6 +168,15 @@
   pdf: 
   project_page: 
 
+- title: "Robo-Saber: Generating and Simulating Virtual Reality Players"
+  image: kim_eg26_robosaber.png
+  authors: Nam Hee Kim, Jingjing May Liu, Jaakko Lehtinen, Perttu Hämäläinen, James F. O'Brien, Xue Bin Peng
+  venue: Eurographics
+  year: 2026
+  highlight: 1
+  pdf: https://xbpeng.github.io/projects/RoboSaber/RoboSaber_2026.pdf
+  project_page: https://xbpeng.github.io/projects/RoboSaber/index.html
+
 - title: "MultiCOIN: Multi-Modal COntrollable Video INbetweening"
   image: tanveer_eg26_multicoin.gif
   authors: Maham Tanveer, Yang Zhou, Simon Nicklaus, Ali Mahdavi-Amiri, Hao (Richard) Zhang, Krishna Kumara Singh, Nanxuan Zhao
@@ -158,6 +185,15 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2510.08561
   project_page: https://multicoinx.github.io/multicoin/
+
+- title: "VisACD: Visibility-Based GPU-Accelerated Approximate Convex Decomposition"
+  image: fokin_eg26_visacd.png
+  authors: Egor Fokin, Manolis Savva
+  venue: Eurographics (short)
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2604.04244
+  project_page: https://3dlg-hcvc.github.io/visacd/
 
 - title: "Data-Efficient Inference of Neural Fluid Fields via SciML Foundation Model"
   image: liu_3dv26_neuralfluidfields.png
