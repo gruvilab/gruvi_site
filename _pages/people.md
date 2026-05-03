@@ -14,7 +14,8 @@ permalink: /people/
 {% assign affiliated = site.data.team_members | where: "role", "Affiliated Faculty" %}
 {% include peoplelist.html title="Affiliated Faculty" people=affiliated %}
 
-{% assign postdoc_visitors = site.data.team_members | where_exp: "member", "member.role == 'Visitor' or member.role == 'Postdoc'" %}
+{% assign postdoc_visitor_roles = "Visitor,Postdoc" | split: "," %}
+{% assign postdoc_visitors = site.data.team_members | where_exp: "member", "postdoc_visitor_roles contains member.role" %}
 {% include peoplelist.html title="Postdocs and Visitors" people=postdoc_visitors %}
 
 {% assign students = site.data.team_members | where:"role", "Graduate Student" %}
