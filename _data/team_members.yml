@@ -66,7 +66,7 @@
   website: https://xbpeng.github.io/
   number_educ: 0  
 
-- name: Manolis Savva	
+- name: Manolis Savva
   photo: manolis.png
   role: Faculty
   email: 
@@ -155,6 +155,13 @@
   role: Postdoc
   email: 
   website: https://sauradip.github.io/
+  number_educ: 0
+
+- name: Jiyeon Han
+  photo: jiyeon_han.jpg
+  role: Postdoc
+  email:
+  website: https://han-j-y.github.io/
   number_educ: 0
   
 #- name: Fei-Peng Tian
@@ -320,7 +327,7 @@
   photo: maham_tanveer.jpg
   role: Graduate Student
   email: 
-  website:
+  website: http://mtanveer.com/
   number_educ: 0
   
 - name: Aditya Vora
@@ -340,10 +347,10 @@
 - name: Yuefan Wu
   photo: yuefan.jpg
   role: Graduate Student
-  email: 
+  email:
   website: https://ivenwu.com/
   number_educ: 0
-  
+
 - name: Dingdong Yang
   photo: dingdong_yang.jpg
   role: Graduate Student
@@ -385,6 +392,312 @@
   role: Graduate Student
   email: 
   website: https://mingrui-zhao.github.io/
+  number_educ: 0
+
+#################################################################################
+#  New members added 2026-05-02 (auto-collected from faculty / lab websites)
+#  Ordered roughly by SFU/lab join time, earliest first.
+#################################################################################
+
+- name: Qirui Wu
+  photo: qirui_wu.jpg
+  role: Graduate Student
+  email:
+  website: https://qiruiw.github.io/
+  number_educ: 0
+
+- name: Shichong Peng
+  photo: shichong_peng.jpeg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/shichong-peng/
+  number_educ: 0
+
+- name: Chirag Vashist
+  photo: chirag_vashist.jpg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/chirag-vashist/
+  number_educ: 0
+
+- name: Zeming Gong
+  photo: zeming_gong.jpg
+  role: Graduate Student
+  email:
+  website: https://zmgong.github.io/
+  number_educ: 0
+
+- name: Ivan Tam
+  photo: ivan_tam.jpg
+  role: Graduate Student
+  email:
+  website: https://iv-t.github.io/
+  number_educ: 0
+
+- name: Yi Shi
+  photo: yi_shi.png
+  role: Graduate Student
+  email:
+  website: https://yi-shi94.github.io/
+  number_educ: 0
+
+- name: Denys Iliash
+  photo: denys_iliash.jpg
+  role: Graduate Student
+  email:
+  website: https://diliash.github.io/
+  number_educ: 0
+
+- name: Zhen (Colin) Li
+  photo: zhen_colin_li.JPG
+  role: Graduate Student
+  email:
+  website: https://colinzhenli.github.io/
+  number_educ: 0
+
+- name: Dun Yang
+  photo: dun_yang.png
+  role: Graduate Student
+  email:
+  website: https://sites.google.com/view/dunyang
+  number_educ: 0
+
+- name: Yuxuan Mu
+  photo: yuxuan_mu.png
+  role: Graduate Student
+  email:
+  website: https://yxmu.foo/
+  number_educ: 0
+
+- name: Ziyu (Charlotte) Zhang
+  photo: ziyu_zhang.png
+  role: Graduate Student
+  email:
+  website: https://ziyu-charlotte-zhang.github.io/
+  number_educ: 0
+
+- name: Tristan Engst
+  photo: tristan_engst.jpg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/tristan-engst/
+  number_educ: 0
+
+- name: Alireza Moazeni
+  photo: alireza_moazeni.jpg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/alireza-moazeni/
+  number_educ: 0
+
+- name: Mehran Aghabozorgi
+  photo: mehran_aghabozorgi.jpeg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/mehran-aghabozorgi/
+  number_educ: 0
+
+- name: Yanshu Zhang
+  photo: yanshu_zhang.jpg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/yanshu-zhang/
+  number_educ: 0
+
+- name: Weikun Peng
+  photo: weikun_peng.png
+  role: Graduate Student
+  email:
+  website: https://willipwk.github.io/
+  number_educ: 0
+
+- name: Keru Fu
+  photo: keru_fu.jpg
+  role: Graduate Student
+  email:
+  website: https://yaksoy.github.io/group/
+  number_educ: 0
+
+- name: Samuel Antunes Miranda
+  photo: samuel_antunes_miranda.jpg
+  role: Graduate Student
+  email:
+  website: https://yaksoy.github.io/group/
+  number_educ: 0
+
+- name: Xiaohao Sun
+  photo: xiaohao_sun.jpg
+  role: Graduate Student
+  email:
+  website: https://sun-xh.github.io/
+  number_educ: 0
+
+- name: Austin Wang
+  photo: austin_wang.jpg
+  role: Graduate Student
+  email:
+  website: https://atwang16.github.io/
+  number_educ: 0
+
+- name: Shiping Yang
+  photo: shiping_yang.jpg
+  role: Graduate Student
+  email:
+  website: https://maybenotime.github.io/
+  number_educ: 0
+
+- name: Dongchen Yang
+  photo: dongchen_yang.png
+  role: Graduate Student
+  email:
+  website: https://www.sfu.ca/~dya78/
+  number_educ: 0
+
+- name: Derek Pun
+  photo: derek_pun.jpg
+  role: Graduate Student
+  email:
+  website: https://houip.github.io/
+  number_educ: 0
+
+- name: Chuanqi Tang
+  photo: chuanqi_tang.jpg
+  role: Graduate Student
+  email:
+  website: https://charlie15.cloud
+  number_educ: 0
+
+- name: Zhengqing Wang
+  photo: zhengqing_wang.jpg
+  role: Graduate Student
+  email:
+  website: https://eric-zqwang.github.io/
+  number_educ: 0
+
+- name: Zixuan Pan
+  photo: zixuan_pan.jpeg
+  role: Graduate Student
+  email:
+  website: https://zxp46.github.io/
+  number_educ: 0
+
+- name: George Shramko
+  photo: george_shramko.jpg
+  role: Graduate Student
+  email:
+  website: https://sfuapex.ca/author/george-shramko/
+  number_educ: 0
+
+- name: Amirhossein Alimohammadi
+  photo: amir_alimohammadi.jpg
+  role: Graduate Student
+  email:
+  website: https://alimohammadiamirhossein.github.io/
+  number_educ: 0
+
+- name: Cody Ning
+  photo: cody_ning.jpg
+  role: Graduate Student
+  email:
+  website: https://codyning.github.io/
+  number_educ: 0
+
+- name: Amir Razlighi
+  photo: amir_razlighi.jpeg
+  role: Graduate Student
+  email:
+  website: https://amirhossein-razlighi.github.io/
+  number_educ: 0
+
+- name: Kian Izadpanah
+  photo: kian_izadpanah.jpeg
+  role: Graduate Student
+  email:
+  website: https://kianizadpanah.github.io/
+  number_educ: 0
+
+- name: Alireza Heidari
+  photo: alireza_heidari.png
+  role: Graduate Student
+  email:
+  website: https://deepmancer.github.io/
+  number_educ: 0
+
+- name: Yizheng Xie
+  photo: yizheng_xie.jpg
+  role: Graduate Student
+  email:
+  website: https://xieyizheng.com/
+  number_educ: 0
+
+- name: Sunwoo Kim
+  photo: sunwoo_kim.png
+  role: Graduate Student
+  email:
+  website: https://pulsekim.github.io
+  number_educ: 0
+
+- name: Ruiyu Gou
+  photo: ruiyu_gou.png
+  role: Graduate Student
+  email:
+  website: http://www.electricgreywhale.com/
+  number_educ: 0
+
+- name: Guangda Ji
+  photo: guangda_ji.jpeg
+  role: Graduate Student
+  email:
+  website: https://quantaji.github.io/
+  number_educ: 0
+
+- name: Qinchan (Wing) Li
+  photo: qinchan_li.jpg
+  role: Graduate Student
+  email:
+  website: https://qinchanli.github.io/
+  number_educ: 0
+
+- name: Max Vernikovskiy
+  photo: max_vernikovskiy.jpg
+  role: Graduate Student
+  email:
+  website: https://www.cs.sfu.ca/~haoz/people.html
+  number_educ: 0
+
+- name: Nicholas Ioannidis
+  photo: nicholas_ioannidis.png
+  role: Graduate Student
+  email:
+  website: https://nickioan.github.io/
+  number_educ: 0
+
+- name: Hiran Sarkar
+  photo: hiran_sarkar.png
+  role: Graduate Student
+  email:
+  website: https://around-star.github.io/
+  number_educ: 0
+
+- name: Hiroo Maruyama
+  photo: hiroo_maruyama.png
+  role: Graduate Student
+  email:
+  website: https://www.cs.sfu.ca/~haoz/people.html
+  number_educ: 0
+
+- name: Lixin Luo
+  photo: lixin_luo.jpeg
+  role: Graduate Student
+  email:
+  website: https://www.cs.sfu.ca/~haoz/people.html
+  number_educ: 0
+
+- name: Katayoon Moslemi
+  photo: katayoon_moslemi.png
+  role: Graduate Student
+  email:
+  website: https://katayoonmoslemi.github.io/
   number_educ: 0
 
 #- name: Hamid Younesy
