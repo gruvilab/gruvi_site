@@ -16,11 +16,19 @@
 <div class="col-sm-6 col-xs-6 clearfix" style="padding-right: 0px; padding-left: 0px">
 
 <div class="row" style="padding-left: 15%;  margin-bottom: 0px;">
+{% if member.website %}
 <a href="{{ member.website }}" target="_blank"><img src="{{ '/images/teampic/' | append: member.photo | relative_url }}" class="img-responsive" width="85%" style="float: left;"/></a>
+{% else %}
+<img src="{{ '/images/teampic/' | append: member.photo | relative_url }}" class="img-responsive" width="85%" style="float: left;"/>
+{% endif %}
 </div>
 
 <h5 style="text-align: center; margin-top: 2px; margin-bottom: 2px;">
+{% if member.website %}
 <a href="{{ member.website }}" target="_blank">{{ member.name }}</a>
+{% else %}
+{{ member.name }}
+{% endif %}
 </h5>
 
 
