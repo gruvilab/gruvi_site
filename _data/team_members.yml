@@ -344,13 +344,6 @@
   website: https://suikei-wang.github.io/
   number_educ: 0
 
-- name: Yuefan Wu
-  photo: yuefan.jpg
-  role: Graduate Student
-  email:
-  website: https://ivenwu.com/
-  number_educ: 0
-
 - name: Dingdong Yang
   photo: dingdong_yang.jpg
   role: Graduate Student
@@ -515,14 +508,14 @@
   photo: keru_fu.jpg
   role: Graduate Student
   email:
-  website: https://yaksoy.github.io/group/
+  website:
   number_educ: 0
 
 - name: Samuel Antunes Miranda
   photo: samuel_antunes_miranda.jpg
   role: Graduate Student
   email:
-  website: https://yaksoy.github.io/group/
+  website:
   number_educ: 0
 
 - name: Xiaohao Sun
@@ -662,7 +655,7 @@
   photo: max_vernikovskiy.jpg
   role: Graduate Student
   email:
-  website: https://www.cs.sfu.ca/~haoz/people.html
+  website:
   number_educ: 0
 
 - name: Nicholas Ioannidis
@@ -683,14 +676,14 @@
   photo: hiroo_maruyama.png
   role: Graduate Student
   email:
-  website: https://www.cs.sfu.ca/~haoz/people.html
+  website:
   number_educ: 0
 
 - name: Lixin Luo
   photo: lixin_luo.jpeg
   role: Graduate Student
   email:
-  website: https://www.cs.sfu.ca/~haoz/people.html
+  website:
   number_educ: 0
 
 - name: Katayoon Moslemi
