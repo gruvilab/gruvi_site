@@ -12,6 +12,30 @@
 #  image: news_1.PNG
 #  
 
+- date: May 25, 2026
+  headline: >-
+    Eugene Fiume and Manolis Savva receive 2025 CS-CAN|INFO-CAN awards
+  text: >-
+    Congratulations to Prof. Eugene Fiume and Prof. Manolis Savva, who were named among the <a href="https://cscan-infocan.ca/current-year-winners/">2025 CS-CAN&#124;INFO-CAN award recipients</a>.</p> <p>Prof. Fiume received the Lifetime Achievement Award, recognizing computer scientists whose careers have had a profound and lasting impact on the discipline, institutions and the broader research community. Prof. Savva received an Early Career Research Award, recognizing exceptional early-career researchers with outstanding contributions and significant promise.
+  highlight: 1
+  image: cscan_2025_awards.png
+
+- date: May 22, 2026
+  headline: >-
+    SFU hosts AI/CRV 2026
+  text: >-
+    SFU Computing Science is hosting <a href="https://www.ai-crv.ca/">AI/CRV 2026</a> at the Burnaby campus from May 25 to May 29, bringing together the Canadian AI and Robots and Vision communities.</p> <p>SFU Computing Science faculty Ke Li and Mo Chen are serving as General Chairs, and Prof. Angel Chang is serving as a Nectar Track Chair. Please see the <a href="https://www.sfu.ca/fas/computing/news-events/news/2026/may/advancing-artificial-intelligence-and-vision-research--sfu-compu.html">SFU Computing Science story</a> for more details.
+  highlight: 1
+  image: aicrv2026.png
+
+- date: May 21, 2026
+  headline: >-
+    Jason Peng and Ke Li named Canada CIFAR AI Chairs
+  text: >-
+    Congratulations to Prof. Jason Peng and Prof. Ke Li, who were announced as new <a href="https://www.newswire.ca/news-releases/government-of-canada-and-cifar-announce-24m-investment-in-top-ai-talent-841737793.html">Canada CIFAR AI Chairs</a>. The May 21 announcement from the Government of Canada and CIFAR appoints and renews 42 AI Chairs across Canada, backed by a $24M investment in top AI talent.</p> <p>Jason and Ke are affiliated with Amii under the Pan-Canadian AI Strategy, strengthening SFU and GrUVi's presence in AI, graphics, vision and robotics.
+  highlight: 1
+  image: cifar_ai_chairs_2026.png
+
 
 - date: May 1, 2026
   headline: >-
@@ -34,6 +58,14 @@
     </ul><p>
   highlight: 1  
   image: eurographics2026.svg
+
+- date: April 13, 2026
+  headline: >-
+    Jason Peng launches MimicKit for motion imitation research
+  text: >-
+    Prof. Xue Bin (Jason) Peng has launched <a href="https://github.com/xbpeng/MimicKit">MimicKit</a>, an open-source framework for training robots and simulated characters to imitate human and animal motion.</p> <p>The framework brings together motion imitation and reinforcement learning methods in a modular toolkit for robotics, animation and embodied AI. See the <a href="https://www.sfu.ca/fas/computing/news-events/news/2026/march/sfu-computer-scientist-s-mimickit-framework-helps-robots-learn-l.html">SFU Computing Science story</a> and <a href="https://arxiv.org/abs/2510.13794">paper</a> for details.
+  highlight: 0
+  image: mimickit_jason_peng.png
 
 - date: March 18, 2026
   headline: >-
