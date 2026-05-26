@@ -12,6 +12,14 @@
 #  image: news_1.PNG
 #  
 
+- date: May 26, 2026
+  headline: >-
+    Ali Mahdavi-Amiri receives 2026 Graphics Interface Early Career Researcher Award
+  text: >-
+    Congratulations to Prof. Ali Mahdavi-Amiri for receiving the <a href="https://graphicsinterface.org/awards/early-career-researcher-award/ali-mahdavi-amiri/">2026 CHCCS Early Career Researcher Award (Graphics)</a> from Graphics Interface.</p> <p>The award recognizes his pioneering contributions to geometric modeling, digital fabrication, and generative 3D methods, along with his publication record in premier venues including SIGGRAPH, CVPR, and NeurIPS.
+  highlight: 1
+  image: ali_gi_2026_award.png
+
 - date: May 25, 2026
   headline: >-
     Eugene Fiume and Manolis Savva receive 2025 CS-CAN|INFO-CAN awards
