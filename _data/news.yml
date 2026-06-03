@@ -12,6 +12,24 @@
 #  image: news_1.PNG
 #  
 
+- date: June 3, 2026
+  headline: >-
+    CVPR 2026: GrUVi at Workshops and Invited Talks
+  text: >-
+    The <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026</strong> is taking place in person at the <strong>Colorado Convention Center in Denver, Colorado</strong>, from <strong>June 3 to 7, 2026</strong>. GrUVi lab members are contributing to the workshop program through organization roles and invited/keynote talks across 3D learning, spatial intelligence, scene modeling, and novel view synthesis.</p>
+    <p class="left"><strong>Workshops co-organized by GrUVi members</strong></p>
+    <ul class="left">
+    <li>Wuyang Chen - <a href="https://3d4sworkshop.github.io/">3D4S: 3D Geometry Generation for Scientific Computing</a> and <a href="https://e2e3d.github.io/">End-to-End 3D Learning</a></li>
+    <li>Andrea Tagliasacchi - <a href="https://geofreenvs.github.io/">GeoFreeNVS: Geometry-Free Novel View Synthesis and Controllable Video Models</a></li>
+    </ul>
+    <p class="left"><strong>Invited/keynote talks</strong></p>
+    <ul class="left">
+    <li>Angel Chang - <a href="https://musi-workshop.github.io/">MUSI: Multi-modal Spatial Intelligence</a> and <a href="https://usm3d.github.io/">Urban Scene Modeling</a></li>
+    <li>Andrea Tagliasacchi - <a href="https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026">ScanNet++ Novel View Synthesis and 3D Semantic Understanding Challenge</a> and <a href="https://opensun3d.github.io/">OpenSUN3D</a></li>
+    </ul><p>
+  highlight: 1
+  image: cvpr2026_denver.jpg
+
 - date: May 26, 2026
   headline: >-
     Ali Mahdavi-Amiri receives 2026 Graphics Interface Early Career Researcher Award
