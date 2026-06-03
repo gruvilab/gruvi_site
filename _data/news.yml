@@ -14,9 +14,26 @@
 
 - date: June 3, 2026
   headline: >-
-    CVPR 2026: GrUVi at Workshops and Invited Talks
+    CVPR 2026: Spotlight on GrUVi Lab
   text: >-
-    The <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026</strong> is taking place in person at the <strong>Colorado Convention Center in Denver, Colorado</strong>, from <strong>June 3 to 7, 2026</strong>. GrUVi lab members are contributing to the workshop program through organization roles and invited/keynote talks across 3D learning, spatial intelligence, scene modeling, and novel view synthesis.</p>
+    The <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026</strong> is taking place in person at the <strong>Colorado Convention Center in Denver, Colorado</strong>, from <strong>June 3 to 7, 2026</strong>. GrUVi lab will have a strong presence with 11 papers: 10 main-conference papers, including one oral and one spotlight, plus one CVPR Findings paper. Lab members are also co-organizing workshops and giving invited/keynote talks across 3D learning, spatial intelligence, scene modeling, and novel view synthesis.</p>
+    <p class="left"><strong>Main conference papers</strong></p>
+    <ul class="left">
+    <li><a href="https://la-pose.github.io/">LA-Pose: Latent Action Pretraining Meets Pose Estimation</a></li>
+    <li><a href="https://3dlg-hcvc.github.io/artiverse/">Artiverse: A Diverse and Physically Grounded Dataset for Articulated Objects</a></li>
+    <li><a href="https://qiruiw.github.io/jrm/">JRM: Joint Reconstruction Model for Multiple Objects without Alignment</a></li>
+    <li><a href="https://facebookresearch.github.io/ShapeR/">ShapeR: Robust Conditional 3D Shape Generation from Casual Captures</a></li>
+    <li><a href="https://arxiv.org/abs/2511.19995">CREward: A Type-Specific Creativity Reward Model</a></li>
+    <li><a href="https://semanticfoam.github.io/">Semantic Foam: Unifying Spatial and Semantic Scene Decomposition</a> (spotlight)</li>
+    <li><a href="https://meshsplatting.github.io/">MeshSplatting: Differentiable Rendering with Opaque Meshes</a> (oral)</li>
+    <li><a href="https://sphericalvoronoi.github.io/">Spherical Voronoi: Directional Appearance as a Differentiable Partition of the Sphere</a></li>
+    <li><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Sabour_ORBIT_Benchmarking_SfM_in_the_Wild_with_360deg_Video_CVPR_2026_paper.pdf">ORBIT: Benchmarking SfM in the Wild with 360&deg; Video</a></li>
+    <li><a href="https://arxiv.org/abs/2603.21356">FluidGaussian: Propagating Simulation-Based Uncertainty Toward Functionally-Intelligent 3D Reconstruction</a></li>
+    </ul>
+    <p class="left"><strong>CVPR Findings</strong></p>
+    <ul class="left">
+    <li><a href="https://msoroco.github.io/horizonweaver/">HorizonWeaver: Generalizable Multi-Level Semantic Editing for Driving Scenes</a></li>
+    </ul>
     <p class="left"><strong>Workshops co-organized by GrUVi members</strong></p>
     <ul class="left">
     <li>Wuyang Chen - <a href="https://3d4sworkshop.github.io/">3D4S: 3D Geometry Generation for Scientific Computing</a> and <a href="https://e2e3d.github.io/">End-to-End 3D Learning</a></li>
