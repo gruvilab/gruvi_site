@@ -23,6 +23,15 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 
+- title: "Glare Mitigation using a Differentiable Unified Glare Rating"
+  image: beresna_egsr26_glare.jpg
+  authors: Linas Beresna, Eugene Fiume
+  venue: EGSR
+  year: 2026
+  highlight: 1
+  pdf: https://diglib.eg.org/items/d067fd6f-fe75-4cb9-97a2-6853098ae62a
+  project_page: https://www.linasberesna.com/views/egsr2026.html
+
 - title: "HairPort: In-context 3D-aware Hair Import and Transfer for Single Images"
   image: heidari_sig26_hairport.gif
   authors: Alireza Heidari, Amirhossein Alimohammadi, Wallace Michel Pinto Lira, Adi Bar-Lev, Ali Mahdavi-Amiri
