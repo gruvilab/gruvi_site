@@ -12,6 +12,28 @@
 #  image: news_1.PNG
 #  
 
+- date: July 16, 2026
+  headline: >-
+    SIGGRAPH 2026: Spotlight on GrUVi Lab
+  text: >-
+    The <strong>ACM SIGGRAPH 2026 Conference</strong> will take place in Los Angeles, California, from <strong>July 19 to 23, 2026</strong>. GrUVi lab members have seven SIGGRAPH 2026 and ACM TOG papers.</p>
+    <p class="left"><strong>Invited talk</strong></p>
+    <ul class="left">
+    <li>Prof. Hao (Richard) Zhang will speak at the <a href="https://s2026.conference-schedule.org/presentation/?id=twork_110&sess=sess223">Asiagraphics Workshop on Neural Graphics Processing</a> on Sunday, July 19, 2026, 9:00am-12:15pm PDT.</li>
+    </ul>
+    <p class="left"><strong>Papers</strong></p>
+    <ul class="left">
+    <li><a href="https://arxiv.org/abs/2606.12562">HairPort: In-context 3D-aware Hair Import and Transfer for Images</a></li>
+    <li><a href="https://sagipolaczek.github.io/semantic-progress-function/">Video Analysis and Generation via a Semantic Progress Function</a></li>
+    <li><a href="https://xbpeng.github.io/projects/HIL/index.html">HIL: Hybrid Imitation Learning for Dynamic Athletic Control</a></li>
+    <li><a href="https://xbpeng.github.io/projects/SMP/index.html">SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control</a></li>
+    <li><a href="https://xbpeng.github.io/projects/GPC/index.html">GPC: Large-Scale Generative Pretraining for Transferable Motor Control</a></li>
+    <li><a href="https://xbpeng.github.io/projects/MotionBricks/index.html">MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives</a></li>
+    <li><a href="https://aditya-vora.github.io/atop/">Articulate That Object Part (ATOP): 3D Part Articulation via Text and Motion Personalization</a></li>
+    </ul><p>
+  highlight: 1
+  image: siggraph2026_cover.jpg
+
 - date: June 3, 2026
   headline: >-
     CVPR 2026: Spotlight on GrUVi Lab
