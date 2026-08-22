@@ -12,6 +12,38 @@
 #  image: news_1.PNG
 #  
 
+- date: August 22, 2026
+  headline: >-
+    ECCV 2026: Spotlight on GrUVi Lab
+  text: >-
+    The <strong>European Conference on Computer Vision (ECCV) 2026</strong> will take place in <strong>Malmö, Sweden</strong>, from <strong>September 8 to 12, 2026</strong>. GrUVi lab members are organizing a workshop and giving invited talks, and will present 8 main-conference papers, including one oral.</p>
+    <p class="left"><strong>Workshop organized by GrUVi members</strong></p>
+    <ul class="left">
+    <li>Richard Zhang - <a href="https://diliash.github.io/fai_eccv_workshop_2026/">Functionality, Articulation, and Interaction for Modeling and Generating 3D Objects</a> (September 9, PM)</li>
+    </ul>
+    <p class="left"><strong>Invited talks</strong></p>
+    <ul class="left">
+    <li>Richard Zhang - <a href="https://s3dsgr.github.io/">3rd Workshop on Scalable 3D Scene Generation and Geometric Scene Understanding</a> (September 9, AM)</li>
+    <li>Richard Zhang - <a href="https://3dgen-cad-workshop.github.io/">The Path to Manufacturing: Evolving 3D Generation to Intelligent Computer-Aided Design</a> (September 8, PM)</li>
+    </ul>
+    <p class="left"><strong>Main conference papers</strong></p>
+    <ul class="left">
+    <li><a href="https://arxiv.org/abs/2608.04210">PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images</a> (oral)</li>
+    <li><a href="https://zvict.github.io/pointgt/">PointGT: Simultaneous Geometric and Textural Editing for Point-Based Representations</a></li>
+    <li><a href="https://zvict.github.io/p-core/">P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing</a></li>
+    <li><a href="https://arxiv.org/abs/2407.00500">Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering</a></li>
+    <li><a href="https://arxiv.org/abs/2604.04874">Free-Range Gaussians: Non-Grid-Aligned Generative 3D Gaussian Reconstruction</a></li>
+    <li><a href="https://lessvrong.com/cs/nexels/">Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Primitives</a></li>
+    <li><a href="https://360anything.github.io/">360Anything: Geometry-Free Lifting of Images and Videos to 360&deg;</a></li>
+    <li><a href="https://sagipolaczek.github.io/Sync-LoRA/">In-Context Sync-LoRA for Portrait Video Editing</a></li>
+    </ul>
+    <p class="left"><strong>Workshop paper</strong></p>
+    <ul class="left">
+    <li><a href="https://function2scene.github.io/">Function2Scene: 3D Indoor Scene Layout from Functional Specifications</a> at the FAI workshop</li>
+    </ul><p>
+  highlight: 1
+  image: eccv2026_malmo.jpg
+
 - date: July 16, 2026
   headline: >-
     SIGGRAPH 2026: Spotlight on GrUVi Lab

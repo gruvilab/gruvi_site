@@ -23,6 +23,78 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 
+- title: "PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images"
+  image: wang_eccv26_padformer.png
+  authors: Ruiqi Wang, Yiming Qian, Fenggen Yu, Yuxuan Lu, Dakuo Wang, Hao Zhang, Jing Huang
+  venue: ECCV (oral)
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2608.04210
+  project_page: 
+
+- title: "PointGT: Simultaneous Geometric and Textural Editing for Point-Based Representations"
+  image: zhang_eccv26_pointgt.png
+  authors: Yanshu Zhang, George Shramko, Pratul P. Srinivasan, Ke Li
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: 
+  project_page: https://zvict.github.io/pointgt/
+
+- title: "P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing"
+  image: zhang_eccv26_pcore.gif
+  authors: Yanshu Zhang, Shichong Peng, Mehran Aghabozorgi, Alireza Moazeni, Ke Li
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: 
+  project_page: https://zvict.github.io/p-core/
+
+- title: "Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering"
+  image: moazeni_eccv26_intrinsicpapr.png
+  authors: Alireza Moazeni, Shichong Peng, Yanshu Zhang, Chirag Vashist, Ke Li
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2407.00500
+  project_page: 
+
+- title: "Free-Range Gaussians: Non-Grid-Aligned Generative 3D Gaussian Reconstruction"
+  image: shabanov_eccv26_freerange.png
+  authors: Akhmedkhan Shabanov, Peter Hedman, Ethan Weber, Zhengqin Li, Denys Rozumnyi, Gael Le Lan, Naina Dhingra, Lei Luo, Andrea Vedaldi, Christian Richardt, Andrea Tagliasacchi, Bo Zhu, Numair Khan
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2604.04874
+  project_page: 
+
+- title: "Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Primitives"
+  image: rong_eccv26_nexels.png
+  authors: Victor Rong, Jan Held, Victor Chu, Daniel Rebain, Marc Van Droogenbroeck, Kiriakos N. Kutulakos, Andrea Tagliasacchi, David B. Lindell
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2512.13796
+  project_page: https://lessvrong.com/cs/nexels/
+
+- title: "360Anything: Geometry-Free Lifting of Images and Videos to 360°"
+  image: wu_eccv26_360anything.png
+  authors: Ziyi Wu, Daniel Watson, Andrea Tagliasacchi, David J. Fleet, Marcus A. Brubaker, Saurabh Saxena
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2601.16192
+  project_page: https://360anything.github.io/
+
+- title: "In-Context Sync-LoRA for Portrait Video Editing"
+  image: polaczek_eccv26_synclora.mp4
+  authors: Sagi Polaczek, Or Patashnik, Ali Mahdavi-Amiri, Daniel Cohen-Or
+  venue: ECCV
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2512.03013
+  project_page: https://sagipolaczek.github.io/Sync-LoRA/
+
 - title: "Glare Mitigation using a Differentiable Unified Glare Rating"
   image: beresna_egsr26_glare.jpg
   authors: Linas Beresna, Eugene Fiume
