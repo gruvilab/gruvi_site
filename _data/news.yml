@@ -16,10 +16,11 @@
   headline: >-
     ECCV 2026: Spotlight on GrUVi Lab
   text: >-
-    The <strong>European Conference on Computer Vision (ECCV) 2026</strong> will take place in <strong>Malmö, Sweden</strong>, from <strong>September 8 to 12, 2026</strong>. GrUVi lab members are organizing a workshop and giving invited talks, and will present 8 main-conference papers, including one oral.</p>
-    <p class="left"><strong>Workshop organized by GrUVi members</strong></p>
+    The <strong>European Conference on Computer Vision (ECCV) 2026</strong> will take place in <strong>Malmö, Sweden</strong>, from <strong>September 8 to 12, 2026</strong>. GrUVi lab members are organizing workshops and giving invited talks, and will present 8 main-conference papers, including one oral.</p>
+    <p class="left"><strong>Workshops organized by GrUVi members</strong></p>
     <ul class="left">
-    <li>Richard Zhang - <a href="https://diliash.github.io/fai_eccv_workshop_2026/">Functionality, Articulation, and Interaction for Modeling and Generating 3D Objects</a> (September 9, PM)</li>
+    <li>Jiayi Liu, Mingrui Zhao, Denys Iliash, and Ruiqi Wang (student organizers) - <a href="https://diliash.github.io/fai_eccv_workshop_2026/">Functionality, Articulation, and Interaction for Modeling and Generating 3D Objects</a> (September 9, PM)</li>
+    <li>Angel Chang - <a href="https://emr-workshop.github.io/">Workshop on Embodied Multimodal Reasoning in Physical Environments</a> (September 9)</li>
     </ul>
     <p class="left"><strong>Invited talks</strong></p>
     <ul class="left">
