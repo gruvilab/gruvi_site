@@ -66,7 +66,7 @@
   year: 2026
   highlight: 1
   pdf: https://arxiv.org/abs/2604.04874
-  project_page: 
+  project_page: https://free-range-gaussians.github.io/ 
 
 - title: "Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Primitives"
   image: rong_eccv26_nexels.png

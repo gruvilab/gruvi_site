@@ -32,7 +32,7 @@
     <li><a href="https://zvict.github.io/pointgt/">PointGT: Simultaneous Geometric and Textural Editing for Point-Based Representations</a></li>
     <li><a href="https://zvict.github.io/p-core/">P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing</a></li>
     <li><a href="https://arxiv.org/abs/2407.00500">Tackling Misattribution in 3D Intrinsic Decomposition via Proximity Attention Point Rendering</a></li>
-    <li><a href="https://arxiv.org/abs/2604.04874">Free-Range Gaussians: Non-Grid-Aligned Generative 3D Gaussian Reconstruction</a></li>
+    <li><a href="https://free-range-gaussians.github.io/">Free-Range Gaussians: Non-Grid-Aligned Generative 3D Gaussian Reconstruction</a></li>
     <li><a href="https://lessvrong.com/cs/nexels/">Nexels: Neurally-Textured Surfels for Real-Time Novel View Synthesis with Sparse Primitives</a></li>
     <li><a href="https://360anything.github.io/">360Anything: Geometry-Free Lifting of Images and Videos to 360&deg;</a></li>
     <li><a href="https://sagipolaczek.github.io/Sync-LoRA/">In-Context Sync-LoRA for Portrait Video Editing</a></li>
