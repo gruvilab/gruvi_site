@@ -3,7 +3,7 @@ title: "GrUVi - Home"
 layout: about
 excerpt: "GrUVi Lab at Simon Fraser University."
 sitemap: false
-permalink: /about
+permalink: /about/
 ---
 
 ## About GrUVi
@@ -16,16 +16,20 @@ permalink: /about
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2014.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2026.jpg" alt="GrUVi group photo 2026" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2010.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2014.jpg" alt="GrUVi group photo 2014" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/gruvi-family-2010.jpg" alt="GrUVi group photo 2010" />
         </div>
     </div> 
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -63,5 +67,3 @@ Fax: +1 (778) 782-3045
 
 Email: haoz (at) sfu.ca
 </div>
-
-
