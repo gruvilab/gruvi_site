@@ -18,7 +18,7 @@ permalink: /people/
 {% assign postdoc_visitors = site.data.team_members | where_exp: "member", "postdoc_visitor_roles contains member.role" %}
 {% include peoplelist.html title="Postdocs and Visitors" people=postdoc_visitors %}
 
-{% assign students = site.data.team_members | where:"role", "Graduate Student" %}
+{% assign students = site.data.team_members | where:"role", "Graduate Student" | sort: "name" %}
 {% include peoplelist.html title="Graduate Students" people=students %}
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">

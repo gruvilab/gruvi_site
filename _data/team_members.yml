@@ -150,13 +150,6 @@
 #   website: 
 #   number_educ: 0
 
-- name: Sauradip Nag
-  photo: sauradip_nag.jpg
-  role: Postdoc
-  email: 
-  website: https://sauradip.github.io/
-  number_educ: 0
-
 - name: Jiyeon Han
   photo: jiyeon_han.jpg
   role: Postdoc
@@ -213,13 +206,6 @@
   website: https://www.linasberesna.com/
   number_educ: 0
 
-- name: Qimin Chen
-  photo: qimin_chen.jpg
-  role: Graduate Student
-  email: 
-  website: https://qiminchen.github.io/
-  number_educ: 0
-  
 - name: Chris Careaga
   photo: chris_careaga.jpg
   role: Graduate Student
@@ -539,20 +525,6 @@
   website: https://www.sfu.ca/~dya78/
   number_educ: 0
 
-- name: Derek Pun
-  photo: derek_pun.jpg
-  role: Graduate Student
-  email:
-  website: https://houip.github.io/
-  number_educ: 0
-
-- name: Chuanqi Tang
-  photo: chuanqi_tang.jpg
-  role: Graduate Student
-  email:
-  website: https://charlie15.cloud
-  number_educ: 0
-
 - name: Zhengqing Wang
   photo: zhengqing_wang.jpg
   role: Graduate Student
@@ -560,18 +532,18 @@
   website: https://eric-zqwang.github.io/
   number_educ: 0
 
-- name: Zixuan Pan
-  photo: zixuan_pan.jpeg
-  role: Graduate Student
-  email:
-  website: https://zxp46.github.io/
-  number_educ: 0
-
 - name: George Shramko
   photo: george_shramko.jpg
   role: Graduate Student
   email:
   website: https://sfuapex.ca/author/george-shramko/
+  number_educ: 0
+
+- name: Hossein Zaredar
+  photo: hossein_zaredar.jpeg
+  role: Graduate Student
+  email: hza234@sfu.ca
+  website: https://sfuapex.ca/author/hossein-zaredar/
   number_educ: 0
 
 - name: Amirhossein Alimohammadi

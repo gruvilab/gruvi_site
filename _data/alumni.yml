@@ -1,10 +1,49 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Qimin Chen
+  graduation: 2026
+  degree: Ph.D.
+  text: Research Scientist at Adobe, Seattle
+  photo: qimin_chen.jpg
+  role: Graduate Student
+  email:
+  website: https://qiminchen.github.io/
+  group: Richard
+
+- name: Sauradip Nag
+  graduation: 2026
+  text: Senior Research Scientist at Augmenta AI
+  photo: sauradip_nag.jpg
+  role: Postdoc
+  email:
+  website: https://sauradip.github.io/
+  group: Richard
+
+- name: Chuanqi Tang
+  graduation: 2026
+  degree: M.Sc.
+  text: M.Sc. alumnus
+  photo: chuanqi_tang.jpg
+  role: Graduate Student
+  email:
+  website: https://charlie15.cloud
+  group: 3DLG
+
+- name: Derek Pun
+  graduation: 2025
+  degree: M.Sc.
+  text: Augmenta AI
+  photo: derek_pun.jpg
+  role: Graduate Student
+  email:
+  website: https://houip.github.io/
+  group: 3DLG
+
 - name: Sonia Raychaudhuri
   graduation: 2025
   degree: Ph.D.
-  text: Gruvi Alumni
+  text: Circle Cardiovascular Imaging
   photo: SoniaRaychaudhuri.jpg
   role: Graduate Student
   email: sonia_raychaudhuri@sfu.ca
@@ -24,7 +63,7 @@
 - name: Jiacheng Chen
   graduation: 2025
   degree: Ph.D.
-  text: Gruvi Alumni
+  text: Alibaba
   photo: JiachengChen.png
   role: Graduate Student
   email: 
@@ -34,12 +73,22 @@
 - name: Sachini Herath
   graduation: 2025
   degree: Ph.D.
-  text: Gruvi Alumni
+  text: Juxta
   photo: SachiniHerath.jpg
   role: Graduate Student
   email: sherath@sfu.ca
   website: https://sachini.github.io/
   group: Yasu 
+
+- name: Yuefan Wu
+  graduation: 2025
+  degree: M.Sc.
+  text: WeRide
+  photo: yuefan.jpg
+  role: Graduate Student
+  email:
+  website: https://ivenwu.com/
+  group: Yasu
 
 - name: Sepidehsadat Hosseini
   graduation: 2025
@@ -84,12 +133,21 @@
 - name: Weilian Song
   graduation: 2024
   degree: Ph.D.
-  text: Gruvi Alumni
+  text: Integrated Projects
   photo: weilian.jpg
   role: Graduate Student
   email: weilian_song@sfu.ca
   website: https://weiliansong.github.io/
   group: Yasu 
+
+- name: Shitao Tang
+  graduation: 2024
+  degree: Ph.D.
+  text: NVIDIA
+  role: Graduate Student
+  email:
+  website: https://tangshitao.github.io/
+  group: Yasu
   
 - name: Xiang Xu
   graduation: 2024
@@ -137,7 +195,7 @@
 - name: Fenggen Yu
   graduation: 2024
   degree: Ph.D.
-  text: Research scientist at Amazon
+  text: Research Scientist at Amazon Prime Video, Sunnyvale
   photo: FenggenYu.jpg
   role: Graduate Student
   email:
@@ -163,7 +221,7 @@
 - name: Akshay Gadi Patil
   graduation: 2023
   degree: Ph.D.
-  text: Gruvi Alumni
+  text: Research Scientist at Amazon, Sunnyvale
   photo: akshay.png
   role: Graduate Student
   email: agadipat@sfu.ca
@@ -189,7 +247,7 @@
 - name: Sanjay Haresh
   graduation: 2023
   degree: M.Sc.
-  text: Gruvi Alumni
+  text: Qualcomm
   photo: SanjayHaresh.jfif
   role: Graduate Student
   website: https://www.linkedin.com/in/sanjay-haresh/
