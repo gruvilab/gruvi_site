@@ -1,0 +1,21 @@
+- name: Coco
+  photo: coco.jpg
+  title: Pawfessor of Moral Support
+
+- name: Pop
+  photo: pop.jpg
+  title: Pawfessor of Toy Breaking
+
+- name: Gelato
+  photo: gelato.jpg
+  title: Pawfessor of Gate Breaking
+
+- name: Qiuqiu
+  photo: qiuqiu.jpg
+  title: PawhD in Chilling
+
+- name: The Mei Duo
+  names: Meizai & Meihua
+  photo: meis.jpg
+  photo_position: 35% center
+  title: Mewsters in Naps

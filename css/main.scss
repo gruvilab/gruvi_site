@@ -10,6 +10,64 @@
     
 @import "bootstrap";
 
+.pawfessors {
+  margin: 28px 0 42px;
+  padding-top: 12px;
+  border-top: 1px solid #e2e7eb;
+  scroll-margin-top: 220px;
+}
+.pawfessors h3 span { font-size: 20px; margin-left: 5px; }
+.pawfessors-intro { color: #64717a; margin-bottom: 22px; }
+.pawfessors-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 24px 18px;
+  align-items: start;
+}
+.pawfessor-card {
+  min-width: 0;
+  overflow: hidden;
+  text-align: center;
+  background: #fffaf4;
+  border: 1px solid #eee1d2;
+  border-radius: 18px;
+  box-shadow: 0 2px 5px rgba(82, 59, 35, 0.08);
+}
+.pawfessor-portrait { position: relative; }
+#gridid .pawfessor-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+  object-position: center 30%;
+}
+.pawfessor-badge {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  background: #fffaf4;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.pawfessor-profile { padding: 10px 9px 12px; }
+.pawfessor-profile h4 { margin: 0 0 5px; color: #5684a3; font-size: 19px; }
+.pawfessor-names { color: #776858; font-size: 12px; margin: 0 0 5px; }
+.pawfessor-title { color: #776858; font-size: 13px; line-height: 1.4; margin: 0; }
+@media (max-width: 767px) {
+  .pawfessors-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px 14px; }
+}
+@media (max-width: 480px) {
+  .pawfessors-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 .fixheight{
          height: auto;
     }

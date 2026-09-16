@@ -51,3 +51,5 @@ permalink: /people/
 {% endfor %}
 </div>
 </div>
+
+{% include pawfessors.html %}

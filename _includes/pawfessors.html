@@ -1,0 +1,19 @@
+<section id="pawfessors" class="pawfessors" aria-labelledby="pawfessors-heading" markdown="0">
+  <h3 id="pawfessors-heading">Pawfessors <span aria-hidden="true">&#128062;</span></h3>
+  <p class="pawfessors-intro">Meet the companions behind the research. Expertise in curiosity, comfort, and keeping us company.</p>
+  <div class="pawfessors-grid">
+    {% for pet in site.data.pawfessors %}
+    <article class="pawfessor-card">
+      <div class="pawfessor-portrait">
+        <img class="pawfessor-photo" src="{{ '/images/pawfessors/' | append: pet.photo | relative_url }}" alt="{{ pet.names | default: pet.name | escape }}" {% if pet.photo_position %}style="object-position: {{ pet.photo_position | escape }};"{% endif %} loading="lazy" width="150" height="200" />
+        <span class="pawfessor-badge" aria-hidden="true">&#128062;</span>
+      </div>
+      <div class="pawfessor-profile">
+        <h4>{{ pet.name }}</h4>
+        {% if pet.names %}<p class="pawfessor-names">{{ pet.names | escape }}</p>{% endif %}
+        <p class="pawfessor-title">{{ pet.title }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
