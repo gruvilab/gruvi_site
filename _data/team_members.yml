@@ -1,6 +1,7 @@
 #- name: Name of the Researcher
 #  photo: FirstNameLastName.{jpg, png}
-#  role: {Faculty, Affiliated Faculty, Graduate Studant, Visitor, Postdoc}
+#  role: {Faculty, Affiliated Faculty, Graduate Student, Visitor, Postdoc}
+#  last_name: Family name (required for graduate student display order)
 #  email: researcher's email  
 #  website: researcher's website
 #  number_educ: [1,4]
@@ -185,6 +186,7 @@
 ################################# Graduate Students  #################################
 
 - name: Yalda Foroutan
+  last_name: Foroutan
   photo: yalda_foroutan.JPG
   role: Graduate Student
   email: yalda_foroutan@sfu.ca
@@ -192,6 +194,7 @@
   number_educ: 0
 
 - name: Reza Asad
+  last_name: Asad
   #text: Ph.D. student at Simon Fraser University
   photo: reza_asad.jpg
   role: Graduate Student
@@ -200,26 +203,13 @@
   number_educ: 0
 
 - name: Linas Beresna
+  last_name: Beresna
   photo: LinasBeresna.jpg
   role: Graduate Student
   email: 
   website: https://www.linasberesna.com/
   number_educ: 0
 
-- name: Chris Careaga
-  photo: chris_careaga.jpg
-  role: Graduate Student
-  email:
-  website: https://ccareaga.github.io/
-  number_educ: 0
-
-- name: Sebastian Dille
-  photo: SebastianDille3x4.jpg
-  role: Graduate Student
-  email:
-  website: https://sebastian-dille.github.io/
-  number_educ: 0
-  
 #- name: Arezou Fatemi
 #  photo: arezou_fatemi.jpg
 #  role: Graduate Student
@@ -228,6 +218,7 @@
 #  number_educ: 0
   
 - name: Shrisudhan Govindarajan
+  last_name: Govindarajan
   photo: shri_govin.jpg
   role: Graduate Student
   email: sga195@sfu.ca
@@ -235,6 +226,7 @@
   number_educ: 0
 
 - name: S. Mahdi H. Miangoleh
+  last_name: Miangoleh
   photo: Mahdi.png
   role: Graduate Student
   email: 
@@ -242,6 +234,7 @@
   number_educ: 0  
 
 - name: Perla Sai Raj Kishore
+  last_name: Perla
   photo: PerlaKishore.png
   role: Graduate Student
   email: sairajkishore13@gmail.com
@@ -249,12 +242,14 @@
   number_educ: 0
 
 - name: Jiayi Liu
+  last_name: Liu
   photo: JiayiLiu.jpg
   role: Graduate Student
   website: https://sevenljy.github.io/
   number_educ: 0
 
 - name: Han-Hung Lee
+  last_name: Lee
   photo: HanHungLee.jpg
   role: Graduate Student
   website: https://hanhung.github.io/
@@ -268,6 +263,7 @@
 #  number_educ: 0
   
 - name: Aryan Mikaeili
+  last_name: Mikaeili
   photo: Aryan_Mikaeili.jpg
   role: Graduate Student
   email: 
@@ -275,6 +271,7 @@
   number_educ: 0
   
 - name: Julia Read
+  last_name: Read
   photo: JuliaRead.jpg
   role: Graduate Student
   email: 
@@ -282,20 +279,15 @@
   number_educ: 0
 
 - name: Ahan Shabanov
+  last_name: Shabanov
   photo: ahan_shabanov.jpg
   role: Graduate Student
   email: sha.ahan10@gmail.com
   website: https://ahanio.github.io
   number_educ: 0
   
-- name: Rakesh Shrestha
-  photo: rakesh.jpg
-  role: Graduate Student
-  email:
-  website:  http://www.sfu.ca/~rakeshs/
-  number_educ: 0
-
 - name: Maria Taktasheva
+  last_name: Taktasheva
   photo: maria.png
   role: Graduate Student
   email: 
@@ -303,6 +295,7 @@
   number_educ: 0
 
 - name: Maham Tanveer
+  last_name: Tanveer
   photo: maham_tanveer.jpg
   role: Graduate Student
   email: 
@@ -310,6 +303,7 @@
   number_educ: 0
   
 - name: Aditya Vora
+  last_name: Vora
   photo: aditya_vora.jpg
   role: Graduate Student
   email: voraaditya898@gmail.com
@@ -317,6 +311,7 @@
   number_educ: 0
 
 - name: Ruiqi Wang
+  last_name: Wang
   photo: RuiqiWang.png
   role: Graduate Student
   email: ruiqi_w@sfu.ca
@@ -324,6 +319,7 @@
   number_educ: 0
 
 - name: Dingdong Yang
+  last_name: Yang
   photo: dingdong_yang.jpg
   role: Graduate Student
   email:
@@ -331,6 +327,7 @@
   number_educ: 0
 
 - name: Zhiyun Peng
+  last_name: Peng
   photo: zhiyun_richard_peng.jpg
   role: Graduate Student
   email:
@@ -339,6 +336,7 @@
 
 
 - name: Xingguang Yan
+  last_name: Yan
   photo: xingguang_yan.jpg
   role: Graduate Student
   email: xingguang_yan@sfu.ca
@@ -346,6 +344,7 @@
   number_educ: 0
   
 - name: Fuyang Zhang
+  last_name: Zhang
   photo: fuyang.jpg
   role: Graduate Student
   email: ffuyang_zhang_2@sfu.ca
@@ -353,6 +352,7 @@
   number_educ: 0
 
 - name: Yiming Zhang
+  last_name: Zhang
   photo: yiming_zhang.jpg
   role: Graduate Student
   email: 
@@ -360,6 +360,7 @@
   number_educ: 0
 
 - name: Mingrui Zhao
+  last_name: Zhao
   photo: mingrui_zhao.jpg
   role: Graduate Student
   email: 
@@ -372,6 +373,7 @@
 #################################################################################
 
 - name: Qirui Wu
+  last_name: Wu
   photo: qirui_wu.jpg
   role: Graduate Student
   email:
@@ -379,6 +381,7 @@
   number_educ: 0
 
 - name: Shichong Peng
+  last_name: Peng
   photo: shichong_peng.jpeg
   role: Graduate Student
   email:
@@ -386,6 +389,7 @@
   number_educ: 0
 
 - name: Chirag Vashist
+  last_name: Vashist
   photo: chirag_vashist.jpg
   role: Graduate Student
   email:
@@ -393,6 +397,7 @@
   number_educ: 0
 
 - name: Zeming Gong
+  last_name: Gong
   photo: zeming_gong.jpg
   role: Graduate Student
   email:
@@ -400,6 +405,7 @@
   number_educ: 0
 
 - name: Ivan Tam
+  last_name: Tam
   photo: ivan_tam.jpg
   role: Graduate Student
   email:
@@ -407,6 +413,7 @@
   number_educ: 0
 
 - name: Yi Shi
+  last_name: Shi
   photo: yi_shi.png
   role: Graduate Student
   email:
@@ -414,6 +421,7 @@
   number_educ: 0
 
 - name: Denys Iliash
+  last_name: Iliash
   photo: denys_iliash.jpg
   role: Graduate Student
   email:
@@ -421,6 +429,7 @@
   number_educ: 0
 
 - name: Zhen (Colin) Li
+  last_name: Li
   photo: zhen_colin_li.JPG
   role: Graduate Student
   email:
@@ -428,6 +437,7 @@
   number_educ: 0
 
 - name: Dun Yang
+  last_name: Yang
   photo: dun_yang.png
   role: Graduate Student
   email:
@@ -435,6 +445,7 @@
   number_educ: 0
 
 - name: Yuxuan Mu
+  last_name: Mu
   photo: yuxuan_mu.png
   role: Graduate Student
   email:
@@ -442,6 +453,7 @@
   number_educ: 0
 
 - name: Ziyu (Charlotte) Zhang
+  last_name: Zhang
   photo: ziyu_zhang.png
   role: Graduate Student
   email:
@@ -449,6 +461,7 @@
   number_educ: 0
 
 - name: Tristan Engst
+  last_name: Engst
   photo: tristan_engst.jpg
   role: Graduate Student
   email:
@@ -456,6 +469,7 @@
   number_educ: 0
 
 - name: Alireza Moazeni
+  last_name: Moazeni
   photo: alireza_moazeni.jpg
   role: Graduate Student
   email:
@@ -463,6 +477,7 @@
   number_educ: 0
 
 - name: Mehran Aghabozorgi
+  last_name: Aghabozorgi
   photo: mehran_aghabozorgi.jpeg
   role: Graduate Student
   email:
@@ -470,6 +485,7 @@
   number_educ: 0
 
 - name: Yanshu Zhang
+  last_name: Zhang
   photo: yanshu_zhang.jpg
   role: Graduate Student
   email:
@@ -477,6 +493,7 @@
   number_educ: 0
 
 - name: Weikun Peng
+  last_name: Peng
   photo: weikun_peng.png
   role: Graduate Student
   email:
@@ -484,6 +501,7 @@
   number_educ: 0
 
 - name: Keru Fu
+  last_name: Fu
   photo: keru_fu.jpg
   role: Graduate Student
   email:
@@ -491,6 +509,7 @@
   number_educ: 0
 
 - name: Samuel Antunes Miranda
+  last_name: Miranda
   photo: samuel_antunes_miranda.jpg
   role: Graduate Student
   email:
@@ -498,6 +517,7 @@
   number_educ: 0
 
 - name: Xiaohao Sun
+  last_name: Sun
   photo: xiaohao_sun.jpg
   role: Graduate Student
   email:
@@ -505,6 +525,7 @@
   number_educ: 0
 
 - name: Austin Wang
+  last_name: Wang
   photo: austin_wang.jpg
   role: Graduate Student
   email:
@@ -512,6 +533,7 @@
   number_educ: 0
 
 - name: Shiping Yang
+  last_name: Yang
   photo: shiping_yang.jpg
   role: Graduate Student
   email:
@@ -519,6 +541,7 @@
   number_educ: 0
 
 - name: Dongchen Yang
+  last_name: Yang
   photo: dongchen_yang.png
   role: Graduate Student
   email:
@@ -526,6 +549,7 @@
   number_educ: 0
 
 - name: Zhengqing Wang
+  last_name: Wang
   photo: zhengqing_wang.jpg
   role: Graduate Student
   email:
@@ -533,6 +557,7 @@
   number_educ: 0
 
 - name: George Shramko
+  last_name: Shramko
   photo: george_shramko.jpg
   role: Graduate Student
   email:
@@ -540,6 +565,7 @@
   number_educ: 0
 
 - name: Hossein Zaredar
+  last_name: Zaredar
   photo: hossein_zaredar.jpeg
   role: Graduate Student
   email: hza234@sfu.ca
@@ -547,6 +573,7 @@
   number_educ: 0
 
 - name: Amirhossein Alimohammadi
+  last_name: Alimohammadi
   photo: amir_alimohammadi.jpg
   role: Graduate Student
   email:
@@ -554,6 +581,7 @@
   number_educ: 0
 
 - name: Cody Ning
+  last_name: Ning
   photo: cody_ning.jpg
   role: Graduate Student
   email:
@@ -561,6 +589,7 @@
   number_educ: 0
 
 - name: Amir Razlighi
+  last_name: Razlighi
   photo: amir_razlighi.jpeg
   role: Graduate Student
   email:
@@ -568,6 +597,7 @@
   number_educ: 0
 
 - name: Kian Izadpanah
+  last_name: Izadpanah
   photo: kian_izadpanah.jpeg
   role: Graduate Student
   email:
@@ -575,6 +605,7 @@
   number_educ: 0
 
 - name: Alireza Heidari
+  last_name: Heidari
   photo: alireza_heidari.png
   role: Graduate Student
   email:
@@ -582,6 +613,7 @@
   number_educ: 0
 
 - name: Yizheng Xie
+  last_name: Xie
   photo: yizheng_xie.jpg
   role: Graduate Student
   email:
@@ -589,6 +621,7 @@
   number_educ: 0
 
 - name: Sunwoo Kim
+  last_name: Kim
   photo: sunwoo_kim.png
   role: Graduate Student
   email:
@@ -596,6 +629,7 @@
   number_educ: 0
 
 - name: Ruiyu Gou
+  last_name: Gou
   photo: ruiyu_gou.png
   role: Graduate Student
   email:
@@ -603,6 +637,7 @@
   number_educ: 0
 
 - name: Guangda Ji
+  last_name: Ji
   photo: guangda_ji.jpeg
   role: Graduate Student
   email:
@@ -610,6 +645,7 @@
   number_educ: 0
 
 - name: Qinchan (Wing) Li
+  last_name: Li
   photo: qinchan_li.jpg
   role: Graduate Student
   email:
@@ -617,6 +653,7 @@
   number_educ: 0
 
 - name: Max Vernikovskiy
+  last_name: Vernikovskiy
   photo: max_vernikovskiy.jpg
   role: Graduate Student
   email:
@@ -624,6 +661,7 @@
   number_educ: 0
 
 - name: Nicholas Ioannidis
+  last_name: Ioannidis
   photo: nicholas_ioannidis.png
   role: Graduate Student
   email:
@@ -631,6 +669,7 @@
   number_educ: 0
 
 - name: Hiran Sarkar
+  last_name: Sarkar
   photo: hiran_sarkar.png
   role: Graduate Student
   email:
@@ -638,6 +677,7 @@
   number_educ: 0
 
 - name: Hiroo Maruyama
+  last_name: Maruyama
   photo: hiroo_maruyama.png
   role: Graduate Student
   email:
@@ -645,6 +685,7 @@
   number_educ: 0
 
 - name: Lixin Luo
+  last_name: Luo
   photo: lixin_luo.jpeg
   role: Graduate Student
   email:
@@ -652,6 +693,7 @@
   number_educ: 0
 
 - name: Katayoon Moslemi
+  last_name: Moslemi
   photo: katayoon_moslemi.png
   role: Graduate Student
   email:

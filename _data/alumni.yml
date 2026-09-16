@@ -1,6 +1,22 @@
 #- name: 
 #- graduation:
 #- text:
+- name: Chris Careaga
+  graduation: 2026
+  text: NVIDIA
+  photo: chris_careaga.jpg
+  role: Graduate Student
+  email:
+  website: https://ccareaga.github.io/
+
+- name: Sebastian Dille
+  graduation: 2026
+  text: Gruvi Alumni
+  photo: SebastianDille3x4.jpg
+  role: Graduate Student
+  email:
+  website: https://sebastian-dille.github.io/
+
 - name: Qimin Chen
   graduation: 2026
   degree: Ph.D.
@@ -29,6 +45,14 @@
   email:
   website: https://charlie15.cloud
   group: 3DLG
+
+- name: Rakesh Shrestha
+  graduation: 2025
+  text: Gruvi Alumni
+  photo: rakesh.jpg
+  role: Graduate Student
+  email:
+  website: http://www.sfu.ca/~rakeshs/
 
 - name: Derek Pun
   graduation: 2025

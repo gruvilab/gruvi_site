@@ -23,6 +23,48 @@
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
 
+- title: "Functionalization via Structure Completion and Motion Rectification"
+  image: zhao_siga26_functionalization.gif
+  authors: Mingrui Zhao, Sai Raj Kishore Perla, Kai Wang, Sauradip Nag, Duc Anh Nguyen, Jiayi Peng, Ruiqi Wang, Angel X. Chang, Manolis Savva, Ali Mahdavi-Amiri, Hao Zhang
+  venue: SIGGRAPH Asia
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2605.18010
+  project_page: https://mingrui-zhao.github.io/Functionalization/
+
+- title: "Recurrent Dynamic Range Extension"
+  image: dille_siga26_recurrenthdr.jpg
+  authors: Sebastian Dille, Keru Fu, S. Mahdi H. Miangoleh, Yağız Aksoy
+  venue: SIGGRAPH Asia
+  year: 2026
+  highlight: 1
+  pdf: https://yaksoy.github.io/papers/SigAsia26-RecurrentHDR.pdf
+  project_page: https://yaksoy.github.io/RecurrentHDR/
+
+- title: "SIA: Selective Image Analogy"
+  image: alimohammadi_siga26_sia.png
+  authors: Amirhossein Alimohammadi, Kian Izadpanah, Bardiya Kariminia, Yiorgos Chrysanthou, Ali Mahdavi-Amiri
+  venue: SIGGRAPH Asia
+  year: 2026
+  highlight: 1
+
+- title: "SymTRELLIS: Symmetry-Enforced Voxel Latents for 3D Generation"
+  image: ji_siga26_symtrellis.png
+  authors: Guangda Ji, Qimin Chen, Qinchan Li, Mingrui Zhao, Kai Wang, Hao Zhang
+  venue: SIGGRAPH Asia
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2606.04108
+  project_page: https://symtrellis.github.io/
+
+- title: "VETI: 3D-Guided Visual Effect Tuning on Images"
+  image: zhao_siga26_veti.jpg
+  authors: Mingrui Zhao, Duc Anh Nguyen, Gnanavel Premnath, S. Mahdi H. Miangoleh, Sebastian Dille, Yagiz Aksoy
+  venue: SIGGRAPH Asia (Poster)
+  year: 2026
+  highlight: 1
+  video: https://mingrui-zhao.github.io/assets/video/VETI_video.mp4
+
 - title: "PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images"
   image: wang_eccv26_padformer.png
   authors: Ruiqi Wang, Yiming Qian, Fenggen Yu, Yuxuan Lu, Dakuo Wang, Hao Zhang, Jing Huang

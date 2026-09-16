@@ -18,7 +18,11 @@ permalink: /people/
 {% assign postdoc_visitors = site.data.team_members | where_exp: "member", "postdoc_visitor_roles contains member.role" %}
 {% include peoplelist.html title="Postdocs and Visitors" people=postdoc_visitors %}
 
-{% assign students = site.data.team_members | where:"role", "Graduate Student" | sort: "name" %}
+{% assign student_groups = site.data.team_members | where:"role", "Graduate Student" | sort: "name" | group_by: "last_name" | sort: "name" %}
+{% assign students = "" | split: "," %}
+{% for group in student_groups %}
+{% assign students = students | concat: group.items %}
+{% endfor %}
 {% include peoplelist.html title="Graduate Students" people=students %}
 
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">

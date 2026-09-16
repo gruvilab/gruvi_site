@@ -12,6 +12,31 @@
 #  image: news_1.PNG
 #  
 
+- date: September 15, 2026
+  headline: >-
+    SIGGRAPH Asia 2026: GrUVi Forecast
+  text: >-
+    GrUVi is looking ahead to <a href="https://asia.siggraph.org/2026/">SIGGRAPH Asia 2026</a>, taking place in <strong>Kuala Lumpur, Malaysia</strong>, from <strong>December 1 to 4, 2026</strong>. Our members will present <strong>four accepted technical papers and one poster</strong> and are co-organizing <strong>two workshops</strong>.</p>
+    <p class="left"><strong>Workshops co-organized by GrUVi members</strong></p>
+    <ul class="left">
+    <li><a href="https://suikei-wang.github.io/">Ruiqi Wang</a> and <a href="https://www.cs.sfu.ca/~haoz/">Hao (Richard) Zhang</a> - <a href="https://agenticgraphics.github.io/">Agentic Graphics</a></li>
+    <li><a href="https://han-j-y.github.io/">Jiyeon Han</a>, <a href="https://www.sfu.ca/~amahdavi/">Ali Mahdavi-Amiri</a>, and <a href="https://www.cs.sfu.ca/~haoz/">Hao (Richard) Zhang</a> - Creative Machines, Creative Sketches: Generation, Evaluation, and Interaction</li>
+    </ul>
+    <p class="left"><strong>Accepted technical papers</strong></p>
+    <ul class="left">
+    <li><a href="https://mingrui-zhao.github.io/Functionalization/">Functionalization via Structure Completion and Motion Rectification</a></li>
+    <li><a href="https://yaksoy.github.io/RecurrentHDR/">Recurrent Dynamic Range Extension</a></li>
+    <li>SIA: Selective Image Analogy</li>
+    <li><a href="https://symtrellis.github.io/">SymTRELLIS: Symmetry-Enforced Voxel Latents for 3D Generation</a></li>
+    </ul>
+    <p class="left"><strong>Accepted poster</strong></p>
+    <ul class="left">
+    <li><a href="https://github.com/ducang/VETI">VETI: 3D-Guided Visual Effect Tuning on Images</a></li>
+    </ul>
+    <p>See you in Kuala Lumpur! More workshop details will be shared as they become available.
+  highlight: 1
+  image: siggraph_asia_2026.png
+
 - date: August 22, 2026
   headline: >-
     ECCV 2026: Spotlight on GrUVi Lab
