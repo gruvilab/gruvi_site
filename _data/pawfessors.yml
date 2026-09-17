@@ -14,8 +14,7 @@
   photo: qiuqiu.jpg
   title: PawhD in Chilling
 
-- name: The Mei Duo
-  names: Meizai & Meihua
-  photo: meis.jpg
-  photo_position: 35% center
+- name: MeiDuo
+  photo: mei_duo.jpg
+  photo_position: center 65%
   title: Mewsters in Naps

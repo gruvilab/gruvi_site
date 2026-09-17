@@ -22,9 +22,12 @@
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 24px 18px;
-  align-items: start;
+  grid-auto-rows: 1fr;
+  align-items: stretch;
 }
 .pawfessor-card {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   overflow: hidden;
   text-align: center;
@@ -33,7 +36,7 @@
   border-radius: 18px;
   box-shadow: 0 2px 5px rgba(82, 59, 35, 0.08);
 }
-.pawfessor-portrait { position: relative; }
+.pawfessor-portrait { position: relative; flex-shrink: 0; }
 #gridid .pawfessor-photo {
   display: block;
   width: 100%;
@@ -57,10 +60,9 @@
   border-radius: 50%;
   font-size: 15px;
 }
-.pawfessor-profile { padding: 10px 9px 12px; }
+.pawfessor-profile { padding: 10px 9px 12px; flex: 1; }
 .pawfessor-profile h4 { margin: 0 0 5px; color: #5684a3; font-size: 19px; }
-.pawfessor-names { color: #776858; font-size: 12px; margin: 0 0 5px; }
-.pawfessor-title { color: #776858; font-size: 13px; line-height: 1.4; margin: 0; }
+.pawfessor-title { color: #776858; font-size: 13px; line-height: 1.4; min-height: 2.8em; margin: 0; }
 @media (max-width: 767px) {
   .pawfessors-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px 14px; }
 }
@@ -335,4 +337,3 @@ table, table11 {
       overflow: visible;
    }
 }
-

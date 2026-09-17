@@ -25,6 +25,8 @@ permalink: /people/
 {% endfor %}
 {% include peoplelist.html title="Graduate Students" people=students %}
 
+{% include pawfessors.html %}
+
 <div class="row" style="margin-top: 0px; margin-bottom: 0px;">
 {% assign year = 999 %} 
 <div class="col-sm-12">
@@ -51,5 +53,3 @@ permalink: /people/
 {% endfor %}
 </div>
 </div>
-
-{% include pawfessors.html %}
