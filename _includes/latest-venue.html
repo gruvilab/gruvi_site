@@ -41,6 +41,7 @@
         <div class="paper__body">
           {% if venue_note != empty %}<span class="tag">{{ venue_note }}</span>{% endif %}
           <h3>{% if paper_url != empty %}<a href="{{ paper_url }}" target="_blank" rel="noopener">{{ publi.title }}</a>{% else %}{{ publi.title }}{% endif %}</h3>
+          {% if publi.authors %}<p class="paper__authors">{{ publi.authors }}</p>{% endif %}
         </div>
       </article>
     {% endfor %}

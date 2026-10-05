@@ -378,14 +378,10 @@ summary:focus-visible {
 .paper h3 a { color: var(--text); text-decoration: none; }
 .paper h3 a:hover { color: var(--accent); }
 .paper__authors {
-  display: -webkit-box;
   margin: 8px 0 0;
-  overflow: hidden;
   color: var(--muted);
   font-size: 13.5px;
   line-height: 1.5;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 
 .publication-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
