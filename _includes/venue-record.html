@@ -1,0 +1,57 @@
+{% assign cvpr_count = 0 %}
+{% assign siggraph_asia_count = 0 %}
+{% assign siggraph_count = 0 %}
+{% assign eccv_count = 0 %}
+{% assign iccv_count = 0 %}
+{% assign eurographics_count = 0 %}
+{% assign threedv_count = 0 %}
+{% assign neurips_count = 0 %}
+{% assign iclr_count = 0 %}
+{% assign other_count = 0 %}
+{% for publication in site.data.publist %}
+  {% assign venue_name = publication.venue | downcase %}
+  {% if venue_name contains 'siggraph asia' %}
+    {% assign siggraph_asia_count = siggraph_asia_count | plus: 1 %}
+  {% elsif venue_name contains 'siggraph' %}
+    {% assign siggraph_count = siggraph_count | plus: 1 %}
+  {% elsif venue_name contains 'cvpr' or venue_name contains 'computer vision and pat' %}
+    {% assign cvpr_count = cvpr_count | plus: 1 %}
+  {% elsif venue_name contains 'eccv' or venue_name contains 'european conference on computer vision' %}
+    {% assign eccv_count = eccv_count | plus: 1 %}
+  {% elsif venue_name contains 'iccv' or venue_name contains 'international conference on computer vision' %}
+    {% assign iccv_count = iccv_count | plus: 1 %}
+  {% elsif venue_name contains 'eurographics' %}
+    {% assign eurographics_count = eurographics_count | plus: 1 %}
+  {% elsif venue_name contains '3dv' %}
+    {% assign threedv_count = threedv_count | plus: 1 %}
+  {% elsif venue_name contains 'neurips' or venue_name contains 'nips' %}
+    {% assign neurips_count = neurips_count | plus: 1 %}
+  {% elsif venue_name contains 'iclr' %}
+    {% assign iclr_count = iclr_count | plus: 1 %}
+  {% else %}
+    {% assign other_count = other_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<section class="publication-record" aria-labelledby="publication-record-heading">
+  <header class="publication-record__header">
+    <p id="publication-record-heading">Publication record</p>
+    <span>All years</span>
+  </header>
+  <div class="publication-record__total">
+    <strong>{{ site.data.publist | size }}</strong>
+    <span>papers in the archive</span>
+  </div>
+  <dl class="publication-record__venues">
+    <div><dt>CVPR</dt><dd>{{ cvpr_count }}</dd></div>
+    <div><dt>SIGGRAPH Asia</dt><dd>{{ siggraph_asia_count }}</dd></div>
+    <div><dt>SIGGRAPH</dt><dd>{{ siggraph_count }}</dd></div>
+    <div><dt>ECCV</dt><dd>{{ eccv_count }}</dd></div>
+    <div><dt>ICCV</dt><dd>{{ iccv_count }}</dd></div>
+    <div><dt>Eurographics</dt><dd>{{ eurographics_count }}</dd></div>
+    <div><dt>3DV</dt><dd>{{ threedv_count }}</dd></div>
+    <div><dt>NeurIPS</dt><dd>{{ neurips_count }}</dd></div>
+    <div><dt>ICLR</dt><dd>{{ iclr_count }}</dd></div>
+    <div><dt>Other venues</dt><dd>{{ other_count }}</dd></div>
+  </dl>
+</section>

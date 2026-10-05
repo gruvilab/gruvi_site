@@ -1,43 +1,15 @@
-
-<a href="{{ site.url }}{{ site.baseurl }}/publications/">
-
-
-<h4>Publications</h4>
-
-
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="false" >
-
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
-{% if publi.highlight == 1 and publi.image %}
-{% if number_printed < 10 %}	    
-{% if number_printed == 0 %}
-        <div class="item active" style="height: 245px; ">
+{% assign featured = site.data.publist | where: 'highlight', 1 | first %}
+{% if featured %}
+{% assign publication_id = featured.title | slugify | prepend: 'publication-' %}
+<article class="classic-featured-publication">
+  <div class="classic-panel-heading">
+    <h2>Publications</h2>
+    <a href="{{ '/publications/' | relative_url }}">Archive</a>
+  </div>
+  <a class="classic-featured-publication__image" href="{{ '/publications/#' | append: publication_id | relative_url }}">
+    <img src="{{ '/images/pubpic/' | append: featured.image | relative_url }}" alt="Preview of {{ featured.title | escape }}">
+  </a>
+  <p>{{ featured.venue }} · {{ featured.year }}</p>
+  <h3><a href="{{ '/publications/#' | append: publication_id | relative_url }}">{{ featured.title }}</a></h3>
+</article>
 {% endif %}
-{% if number_printed != 0 %}
-	<div class="item" style="height: 245px; ">
-{% endif %}
-		
-		<div  style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;">
-    {% assign ext = publi.image | split:'.' | last %}
-    {% if site.video_exts contains ext %}
-    <video autoplay loop muted playsinline style="max-width: 100%; max-height: 100%; object-fit: contain;">
-      <source src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" type="video/mp4">
-    </video>
-    {% else %}
-      <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" alt="Slide {{ number_printed }}" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
-    {% endif %} 
-		</div>
-        </div>
-{% assign number_printed = number_printed | plus: 1 %}
-{% endif %}
-{% endif %}	    
-{% endfor %}
-    </div> 
-
-
-</div>
-
-</a>

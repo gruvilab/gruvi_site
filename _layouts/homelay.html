@@ -2,38 +2,89 @@
 layout: default
 ---
 
-<div class="row">
-<div id="home" class="col-sm-8">
-<h2>Welcome to GrUVi @ <a href="http://www.cs.sfu.ca">CS.SFU</a>!</h2>
-<p align="justify" style="margin-left: 5px; margin-right: 5px;">
-We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, generative AI, geometric and image-based modelling, language and 3D, machine learning, natural phenomenon, and shape analysis. Our research works frequently appear in top venues such as SIGGRAPH, CVPR, and ICCV (we rank <a href="http://csrankings.org/#/index?vision&graph&world">&#35;14 in the world in terms of top publications in visual computing</a>, as of 6/2023) and we collaborate widely with the industry and academia (e.g., Adobe Research, Amazon, Autodesk, Google, MSRA, Princeton, Stanford, Tel Aviv, and Washington). Our faculty and students have won numerous honours and awards, including <a href="https://rsc-src.ca/en/fellows">FRSC</a>, <a href="https://s2022.siggraph.org/program/awards/#:~:text=Outstanding%20Doctoral%20Dissertation%20Award%0AXuebin%20(Jason)%20Peng">SIGGRAPH Outstanding Doctoral Dissertation Award</a>, <a href="http://graphicsinterface.org/awards/alain-fournier/#:~:text=2015-,Ibraheem%20Alhashim,-2014">Alain Fournier Best Thesis Award</a>, CS&#124;InfoGAN Researcher Award, Google Faculty Award, <a href="https://research.google/outreach/phd-fellowship/recipients/?category=2021#:~:text=of%20California%2C%20Merced-,Zhiqin%20Chen,-%2C%20Simon%20Fraser%20University">Google PhD Fellowship</a>, <a href="https://www.borealisai.com/news/borealis-ai-2020-2021-fellowships-supporting-canadas-ai-research-ecosystem/#:~:text=Borealis%20AI%202021%20Fellow%3A%C2%A0Nelson%20Nauata">Borealis AI Fellowship</a>, TR35@Singapore, CHCCS Achievement and Early Career Researcher Awards, <a href="http://www.nserc-crsng.gc.ca/Professors-Professeurs/Grants-Subs/DGAS-SGSA_eng.asp">NSERC Discovery Accelerator Awards</a>, and several best paper awards from CVPR, ECCV, SCA, SGP, etc. Gruvi alumni went on to take up faculty positions in Canada, the US, and Asia, while others now work at companies including Amazon, Apple, EA, Facebook (Meta), Google, IBM, and Microsoft.
-</p>
-  
+{% assign faculty_count = site.data.team_members | where: 'role', 'Faculty' | size %}
+{% assign student_count = site.data.team_members | where: 'role', 'Graduate Student' | size %}
+
+<section class="hero">
+  <div class="site-width hero__inner">
+    <div class="hero__copy">
+      <h1>
+        <span class="sr-only">GrUVi: graphics union vision</span>
+        <span class="hero__title" aria-hidden="true"><span class="hero__brace">{</span><span class="hero__key">gr</span>aphics<span class="hero__brace">}</span> <span class="hero__cup">&cup;</span> <span class="hero__brace">{</span><span class="hero__key">vi</span>sion<span class="hero__brace">}</span></span>
+      </h1>
+      <p class="kicker hero__kicker hero__kicker--below"><span>School of Computing Science · Simon Fraser University</span> <span class="hero__since">Est. <b>1992</b></span></p>
+      <p class="hero__lead">GrUVi is an interdisciplinary team of researchers in visual computing: computer graphics and computer vision. Our work appears regularly at SIGGRAPH, CVPR, and ICCV.</p>
+
+      <p class="hero__label">Research areas</p>
+      <ul class="hero__areas">
+        <li>3D &amp; robotic vision</li>
+        <li>3D printing &amp; content creation</li>
+        <li>Animation</li>
+        <li>AR/VR</li>
+        <li>Computational photography</li>
+        <li>Generative AI</li>
+        <li>Geometric &amp; image-based modelling</li>
+        <li>Language &amp; 3D</li>
+        <li>Machine learning</li>
+        <li>Natural phenomena</li>
+        <li>Shape analysis</li>
+      </ul>
+
+      <a class="hero__rank" href="https://csrankings.org/#/index?vision&amp;graph&amp;world" target="_blank" rel="noopener">
+        <strong>#14</strong>
+        <span>in the world for top publications in visual computing<small>CSRankings, June 2023</small></span>
+        <i aria-hidden="true">↗</i>
+      </a>
+    </div>
+    <div class="hero__visual" data-hero-mark>
+      {% include logo-mark.html %}
+    </div>
+  </div>
+</section>
+
+<div class="home-block">
+  <div class="site-width">
+    {% include latest-venue.html link=true %}
+  </div>
 </div>
 
-<div id="newsid" class="col-sm-4" style = "padding-left: 6px;" >
-<div class="well">
-	{% include pubbanner.html %}
+<section class="home-block home-block--soft" aria-labelledby="news-heading">
+  <div class="site-width">
+    <div class="section-head">
+      <div>
+        <p class="kicker">Last 6 months</p>
+        <h2 id="news-heading">News</h2>
+      </div>
+      <div class="section-head__actions">
+        <div class="rail-controls">
+          <button class="rail-button" type="button" data-rail-prev aria-label="Newer news">&larr;</button>
+          <button class="rail-button" type="button" data-rail-next aria-label="Older news">&rarr;</button>
+        </div>
+        <a class="arrow-link" href="{{ '/news/' | relative_url }}">All news <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    {% comment %} Every item from the six months before the build, and never fewer than four. {% endcomment %}
+    {% assign news_cutoff = site.time | date: '%s' | minus: 15778800 %}
+    <div class="news-rail" data-rail>
+      {% assign news_count = 0 %}
+      {% for article in site.data.news %}
+        {% assign news_time = article.date | date: '%s' | plus: 0 %}
+        {% if news_time < news_cutoff and news_count >= 4 %}{% break %}{% endif %}
+        {% assign news_count = news_count | plus: 1 %}
+        {% assign news_id = article.headline | slugify %}
+        <article class="news-card">
+          {% if article.image %}
+            {% assign news_img = '/images/newspic/' | append: article.image | relative_url %}
+            <a class="poster" href="{{ '/news/#' | append: news_id | relative_url }}" style="--poster: url('{{ news_img }}')" tabindex="-1" aria-hidden="true">
+              <img src="{{ news_img }}" alt="" loading="lazy">
+            </a>
+          {% else %}
+            <a class="poster poster--empty" href="{{ '/news/#' | append: news_id | relative_url }}" tabindex="-1" aria-hidden="true">{% include logo-mark.html %}</a>
+          {% endif %}
+          <time>{{ article.date }}</time>
+          <h3><a href="{{ '/news/#' | append: news_id | relative_url }}">{{ article.headline }}</a></h3>
+        </article>
+      {% endfor %}
+    </div>
   </div>
- </div>
- </div>
-
-
-<div class="row">
-
-<div id="home" class="col-sm-8">
-{{ content }}
-
- </div>
-<div id="newsid" class="col-sm-4" style = "padding-left: 6px;" >
-<div class="well">
-	{% include news.html %}
-  </div>
-	
-</div>
-
-
-
-  </div>
-
-
+</section>

@@ -11,7 +11,6 @@
 
 - name: Sebastian Dille
   graduation: 2026
-  text: Gruvi Alumni
   photo: SebastianDille3x4.jpg
   role: Graduate Student
   email:
@@ -39,7 +38,6 @@
 - name: Chuanqi Tang
   graduation: 2026
   degree: M.Sc.
-  text: M.Sc. alumnus
   photo: chuanqi_tang.jpg
   role: Graduate Student
   email:
@@ -48,7 +46,6 @@
 
 - name: Rakesh Shrestha
   graduation: 2025
-  text: Gruvi Alumni
   photo: rakesh.jpg
   role: Graduate Student
   email:
@@ -77,7 +74,6 @@
 - name: Michael Xu
   graduation: 2025
   degree: M.Sc.
-  text: Gruvi Alumni
   photo: michael_xu.png
   role: Graduate Student
   email:
@@ -186,7 +182,6 @@
 - name: Sicong Tang
   graduation: 2024
   degree: Ph.D.
-  text: Gruvi Alumni
   photo: sicong.jpg
   role: Graduate Student
   email: 
@@ -202,7 +197,6 @@
 
 - name: Ning Wang
   graduation: 2024
-  text: Gruvi Alumni
   photo: ningwang.jpg
   role: Visitor
   email: 
@@ -227,7 +221,6 @@
   
 - name: Hang Zhou
   graduation: 2023
-  text: Gruvi Alumni
   photo: hang_zhou.jpg
   role: Postdoc
   email:
@@ -319,7 +312,6 @@
 
 - name: Jamal Rahim
   graduation: 2022
-  text: Gruvi Alumni
   photo: JamalRahim.png
   role: Graduate Student
   email: 
@@ -335,7 +327,6 @@
 
 - name: Jon Liu
   graduation: 2022
-  text: Gruvi Alumni
   photo: jonliu.jpg
   role: Graduate Student
   email: 
@@ -420,7 +411,6 @@
 
 - name: Shimon Smith
   graduation: 2021
-  text: Gruvi Alumni
   photo: shimon_smith.jpg
   role: Graduate Student
   email: 
@@ -478,7 +468,6 @@
 
 - name: Renjiao Yi
   graduation: 2019
-  text: Gruvi Alumni
   photo: renjiao.png
   role: Graduate Student
   email:
@@ -486,7 +475,6 @@
 
 - name: Chenyang Zhu
   graduation: 2019
-  text: Gruvi Alumni
   photo: chenyang.png
   role: Graduate Student
   email: chenyang.chandler.zhu@gmail.com

@@ -1,89 +1,27 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 50;
-var navbarHeight = $('header').outerHeight();
-
-$(window).scroll(function(event){
-    didScroll = true;
-});
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-    
-    // Make sure they scroll more than delta
-    if((Math.abs(lastScrollTop - st) <= delta) || ($(window).width()>900))
-        return;
-    
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('#main-nav').fadeOut();
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('#main-nav').fadeIn();
-        }
-    }
-    
-    lastScrollTop = st;
-}
-
-$(window).resize(function() {
-
-$('#main-nav').fadeIn();
-
-});
-
-</script>
-
-<header class="nav-down">
-<div id="main-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-
-  <div class="container-fluid backg b"">
-	<div class="navbar-header navbar-right">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-   
-   
-    <a href="https://www.sfu.ca/">
-      <img class="img_logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/sfu_logo3.png" style="height: 55px;">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="GrUVi home">
+      {% include logo-mark.html %}
+      <span class="brand__word" aria-hidden="true">gr<span>u</span>vi</span>
     </a>
-    <a href="{{ site.url }}{{ site.baseurl }}/">
-      <img class="img_logo2" src="{{ site.url }}{{ site.baseurl }}/images/logopic/gruvi_logo.png" style="height: 55px;">
-    </a>
-    
-    
-<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <p align="right" style="padding-right: 10px;">
-                <a href="{{ site.url }}{{ site.baseurl }}/" style="color:#FFFFFF; text-shadow: 2px 2px 3px #606060;"><strong>HOME</strong></a></br>
-		<!-- <a href="{{ site.url }}{{ site.baseurl }}/vc_workshop_2022" style="color:#FFFFFF; text-shadow: 2px 2px 3px #606060;"><strong>SFU VC WORKSHOP 2022</strong></a></br> -->
-		<a href="{{ site.url }}{{ site.baseurl }}/people" style="color:#FFFFFF; text-shadow: 2px 2px 3px #606060;"><strong>GRUVIERS</strong></a></br>
-		<a href="{{ site.url }}{{ site.baseurl }}/publications" style="color:#FFFFFF; text-shadow: 2px 2px 3px #606060;"><strong>PUBLICATIONS</strong></a></br>
-		<a href="{{ site.url }}{{ site.baseurl }}/about" style="color:#FFFFFF; text-shadow: 2px 2px 3px #606060;"><strong>ABOUT</strong></a>
-             </p>
-	</div>
-</div>
 
-    
-	
-	
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="{{ '/people/' | relative_url }}"{% if page.url contains '/people' %} class="is-active" aria-current="page"{% endif %}>People</a>
+      <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} class="is-active" aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/news/' | relative_url }}"{% if page.url contains '/news' %} class="is-active" aria-current="page"{% endif %}>News</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} class="is-active" aria-current="page"{% endif %}>About</a>
+    </nav>
 
-</div> 
-</div>
+    <details class="mobile-nav">
+      <summary aria-label="Open navigation"><span></span><span></span></summary>
+      <nav aria-label="Mobile navigation">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/people/' | relative_url }}">People</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/news/' | relative_url }}">News</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
+    </details>
+  </div>
 </header>
-

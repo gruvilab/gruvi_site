@@ -1,31 +1,17 @@
-
-
-
-<h4>More News</h4>
-     
-{% assign number_printed = 0 %}
-{% assign ID = 0 %}
-{% for article in site.data.news%}
-{% assign ID = ID | plus: 1 %}
-{% if article.highlight == 0 and number_printed < 9 %}
-{% assign number_printed = number_printed | plus: 1 %}
-
-
-
-{% include newsdetails.html number_printed=ID headline=article.headline date=article.date image=article.image text=article.text %}
-
-
-{{ article.date }}<br /> 
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ID }}()">
-<newstit>{{ article.headline }}</newstit><br /> <br />
+<div class="classic-panel-heading">
+  <h2>More News</h2>
+  <a href="{{ '/news/' | relative_url }}">Archive</a>
 </div>
-
- 
-{% endif %}
+<div class="classic-news-list">
+{% assign number_printed = 0 %}
+{% for article in site.data.news %}
+  {% if article.highlight == 0 and number_printed < 8 %}
+    {% assign number_printed = number_printed | plus: 1 %}
+    {% assign news_id = article.headline | slugify %}
+    <article>
+      <time>{{ article.date }}</time>
+      <h3><a href="{{ '/news/#' | append: news_id | relative_url }}">{{ article.headline }}</a></h3>
+    </article>
+  {% endif %}
 {% endfor %}
-<p>
-<newstit><a href="{{ site.url }}{{ site.baseurl }}/allnews.html" style="color: #5684A3; font-size: 19px;">... see all News</a></newstit>
-</p>
-
-
-
+</div>

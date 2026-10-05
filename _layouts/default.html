@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
   {% include head.html %}
-
-  <body>
-
+  <body class="page-{{ page.layout }}">
     {% include header.html %}
-
-    <div class="container-fluid">
-      <div class="row">
-        {{ content }}
-      </div>
-    </div>
-
+    <main id="main-content">{{ content }}</main>
     {% include footer.html %}
-
+    <script src="{{ '/js/site.js' | relative_url }}" defer></script>
   </body>
-
 </html>
