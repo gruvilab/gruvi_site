@@ -1,48 +1,45 @@
-{% assign icons_printed = 0 %}
-
-{% if include.pdf %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-<a target="_blank" href="{{ include.pdf }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_pdf.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Paper</a>
-{% endif %}
-
-{% if include.bibtex %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ include.bibtex }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/bibtex.jpg" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
-Bibtex</a>
-{% endif %}
-
-{% if include.project_page %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ include.project_page }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/project_page.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Project&nbsp;Page</a>
-{% endif %}
-
-{% if include.video %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a href="{{ include.video }}" target="_blank">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_youtube.png" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />
-Video</a>
-{% endif %}
-
-{% if include.presentation %}
-{% assign icons_printed = icons_printed | plus: 1 %}
-{% if icons_printed >= 2 %}
-&#32;|&nbsp;
-{% endif %}
-<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/presentations/{{ include.presentation }}">
-   <img src="{{ site.url }}{{ site.baseurl }}/images/icons/icon_ppt.gif" style="cursor: pointer; margin-bottom: 0px; margin-top: 0px; margin-right: 2px; border-radius:2%;" height="16" border="0" width="16" />&nbsp;
-Slides</a>
-{% endif %}
+<span class="publication-links">
+  {% assign pdf_url = include.pdf | strip %}
+  {% assign project_page_url = include.project_page | strip %}
+  {% assign video_url = include.video | strip %}
+  {% assign bibtex_url = include.bibtex | strip %}
+  {% assign presentation_file = include.presentation | strip %}
+  {% if pdf_url != empty %}
+    <a target="_blank" rel="noopener" href="{{ pdf_url }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 2.5h7l4 4v15h-11z"/><path d="M13.5 2.5v4h4"/><path d="M9 12h6M9 15h6M9 18h4"/></svg>
+      <span>PDF</span>
+    </a>
+  {% endif %}
+  {% if project_page_url != empty %}
+    {% assign project_url = project_page_url | downcase %}
+    {% if project_url contains 'github.com' %}
+      <a target="_blank" rel="noopener" href="{{ project_page_url }}">
+        <svg class="publication-link__github" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.3 11.3 0 0 0-3.6 22c.6.1.8-.2.8-.5v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.4-1.3-5.4-5.6 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.3-5.4 5.6.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.5A11.3 11.3 0 0 0 12 .7z"/></svg>
+        <span>Code</span>
+      </a>
+    {% else %}
+      <a target="_blank" rel="noopener" href="{{ project_page_url }}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c3 2.8 4.2 6 4.2 9.5S15 18.7 12 21.5C9 18.7 7.8 15.5 7.8 12S9 5.3 12 2.5z"/></svg>
+        <span>Project page</span>
+      </a>
+    {% endif %}
+  {% endif %}
+  {% if video_url != empty %}
+    <a target="_blank" rel="noopener" href="{{ video_url }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="m10 8 6 4-6 4z"/></svg>
+      <span>Video</span>
+    </a>
+  {% endif %}
+  {% if bibtex_url != empty %}
+    <a target="_blank" rel="noopener" href="{{ bibtex_url }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H7.5A1.5 1.5 0 0 0 6 5.5v4A1.5 1.5 0 0 1 4.5 11H4v2h.5A1.5 1.5 0 0 1 6 14.5v4A1.5 1.5 0 0 0 7.5 20H9M15 4h1.5A1.5 1.5 0 0 1 18 5.5v4a1.5 1.5 0 0 0 1.5 1.5h.5v2h-.5a1.5 1.5 0 0 0-1.5 1.5v4a1.5 1.5 0 0 1-1.5 1.5H15"/></svg>
+      <span>BibTeX</span>
+    </a>
+  {% endif %}
+  {% if presentation_file != empty %}
+    <a target="_blank" rel="noopener" href="{{ site.baseurl }}/presentations/{{ presentation_file }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h16v11H4zM12 15.5v5M8.5 20.5h7"/><path d="m10 8 4 2-4 2z"/></svg>
+      <span>Slides</span>
+    </a>
+  {% endif %}
+</span>

@@ -1,72 +1,53 @@
 ---
-title: "GrUVi - Publications"
+title: "Publications · GrUVi"
 layout: gridlay
-excerpt: "GrUVi -- Publications."
+excerpt: "Research publications from the GrUVi visual computing community at Simon Fraser University."
 sitemap: false
 permalink: /publications/
 ---
 
-## Publications
-{% for publi in site.data.publist %}
-  {% assign currentdate = publi.year | year: "%Y" %}
-  {% if currentdate != year %}
+<header class="page-head" markdown="0">
+  <h1>Publications</h1>
+  <p>Research from GrUVi faculty and students, newest first.</p>
+</header>
 
-### {{ currentdate }}
-    {% assign year = currentdate %} 
-  {% endif %}
+<section class="archive" aria-label="All publications" markdown="0">
 
-{% if 0 == 0 %}
-<div class="row">
-{% endif %}
+  <div class="publication-tools" role="search">
+    <label class="sr-only" for="publication-search">Search publications</label>
+    <input id="publication-search" type="search" placeholder="Search by title, author, venue, or year" autocomplete="off">
+    <label class="sr-only" for="publication-year">Filter by year</label>
+    <select id="publication-year">
+      <option value="all">All years</option>
+      {% assign filter_year = 999 %}
+      {% for publi in site.data.publist %}
+        {% assign current_year = publi.year | year: "%Y" %}
+        {% if current_year != filter_year %}<option value="{{ current_year }}">{{ current_year }}</option>{% assign filter_year = current_year %}{% endif %}
+      {% endfor %}
+    </select>
+    <p class="publication-tools__status" id="publication-status" aria-live="polite"></p>
+  </div>
 
-<div class="col-sm-12 clearfix">
- <div class="well clearfix">
-
-{% if publi.image %}
-  {% assign ext = publi.image | split:'.' | last %}
-  {% if site.video_exts contains ext %}
-  <video autoplay loop muted playsinline class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;">
-      <source src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" type="video/mp4">
-  </video>
-  {% else %}
-  <img src="/images/pubpic/{{ publi.image }}" class="img-responsive" width="15%" style="float: left; min-width: 80px; min-height: 80px;" />
-  {% endif %}
-{% endif %}
-
-<pubtit>{{ publi.title }}</pubtit>
-<em>{{ publi.authors }}</em><br>
-<em>In {{ publi.venue }} ({{ publi.year }})</em>
-
-<p>{{ publi.description }}</p>
-
-
-{% assign icons_printed = 0 %}
-<p style="text-align: right;">
-{% include pubdetails.html pdf=publi.pdf presentation=publi.presentation project_page=publi.project_page video=publi.video bibtex=publi.bibtex %}
-</p>
-
- </div>
-</div>
-
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if 1 == 1 %}
-</div>
-{% endif %}
-
-
-{% endfor %}
-
-
-
-{% for publi in site.data.publist %}
-
-
-{% endfor %}
-
-
-
-<p> &nbsp; </p>
-
-
+  <div class="publication-list" id="publication-list">
+  {% assign year = 999 %}
+  {% for publi in site.data.publist %}
+    {% assign currentdate = publi.year | year: "%Y" %}
+    {% if currentdate != year %}<h2 class="publication-year" data-year-heading="{{ currentdate }}">{{ currentdate }}</h2>{% assign year = currentdate %}{% endif %}
+    <article class="publication" id="{{ publi.title | slugify | prepend: 'publication-' | append: '-' | append: currentdate }}" data-year="{{ currentdate }}" data-search="{{ publi.title | append: ' ' | append: publi.authors | append: ' ' | append: publi.venue | append: ' ' | append: publi.year | downcase | escape }}">
+      <div class="publication__media">
+        {% if publi.image %}{% include pubmedia.html image=publi.image title=publi.title %}{% endif %}
+      </div>
+      <div class="publication__content">
+        {% assign year_text = publi.year | append: '' %}
+        <p class="publication__venue">{{ publi.venue }}{% unless publi.venue contains year_text %} {{ publi.year }}{% endunless %}</p>
+        <h3>{{ publi.title }}</h3>
+        <p class="publication__authors">{{ publi.authors }}</p>
+        {% assign publication_description = publi.description | strip %}
+        {% if publication_description != empty %}<p class="publication__description">{{ publi.description }}</p>{% endif %}
+        {% include pubdetails.html pdf=publi.pdf presentation=publi.presentation project_page=publi.project_page video=publi.video bibtex=publi.bibtex %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+  <p class="publication-empty" id="publication-empty" hidden>No publications match this search.</p>
+</section>

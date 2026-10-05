@@ -15,19 +15,17 @@
 - name: Yağız Aksoy
   photo: yagiz_studio_4_3.jpg
   role: Faculty
+  lab: cplab
   email: 
   website: http://yaksoy.github.io/
-  lab: Computational Photography Lab
-  lab_website: https://yaksoy.github.io/themes/
   number_educ: 0
 
 - name: Angel Chang
   photo: angel.png
   role: Faculty
+  lab: 3dlg
   email: 
   website: https://angelxuanchang.github.io/
-  lab: 3DLG
-  lab_website: https://3dlg-hcvc.github.io/
   number_educ: 0
   
 - name: Eugene Fiume
@@ -47,10 +45,9 @@
 - name: Ke Li
   photo: ke_li.jpg
   role: Faculty
+  lab: apex
   email: 
   website: https://www.sfu.ca/~keli/
-  lab: APEX Lab
-  lab_website: https://sfuapex.ca/
   number_educ: 0  
 
 - name: Ali Mahdavi-Amiri
@@ -70,19 +67,17 @@
 - name: Manolis Savva
   photo: manolis.png
   role: Faculty
+  lab: 3dlg
   email: 
   website: http://msavva.github.io/
-  lab: 3DLG
-  lab_website: https://3dlg-hcvc.github.io/
   number_educ: 0
 
 - name: Andrea Tagliasacchi
   photo: andrea.jpg
   role: Faculty
+  lab: theia
   email: 
   website: https://taiya.github.io/
-  lab: Theia Lab
-  lab_website: https://theialab.ca/
   number_educ: 0
 
 - name: KangKang Yin
@@ -95,7 +90,7 @@
 - name: Richard (Hao) Zhang
   photo: haoz.jpg
   role: Faculty
-  email: haoz@.sfu.ca 
+  email: haoz@sfu.ca 
   website: http://www.cs.sfu.ca/~haoz/
   number_educ: 0
   
@@ -189,6 +184,7 @@
   last_name: Foroutan
   photo: yalda_foroutan.JPG
   role: Graduate Student
+  lab: theia
   email: yalda_foroutan@sfu.ca
   website: https://youlenda.github.io/
   number_educ: 0
@@ -198,6 +194,7 @@
   #text: Ph.D. student at Simon Fraser University
   photo: reza_asad.jpg
   role: Graduate Student
+  lab: 3dlg
   email: rasad@sfu.ca
   website: https://reza-asad.github.io/
   number_educ: 0
@@ -221,6 +218,7 @@
   last_name: Govindarajan
   photo: shri_govin.jpg
   role: Graduate Student
+  lab: theia
   email: sga195@sfu.ca
   website: https://shrisudhan.github.io/
   number_educ: 0
@@ -229,6 +227,7 @@
   last_name: Miangoleh
   photo: Mahdi.png
   role: Graduate Student
+  lab: cplab
   email: 
   website: http://www.sfu.ca/~smh31/
   number_educ: 0  
@@ -245,6 +244,7 @@
   last_name: Liu
   photo: JiayiLiu.jpg
   role: Graduate Student
+  lab: 3dlg
   website: https://sevenljy.github.io/
   number_educ: 0
 
@@ -252,6 +252,7 @@
   last_name: Lee
   photo: HanHungLee.jpg
   role: Graduate Student
+  lab: 3dlg
   website: https://hanhung.github.io/
   number_educ: 0
 
@@ -266,6 +267,7 @@
   last_name: Mikaeili
   photo: Aryan_Mikaeili.jpg
   role: Graduate Student
+  lab: theia
   email: 
   website: https://aryanmikaeili.github.io
   number_educ: 0
@@ -282,6 +284,7 @@
   last_name: Shabanov
   photo: ahan_shabanov.jpg
   role: Graduate Student
+  lab: theia
   email: sha.ahan10@gmail.com
   website: https://ahanio.github.io
   number_educ: 0
@@ -290,6 +293,7 @@
   last_name: Taktasheva
   photo: maria.png
   role: Graduate Student
+  lab: theia
   email: 
   website: https://dblp.org/pid/244/2434.html
   number_educ: 0
@@ -339,6 +343,7 @@
   last_name: Yan
   photo: xingguang_yan.jpg
   role: Graduate Student
+  lab: 3dlg
   email: xingguang_yan@sfu.ca
   website: https://yanxg.art/
   number_educ: 0
@@ -355,6 +360,7 @@
   last_name: Zhang
   photo: yiming_zhang.jpg
   role: Graduate Student
+  lab: 3dlg
   email: 
   website: https://github.com/eamonn-zh
   number_educ: 0
@@ -376,6 +382,7 @@
   last_name: Wu
   photo: qirui_wu.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://qiruiw.github.io/
   number_educ: 0
@@ -384,6 +391,7 @@
   last_name: Peng
   photo: shichong_peng.jpeg
   role: Graduate Student
+  lab: apex
   email:
   website: https://sfuapex.ca/author/shichong-peng/
   number_educ: 0
@@ -392,6 +400,7 @@
   last_name: Vashist
   photo: chirag_vashist.jpg
   role: Graduate Student
+  lab: apex
   email:
   website: https://sfuapex.ca/author/chirag-vashist/
   number_educ: 0
@@ -400,6 +409,7 @@
   last_name: Gong
   photo: zeming_gong.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://zmgong.github.io/
   number_educ: 0
@@ -408,6 +418,7 @@
   last_name: Tam
   photo: ivan_tam.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://iv-t.github.io/
   number_educ: 0
@@ -424,6 +435,7 @@
   last_name: Iliash
   photo: denys_iliash.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://diliash.github.io/
   number_educ: 0
@@ -432,6 +444,7 @@
   last_name: Li
   photo: zhen_colin_li.JPG
   role: Graduate Student
+  lab: theia
   email:
   website: https://colinzhenli.github.io/
   number_educ: 0
@@ -464,6 +477,7 @@
   last_name: Engst
   photo: tristan_engst.jpg
   role: Graduate Student
+  lab: apex
   email:
   website: https://sfuapex.ca/author/tristan-engst/
   number_educ: 0
@@ -472,6 +486,7 @@
   last_name: Moazeni
   photo: alireza_moazeni.jpg
   role: Graduate Student
+  lab: apex
   email:
   website: https://sfuapex.ca/author/alireza-moazeni/
   number_educ: 0
@@ -480,6 +495,7 @@
   last_name: Aghabozorgi
   photo: mehran_aghabozorgi.jpeg
   role: Graduate Student
+  lab: apex
   email:
   website: https://sfuapex.ca/author/mehran-aghabozorgi/
   number_educ: 0
@@ -488,6 +504,7 @@
   last_name: Zhang
   photo: yanshu_zhang.jpg
   role: Graduate Student
+  lab: apex
   email:
   website: https://sfuapex.ca/author/yanshu-zhang/
   number_educ: 0
@@ -496,6 +513,7 @@
   last_name: Peng
   photo: weikun_peng.png
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://willipwk.github.io/
   number_educ: 0
@@ -504,6 +522,7 @@
   last_name: Fu
   photo: keru_fu.jpg
   role: Graduate Student
+  lab: cplab
   email:
   website:
   number_educ: 0
@@ -512,6 +531,7 @@
   last_name: Miranda
   photo: samuel_antunes_miranda.jpg
   role: Graduate Student
+  lab: cplab
   email:
   website:
   number_educ: 0
@@ -520,6 +540,7 @@
   last_name: Sun
   photo: xiaohao_sun.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://sun-xh.github.io/
   number_educ: 0
@@ -528,6 +549,7 @@
   last_name: Wang
   photo: austin_wang.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://atwang16.github.io/
   number_educ: 0
@@ -536,6 +558,7 @@
   last_name: Yang
   photo: shiping_yang.jpg
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://maybenotime.github.io/
   number_educ: 0
@@ -544,6 +567,7 @@
   last_name: Yang
   photo: dongchen_yang.png
   role: Graduate Student
+  lab: 3dlg
   email:
   website: https://www.sfu.ca/~dya78/
   number_educ: 0
@@ -560,6 +584,7 @@
   last_name: Shramko
   photo: george_shramko.jpg
   role: Graduate Student
+  lab: theia
   email:
   website: https://sfuapex.ca/author/george-shramko/
   number_educ: 0
@@ -568,6 +593,7 @@
   last_name: Zaredar
   photo: hossein_zaredar.jpeg
   role: Graduate Student
+  lab: apex
   email: hza234@sfu.ca
   website: https://sfuapex.ca/author/hossein-zaredar/
   number_educ: 0
@@ -616,6 +642,7 @@
   last_name: Xie
   photo: yizheng_xie.jpg
   role: Graduate Student
+  lab: theia
   email:
   website: https://xieyizheng.com/
   number_educ: 0

@@ -1,0 +1,49 @@
+{% comment %}
+  Grid of every paper from the most recent venue: the leading run of
+  publist.yml entries that share the first entry's venue (ignoring
+  suffixes such as "(Poster)" or "(oral)") and year.
+{% endcomment %}
+{% assign latest_entry = site.data.publist | first %}
+{% assign latest_venue = latest_entry.venue | split: ' (' | first | strip %}
+{% assign latest_year = latest_entry.year %}
+{% assign latest_count = 0 %}
+{% for publi in site.data.publist %}
+  {% assign base_venue = publi.venue | split: ' (' | first | strip %}
+  {% if base_venue != latest_venue or publi.year != latest_year %}{% break %}{% endif %}
+  {% assign latest_count = latest_count | plus: 1 %}
+{% endfor %}
+
+{% case latest_count %}
+  {% when 1, 2, 3, 5 %}{% assign latest_cols = latest_count %}
+  {% when 6, 9 %}{% assign latest_cols = 3 %}
+  {% else %}{% assign latest_cols = 4 %}
+{% endcase %}
+{% if latest_cols > 3 %}{% assign latest_cols_md = 3 %}{% else %}{% assign latest_cols_md = latest_cols %}{% endif %}
+
+<section class="venue" id="latest-venue" aria-labelledby="latest-venue-heading">
+  <div class="section-head">
+    <div>
+      <p class="kicker">Latest venue · {{ latest_count }} {% if latest_count == 1 %}paper{% else %}papers{% endif %}</p>
+      <h2 id="latest-venue-heading">{{ latest_venue }} {{ latest_year }}</h2>
+    </div>
+    {% if include.link %}<a class="arrow-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>{% endif %}
+  </div>
+
+  <div class="paper-grid" style="--cols: {{ latest_cols }}; --cols-md: {{ latest_cols_md }}">
+    {% for publi in site.data.publist limit: latest_count %}
+      {% assign base_venue = publi.venue | split: ' (' | first | strip %}
+      {% assign venue_note = publi.venue | remove_first: base_venue | remove: '(' | remove: ')' | strip %}
+      {% assign paper_url = publi.project_page | default: publi.pdf | default: publi.video | strip %}
+      <article class="paper" id="{{ publi.title | slugify | prepend: 'publication-' }}">
+        {% if paper_url != empty %}<a class="paper__media" href="{{ paper_url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">{% else %}<div class="paper__media">{% endif %}
+          {% if publi.image %}{% include pubmedia.html image=publi.image title=publi.title %}{% endif %}
+        {% if paper_url != empty %}</a>{% else %}</div>{% endif %}
+        <div class="paper__body">
+          {% if venue_note != empty %}<span class="tag">{{ venue_note }}</span>{% endif %}
+          <h3>{% if paper_url != empty %}<a href="{{ paper_url }}" target="_blank" rel="noopener">{{ publi.title }}</a>{% else %}{{ publi.title }}{% endif %}</h3>
+          {% if publi.authors %}<p class="paper__authors">{{ publi.authors }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

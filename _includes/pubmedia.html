@@ -1,0 +1,7 @@
+{% assign media_ext = include.image | split: '.' | last | downcase %}
+{% assign media_src = '/images/pubpic/' | append: include.image | relative_url %}
+{% if site.video_exts contains media_ext %}
+  <video autoplay loop muted playsinline preload="metadata" aria-label="Preview of {{ include.title | escape }}"><source src="{{ media_src }}" type="{% if media_ext == 'mov' %}video/quicktime{% else %}video/mp4{% endif %}"></video>
+{% else %}
+  <img src="{{ media_src }}" alt="Preview of {{ include.title | escape }}" loading="lazy">
+{% endif %}

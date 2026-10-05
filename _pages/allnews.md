@@ -1,32 +1,33 @@
 ---
-title: "GrUVi - All News"
+title: "News · GrUVi"
 layout: textlay
-excerpt: "GrUVi Lab at Simon Fraser University."
+excerpt: "News, awards, events, and research updates from the GrUVi community at Simon Fraser University."
 sitemap: false
-permalink: /allnews
+permalink: /news/
 ---
 
-## News
-{% assign number_printed = 0 %}
-{% assign post_count = 0 %}
+<header class="page-head" markdown="0">
+  <h1>News</h1>
+  <p>Papers, awards, events, and announcements from GrUVi.</p>
+</header>
 
-
-{% for post in site.data.news %}
-   {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+<div class="news-archive" markdown="0">
+{% for article in site.data.news %}
+  {% assign news_id = article.headline | slugify %}
+  <details class="news-item" id="{{ news_id }}">
+    <summary>
+      <div class="news-item__summary">
+        <time>{{ article.date }}</time>
+        <h2>{{ article.headline }}</h2>
+        <p>{{ article.text | strip_html | truncatewords: 32 }}</p>
+        <span class="news-item__toggle"><span>Read more</span><i aria-hidden="true">+</i></span>
+      </div>
+      {% if article.image %}
+        {% assign news_img = '/images/newspic/' | append: article.image | relative_url %}
+        <span class="poster" style="--poster: url('{{ news_img }}')"><img src="{{ news_img }}" alt="" loading="lazy"></span>
+      {% endif %}
+    </summary>
+    <div class="news-item__content" data-news-content="{{ article.text | escape }}"><noscript>{{ article.text | strip_html }}</noscript></div>
+  </details>
 {% endfor %}
-
-{% for article in site.data.news%}
-
-{% capture ids %} {{ post_count | minus: number_printed }} {% endcapture %}
-
-<div class="row">
-{% include newsdetails.html number_printed=ids headline=article.headline date=article.date image=article.image text=article.text %}
 </div>
-  
-
-<div class="subhover pointer" style="cursor:pointer" onclick="openNavD{{ ids | strip }}()">
-  <br>{{ article.date }}. <newstit>{{ article.headline }}: </newstit>&nbsp;{{ article.text | strip_html | truncatewords: 45}}
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-{% endfor %}

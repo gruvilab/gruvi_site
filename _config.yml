@@ -11,12 +11,24 @@ email: haoz@sfu.ca
 description: > # this means to ignore newlines until "baseurl:"
   GrUVi is an inter-disciplinary team of researchers exploring and developing novel methods in computer graphics, computer vision, and interactive techniques. Current areas of focus include geometric modelling and processing, image-based modelling, 3D reconstruction, 3D content creation, shape analysis, lighting and reflectance models, and 3D vision for robotics.
 baseurl: ""
-url: "https://gruvi.cs.sfu.ca/"
+url: "https://gruvi.cs.sfu.ca"
 video_exts: ["mp4", "mov"]
 
 include:
   - .htaccess
   - _pages
+
+# Development and maintenance files should not be copied into the public site.
+exclude:
+  - .bundle
+  - vendor
+  - www
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - team_update_instruction.txt
+  - db_bak_publist.csv
 
 sass:
   sass_dir: _sass

@@ -147,7 +147,7 @@
   headline: >-
     SFU hosts AI/CRV 2026
   text: >-
-    SFU Computing Science is hosting <a href="https://www.ai-crv.ca/">AI/CRV 2026</a> at the Burnaby campus from May 25 to May 29, bringing together the Canadian AI and Robots and Vision communities.</p> <p>SFU Computing Science faculty Ke Li and Mo Chen are serving as General Chairs, and Prof. Angel Chang is serving as a Nectar Track Chair. Please see the <a href="https://www.sfu.ca/fas/computing/news-events/news/2026/may/advancing-artificial-intelligence-and-vision-research--sfu-compu.html">SFU Computing Science story</a> for more details.
+    SFU Computing Science is hosting <a href="https://www.ai-crv.ca/">AI/CRV 2026</a> at the Burnaby campus from May 25 to May 29, bringing together the Canadian AI and Computer and Robot Vision communities.</p> <p>SFU Computing Science faculty Ke Li and Mo Chen are serving as General Chairs, and Prof. Angel Chang is serving as a Nectar Track Chair. Please see the <a href="https://www.sfu.ca/fas/computing/news-events/news/2026/may/advancing-artificial-intelligence-and-vision-research--sfu-compu.html">SFU Computing Science story</a> for more details.
   highlight: 1
   image: aicrv2026.png
 
@@ -164,7 +164,7 @@
   headline: >-
     SFU at Eurographics 2026!
   text: >-
-    The GrUVi lab is presenting the following papers at <a href="https://eg2026.github.io/">Eurographics 2026</a>, which will be held in Aachen Germany from May 4 to May 8, 2026. 
+    The GrUVi lab is presenting the following papers at <a href="https://eg2026.github.io/">Eurographics 2026</a>, which will be held in Aachen, Germany, from May 4 to May 8, 2026. 
     </p>
     <p class="left"><b>Main papers:</b></p>
     <ul class="left">
@@ -194,7 +194,7 @@
   headline: >-
     3DV 2026 hosted in Vancouver!
   text: >-
-    This year, <a href="https://3dvconf.github.io/2026">3DV</a> is held in Vancouver from March 20 to 23rd.  Prof. Manolis Savva is serving as the general chair, and Prof. Ali Mahdavi-Amiri as program chair.  Prof. Angel Xuan Chang is serving as oral and nectar track session chair. In addition, SFU is holding a workshop for area chairs at the Burnaby campus on March 19th.  There is also a SFU organized post-3DV workshop on <a href='https://sites.google.com/view/sfu-workshops/sfu3dv2026'>research journeys in 3D</a> on March 23rd afternoon.  
+    This year, <a href="https://3dvconf.github.io/2026">3DV</a> is held in Vancouver from March 20 to 23.  Prof. Manolis Savva is serving as the general chair, and Prof. Ali Mahdavi-Amiri as program chair.  Prof. Angel Xuan Chang is serving as oral and nectar track session chair. In addition, SFU is holding a workshop for area chairs at the Burnaby campus on March 19th.  There is also an SFU organized post-3DV workshop on <a href='https://sites.google.com/view/sfu-workshops/sfu3dv2026'>research journeys in 3D</a> on March 23rd afternoon.  
     <br/> 
     The GrUVi lab will also be presenting the following six papers in 3DV as well as showcasing new work in the Nectar track. 
     </p>
@@ -212,7 +212,7 @@
 
 - date: December 14, 2025
   headline: >-
-    SIGGRAPH Asia 2025: Spotlight on GruVi Lab
+    SIGGRAPH Asia 2025: Spotlight on GrUVi Lab
   text: >-
     GrUVi lab will once again have a good show at SIGGRAPH Asia 2025 (Hong Kong, Dec 15th to Dec 18th) with 5 papers. 
     </p>
@@ -228,7 +228,7 @@
 
 - date: October 19, 2025
   headline: >-
-    ICCV 2025: Spotlight on GruVi Lab
+    ICCV 2025: Spotlight on GrUVi Lab
   text: >-
     The <strong>International Conference on Computer Vision (ICCV)</strong>, the premier conference on computer vision, will be held in-person at the Hawaii Convention Center in Honolulu from October 19-23, 2025. GrUVi lab will once again have a good show at ICCV 2025, with 4 workshops, 6 papers, and 3 invited talks.
     </p><p><strong>Papers at the main conference</strong></p> 
@@ -240,7 +240,7 @@
     <li><a href="https://romosfm.github.io/">RoMo: Robust Motion Segmentation Improves Structure from Motion</a></li>
     </ul> 
     <p><strong>Papers at workshops</strong></p> 
-    <ul class="left"><li><a href="https://arxiv.org/abs/2508.16744">Hyperbolic Multimodal Representation Learning for Biological Taxonomies</a> at the <a href="https://sites.google.com/view/beyondeuclidean/home">Beyond Eucliean Workshop</a></li></ul> 
+    <ul class="left"><li><a href="https://arxiv.org/abs/2508.16744">Hyperbolic Multimodal Representation Learning for Biological Taxonomies</a> at the <a href="https://sites.google.com/view/beyondeuclidean/home">Beyond Euclidean Workshop</a></li></ul> 
     <p><strong>Talks</strong></p> 
     <ul class="left"> 
     <li>Prof. Angel will be giving invited talks at the <a href="https://opensun3d.github.io/">Workshop on Open-Vocabulary 3D Scene Understanding</a> and <a href="https://s3dsgr.github.io/">Workshop on Scalable 3D Scene Generation and Geometric Scene Understanding</a></li> 
@@ -260,14 +260,14 @@
   headline: >-
     SCA and SIGGRAPH 2025
   text: >-
-    <strong>SIGGRAPH</strong>, the premier conference and exhibition dedicated to computer graphics and interactive techniques, will be held in-person at the Convention Centre in Vancouver, BC from August 10–14 2025. GrUVi lab will once again have a good show at SIGGRAPH 2025, with 7 technical papers. Prof. Richard Zhang and Prof. Ali Mahdavi-Amiri, will serve as the Technical Papers Chair and Session Chair, respectively.</p> <p>Symposium on Computer Animation (SCA), the premier forum for innovations in the software and technology of computer animation, will take place in Vancouver, BC, from August 8-10, 2025. Prof. Jason Peng will serve as the local chair.</p> <p>Please check out SFU <a href="https://www.sfu.ca/fas/computing/news-events/news/2025/august/showcasing-innovation-sfu-computing-science-leads-at-siggraph-2025.html">news</a> for more details.
+    <strong>SIGGRAPH</strong>, the premier conference and exhibition dedicated to computer graphics and interactive techniques, will be held in-person at the Convention Centre in Vancouver, BC from August 10–14, 2025. GrUVi lab will once again have a good show at SIGGRAPH 2025, with 7 technical papers. Prof. Richard Zhang and Prof. Ali Mahdavi-Amiri will serve as the Technical Papers Chair and Session Chair, respectively.</p> <p>Symposium on Computer Animation (SCA), the premier forum for innovations in the software and technology of computer animation, will take place in Vancouver, BC, from August 8-10, 2025. Prof. Jason Peng will serve as the local chair.</p> <p>Please check out SFU <a href="https://www.sfu.ca/fas/computing/news-events/news/2025/august/showcasing-innovation-sfu-computing-science-leads-at-siggraph-2025.html">news</a> for more details.
   highlight: 1
   image: siggraph_sca_2025.png
 
 
 - date: June 9, 2025
   headline: >-
-    CVPR 2025: Spotlight on GruVi Lab
+    CVPR 2025: Spotlight on GrUVi Lab
   text: >-
     The <strong>IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)</strong>, the premier conference on computer vision, will be held in-person at the Music City Center, Nashville on June 11-15, 2025. GrUVi lab will once again have a good show at CVPR 2025, with 1 workshop, 3 posters and 1 highlight paper, and 7 invited talks.</p> <p>Here are the details of the accepted papers:</p> <ol> <li><a href="https://snap-research.github.io/ac3d/">AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers</a></li> <li><a href="https://cvpr.thecvf.com/virtual/2025/poster/34349">PIAD: Pose and Illumination agnostic Anomaly Detection</a></li> <li><a href="https://moflow-imle.github.io/">MoFlow: One-Step Flow Matching for Human Trajectory Forecasting via Implicit Maximum Likelihood Estimation based Distillation</a></li> <li><a href="https://vcc.tech/research/2025/ArcPro">ArcPro: Architectural Programs for Structured 3D Abstraction of Sparse Points</a></li> </ol> <p>Here are the details of the invited talks:</p> <ol> <li>Prof. Angel Chang will give a talk at <a href="https://3d-llm-vla.github.io/">Workshop on Bridging Language, Vision and Action in 3D Environments</a></li> <li>Prof. Angel Chang will give a talk at <a href="https://3dcompat-dataset.org/workshop/C3DV25/">Workshop on Compositional 3D Vision</a></li> <li>Prof. Angel Chang will give a talk at <a href="https://robo-3dvlms.github.io/">Workshop on 3D Vision Language Models (VLMs) for Robotic Manipulation</a></li> <li>Prof. Angel Chang will give a talk at <a href="https://scene-understanding.com/">Workshop on 3D Scene Understanding for Vision, Graphics, and Robotics</a></li> <li>Prof. Richard Zhang will give a talk at <a href="https://www.projectaria.com/events/CVPR2025/DTC_workshop/">Workshop on 3D Digital Twin</a></li> <li>Prof. Richard Zhang will give a talk at <a href="https://ind3dworkshop.github.io/cvpr2025/">Workshop on Ind3D: Enforcing Inductive Bias in 3D Generation</a></li> <li>Prof. Angelica Lim and Prof. Jason Peng will give talks at <a href="https://humanoid-agents.github.io/">Workshop on Humanoid Agents</a></li> </ol><p>
   highlight: 1
@@ -277,15 +277,15 @@
   headline: >-
     Graphics Interface (GI) 2025
   text: >-
-    Graphics Interface (GI) is a unique conference for computer graphics and human-computer interaction. GI 2025 will be held in Kelowna, British Columbia, from May 26 to May 29, 2025.  Prof. Parmit Chilana and Prof. Ali Mahdavi-Amiri are invited to give a talk in the conference. </p> <p><a href="https://graphicsinterface.org/conference/2025/speakers/">https://graphicsinterface.org/conference/2025/speakers/</a>
+    Graphics Interface (GI) is a unique conference for computer graphics and human-computer interaction. GI 2025 will be held in Kelowna, British Columbia, from May 26 to May 29, 2025.  Prof. Parmit Chilana and Prof. Ali Mahdavi-Amiri are invited to give talks at the conference. </p> <p><a href="https://graphicsinterface.org/conference/2025/speakers/">https://graphicsinterface.org/conference/2025/speakers/</a>
   highlight: 1
   image: gi2025.png
 
 - date: May 14, 2025
   headline: >-
-    Richard Zhang elected to the SIGGRAPH academy
+    Richard Zhang elected to the SIGGRAPH Academy
   text: >-
-    Congratulations to Prof. Richang Zhang for being  elected to the <a href="https://www.siggraph.org/awards/acm-siggraph-academy/">**SIGGRAPH academy**</a> for technical contributions in spectral and learning-based methods for geometric modeling.</p> <p>The ACM SIGGRAPH Academy is an honorary group of individuals who have made substantial contributions to the field of computer graphics. </p> <p>Please find the official announcement here: <a href="https://www.siggraph.org/award-winners/announcing-the-2025-award-winners">https://www.siggraph.org/award-winners/announcing-the-2025-award-winners</a>
+    Congratulations to Prof. Richard Zhang for being elected to the <a href="https://www.siggraph.org/awards/acm-siggraph-academy/"><strong>SIGGRAPH Academy</strong></a> for technical contributions in spectral and learning-based methods for geometric modeling.</p> <p>The ACM SIGGRAPH Academy is an honorary group of individuals who have made substantial contributions to the field of computer graphics. </p> <p>Please find the official announcement here: <a href="https://www.siggraph.org/award-winners/announcing-the-2025-award-winners">https://www.siggraph.org/award-winners/announcing-the-2025-award-winners</a>
   highlight: 0
   image: richard_siggraph_academy.png
 
@@ -293,21 +293,21 @@
   headline: >-
     SIGGRAPH 2025 TPC meeting
   text: >-
-    SIGGRAPH 2025 Technical Papers Committee meeting was held in Vancouver, at the SFU Harbour Center, March 27-28. The post TPC meeting workshop was held on March 29 with more than 20 invited speakers! Thank you to all the committee members and volunteers! <p>
+    SIGGRAPH 2025 Technical Papers Committee meeting was held in Vancouver, at the SFU Harbour Centre, March 27-28. The post TPC meeting workshop was held on March 29 with more than 20 invited speakers! Thank you to all the committee members and volunteers! <p>
   highlight: 0
   image: siggraph2025_tpc_meeting.jpg
 
 - date: March 24, 2025
   headline: >-
-    3DV 2025: Spotlight on GruVi Lab
+    3DV 2025: Spotlight on GrUVi Lab
   text: >-
-    International Conference on 3D Vision (3DV) 2025, the premier conference on 3D Visiob, will be taking place in Singapore on March 25-28, 2025. GrUVi lab will once again have a good show at 3DV with 3 technical papers and “<a href="https://github.com/3dlg-hcvc/omages">An object is worth 64x64 pixels: Generating 3d object via image diffusion</a>” <strong>wining the best paper award</strong>!</p> <p>3DV 2026 will be held in Vancouver. Prof. Manolis Savva will be serving as Conference Chair and Prof. Ali Mahdavi-Amiri will be the Program Chair. Congratulations to all the authors!</p> <p>Here are the accepted papers:</p> <ul> <li><a href="https://github.com/3dlg-hcvc/smc">SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements</a></li> <li><a href="https://github.com/3dlg-hcvc/omages">An object is worth 64x64 pixels: Generating 3d object via image diffusion</a> (3DV 2025 Best paper award)</li> <li><a href="https://theialab.github.io/noksr/">NoKSR: Kernel-Free Neural Surface Reconstruction via Point Cloud Serialization</a></li> </ul> <p>
+    International Conference on 3D Vision (3DV) 2025, the premier conference on 3D Vision, will be taking place in Singapore on March 25-28, 2025. GrUVi lab will once again have a good show at 3DV with 3 technical papers and “<a href="https://github.com/3dlg-hcvc/omages">An object is worth 64x64 pixels: Generating 3d object via image diffusion</a>” <strong>winning the best paper award</strong>!</p> <p>3DV 2026 will be held in Vancouver. Prof. Manolis Savva will be serving as Conference Chair and Prof. Ali Mahdavi-Amiri will be the Program Chair. Congratulations to all the authors!</p> <p>Here are the accepted papers:</p> <ul> <li><a href="https://github.com/3dlg-hcvc/smc">SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements</a></li> <li><a href="https://github.com/3dlg-hcvc/omages">An object is worth 64x64 pixels: Generating 3d object via image diffusion</a> (3DV 2025 Best paper award)</li> <li><a href="https://theialab.github.io/noksr/">NoKSR: Kernel-Free Neural Surface Reconstruction via Point Cloud Serialization</a></li> </ul> <p>
   highlight: 0
   image: 3dv_2025.png
 
 - date: December 3, 2024
   headline: >-
-    SIGGRAPH Asia 2024: Spotlight on GruVi Lab
+    SIGGRAPH Asia 2024: Spotlight on GrUVi Lab
   text: >-
     SIGGRAPH Asia 2024, the premier conference on computer graphics, will be taking place from 3 – 6 December 2024 at the Tokyo International Forum (TIF), Tokyo, Japan. GrUVi lab will once again have a good show at SIGGRAPH Asia with 2 technical papers and <a href="https://yaksoy.github.io/ColorfulShading/">Colorful Diffuse Intrinsic Image Decomposition in the Wild</a> <strong>winning an SIGGRAPH Asia 2024 Best Paper Award Honorable Mention</strong>. Prof. Richard Zhang will be serving as Technical Papers Assistant Chair. Congratulations to all the authors!</p> <p>And here is the accepted paper:</p> <ul> <li><a href="https://research.nvidia.com/labs/par/maskedmimic/">MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting</a></li> <li><a href="https://yaksoy.github.io/ColorfulShading/">Colorful Diffuse Intrinsic Image Decomposition in the Wild</a></li> </ul> <p>
   highlight: 0
@@ -325,7 +325,7 @@
 
 - date: September 29, 2024
   headline: >-
-    ECCV 2024: Spotlight on GruVi Lab
+    ECCV 2024: Spotlight on GrUVi Lab
   text: >-
     The <strong>European Conference on Computer Vision</strong> (<strong>ECCV</strong>), a biennial premier research conference in Computer Vision and Machine Learning, will be held from September 29, 2024 to October 4, 2024 in Mico Milano, Italy. GrUVi lab will once again have a good show at ECCV, with 9 technical papers. </p> <p>Congratulations to all the authors! </p> <p>And here are the 9 accepted papers:</p> <ul> <li><a href="https://3dlg-hcvc.github.io/r3ds/"><strong>R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding</strong></a></li> <li><a href="https://qiminchen.github.io/decollage/"><strong>DECOLLAGE: 3D Detailization by Controllable,Localized, and Learned Geometry Enhancement</strong></a></li> <li><a href="https://xbpeng.github.io/projects/TeSMo/index.html"><strong>Generating Human Interaction Motions in Scenes with Text Control</strong></a></li> <li><a href="https://sherwinbahmani.github.io/tc4d/"><strong>TC4D: Trajectory-Conditioned Text-to-4D Generation</strong></a></li> <li><a href="https://theialab.github.io/laghashes/"><strong>Lagrangian Hashing for Compressed Neural Field Representations</strong></a></li> <li><a href="https://quadraturefields.github.io"><strong>Volumetric Rendering with Baked Quadrature Fields</strong></a></li> <li><a href="https://pointnerfpp.github.io"><strong>PointNeRF++: A multi-scale, point-based Neural Radiance Field</strong></a></li> <li><a href="https://mingrui-zhao.github.io/SweepNet/"><strong>SweepNet: Unsupervised Learning Shape Abstraction via Neural Sweepers</strong></a></li> <li><a href="https://yaksoy.github.io/intrinsicHDR/"><strong>Intrinsic Single-Image HDR Reconstruction</strong></a></li> </ul><p>
   highlight: 0
@@ -333,7 +333,7 @@
 
 - date: July 28, 2024
   headline: >-
-    SIGGRAPH 2024: Spotlight on GruVi Lab
+    SIGGRAPH 2024: Spotlight on GrUVi Lab
   text: >-
     SIGGRAPH, the premier conference on computer graphics, will be held from July 28, 2024 to August 1, 2024 in Denver, United States. GrUVi lab will once again have a good show at SIGGRAPG, with 6 technical papers. Congratulations to all the authors!</p> <p>And here are the 6 accepted papers:</p> <ul> <li><a href="https://yaksoy.github.io/sidepth/"><strong>Scale-Invariant Monocular Depth Estimation via SSI Depth</strong></a></li> <li><a href="https://github.com/czq142857/DAE-Net"><strong>DAE-Net: Deforming Auto-Encoder for fine-grained shape co-segmentation</strong></a></li> <li><a href="https://xbpeng.github.io/projects/CondMDI/index.html"><strong>Flexible Motion In-betweening with Diffusion Models</strong></a></li> <li><a href="https://xbpeng.github.io/projects/SuperPADL/index.html"><strong>SuperPADL: Scaling Language-Directed Physics-Based Control with Progressive Supervised Distillation</strong></a></li> <li><a href="https://xbpeng.github.io/projects/AMDM/index.html"><strong>Interactive Character Control with Auto-Regressive Motion Diffusion Models</strong></a></li> <li><a href="https://github.com/samxuxiang/BrepGen"><strong>BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry</strong></a></li> </ul><p>
   highlight: 0
@@ -341,7 +341,7 @@
 
 - date: June 17, 2024
   headline: >-
-    CVPR 2024: Spotlight on GruVi Lab
+    CVPR 2024: Spotlight on GrUVi Lab
   text: >-
     The <strong>IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)</strong>, the premier conference on computer vision, will be held in-person in Seattle, washington on June 17-21, 2024. GrUVi lab will once again have a good show at CVPR 2024, with 4 keynotes, 2 oral papers, 4 spotlights and 10 posters.</p> <p>For more details, please refer to <a href="https://docs.google.com/spreadsheets/d/1M34xrt5qJHuR8YOaMwHdB8h-QYOfhw_CmG72LMW37iI/edit?usp=sharing">SFU @ CVPR 2024 (Technical Participation)</a></p> <p>Congratulations!
   highlight: 0
@@ -366,7 +366,7 @@
   
 - date: April 22, 2024
   headline: >-
-    Eurographics 2024: Spotlight on GruVi Lab
+    Eurographics 2024: Spotlight on GrUVi Lab
   text: >-
     Eurographics, the premier conference on computer graphics, will be held in <strong>Limassol, Cyprus</strong> this year (April 22-26, 2024). GrUVi lab will once again have a good show at Eurographics 2024, with:</p> <ul> <li><a href="https://hanhung.github.io/">Han-Hung Lee</a> (along with Manolis Savva and Angel X. Chang) presenting <a href="https://3dlg-hcvc.github.io/tt3dstar/">Text-to-3D Shape Generation STAR</a>.</li> <li><a href="https://czq142857.github.io/">Zhiqin Chen</a> receiving 2024 <a href="https://www.eg.org/wp/eurographics-awards-programme/phd-award/">Eurographics PhD Award</a> for Best PhD Thesis.</li> <li><a href="https://www.sfu.ca/~amahdavi/">Ali Mahdavi-Amiri</a> serving as the International Program Committee member.</li> </ul> <p>Congratulations!
   highlight: 0
@@ -374,7 +374,7 @@
 
 - date: March 18, 2024
   headline: >-
-    3DV 2024: Spotlight on GruVi Lab
+    3DV 2024: Spotlight on GrUVi Lab
   text: >-
     3D Vision (3DV), the premier conference on computer vision, will be held in-person in Davos, Switzerland on March 18-21, 2024. GrUVi lab will once again have a good show at 3DV 2024, with 2 technical papers. And Andrea Tagliasacchi will be serving as the program co-chair for the conference.</p> <p>Congratulations to all the authors! And here are the 2 accepted papers:</p> <p><a href="https://3dlg-hcvc.github.io/">Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects</a></p> <p><a href="https://3dlg-hcvc.github.io/OPDMulti/">OPDMulti: Openable Part Detection for Multiple Objects</a>
   highlight: 0
@@ -406,7 +406,7 @@
 
 - date: January 15, 2024
   headline: >-
-    Dr. Richard Zhang is recognized as a 2024 IEEE fellow for advancing research in Visual Computing
+    Dr. Richard Zhang is recognized as a 2024 IEEE Fellow for advancing research in Visual Computing
   text: >-
     Congratulations to Professor Richard Zhang on being recognized as a 2024 IEEE Fellow for his “contributions to shape analysis and synthesis in visual computing.” IEEE is the world&#39;s largest technical professional organization dedicated to advancing technology for the benefit of humanity. It has more than 450,000 members in more than 190 countries and is a leading authority in many areas, including engineering, computing, and technology information. Less than one-tenth of one percent of IEEE members worldwide are selected as Fellows in any year. Fellow status is awarded to individuals with &quot;an outstanding record of accomplishments in any of the IEEE fields of interest.”</p> <p>Please check out <a href="https://www.sfu.ca/computing/newsandevents/2024/dr--richard-zhang-is-a-2024-ieee-fellow-for-advancing-research-i.html">SFU news coverage</a> on his IEEE Fellow elevation.
   highlight: 0
@@ -414,7 +414,7 @@
 
 - date: November 11, 2023
   headline: >-
-    SIGGRAPH Asia 2023: Spotlight on GruVI Lab
+    SIGGRAPH Asia 2023: Spotlight on GrUVi Lab
   text: >-
     SIGGRAPG Asia, the premier conference on computer graphics, will be held in Sydney, Australia this year (Dec 12-15). GrUVi lab will once again have a good show at SIGGRAPG Asia, with 5 technical papers. Congratulations to all the authors!</p> <p>And here are the 5 accepted papers:</p> <p><a href="https://yaksoy.github.io/intrinsicCompositing/">Intrinsic Harmonization for Illumination-Aware Compositing</a></p> <p><a href="https://qiminchen.github.io/shaddr/">ShaDDR: Real-Time Example-Based Geometry and Texture Generation via 3D Shape Detailization and Differentiable Rendering</a></p> <p><a href="https://arxiv.org/abs/2306.08226">CLIPXPlore: Coupled CLIP and Shape Spaces for 3D Shape Exploration</a></p> <p><a href="https://github.com/Salingo/Interaction-Driven-Reconstruction">Interaction-Driven Active 3D Reconstruction with Object Interiors</a></p> <p><a href="https://vcc.tech/research/2023/TAPNet++">Neural Packing for Real: from Visual Sensing to Reinforcement Learning</a>
   highlight: 0
@@ -422,7 +422,7 @@
 
 - date: November 6, 2023
   headline: >-
-    NeurIPS 2023: Spotlight on GruVi Lab
+    NeurIPS 2023: Spotlight on GrUVi Lab
   text: >-
     NeurIPS, the premier conference on machine learning, will be held in <strong>New Orleans</strong> this year (Dec 10-16). GrUVi lab will once again have a good show at NeurIPS, with <a href="https://gruvi.ca/publications/">7 technical papers and 1 dataset and benchmarks paper</a>!</p> <p>Please refer to <a href="https://gruvi.ca/publications/">our publication page</a> to see more details.
   highlight: 0
@@ -462,7 +462,7 @@
 
 - date: September 18, 2023
   headline: >-
-    ICCV 2023: Spotlight on GruVI Lab
+    ICCV 2023: Spotlight on GrUVi Lab
   text: >-
     ICCV, the premier conference on computer vision, will be held in <strong>Paris</strong> this year (Oct 2-6). GrUVi lab will once again have a good show at ICCV, with <a href="https://gruvi.ca/publications/">6 technical papers</a>, 3 co-organized workshops! Also, Prof. Yasutaka Furukawa serves as a program chair for this year’s ICCV!</p> <p>For the workshops, Prof. Richard Zhang co-organizes the <strong><a href="https://3dv-in-ecommerce.github.io/">3D Vision and Modeling Challenges in eCommerce</a>,</strong> Prof. Angel Chang co-organizes the <strong><a href="https://languagefor3dscenes.github.io/ICCV2023/">3rd Workshop on Language for 3D Scenes</a></strong> and <strong><a href="https://iccv-clvl.github.io/2023/">CLVL: 5th Workshop on Closing the Loop between Vision and Language.</a></strong> Also, Prof. Manolis Savva will give a talk at the <strong><a href="https://opensun3d.github.io/">1st Workshop on Open-Vocabulary 3D Scene Understanding</a></strong></p> <p>And here are the 6 accepted papers:</p> <p><a href="https://3dlg-hcvc.github.io/multi3drefer/">Multi3DRefer: Grounding Text Description to Multiple 3D Objects</a></p> <p><a href="https://ds-fusion.github.io/">DS-Fusion: Artistic Typography via Discriminated and Stylized Diffusion</a></p> <p><a href="https://sked-paper.github.io/">SKED: Sketch-guided Text-based 3D Editing</a></p> <p><a href="https://3dlg-hcvc.github.io/paris/">PARIS: Part-level Reconstruction and Motion Analysis for Articulated Objects</a></p> <p><a href="https://arxiv.org/abs/2301.10460">HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling</a></p> <p><a href="https://arxiv.org/abs/2212.00836">UniT3D: A Unified Transformer for 3D Dense Captioning and Visual Grounding</a></p> <p>Congrats for the authors!
   highlight: 0
@@ -521,7 +521,7 @@
   headline: >-
     Prof. Pat Hanrahan gave his Turing Award Lecture at SFU CS
   text: >-
-    The recoding is available in this <a href="https://stream.sfu.ca/Media/Play/963b0b1088c3493f8fdc4291ed2f19c91d">link</a> (SFU accounnt is needed).</p><p>Here is some information about the lecture.</p><p><strong>Title:</strong></p><p>Shading Languages and the Emergence of Programmable Graphics Systems</p><p><strong>Abstract:</strong></p><p>A major challenge in using computer graphics for movies and games is to create a rendering system that can create realistic pictures of a virtual world.  The system must handle the variety and complexity of the shapes, materials, and lighting that combine to create what we see every day.  The images must also be free of artifacts, emulate cameras to create depth of field and motion blur, and compose seamlessly with photographs of live action.</p><p>Pixar&#39;s RenderMan was created for this purpose, and has been widely used in feature film production.  A key innovation in the system is to use a shading language to procedurally describe appearance.  Shading languages were subsequently extended to run in real-time on graphics processing units (GPUs), and now shading languages are widely used in game engines.  The final step was the realization that the GPU is a data-parallel computer, and the the shading language could be extended into a general-purpose data-parallel programming language.  This enabled a wide variety of applications in high performance computing, such as physical simulation and machine learning, to be run on GPUs.  Nowadays, GPUs are the fastest computers in the world. This talk will review the history of shading languages and GPUs, and discuss the broader implications for computing.</p><p><strong>Biography:</strong></p><p>Pat Hanrahan is the Canon Professor of Computer Science and Electrical Engineering in the Computer Graphics Laboratory at Stanford University.  His research focuses on rendering algorithms, graphics systems, and visualization.  Hanrahan received a Ph.D. in biophysics from the University of Wisconsin-Madison in 1985.  As a founding employee at Pixar Animation Studios in the 1980s, Hanrahan led the design of the RenderMan Interface Specification and the RenderMan Shading Language.  In 1989, he joined the faculty of Princeton University.  In 1995, he moved to Stanford University.  More recently, Hanrahan served as a co-founder and CTO of Tableau Software.  He has received three Academy Awards for Science and Technology, the SIGGRAPH Computer Graphics Achievement Award, the SIGGRAPH Stephen A. Coons Award, and the IEEE Visualization Career Award.  He is a member of the National Academy of Engineering and the American Academy of Arts and Sciences.  In 2019, he received the ACM A. M. Turing Award.
+    The recording is available in this <a href="https://stream.sfu.ca/Media/Play/963b0b1088c3493f8fdc4291ed2f19c91d">link</a> (SFU account is needed).</p><p>Here is some information about the lecture.</p><p><strong>Title:</strong></p><p>Shading Languages and the Emergence of Programmable Graphics Systems</p><p><strong>Abstract:</strong></p><p>A major challenge in using computer graphics for movies and games is to create a rendering system that can create realistic pictures of a virtual world.  The system must handle the variety and complexity of the shapes, materials, and lighting that combine to create what we see every day.  The images must also be free of artifacts, emulate cameras to create depth of field and motion blur, and compose seamlessly with photographs of live action.</p><p>Pixar&#39;s RenderMan was created for this purpose, and has been widely used in feature film production.  A key innovation in the system is to use a shading language to procedurally describe appearance.  Shading languages were subsequently extended to run in real-time on graphics processing units (GPUs), and now shading languages are widely used in game engines.  The final step was the realization that the GPU is a data-parallel computer, and the the shading language could be extended into a general-purpose data-parallel programming language.  This enabled a wide variety of applications in high performance computing, such as physical simulation and machine learning, to be run on GPUs.  Nowadays, GPUs are the fastest computers in the world. This talk will review the history of shading languages and GPUs, and discuss the broader implications for computing.</p><p><strong>Biography:</strong></p><p>Pat Hanrahan is the Canon Professor of Computer Science and Electrical Engineering in the Computer Graphics Laboratory at Stanford University.  His research focuses on rendering algorithms, graphics systems, and visualization.  Hanrahan received a Ph.D. in biophysics from the University of Wisconsin-Madison in 1985.  As a founding employee at Pixar Animation Studios in the 1980s, Hanrahan led the design of the RenderMan Interface Specification and the RenderMan Shading Language.  In 1989, he joined the faculty of Princeton University.  In 1995, he moved to Stanford University.  More recently, Hanrahan served as a co-founder and CTO of Tableau Software.  He has received three Academy Awards for Science and Technology, the SIGGRAPH Computer Graphics Achievement Award, the SIGGRAPH Stephen A. Coons Award, and the IEEE Visualization Career Award.  He is a member of the National Academy of Engineering and the American Academy of Arts and Sciences.  In 2019, he received the ACM A. M. Turing Award.
   highlight: 0
   image: talk_pat.jpg
 
@@ -561,7 +561,7 @@
   headline: >-
     Gruviers have 10 Accepted Papers at CVPR 2023
   text: >-
-     Congratulations to all Gruviers who are publishing their work at CVPR 2023. Among the accepted papers, <a href="https://mobile-nerf.github.io/">MobileNeRF</a> <strong>is one of the 12 finalists for best paper award!</strong> Congrats for <a href="https://czq142857.github.io/">Zhiqin</a> and <a href="https://taiya.github.io/">Andrea</a> for their excellent work! </p><p>CVPR is the premier conference on computer vision and will be held in <strong>Vancourver</strong> this year. To learn more about the sample work that Gruvi will be presenting checkout our <a href="https://gruvi.ca/publications/">publication page</a> to get more information.
+     Congratulations to all Gruviers who are publishing their work at CVPR 2023. Among the accepted papers, <a href="https://mobile-nerf.github.io/">MobileNeRF</a> <strong>is one of the 12 finalists for best paper award!</strong> Congrats for <a href="https://czq142857.github.io/">Zhiqin</a> and <a href="https://taiya.github.io/">Andrea</a> for their excellent work! </p><p>CVPR is the premier conference on computer vision and will be held in <strong>Vancourver</strong> this year. To learn more about the sample work that GrUVi will be presenting checkout our <a href="https://gruvi.ca/publications/">publication page</a> to get more information.
   highlight: 0
   image: gruvi_cvpr23.jpg
   
@@ -601,7 +601,7 @@
   headline: >-
     Gruviers have 12 Accepted Papers at CVPR 2022.
   text: >-
-    Congratulations to all Gruviers who are publishing their work at CVPR 2022. CVPR is the premier conference on computer vision and will be held in New Orleans this year. To learn more about the sample work that Gruvi will be presenting checkout <a href="https://www.cs.sfu.ca/~haoz/papers.html">here</a> and <a href="https://www.cs.sfu.ca/~furukawa/">here</a>.
+    Congratulations to all Gruviers who are publishing their work at CVPR 2022. CVPR is the premier conference on computer vision and will be held in New Orleans this year. To learn more about the sample work that GrUVi will be presenting checkout <a href="https://www.cs.sfu.ca/~haoz/papers.html">here</a> and <a href="https://www.cs.sfu.ca/~furukawa/">here</a>.
   highlight: 0
   image: CFI_funding.png
 
@@ -623,7 +623,7 @@
 
 - date: September 24th, 2021
   headline: >-
-    Zhiqin Chen Recieves Google PhD Fellowship.
+    Zhiqin Chen Receives Google PhD Fellowship.
   text: >-
     Congratulations to Zhiqin Chen for receiving a PhD Fellowship from Google. The Google PhD Fellowship Program was created to recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields. Fellowships support promising PhD candidates of all backgrounds who seek to influence the future of technology. To learn more about Zhiqin's research please visit <a href="https://czq142857.github.io/">here</a>.
   highlight: 0
@@ -689,7 +689,7 @@
   headline: >-
     A. Chang is SGP21's Conference Chair
   text: >-
-    Gruvi is glad to announce that Angel Chang will serve as Conference Chair in the SGP 2021. The Symposium on Geometry Processing (SGP) is the flagship conference in geometry processing. To learn more about the conference please visit <a href="https://sgp2021.github.io/organization">here</a>.
+    GrUVi is glad to announce that Angel Chang will serve as Conference Chair in the SGP 2021. The Symposium on Geometry Processing (SGP) is the flagship conference in geometry processing. To learn more about the conference please visit <a href="https://sgp2021.github.io/organization">here</a>.
   highlight: 0
   image: angel.png
   
@@ -721,7 +721,7 @@
   headline: >-
     Graphics Interface 2021
   text: >-
-    Gruvi is glad to announce that Ali Mahdavi-Amiri and Manolis Savva will serve as general and program co-chair at the Graphics Interface 2021. Graphics Interface is the only conference for computer graphics and human computer interaction. To learn more about the conference please visit <a href="http://graphicsinterface.org/conference/2021/">here</a>.
+    GrUVi is glad to announce that Ali Mahdavi-Amiri and Manolis Savva will serve as general and program co-chair at the Graphics Interface 2021. Graphics Interface is the only conference for computer graphics and human computer interaction. To learn more about the conference please visit <a href="http://graphicsinterface.org/conference/2021/">here</a>.
   highlight: 0
   image: graphics_interface_2021.png
 
@@ -801,7 +801,7 @@
   headline: >-
     IGS'19 Organized by GrUVi
   text: >-
-    The International Geometry Summit (IGS) 2019, organized by  Richard Zhang and Ali Mahdavi-Amiri, took place from 17th June to the 21th June 2019 at SFU Harbour Center in Vancouver, Canada. IGS 2019 included four conferences: the Symposium on Solid and Physical Modelling, Shape Modeling International, SIAM Conference on Computational Geometric Design, and International Conference on Geometric Modelling and Processing. IGS 2019 featured state of the art researches in its technical paper sessions along with 12 keynote speeches from prominent researchers in the area of geometry.</p><p style="text-align: justify;">Congratulations to Richard Zhang and Ali Mahdavi-Amiri for the successful organization and thanks to all GrUVi students that volunteered to make IGS'19 a success!
+    The International Geometry Summit (IGS) 2019, organized by  Richard Zhang and Ali Mahdavi-Amiri, took place from 17th June to the 21th June 2019 at SFU Harbour Centre in Vancouver, Canada. IGS 2019 included four conferences: the Symposium on Solid and Physical Modelling, Shape Modeling International, SIAM Conference on Computational Geometric Design, and International Conference on Geometric Modelling and Processing. IGS 2019 featured state of the art researches in its technical paper sessions along with 12 keynote speeches from prominent researchers in the area of geometry.</p><p style="text-align: justify;">Congratulations to Richard Zhang and Ali Mahdavi-Amiri for the successful organization and thanks to all GrUVi students that volunteered to make IGS'19 a success!
   highlight: 0
   image: igs19.png
 
@@ -833,7 +833,7 @@
   headline: >-
     Zhiqin's and Jon's Thesis Defense
   text: >-
-    The GrUVi team congratulates both Zhiqin and Jon for their sucessful MSc theses defense!<br>Jon's thesis is on A Qualitative and Localized Evaluation for 3D Indoor Scene Synthesis<br>Zhiqin's thesis is on IM-NET: Learning Implicit Fields for Generative Shape Modeling<br>Zhiqin's thesis defence also received the honor of "pass as is" today. Both of them will start as PhDs at GrUVi this September. 
+    The GrUVi team congratulates both Zhiqin and Jon for their successful MSc thesis defences!<br>Jon's thesis is on A Qualitative and Localized Evaluation for 3D Indoor Scene Synthesis<br>Zhiqin's thesis is on IM-NET: Learning Implicit Fields for Generative Shape Modeling<br>Zhiqin's thesis defence also received the honor of "pass as is" today. Both of them will start as PhDs at GrUVi this September. 
   highlight: 0
   image: zhiqin_jon.jpg
 
@@ -855,7 +855,7 @@
 
 - date: April 14, 2019
   headline: >-
-    New and Returning GRuVIers!
+    New and Returning Gruviers!
   text: >-
     The GrUVi team would like to welcome three SFU undergrad students who are joining the lab for summer/visiting research:</p> <ul> <li style="line-height: 100%; text-align: justify;">Leo Li - to start in the summer as a VPA USRA working on representation learning;</li> <li style="line-height: 100%; text-align: justify;">Atticus Shi - who is working on a geometric optimization problem related to fixture design for CNC machining;</li> <li style="line-height: 100%; text-align: justify;">Azmarie Wang - to start in the summer as a special project student working on creative design problems.</li> </ul> <p align="justify">In addition, Xiaogang Wang is joining us as a visiting PhD from Beihang University, the same university as Jiongchao. He comes with an already impressive research record (one SIG Asia and one CVPR), working with Kevin, a GrUVi alumni himself.</p> <p align="justify">Fenggen (Fogg) Yu, will be a new PhD starting this fall. Fenggen is from Nanjing University and he had already collaborated with GrUVi members on a ACM TOG paper. He also has a CVPR paper this year.</p> <p align="justify">We are also pleased to announce that two current members of the lab, Zhiqin and Jon, will continue as PhD students this fall.</p> <p align="justify">Finally, Akshay is returning from his internship at Amazon (Israel) and Manyi, as a newly minted PhD, will be back as a postdoc this Summer.
   highlight: 0
@@ -888,9 +888,9 @@
 
 - date: August 21, 2018
   headline: >-
-    Eugene's 60th Aniversary Celebrated
+    Eugene's 60th Anniversary Celebrated
   text: >-
-    A special event honouring Professor Eugene Fiume, on the occasion of his 60-th birthday, was held at the SFU Harbour Center on August 17, right after SIGGRAPH 2018. Many of Eugene's first-generation PhDs from the University of Toronto attended the celebratory workshop and gave their account of fun and inspiring stories about what it was like to be his graduate students. Eugene's computer graphics instructor during his undergraduate years at the University of Waterloo provided hint of how Eugene was already "ahead of the class" then. The event featured Prof. Pat Hanrahan from Stanford University, as the keynote speaker. Pat spoke of "theory vs. practice" to highlight how over the years, Eugene has been among the rare group of people in computer graphics, who have emphasized the importance of theory in the field.
+    A special event honouring Professor Eugene Fiume, on the occasion of his 60-th birthday, was held at the SFU Harbour Centre on August 17, right after SIGGRAPH 2018. Many of Eugene's first-generation PhDs from the University of Toronto attended the celebratory workshop and gave their account of fun and inspiring stories about what it was like to be his graduate students. Eugene's computer graphics instructor during his undergraduate years at the University of Waterloo provided hint of how Eugene was already "ahead of the class" then. The event featured Prof. Pat Hanrahan from Stanford University, as the keynote speaker. Pat spoke of "theory vs. practice" to highlight how over the years, Eugene has been among the rare group of people in computer graphics, who have emphasized the importance of theory in the field.
   highlight: 0
   image: eugene_event1.jpg
 
@@ -969,9 +969,9 @@
 
 - date: October 13, 2017
   headline: >-
-    Gruvi welcomes Jon Liu!
+    GrUVi welcomes Jon Liu!
   text: >-
-    Jon Liu as Gruvi's new MSc student. Jon obtained his Master's degree from National Tsinghua University in computer graphics and since then, he has worked in the industry for many years. He recently immigrated to Canada and started his grad studies at SFU in the summer this year. Jon is interested in robotic 3D vision problems. Welcome Jon!
+    Jon Liu as GrUVi's new MSc student. Jon obtained his Master's degree from National Tsinghua University in computer graphics and since then, he has worked in the industry for many years. He recently immigrated to Canada and started his grad studies at SFU in the summer this year. Jon is interested in robotic 3D vision problems. Welcome Jon!
   highlight: 0
   image: jonliu.jpg
 
@@ -1019,8 +1019,8 @@
   image: zhaopeng.png
 
 - date: July 25, 2017
-  headline: Zhiqhin and Manyi are new Gruviers!
-  text: Gruvi welcomes two new members, Zhiqin Chen and Manyi Li, who will join our group during Fall 2017. Zhiqin is a new master student who obtained his bachelor's degree from Shanghai Jiaotong University, while Manyi is a visiting Ph.D. from Shandong University, China. Welcome!
+  headline: Zhiqin and Manyi are new Gruviers!
+  text: GrUVi welcomes two new members, Zhiqin Chen and Manyi Li, who will join our group during Fall 2017. Zhiqin is a new master student who obtained his bachelor's degree from Shanghai Jiaotong University, while Manyi is a visiting Ph.D. from Shandong University, China. Welcome!
   highlight: 0
 
 - date: July 22, 2017
@@ -1041,13 +1041,13 @@
   image: KKYIN.jpg
 
 - date: December 23, 2016
-  headline: Jaime's Sucessful Msc Thesis Defense
+  headline: Jaime's Successful MSc Thesis Defense
   text: Congrats to Jaime for successfully defending his MSC thesis on "Towards Learning of a Joint Geometry-Structure Manifold for Shape Exploration".<br /><br /> Here is the abstract of his thesis.<br /><br /> We present a first attempt at producing a continuous generative model of 3D objects from a joint representation that incorporates the discrete structural variability as well as the continuous geometric variability that are often present in collections of man-made shapes. Starting from a set of compatibly segmented shapes, our main contribution consists in demonstrating the construction of the joint representation. Then, by using Gaussian Process learning to produce a predictive manifold from the joint representation, we investigate its capabilities and limitations for reproducing and synthesizing new shapes.
   highlight: 0
   image: Jaime.png
 
 - date: December 9, 2016
-  headline: Warunika's Successful Msc Thesis Defense
+  headline: Warunika's Successful MSc Thesis Defense
   text: Congrats to Warunika for successfully defending her MSc thesis on "ExquiMo&#58; An Exquisite Corpse Tool for Co-Creative 3D Shape Modeling". The researchers&nbsp;would like to assure you that no person, dog, or any other animals were killed as the result of conducting this thesis research.<br /><br /> Here is the abstract of her work:<br /><br /> We introduce a shape modeling tool, ExquiMo, which is guided by the idea of improving the creativity of 3D shape designs through collaboration. Inspired by the game of Exquisite Corpse, our tool allocates distinct parts of a shape to multiple players who model the assigned parts in a sequence. Our approach is motivated by the understanding that effective surprise leads to creative outcomes. Hence, to maintain the surprise factor of the output, we conceal the previously modeled parts from the most recent player. Part designs from individual players are fused together to produce an often unexpected, hence creative, end result. We demonstrate the effectiveness of collaborative modeling for both man-made and natural shapes. Our results show that, when compared to models designed by individual users, multi-user collaborative modeling via ExquiMo tends to lead to more creative designs in terms of the most common criteria used to identify creative artifacts.
   highlight: 0
   image: Warunika.jpg

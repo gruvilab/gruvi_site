@@ -1,16 +1,19 @@
-<section id="pawfessors" class="pawfessors" aria-labelledby="pawfessors-heading" markdown="0">
-  <h3 id="pawfessors-heading">Pawfessors <span aria-hidden="true">&#128062;</span></h3>
-  <p class="pawfessors-intro">Meet the companions behind the research. Expertise in curiosity, comfort, and keeping us company.</p>
-  <div class="pawfessors-grid">
+<section id="pawfessors" class="people-group" aria-labelledby="pawfessors-heading" markdown="0">
+  <div class="group-head">
+    <h2 id="pawfessors-heading">Pawfessors <span class="emoji-badge" aria-hidden="true">&#128062;</span></h2>
+    <span>{{ site.data.pawfessors | size }}</span>
+  </div>
+  <p class="group-intro">Meet the companions behind the research. Expertise in curiosity, comfort, and keeping us company.</p>
+  <div class="card-grid">
     {% for pet in site.data.pawfessors %}
-    <article class="pawfessor-card">
-      <div class="pawfessor-portrait">
-        <img class="pawfessor-photo" src="{{ '/images/pawfessors/' | append: pet.photo | relative_url }}" alt="{{ pet.names | default: pet.name | escape }}" {% if pet.photo_position %}style="object-position: {{ pet.photo_position | escape }};"{% endif %} loading="lazy" width="150" height="200" />
-        <span class="pawfessor-badge" aria-hidden="true">&#128062;</span>
+    <article class="profile-card profile-card--pet">
+      <div class="profile-card__photo">
+        <img src="{{ '/images/pawfessors/' | append: pet.photo | relative_url }}" alt="{{ pet.names | default: pet.name | escape }}" {% if pet.photo_position %}style="object-position: {{ pet.photo_position | escape }};"{% endif %} loading="lazy" width="150" height="200">
+        <span class="profile-card__badge" aria-hidden="true">&#128062;</span>
       </div>
-      <div class="pawfessor-profile">
-        <h4>{{ pet.name }}</h4>
-        <p class="pawfessor-title">{{ pet.title }}</p>
+      <div class="profile-card__body">
+        <h3>{{ pet.name }}</h3>
+        <p>{{ pet.title }}</p>
       </div>
     </article>
     {% endfor %}

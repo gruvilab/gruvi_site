@@ -1,0 +1,24 @@
+<section class="people-group" id="research-labs" aria-labelledby="research-labs-heading" markdown="0">
+  <div class="group-head">
+    <h2 id="research-labs-heading">Affiliated research labs</h2>
+    <span>{{ site.data.labs | size }}</span>
+  </div>
+  <p class="group-intro lab-hint" data-lab-hint>Select a lab to highlight its faculty and students.</p>
+  <div class="lab-grid">
+    {% for lab in site.data.labs %}
+    <div class="lab-card">
+      <button class="lab-card__select" type="button" data-lab-filter="{{ lab.id }}" aria-pressed="false">
+        <span class="lab-card__logo">
+          {% if lab.logo %}<img src="{{ '/images/labs/' | append: lab.logo | relative_url }}" alt="" loading="lazy">{% else %}<span class="lab-card__mono">{{ lab.short | remove: ' Lab' }}</span>{% endif %}
+        </span>
+        <span class="lab-card__text">
+          <strong>{{ lab.short }}</strong>
+          {% if lab.name != lab.short %}<span>{{ lab.name }}</span>{% endif %}
+          <small>{{ lab.faculty }}</small>
+        </span>
+      </button>
+      <a class="lab-card__link" href="{{ lab.url }}" target="_blank" rel="noopener" aria-label="{{ lab.short }} website (opens in a new tab)">↗</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>

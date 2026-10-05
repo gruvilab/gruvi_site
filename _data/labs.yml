@@ -1,0 +1,30 @@
+# Research labs affiliated with GrUVi, shown on the People page.
+# Members point to a lab with `lab: <id>` in team_members.yml (a list for more than one).
+# `logo` is optional; labs without one get a text tile.
+
+- id: apex
+  short: APEX
+  name: Algorithmically Principled Exploration Lab
+  url: https://sfuapex.ca
+  logo: apex.svg
+  faculty: Ke Li
+
+- id: 3dlg
+  short: 3DLG
+  name: 3D Language and Generation Lab
+  url: https://3dlg-hcvc.github.io
+  logo: 3dlg.png
+  faculty: Angel Chang, Manolis Savva
+
+- id: cplab
+  short: CPLab
+  name: Computational Photography Lab
+  url: https://yaksoy.github.io/group/
+  logo: cplab.jpg
+  faculty: Yağız Aksoy
+
+- id: theia
+  short: Theia Lab
+  name: Theia Lab
+  url: https://theialab.ca
+  faculty: Andrea Tagliasacchi
