@@ -22,6 +22,32 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
+- title: "Stochastic Graph Compression for Constant-Memory Differentiable Light Tracing"
+  image: linasb_sig26_tracing.png
+  authors: Linas Beresna, Eugene Fiume
+  venue: SIGGRAPH Asia Technical Communications
+  year: 2026
+  highlight: 1
+  pdf: https://www.linasberesna.com/files/papers/SIGASIA-ResLRB.pdf
+  project_page: https://www.linasberesna.com/views/sigasia2026-reslrb.html
+
+- title: "Sensitivity as an Arbitrary Output Variable for Differentiable Rendering"
+  image: linasb_sig26_sensitivity.png
+  authors: Linas Beresna, Eugene Fiume
+  venue: SIGGRAPH Asia Technical Communications
+  year: 2026
+  highlight: 1
+  pdf: https://www.linasberesna.com/files/papers/SIGASIA-Sensitivity.pdf
+  project_page: https://www.linasberesna.com/views/sigasia2026.html
+
+- title: "Scene Parameter Saliency via Differentiable Light Transport"
+  image: linasb_bmvc26_saliency.png
+  authors: Linas Beresna, Eugene Fiume
+  venue: British Machine Vision Conference (BMVC)
+  year: 2026
+  highlight: 1
+  pdf: https://www.linasberesna.com/files/papers/BMVC-Saliency.pdf
+  project_page: https://www.linasberesna.com/views/bmvc2026.html
 
 - title: "Functionalization via Structure Completion and Motion Rectification"
   image: zhao_siga26_functionalization.gif
