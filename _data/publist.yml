@@ -22,24 +22,6 @@
 #  video: https://www.youtube.com/link_to_youtube_video
 #  bibtex: https://www.sfu.ca/tex_file_name.bib
 
-- title: "Stochastic Graph Compression for Constant-Memory Differentiable Light Tracing"
-  image: linasb_sig26_tracing.png
-  authors: Linas Beresna, Eugene Fiume
-  venue: SIGGRAPH Asia Technical Communications
-  year: 2026
-  highlight: 1
-  pdf: https://www.linasberesna.com/files/papers/SIGASIA-ResLRB.pdf
-  project_page: https://www.linasberesna.com/views/sigasia2026-reslrb.html
-
-- title: "Sensitivity as an Arbitrary Output Variable for Differentiable Rendering"
-  image: linasb_sig26_sensitivity.png
-  authors: Linas Beresna, Eugene Fiume
-  venue: SIGGRAPH Asia Technical Communications
-  year: 2026
-  highlight: 1
-  pdf: https://www.linasberesna.com/files/papers/SIGASIA-Sensitivity.pdf
-  project_page: https://www.linasberesna.com/views/sigasia2026.html
-
 - title: "Scene Parameter Saliency via Differentiable Light Transport"
   image: linasb_bmvc26_saliency.png
   authors: Linas Beresna, Eugene Fiume
@@ -74,6 +56,15 @@
   year: 2026
   highlight: 1
 
+- title: "SwitchSplat: Learning Discrete Object States from Casually Captured Scenes"
+  image: switchsplat_siga26.jpg
+  authors: Yizheng Xie, Yalda Foroutan, George Shramko, Daniel Rebain, Shrisudhan Govindarajan, Andrea Tagliasacchi
+  venue: SIGGRAPH Asia
+  year: 2026
+  highlight: 1
+  pdf: https://arxiv.org/abs/2610.24812
+  project_page: https://switchsplat.github.io/
+
 - title: "SymTRELLIS: Symmetry-Enforced Voxel Latents for 3D Generation"
   image: ji_siga26_symtrellis.png
   authors: Guangda Ji, Qimin Chen, Qinchan Li, Mingrui Zhao, Kai Wang, Hao Zhang
@@ -82,6 +73,24 @@
   highlight: 1
   pdf: https://arxiv.org/abs/2606.04108
   project_page: https://symtrellis.github.io/
+
+- title: "Sensitivity as an Arbitrary Output Variable for Differentiable Rendering"
+  image: linasb_sig26_sensitivity.png
+  authors: Linas Beresna, Eugene Fiume
+  venue: SIGGRAPH Asia Technical Communications
+  year: 2026
+  highlight: 1
+  pdf: https://www.linasberesna.com/files/papers/SIGASIA-Sensitivity.pdf
+  project_page: https://www.linasberesna.com/views/sigasia2026.html
+
+- title: "Stochastic Graph Compression for Constant-Memory Differentiable Light Tracing"
+  image: linasb_sig26_tracing.png
+  authors: Linas Beresna, Eugene Fiume
+  venue: SIGGRAPH Asia Technical Communications
+  year: 2026
+  highlight: 1
+  pdf: https://www.linasberesna.com/files/papers/SIGASIA-ResLRB.pdf
+  project_page: https://www.linasberesna.com/views/sigasia2026-reslrb.html
 
 - title: "VETI: 3D-Guided Visual Effect Tuning on Images"
   image: zhao_siga26_veti.jpg
