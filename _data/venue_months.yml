@@ -1,0 +1,62 @@
+# Month each venue usually takes place. The home page uses it to show every
+# paper from the venues of the last few months, grouped by venue.
+#
+# Each entry is matched against the lowercased `venue` text in publist.yml,
+# in order, so keep more specific names (SIGGRAPH Asia, EGSR) above broader
+# ones (SIGGRAPH, Eurographics). A paper whose venue matches nothing is
+# grouped under its own venue name and takes the month of the paper above it.
+
+- name: SIGGRAPH Asia
+  match: [siggraph asia]
+  month: 12
+- name: SIGGRAPH
+  match: [siggraph]
+  month: 8
+- name: EGSR
+  match: [egsr, symposium on rendering]
+  month: 7
+- name: SGP
+  match: [sgp, symposium on geometry processing]
+  month: 7
+- name: Eurographics
+  match: [eurographics]
+  month: 5
+- name: Pacific Graphics
+  match: [pacific graphics]
+  month: 10
+- name: CVPR
+  match: [cvpr, computer vision and pattern]
+  month: 6
+- name: ICCV
+  match: [iccv, international conference on computer vision]
+  month: 10
+- name: ECCV
+  match: [eccv, european conference on computer vision]
+  month: 9
+- name: BMVC
+  match: [bmvc, british machine vision]
+  month: 11
+- name: 3DV
+  match: [3dv]
+  month: 3
+- name: WACV
+  match: [wacv]
+  month: 3
+- name: NeurIPS
+  match: [neurips, nips]
+  month: 12
+- name: ICLR
+  match: [iclr]
+  month: 4
+- name: ICML
+  match: [icml]
+  month: 7
+- name: CoRL
+  match: [corl]
+  month: 11
+- name: IROS
+  match: [iros]
+  month: 10
+- name: ICRA
+  match: [icra]
+  month: 5

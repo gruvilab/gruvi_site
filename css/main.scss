@@ -327,7 +327,7 @@ summary:focus-visible {
 .home-block { padding: 96px 0; }
 .home-block--soft { background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 
-/* Latest venue paper grid */
+/* Paper cards: recent venues rail and paper grid */
 
 .paper-grid {
   display: grid;
@@ -368,6 +368,12 @@ summary:focus-visible {
 .paper:hover .paper__media img,
 .paper:hover .paper__media video { transform: scale(1.04); }
 .paper__body { flex: 1; padding: 16px 6px 0; }
+.paper__venue {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 12px;
+}
 .paper h3 {
   margin: 0;
   font-size: 16.5px;
@@ -454,7 +460,8 @@ summary:focus-visible {
 .rail-button:disabled { opacity: .35; cursor: default; }
 .rail-button:disabled:hover { background: transparent; border-color: var(--line-strong); }
 
-.news-rail {
+.news-rail,
+.paper-rail {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: calc((100% - 72px) / 4);
@@ -464,7 +471,11 @@ summary:focus-visible {
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-.news-rail::-webkit-scrollbar { display: none; }
+.news-rail::-webkit-scrollbar,
+.paper-rail::-webkit-scrollbar { display: none; }
+/* Room for the card hover lift and shadow inside the scroll box. */
+.paper-rail { padding: 4px 0 36px; margin: -4px 0 -36px; }
+.paper-rail .paper { scroll-snap-align: start; }
 .news-card { min-width: 0; scroll-snap-align: start; }
 .poster--empty { display: grid; place-items: center; background: var(--surface-2); }
 .poster--empty .gruvi-mark { width: 30%; height: auto; }
@@ -974,7 +985,7 @@ summary:focus-visible {
 
 @media (max-width: 1080px) {
   .paper-grid { grid-template-columns: repeat(var(--cols-md, 3), minmax(0, 1fr)); }
-  .news-rail { grid-auto-columns: calc((100% - 24px) / 2); }
+  .news-rail, .paper-rail { grid-auto-columns: calc((100% - 24px) / 2); }
   .card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .lab-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .site-footer__inner { grid-template-columns: 1.4fr .8fr 1fr; }
@@ -1038,7 +1049,7 @@ summary:focus-visible {
   .hero__rank strong { font-size: 32px; }
   .section-head { align-items: flex-start; flex-direction: column; gap: 14px; margin-bottom: 26px; }
   .paper-grid { grid-template-columns: 1fr; }
-  .news-rail { grid-auto-columns: 82%; gap: 14px; }
+  .news-rail, .paper-rail { grid-auto-columns: 82%; gap: 14px; }
   .section-head__actions { width: 100%; justify-content: space-between; }
   .rank-callout { align-items: flex-start; flex-direction: column; gap: 10px; }
   .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }

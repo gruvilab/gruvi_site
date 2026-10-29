@@ -45,11 +45,11 @@
     filterPublications();
   }
 
-  // Horizontal news rail on the home page.
-  var rail = document.querySelector('[data-rail]');
-  if (rail) {
-    var previous = document.querySelector('[data-rail-prev]');
-    var next = document.querySelector('[data-rail-next]');
+  // Horizontal paper and news rails on the home page, each with the buttons in its own section.
+  Array.prototype.forEach.call(document.querySelectorAll('[data-rail]'), function (rail) {
+    var section = rail.closest('section');
+    var previous = section.querySelector('[data-rail-prev]');
+    var next = section.querySelector('[data-rail-next]');
     var updateRail = function () {
       var end = rail.scrollWidth - rail.clientWidth;
       previous.disabled = rail.scrollLeft <= 2;
@@ -60,7 +60,7 @@
     rail.addEventListener('scroll', updateRail, { passive: true });
     window.addEventListener('resize', updateRail);
     updateRail();
-  }
+  });
 
   // People page: select a lab to keep its members in colour and grey out everyone else.
   var labButtons = document.querySelectorAll('[data-lab-filter]');

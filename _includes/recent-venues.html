@@ -1,0 +1,103 @@
+{% comment %}
+  A scrolling row of every paper from the venues of the last three months
+  before the build, grouped by venue (SIGGRAPH Asia, its Technical
+  Communications and Posters together) with the newest venue first. Venue
+  months and groups come from _data/venue_months.yml; change recent_months
+  below to widen the window. The first paper's venue always shows, even when
+  it is older than that.
+
+  Each recent paper becomes a "label~~index~~note" record, and each venue a
+  "time~order~label" key that sorts newest first, then by list position.
+{% endcomment %}
+{% assign now_year = site.time | date: '%Y' | plus: 0 %}
+{% assign now_month = site.time | date: '%m' | plus: 0 %}
+{% assign recent_months = 3 %}
+{% assign cutoff = now_year | times: 12 | plus: now_month | minus: recent_months %}
+{% assign oldest_year = now_year | minus: 1 %}
+{% assign carry_month = now_month %}
+{% assign records = '' %}
+{% assign group_keys = '' %}
+{% assign seen = '|' %}
+{% for publi in site.data.publist %}
+  {% assign pub_year = publi.year | plus: 0 %}
+  {% if forloop.first and pub_year < oldest_year %}{% assign oldest_year = pub_year %}{% endif %}
+  {% if pub_year < oldest_year %}{% break %}{% endif %}
+
+  {% assign venue = publi.venue | strip %}
+  {% assign venue_lc = venue | downcase %}
+  {% assign family = '' %}
+  {% for known in site.data.venue_months %}
+    {% for pattern in known.match %}
+      {% if venue_lc contains pattern %}{% assign family = known.name %}{% assign carry_month = known.month %}{% break %}{% endif %}
+    {% endfor %}
+    {% if family != '' %}{% break %}{% endif %}
+  {% endfor %}
+  {% if family == '' %}{% assign family = venue | split: ' (' | first | strip %}{% endif %}
+  {% assign pub_time = pub_year | times: 12 | plus: carry_month %}
+  {% if forloop.first and pub_time < cutoff %}{% assign cutoff = pub_time %}{% endif %}
+  {% if pub_time < cutoff %}{% continue %}{% endif %}
+
+  {% comment %} What the venue adds beyond its group name: "Poster", "oral", "Technical Communications". {% endcomment %}
+  {% assign family_lc = family | downcase %}
+  {% assign family_paren = '(' | append: family_lc | append: ')' %}
+  {% assign venue_head = venue_lc | slice: 0, family.size %}
+  {% assign year_text = pub_year | append: '' %}
+  {% if venue_head == family_lc %}
+    {% assign note = venue | slice: family.size, venue.size | remove: '(' | remove: ')' | remove: year_text | strip %}
+  {% elsif venue_lc contains family_paren %}
+    {% assign note = '' %}
+  {% else %}
+    {% assign note = venue | split: ' (' | first | strip %}
+  {% endif %}
+
+  {% assign label = family | append: ' ' | append: pub_year %}
+  {% assign records = records | append: label | append: '~~' | append: forloop.index0 | append: '~~' | append: note | append: '^^' %}
+  {% assign marker = '|' | append: label | append: '|' %}
+  {% unless seen contains marker %}
+    {% assign seen = seen | append: label | append: '|' %}
+    {% assign order = 9999 | minus: forloop.index0 %}
+    {% assign group_keys = group_keys | append: pub_time | append: '~' | append: order | append: '~' | append: label | append: '^^' %}
+  {% endunless %}
+{% endfor %}
+{% assign records = records | split: '^^' %}
+{% assign group_keys = group_keys | split: '^^' | sort | reverse %}
+
+<section class="venue" id="recent-venues" aria-labelledby="recent-venues-heading">
+  <div class="section-head">
+    <div>
+      <p class="kicker">Last {{ recent_months }} months</p>
+      <h2 id="recent-venues-heading">Latest venues</h2>
+    </div>
+    <div class="section-head__actions">
+      <div class="rail-controls">
+        <button class="rail-button" type="button" data-rail-prev aria-label="Previous papers">&larr;</button>
+        <button class="rail-button" type="button" data-rail-next aria-label="More papers">&rarr;</button>
+      </div>
+      {% if include.link %}<a class="arrow-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>{% endif %}
+    </div>
+  </div>
+
+  <div class="paper-rail" data-rail>
+    {% for key in group_keys %}
+      {% assign label = key | split: '~' | last %}
+      {% for record in records %}
+        {% assign parts = record | split: '~~' %}
+        {% if parts[0] != label %}{% continue %}{% endif %}
+        {% assign publi_index = parts[1] | plus: 0 %}
+        {% assign publi = site.data.publist[publi_index] %}
+        {% assign venue_note = parts[2] | strip %}
+        {% assign paper_url = publi.project_page | default: publi.pdf | default: publi.video | strip %}
+        <article class="paper" id="{{ publi.title | slugify | prepend: 'publication-' }}">
+          {% if paper_url != empty %}<a class="paper__media" href="{{ paper_url }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">{% else %}<div class="paper__media">{% endif %}
+            {% if publi.image %}{% include pubmedia.html image=publi.image title=publi.title %}{% endif %}
+          {% if paper_url != empty %}</a>{% else %}</div>{% endif %}
+          <div class="paper__body">
+            <p class="paper__venue">{{ label }}{% if venue_note != empty %} · {{ venue_note }}{% endif %}</p>
+            <h3>{% if paper_url != empty %}<a href="{{ paper_url }}" target="_blank" rel="noopener">{{ publi.title }}</a>{% else %}{{ publi.title }}{% endif %}</h3>
+            {% if publi.authors %}<p class="paper__authors">{{ publi.authors }}</p>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
