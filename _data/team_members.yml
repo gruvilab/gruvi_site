@@ -41,7 +41,14 @@
   email: 
   website: http://www.cs.sfu.ca/~furukawa/
   number_educ: 0
-  
+
+- name: Roei Herzig
+  photo: roei_herzig.jpg
+  role: Faculty
+  email:
+  website: https://roeiherz.github.io/
+  number_educ: 0
+
 - name: Ke Li
   photo: ke_li.jpg
   role: Faculty
